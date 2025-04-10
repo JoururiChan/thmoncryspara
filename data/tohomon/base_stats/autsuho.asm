@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db FIRE, FIRE ; type
+	db FIRE, FLYING ; type
 	db 45 ; catch rate
 	db 117 ; base exp
 	db ASPEAR_BERRY, LILYWHITEIZER ; held items

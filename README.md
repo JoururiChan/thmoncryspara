@@ -89,7 +89,7 @@ If you have questions or comments, please check or post on any of these sites. (
 ![cowgirl](screenshots/cowgirl.png)
 ![olivine-city](screenshots/olivine-city.png)
   
-![remoraid](screenshots/remoraid.png)
+![cyamame](screenshots/cyamame.png)
 ![team-rocket](screenshots/team-rocket.png)
 ![steelix](screenshots/steelix.png)
 ![custom-map](screenshots/custom-map.png)

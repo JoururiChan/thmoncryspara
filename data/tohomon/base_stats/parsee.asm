@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db STEEL, FLYING ; type
+	db HEART, MIASMA ; type
 	db 25 ; catch rate
 	db 168 ; base exp
 	db NO_ITEM, SHARP_BEAK ; held items

@@ -655,104 +655,104 @@ STenshiFrontpic: INCBIN "gfx/tohomon/stenshi/front.animated.2bpp.lz"
 STenshiBackpic:  INCBIN "gfx/tohomon/stenshi/back.2bpp.lz"
 
 SECTION "CKisume Pics", ROMX
-CKisumeFrontpic: INCBIN "gfx/tohomon/swinub/front.animated.2bpp.lz"
-CKisumeBackpic:  INCBIN "gfx/tohomon/swinub/back.2bpp.lz"
+CKisumeFrontpic: INCBIN "gfx/tohomon/ckisume/front.animated.2bpp.lz"
+CKisumeBackpic:  INCBIN "gfx/tohomon/ckisume/back.2bpp.lz"
 
 SECTION "Kisume Pics", ROMX
-KisumeFrontpic: INCBIN "gfx/tohomon/piloswine/front.animated.2bpp.lz"
-KisumeBackpic:  INCBIN "gfx/tohomon/piloswine/back.2bpp.lz"
+KisumeFrontpic: INCBIN "gfx/tohomon/kisume/front.animated.2bpp.lz"
+KisumeBackpic:  INCBIN "gfx/tohomon/kisume/back.2bpp.lz"
 
 SECTION "DStar Pics", ROMX
 DStarFrontpic: INCBIN "gfx/tohomon/mamoswine/front.animated.2bpp.lz"
 DStarBackpic:  INCBIN "gfx/tohomon/mamoswine/back.2bpp.lz"
 
 SECTION "CYamame Pics", ROMX
-CYamameFrontpic: INCBIN "gfx/tohomon/remoraid/front.animated.2bpp.lz"
-CYamameBackpic:  INCBIN "gfx/tohomon/remoraid/back.2bpp.lz"
+CYamameFrontpic: INCBIN "gfx/tohomon/cyamame/front.animated.2bpp.lz"
+CYamameBackpic:  INCBIN "gfx/tohomon/cyamame/back.2bpp.lz"
 
 SECTION "Yamame Pics", ROMX
-YamameFrontpic: INCBIN "gfx/tohomon/octillery/front.animated.2bpp.lz"
-YamameBackpic:  INCBIN "gfx/tohomon/octillery/back.2bpp.lz"
+YamameFrontpic: INCBIN "gfx/tohomon/yamame/front.animated.2bpp.lz"
+YamameBackpic:  INCBIN "gfx/tohomon/yamame/back.2bpp.lz"
 
 SECTION "SYamame Pics", ROMX
-SYamameFrontpic: INCBIN "gfx/tohomon/delibird/front.animated.2bpp.lz"
-SYamameBackpic:  INCBIN "gfx/tohomon/delibird/back.2bpp.lz"
+SYamameFrontpic: INCBIN "gfx/tohomon/syamame/front.animated.2bpp.lz"
+SYamameBackpic:  INCBIN "gfx/tohomon/syamame/back.2bpp.lz"
 
 SECTION "CParsee Pics", ROMX
-CParseeFrontpic: INCBIN "gfx/tohomon/mantine/front.animated.2bpp.lz"
-CParseeBackpic:  INCBIN "gfx/tohomon/mantine/back.2bpp.lz"
+CParseeFrontpic: INCBIN "gfx/tohomon/cparsee/front.animated.2bpp.lz"
+CParseeBackpic:  INCBIN "gfx/tohomon/cparsee/back.2bpp.lz"
 
 SECTION "Parsee Pics", ROMX
-ParseeFrontpic: INCBIN "gfx/tohomon/skarmory/front.animated.2bpp.lz"
-ParseeBackpic:  INCBIN "gfx/tohomon/skarmory/back.2bpp.lz"
+ParseeFrontpic: INCBIN "gfx/tohomon/parsee/front.animated.2bpp.lz"
+ParseeBackpic:  INCBIN "gfx/tohomon/parsee/back.2bpp.lz"
 
 SECTION "DParsee Pics", ROMX
-DParseeFrontpic: INCBIN "gfx/tohomon/houndour/front.animated.2bpp.lz"
-DParseeBackpic:  INCBIN "gfx/tohomon/houndour/back.2bpp.lz"
+DParseeFrontpic: INCBIN "gfx/tohomon/dparsee/front.animated.2bpp.lz"
+DParseeBackpic:  INCBIN "gfx/tohomon/dparsee/back.2bpp.lz"
 
 SECTION "CYuugi Pics", ROMX
-CYuugiFrontpic: INCBIN "gfx/tohomon/houndoom/front.animated.2bpp.lz"
-CYuugiBackpic:  INCBIN "gfx/tohomon/houndoom/back.2bpp.lz"
+CYuugiFrontpic: INCBIN "gfx/tohomon/cyuugi/front.animated.2bpp.lz"
+CYuugiBackpic:  INCBIN "gfx/tohomon/cyuugi/back.2bpp.lz"
 
 SECTION "Yuugi Pics", ROMX
-YuugiFrontpic: INCBIN "gfx/tohomon/kingdra/front.animated.2bpp.lz"
-YuugiBackpic:  INCBIN "gfx/tohomon/kingdra/back.2bpp.lz"
+YuugiFrontpic: INCBIN "gfx/tohomon/yuugi/front.animated.2bpp.lz"
+YuugiBackpic:  INCBIN "gfx/tohomon/yuugi/back.2bpp.lz"
 
 SECTION "AYuugi Pics", ROMX
-AYuugiFrontpic: INCBIN "gfx/tohomon/phanpy/front.animated.2bpp.lz"
-AYuugiBackpic:  INCBIN "gfx/tohomon/phanpy/back.2bpp.lz"
+AYuugiFrontpic: INCBIN "gfx/tohomon/ayuugi/front.animated.2bpp.lz"
+AYuugiBackpic:  INCBIN "gfx/tohomon/ayuugi/back.2bpp.lz"
 
 SECTION "CSatori Pics", ROMX
-CSatoriFrontpic: INCBIN "gfx/tohomon/donphan/front.animated.2bpp.lz"
-CSatoriBackpic:  INCBIN "gfx/tohomon/donphan/back.2bpp.lz"
+CSatoriFrontpic: INCBIN "gfx/tohomon/csatori/front.animated.2bpp.lz"
+CSatoriBackpic:  INCBIN "gfx/tohomon/csatori/back.2bpp.lz"
 
 SECTION "Satori Pics", ROMX
-SatoriFrontpic: INCBIN "gfx/tohomon/clunasa2/front.animated.2bpp.lz"
-SatoriBackpic:  INCBIN "gfx/tohomon/clunasa2/back.2bpp.lz"
+SatoriFrontpic: INCBIN "gfx/tohomon/satori/front.animated.2bpp.lz"
+SatoriBackpic:  INCBIN "gfx/tohomon/satori/back.2bpp.lz"
 
 SECTION "CLuna Pics", ROMX
 CLunaFrontpic: INCBIN "gfx/tohomon/clunasa_z/front.animated.2bpp.lz"
 CLunaBackpic:  INCBIN "gfx/tohomon/clunasa_z/back.2bpp.lz"
 
 SECTION "CRin Pics", ROMX
-CRinFrontpic: INCBIN "gfx/tohomon/smeargle/front.animated.2bpp.lz"
-CRinBackpic:  INCBIN "gfx/tohomon/smeargle/back.2bpp.lz"
+CRinFrontpic: INCBIN "gfx/tohomon/crin/front.animated.2bpp.lz"
+CRinBackpic:  INCBIN "gfx/tohomon/crin/back.2bpp.lz"
 
 SECTION "Rin Pics", ROMX
-RinFrontpic: INCBIN "gfx/tohomon/tyrogue/front.animated.2bpp.lz"
-RinBackpic:  INCBIN "gfx/tohomon/tyrogue/back.2bpp.lz"
+RinFrontpic: INCBIN "gfx/tohomon/rin/front.animated.2bpp.lz"
+RinBackpic:  INCBIN "gfx/tohomon/rin/back.2bpp.lz"
 
 SECTION "HRin Pics", ROMX
-HRinFrontpic: INCBIN "gfx/tohomon/hitmontop/front.animated.2bpp.lz"
-HRinBackpic:  INCBIN "gfx/tohomon/hitmontop/back.2bpp.lz"
+HRinFrontpic: INCBIN "gfx/tohomon/hrin/front.animated.2bpp.lz"
+HRinBackpic:  INCBIN "gfx/tohomon/hrin/back.2bpp.lz"
 
 SECTION "Utsuho Pics", ROMX
-UtsuhoFrontpic: INCBIN "gfx/tohomon/elekid/front.animated.2bpp.lz"
-UtsuhoBackpic:  INCBIN "gfx/tohomon/elekid/back.2bpp.lz"
+UtsuhoFrontpic: INCBIN "gfx/tohomon/utsuho/front.animated.2bpp.lz"
+UtsuhoBackpic:  INCBIN "gfx/tohomon/utsuho/back.2bpp.lz"
 
 SECTION "THatate Pics", ROMX
 THatateFrontpic: INCBIN "gfx/tohomon/electivire/front.animated.2bpp.lz"
 THatateBackpic:  INCBIN "gfx/tohomon/electivire/back.2bpp.lz"
 
 SECTION "AUtsuho Pics", ROMX
-AUtsuhoFrontpic: INCBIN "gfx/tohomon/magby/front.animated.2bpp.lz"
-AUtsuhoBackpic:  INCBIN "gfx/tohomon/magby/back.2bpp.lz"
+AUtsuhoFrontpic: INCBIN "gfx/tohomon/autsuho/front.animated.2bpp.lz"
+AUtsuhoBackpic:  INCBIN "gfx/tohomon/autsuho/back.2bpp.lz"
 
 SECTION "CSunny Pics", ROMX
 CSunnyFrontpic: INCBIN "gfx/tohomon/magmortar/front.animated.2bpp.lz"
 CSunnyBackpic:  INCBIN "gfx/tohomon/magmortar/back.2bpp.lz"
 
 SECTION "CKoishi Pics", ROMX
-CKoishiFrontpic: INCBIN "gfx/tohomon/miltank/front.animated.2bpp.lz"
-CKoishiBackpic:  INCBIN "gfx/tohomon/miltank/back.2bpp.lz"
+CKoishiFrontpic: INCBIN "gfx/tohomon/ckoishi/front.animated.2bpp.lz"
+CKoishiBackpic:  INCBIN "gfx/tohomon/ckoishi/back.2bpp.lz"
 
 SECTION "Koishi Pics", ROMX
-KoishiFrontpic: INCBIN "gfx/tohomon/blissey/front.animated.2bpp.lz"
-KoishiBackpic:  INCBIN "gfx/tohomon/blissey/back.2bpp.lz"
+KoishiFrontpic: INCBIN "gfx/tohomon/koishi/front.animated.2bpp.lz"
+KoishiBackpic:  INCBIN "gfx/tohomon/koishi/back.2bpp.lz"
 
 SECTION "SKoishi Pics", ROMX
-SKoishiFrontpic: INCBIN "gfx/tohomon/raikou/front.animated.2bpp.lz"
-SKoishiBackpic:  INCBIN "gfx/tohomon/raikou/back.2bpp.lz"
+SKoishiFrontpic: INCBIN "gfx/tohomon/skoishi/front.animated.2bpp.lz"
+SKoishiBackpic:  INCBIN "gfx/tohomon/skoishi/back.2bpp.lz"
 
 SECTION "CNazrin Pics", ROMX
 CNazrinFrontpic: INCBIN "gfx/tohomon/entei/front.animated.2bpp.lz"
@@ -817,12 +817,12 @@ AKomachiFrontpic: INCBIN "gfx/tohomon/akomachi/front.animated.2bpp.lz"
 AKomachiBackpic:  INCBIN "gfx/tohomon/akomachi/back.2bpp.lz"
 
 SECTION "HSatori Pics", ROMX
-HSatoriFrontpic: INCBIN "gfx/tohomon/stantler/front.animated.2bpp.lz"
-HSatoriBackpic:  INCBIN "gfx/tohomon/stantler/back.2bpp.lz"
+HSatoriFrontpic: INCBIN "gfx/tohomon/hsatori/front.animated.2bpp.lz"
+HSatoriBackpic:  INCBIN "gfx/tohomon/hsatori/back.2bpp.lz"
 
 SECTION "CUtsuho Pics", ROMX
-CUtsuhoFrontpic: INCBIN "gfx/tohomon/smoochum/front.animated.2bpp.lz"
-CUtsuhoBackpic:  INCBIN "gfx/tohomon/smoochum/back.2bpp.lz"
+CUtsuhoFrontpic: INCBIN "gfx/tohomon/cutsuho/front.animated.2bpp.lz"
+CUtsuhoBackpic:  INCBIN "gfx/tohomon/cutsuho/back.2bpp.lz"
 
 SECTION "Ichirin Pics", ROMX
 IchirinFrontpic: INCBIN "gfx/tohomon/celebi/front.animated.2bpp.lz"
@@ -1004,11 +1004,11 @@ TTeiSpikyFrontpic: INCBIN "gfx/tohomon/ttei_spiky/front.animated.2bpp.lz"
 TTeiSpikyBackpic:  INCBIN "gfx/tohomon/ttei_spiky/back.2bpp.lz"
 
 SECTION "Kikuri Pics", ROMX
-KikuriJohtoFrontpic:  INCBIN "gfx/tohomon/kikuri_johto/front.animated.2bpp.lz"
-KikuriKantoFrontpic:  INCBIN "gfx/tohomon/kikuri_kanto/front.animated.2bpp.lz"
-KikuriKogaFrontpic:   INCBIN "gfx/tohomon/kikuri_koga/front.animated.2bpp.lz"
-KikuriAgathaFrontpic: INCBIN "gfx/tohomon/kikuri_agatha/front.animated.2bpp.lz"
-KikuriArianaFrontpic: INCBIN "gfx/tohomon/kikuri_ariana/front.animated.2bpp.lz"
+KikuriJohtoFrontpic:  
+KikuriKantoFrontpic: 
+KikuriKogaFrontpic:   
+KikuriAgathaFrontpic: 
+KikuriArianaFrontpic: INCBIN "gfx/tohomon/kikuri/front.animated.2bpp.lz"
 KikuriJohtoBackpic:
 KikuriKantoBackpic:
 KikuriKogaBackpic:
@@ -1142,8 +1142,8 @@ CYukariFrontpic: INCBIN "gfx/tohomon/cyukari/front.animated.2bpp.lz"
 CYukariBackpic:  INCBIN "gfx/tohomon/cyukari/back.2bpp.lz"
 
 SECTION "DKisume Pics", ROMX
-DKisumeFrontpic: INCBIN "gfx/tohomon/corsola/front.animated.2bpp.lz"
-DKisumeBackpic:  INCBIN "gfx/tohomon/corsola/back.2bpp.lz"
+DKisumeFrontpic: INCBIN "gfx/tohomon/dkisume/front.animated.2bpp.lz"
+DKisumeBackpic:  INCBIN "gfx/tohomon/dkisume/back.2bpp.lz"
 
 SECTION "CKyouko Pics", ROMX
 CKyoukoFrontpic: INCBIN "gfx/tohomon/cursola/front.animated.2bpp.lz"

@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db WIND, WIND ; type
+	db FIRE, FLYING ; type
 	db 45 ; catch rate
 	db 106 ; base exp
 	db PERSIM_BERRY, ELECTIRIZER ; held items

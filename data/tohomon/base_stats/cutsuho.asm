@@ -1,7 +1,7 @@
 	db  45,  30,  15,  65,  85,  65 ; 305 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ICE, REASON ; type
+	db FIRE, FIRE ; type
 	db 45 ; catch rate
 	db 87 ; base exp
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; items

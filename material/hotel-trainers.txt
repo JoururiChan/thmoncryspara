@@ -12,7 +12,7 @@ victory: Ken: Impressive. Yuria: Wow! That was great.
 
 after: Ken: Phew. I bet you'd give my brothers a run for their money. Yuria: We won't be back to Ransei for a while. If you want another battle, we'll be here! 
 
-Team: hitmonchan, machamp, blissey, rapidash
+Team: hitmonchan, machamp, koishi, rapidash
 
 Juggler Luke:
 Oohohoh man! Who's a man and a half?! Guess who struck it big?!

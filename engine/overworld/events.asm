@@ -1200,11 +1200,11 @@ RandomEncounter::
 	jr .done
 .notroamingsuicune
 	cp SKOISHI
-	jr nz, .notroamingraikou
+	jr nz, .notroamingskoishi
 	ld a, BANK(RoamingSKoishiBattleScript)
 	ld hl, RoamingSKoishiBattleScript
 	jr .done
-.notroamingraikou
+.notroamingskoishi
 	cp CNAZRIN
 	jr nz, .notroaming
 	ld a, BANK(RoamingCNazrinBattleScript)

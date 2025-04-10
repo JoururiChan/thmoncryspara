@@ -254,7 +254,7 @@ GetFishGroupIndex:
 	cp FISHGROUP_CSUWAKO
 	jr z, .csuwako
 	cp FISHGROUP_CYAMAME
-	jr z, .remoraid
+	jr z, .cyamame
 
 .done
 	ld e, d
@@ -268,7 +268,7 @@ GetFishGroupIndex:
 	ld d, FISHGROUP_CSUWAKO_SWARM
 	jr .done
 
-.remoraid
+.cyamame
 	ld a, [wFishingSwarmFlag]
 	cp FISHSWARM_CYAMAME
 	jr nz, .done

@@ -1,7 +1,7 @@
 	db  90,  60,  60,  40,  40,  40 ; 330 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db EARTH, EARTH ; type
+	db BEAST, DREAM ; type
 	db 120 ; catch rate
 	db 124 ; base exp
 	db NO_ITEM, KEE_BERRY ; held items

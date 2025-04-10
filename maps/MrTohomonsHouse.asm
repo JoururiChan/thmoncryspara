@@ -138,7 +138,7 @@ MrTohomonsHouse_OakScript:
 	clearevent EVENT_COP_IN_ELMS_LAB
 	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .RivalTakesChikorita
-	checkevent EVENT_GOT_CREISEN_FROM_ELM
+	checkevent EVENT_GOT_CALICE_FROM_ELM
 	iftruefwd .RivalTakesCyndaquil
 	setevent EVENT_CSANAE_TOHOBALL_IN_ELMS_LAB
 	end

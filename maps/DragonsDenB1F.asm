@@ -143,9 +143,9 @@ DragonsDenB1FRivalScript:
 	waitbutton
 	writetext .GiveEggText
 	promptbutton
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .GiveChikoritaEgg
 	checkevent EVENT_GOT_CREISEN_FROM_ELM
+	iftruefwd .GiveChikoritaEgg
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .GiveCyndaquilEgg
 	giveegg CSANAE
 	sjumpfwd .GotRivalsEgg

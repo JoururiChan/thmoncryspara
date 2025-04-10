@@ -88,9 +88,9 @@ PlateauRivalBattleTrigger2:
 	faceobject PLAYER, INDIGOPLATEAUTOHOCENTER1F_RIVAL
 	showtext PlateauRivalText1
 	setevent EVENT_INDIGO_PLATEAU_TOHOCENTER_RIVAL
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .RivalTotodile
 	checkevent EVENT_GOT_CREISEN_FROM_ELM
+	iftruefwd .RivalTotodile
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .RivalChikorita
 	; Cyndaquil
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
@@ -151,9 +151,9 @@ PlateauRivalBattleTrigger2:
 	waitbutton
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_TOHOCENTER_LYRA
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .LyraTotodile
 	checkevent EVENT_GOT_CREISEN_FROM_ELM
+	iftruefwd .LyraTotodile
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .LyraChikorita
 	; Cyndaquil
 	winlosstext PlateauLyraWinText, PlateauLyraLoseText

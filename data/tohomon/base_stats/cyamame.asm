@@ -1,7 +1,7 @@
 	db  35,  65,  35,  65,  65,  35 ; 300 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, WATER ; type
+	db EARTH, MIASMA ; type
 	db 190 ; catch rate
 	db 78 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

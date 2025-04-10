@@ -1,7 +1,7 @@
 	db  85,  40,  70,  70,  80, 140 ; 485 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, FLYING ; type
+	db HEART, MIASMA ; type
 	db 25 ; catch rate
 	db 168 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

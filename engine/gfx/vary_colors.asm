@@ -341,7 +341,7 @@ endc
 ; need to be able to add or subtract 1 without overflow/underflow
 
 .CRinPals:
-INCLUDE "gfx/tohomon/smeargle.pal"
+INCLUDE "gfx/tohomon/crin.pal"
 
 .CRinShinyPals: ; TODO
-INCLUDE "gfx/tohomon/smeargle_shiny.pal"
+INCLUDE "gfx/tohomon/crin_shiny.pal"

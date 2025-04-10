@@ -2744,10 +2744,10 @@ RemoveStorageBoxMon_MaybeRespawn:
 	; This is ours. Check which, if any, beast we should respawn.
 	ld a, [wTempMonSpecies]
 	cp SKOISHI
-	jr nz, .not_raikou
+	jr nz, .not_skoishi
 	farcall RespawnRoamingSKoishi
 	jr .done
-.not_raikou
+.not_skoishi
 	cp CNAZRIN
 	jr nz, .not_entei
 	farcall RespawnRoamingCNazrin

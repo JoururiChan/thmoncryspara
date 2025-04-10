@@ -1,7 +1,7 @@
 	db  95,  80, 105, 100,  40,  70 ; 490 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ILLUSION, ILLUSION ; type
+	db HEART, HEART ; type
 	db 45 ; catch rate
 	db 200 ; base exp
 	db NO_ITEM, MOOMOO_MILK ; held items

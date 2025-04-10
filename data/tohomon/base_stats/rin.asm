@@ -1,7 +1,7 @@
 	db  35,  35,  35,  35,  35,  35 ; 210 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DREAM, DREAM ; type
+	db BEAST, FIRE ; type
 	db 75 ; catch rate
 	db 91 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

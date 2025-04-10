@@ -43,10 +43,10 @@ ENDM
 	fishentry  35 percent,     CCHIYURI,   20
 	fishentry  70 percent,     CKOMACHI,     20
 	fishentry  90 percent + 1, CKOMACHI,     20
-	fishentry 100 percent,     0,          20 ; corsola morn/day, letty eve/night
+	fishentry 100 percent,     0,          20 ; dkisume morn/day, letty eve/night
 .Shore_Super:
 	fishentry  40 percent,     CDAICHAN,     40
-	fishentry  70 percent,     0,          40 ; corsola morn/day, letty eve/night
+	fishentry  70 percent,     0,          40 ; dkisume morn/day, letty eve/night
 	fishentry  90 percent + 1, CDAICHAN,     40
 	fishentry 100 percent,     DAICHAN,    40
 

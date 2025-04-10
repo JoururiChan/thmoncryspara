@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db ICE, FLYING ; type
+	db EARTH, MIASMA ; type
 if DEF(FAITHFUL)
 	db 45 ; catch rate
 	db 183 ; base exp

@@ -1,7 +1,7 @@
 	db  45,  60,  30,  65,  80,  50 ; 330 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DARK, FIRE ; type
+	db HEART, MIASMA ; type
 	db 120 ; catch rate
 	db 114 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

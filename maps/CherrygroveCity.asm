@@ -101,9 +101,9 @@ CherrygroveRivalTriggerNorth:
 	turnobject PLAYER, RIGHT
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext CherrygroveRivalText_Seen
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .Totodile
 	checkevent EVENT_GOT_CREISEN_FROM_ELM
+	iftruefwd .Totodile
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .Chikorita
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
