@@ -6979,7 +6979,7 @@ SailorGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 28, CKOMACHI
-	dbp 28, CKOMACHI
+	dbp 28, KISUME
 	db -1 ; end
 
 	; SAILOR
@@ -7006,7 +7006,7 @@ SailorGroup:
 	; party
 	dbp 17, CKOMACHI
 	dbp 17, CCHIYURI
-	dbp 19, CCIRNO
+	dbp 19, CKISUME
 	db -1 ; end
 
 	; SAILOR
@@ -7114,7 +7114,7 @@ SwimmerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 20, CCIRNO
-	dbp 20, SANAE
+	dbp 20, CKISUME
 	db -1 ; end
 
 	; SWIMMERM
@@ -7123,14 +7123,14 @@ SwimmerMGroup:
 	; party
 	dbp 18, CCHIYURI
 	dbp 20, CCHIYURI
-	dbp 18, CCIRNO
+	dbp 18, CKISUME
 	db -1 ; end
 
 	; SWIMMERM
 	db "Charlie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 21, CMAI
+	dbp 21, CKISUME
 	dbp 19, CCIRNO
 	dbp 19, CCIRNO
 	db -1 ; end
@@ -7144,7 +7144,7 @@ SwimmerMGroup:
 	dbp 16, CCHIYURI
 	dbp 19, CMAI
 	dbp 17, CCIRNO
-	dbp 19, CYAMAME
+	dbp 19, CKISUME
 	db -1 ; end
 
 	; SWIMMERM
@@ -7174,7 +7174,7 @@ SwimmerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 24, CKOMACHI
-	dbp 25, CMAI
+	dbp 25, CKISUME
 	dbp 24, CKOMACHI
 	db -1 ; end
 
@@ -7200,7 +7200,7 @@ SwimmerMGroup:
 	db "Rick@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 13, CCIRNO
+	dbp 13, CKISUME
 	dbp 18, CCHIYURI
 	dbp 16, CSANAE
 	db -1 ; end
@@ -7245,7 +7245,7 @@ SwimmerMGroup:
 	; party
 	dbp 18, CCIRNO
 	dbp 21, CCIRNO
-	dbp 20, CMAI
+	dbp 20, CKISUME
 	db -1 ; end
 
 	; SWIMMERM
@@ -7375,15 +7375,15 @@ SwimmerFGroup:
 	db "Elaine@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 21, CSANAE
+	dbp 21, CKISUME
 	db -1 ; end
 
 	; SWIMMERF
 	db "Paula@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 19, LETTY
-	dbp 19, CMAI
+	dbp 19, CKISUME
+	dbp 19, CKOMACHI
 	db -1 ; end
 
 	; SWIMMERF
@@ -7391,8 +7391,8 @@ SwimmerFGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 18, CCHIYURI
-	dbp 20, CMAI
-	dbp 20, CLETTY
+	dbp 20, CKISUME
+	dbp 20, CSUWAKO
 	db -1 ; end
 
 	; SWIMMERF
@@ -7400,31 +7400,31 @@ SwimmerFGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 20, CCHIYURI
-	dbp 22, CMAI
+	dbp 22, CSUWAKO
 	db -1 ; end
 
 	; SWIMMERF
 	db "Denise@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 22, CMAI
+	dbp 22, CSUWAKO
 	db -1 ; end
 
 	; SWIMMERF
 	db "Kara@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, LETTY
-	dbp 20, DLETTY
+	dbp 20, CKISUME
+	dbp 20, CKISUME
 	db -1 ; end
 
 	; SWIMMERF
 	db "Wendy@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 21, CFLANDRE
+	dbp 21, CKISUME
 		db WATER_GUN, SMOKESCREEN, LEER, BUBBLE_BEAM
-	dbp 21, CFLANDRE
+	dbp 21, CKISUME
 		db POISON_SHOT, SMOKESCREEN, LEER, BUBBLE_BEAM
 	db -1 ; end
 
@@ -7432,7 +7432,7 @@ SwimmerFGroup:
 	db "Mary@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, SLILYBLACK
+	dbp 20, CSUWAKO
 	db -1 ; end
 
 	; SWIMMERF
