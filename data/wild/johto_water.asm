@@ -18,34 +18,34 @@
 	db 2 percent ; encounter rate
 	wildmon 15, CSUWAKO
 	wildmon 20, CSUWAKO
-	wildmon 15, CNITORI
+	wildmon 15, CKISUME
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F_SOUTH
 	db 2 percent ; encounter rate
 	wildmon 15, CSUWAKO
 	wildmon 20, CSUWAKO
-	wildmon 15, CNITORI
+	wildmon 15, CKISUME
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B2F
 	db 4 percent ; encounter rate
 	wildmon 15, CSUWAKO
-	wildmon 20, CCIRNO
+	wildmon 20, CKISUME
 	wildmon 15, CNITORI
 	end_water_wildmons
 
 	def_water_wildmons WAKASAGI_WELL_B1F
 	db 2 percent ; encounter rate
 	wildmon 15, CSANAE
-	wildmon 20, SANAE
+	wildmon 20, CSANAE
 	wildmon 10, CSANAE
 	end_water_wildmons
 
 	def_water_wildmons WAKASAGI_WELL_B2F
 	db 2 percent ; encounter rate
 	wildmon 15, CCHIYURI
-	wildmon 20, CCHIYURI
+	wildmon 20, CKISUME
 	wildmon 20, CCHIYURI
 	end_water_wildmons
 
