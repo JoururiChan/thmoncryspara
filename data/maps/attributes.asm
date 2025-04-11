@@ -831,7 +831,7 @@ ENDM
 	map_attributes Route5SaffronCityGate, ROUTE_5_SAFFRON_CITY_GATE, $0, 0
 	map_attributes Route5CleanseTagSpeechHouse, ROUTE_5_CLEANSE_TAG_SPEECH_HOUSE, $0, 0
 	map_attributes TohomonTrainerFanClub, TOHOMON_TRAINER_FAN_CLUB, $0, 0
-	map_attributes SaffronHitmontopKidHouse, SAFFRON_HRIN_KID_HOUSE, $0, 0
+	map_attributes SaffronhrinKidHouse, SAFFRON_HRIN_KID_HOUSE, $0, 0
 	map_attributes SaffronBookSpeechHouse, SAFFRON_BOOK_SPEECH_HOUSE, $0, 0
 	map_attributes SaffronOrreSpeechHouse, SAFFRON_ORRE_SPEECH_HOUSE, $0, 0
 	map_attributes SaffronRichSpeechHouse, SAFFRON_RICH_SPEECH_HOUSE, $0, 0

@@ -183,7 +183,7 @@ VermilionMagnetTrainSpeechHouse_BlockData:
 VermilionHouseCChiyurisCaveSpeechHouse_BlockData:
 VermilionSSAnneSpeechHouse_BlockData:
 LavenderNameRater_BlockData:
-SaffronHitmontopKidHouse_BlockData:
+SaffronhrinKidHouse_BlockData:
 SaffronOrreSpeechHouse_BlockData:
 Route19BeachHouse_BlockData:
 	INCBIN "maps/KantoHouse3.ablk.lz"
