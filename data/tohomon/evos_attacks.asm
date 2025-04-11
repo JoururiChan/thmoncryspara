@@ -3593,7 +3593,7 @@ CKisumeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, ROCK_BULLET
 	db 1, LEER
-	db 6, BUBBLE
+	db 6, WATER_GUN
 	db 10, EMBER
 	db 13, DEFENSE_CURL
 	db 17, ENDURE
@@ -3604,7 +3604,7 @@ KisumeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, ROCK_BULLET
 	db 1, LEER
-	db 6, BUBBLE
+	db 6, WATER_GUN
 	db 10, EMBER
 	db 13, DEFENSE_CURL
 	db 17, ENDURE
@@ -3626,7 +3626,7 @@ DKisumeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, ROCK_BULLET
 	db 1, LEER
-	db 6, BUBBLE
+	db 6, WATER_GUN
 	db 10, EMBER
 	db 13, DEFENSE_CURL
 	db 17, ENDURE
