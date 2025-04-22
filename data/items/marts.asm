@@ -172,12 +172,13 @@ Goldenrod5FTMMart:
 	db -1
 
 GoldenrodHarborMart:
-	db 5 ; # items
+	db 6 ; # items
 	db ETHER
 	db ELIXIR
 	db MIRROR_HERB
 	db DESTINY_KNOT
 	db SURF_MAIL
+	db RAZOR_FANG
 	db -1
 
 UndergroundMart:
@@ -189,7 +190,7 @@ UndergroundMart:
 	db -1
 
 EcruteakMart:
-	db 11 ; # items
+	db 15 ; # items
 	db TOHO_BALL
 	db GREAT_BALL
 	db NEST_BALL
@@ -201,6 +202,10 @@ EcruteakMart:
 	db BURN_HEAL
 	db ICE_HEAL
 	db REVIVE
+	db WATER_STONE
+	db FIRE_STONE
+	db LEAF_STONE
+	db THUNDERSTONE
 	db -1
 
 OlivineMart:

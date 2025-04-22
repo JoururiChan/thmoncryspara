@@ -231,7 +231,7 @@ ItemEffects:
 	dw IsntTheTimeMessage ; PROTECTOR
 	dw IsntTheTimeMessage ; ELECTIRIZER
 	dw IsntTheTimeMessage ; LILYWHITEIZER
-	dw IsntTheTimeMessage ; RAZOR_FANG
+	dw EvoStoneEffect ; RAZOR_FANG
 	dw IsntTheTimeMessage ; RAZOR_CLAW
 	dw IsntTheTimeMessage ; OVAL_STONE
 	dw EvoStoneEffect     ; ODD_SOUVENIR

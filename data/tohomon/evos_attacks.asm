@@ -3590,6 +3590,7 @@ STenshiEvosAttacks:
 
 CKisumeEvosAttacks:
 	evo_data EVOLVE_LEVEL, 23, KISUME
+	evo_data EVOLVE_ITEM, FIRE_STONE, DKISUME
 	db -1 ; no more evolutions
 	db 1, ROCK_BULLET
 	db 1, LEER
@@ -3646,6 +3647,7 @@ DKisumeEvosAttacks:
 
 CYamameEvosAttacks:
 	evo_data EVOLVE_LEVEL, 25, YAMAME
+	evo_data EVOLVE_ITEM, DUSK_STONE, SYAMAME
 	db -1 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, DEFENSE_CURL
@@ -3703,6 +3705,7 @@ SYamameEvosAttacks:
 
 CParseeEvosAttacks:
 	evo_data EVOLVE_LEVEL, 30, PARSEE
+	evo_data EVOLVE_ITEM, MOON_STONE, DPARSEE
 	db -1 ; no more evolutions
 	db 1, POISON_TEARS ; event move
 	db 1, LEER
@@ -3761,6 +3764,7 @@ DParseeEvosAttacks:
 
 CYuugiEvosAttacks:
 	evo_data EVOLVE_LEVEL, 36, YUUGI
+	evo_data EVOLVE_ITEM, SUN_STONE, AYUUGI
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER

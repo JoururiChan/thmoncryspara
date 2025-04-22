@@ -311,7 +311,7 @@
 	def_grass_wildmons BURNED_TOWER_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 13, CMIMA
+	wildmon 13, CYAMAME
 	wildmon 14, CKOAKUMA
 	wildmon 15, CREISEN
 	wildmon 14, CKOTOHIME
@@ -319,9 +319,9 @@
 	wildmon 15, CMOKOU
 	wildmon 15, CELIS
 	; day
-	wildmon 13, CMIMA
+	wildmon 13, CYAMAME
 	wildmon 14, CKOAKUMA
-	wildmon 15, CMIMA
+	wildmon 15, CYAMAME
 	wildmon 14, CKOTOHIME
 	wildmon 15, CMIMA
 	wildmon 15, CMOKOU
@@ -329,7 +329,7 @@
 	; nite
 	wildmon 13, CREISEN
 	wildmon 14, CKOAKUMA
-	wildmon 15, CSHINKI
+	wildmon 15, CYAMAME
 	wildmon 14, CKOTOHIME
 	wildmon 15, CSHINKI
 	wildmon 15, CMOKOU
@@ -479,7 +479,7 @@
 	def_grass_wildmons UNION_CAVE_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 8, CSARA
+	wildmon 8, CPARSEE
 	wildmon 8, CMEIRA
 	wildmon 7, CTENSHI
 	wildmon 6, CREISEN
@@ -487,7 +487,7 @@
 	wildmon 8, CKEINE
 	wildmon 8, CRUMIA
 	; day
-	wildmon 8, CSARA
+	wildmon 8, CPARSEE
 	wildmon 8, CMEIRA
 	wildmon 7, CTENSHI
 	wildmon 6, CREISEN
@@ -495,7 +495,7 @@
 	wildmon 8, CKEINE
 	wildmon 8, CRUMIA
 	; nite
-	wildmon 8, CSARA
+	wildmon 8, CPARSEE
 	wildmon 8, CSARIEL
 	wildmon 9, CSUIKA
 	wildmon 6, CMIMA
@@ -507,7 +507,7 @@
 	def_grass_wildmons UNION_CAVE_B1F_NORTH
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 8, CSARA
+	wildmon 8, CPARSEE
 	wildmon 6, CTENSHI
 	wildmon 9, CSUIKA
 	wildmon 8, CRUMIA
@@ -515,7 +515,7 @@
 	wildmon 8, CMIMA
 	wildmon 8, CREISEN
 	; day
-	wildmon 8, CSARA
+	wildmon 8, CPARSEE
 	wildmon 6, CTENSHI
 	wildmon 9, CSUIKA
 	wildmon 8, CRUMIA
@@ -523,7 +523,7 @@
 	wildmon 8, CMIMA
 	wildmon 8, CREISEN
 	; nite
-	wildmon 8, CSARA
+	wildmon 8, CPARSEE
 	wildmon 6, CTENSHI
 	wildmon 9, CSUIKA
 	wildmon 8, CRUMIA
@@ -541,7 +541,7 @@
 	wildmon 20, CKIKURI
 	wildmon 19, CSARA
 	wildmon 22, CRUMIA
-	wildmon 22, CRUMIA
+	wildmon 22, CPARSEE
 	; day
 	wildmon 21, CKOTOHIME
 	wildmon 21, CMEIRA
@@ -549,7 +549,7 @@
 	wildmon 20, CKIKURI
 	wildmon 19, CSARA
 	wildmon 22, CRUMIA
-	wildmon 22, CRUMIA
+	wildmon 22, CPARSEE
 	; nite
 	wildmon 21, CKOTOHIME
 	wildmon 21, CMEIRA
@@ -557,7 +557,7 @@
 	wildmon 20, CKIKURI
 	wildmon 19, CSARA
 	wildmon 22, CRUMIA
-	wildmon 22, CRUMIA
+	wildmon 22, CPARSEE
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F
@@ -678,7 +678,7 @@
 	wildmon 9, CREMILIA
 	wildmon 9, CREIMU
 	wildmon 10, CMARISA
-	wildmon 10, CELIS
+	wildmon 10, CYUUGI
 	wildmon 10, CMYSTIA
 	wildmon 9, CKANA
 	wildmon 10, CYUKARI
@@ -686,14 +686,14 @@
 	wildmon 9, CREMILIA
 	wildmon 9, CREIMU
 	wildmon 10, CMARISA
-	wildmon 10, CELIS
+	wildmon 10, CYUUGI
 	wildmon 9, CKANA
 	wildmon 10, CYUKARI
 	wildmon 10, CMYSTIA
 	; nite
 	wildmon 9, CREMILIA
 	wildmon 9, CMYSTIA
-	wildmon 10, CRIKAKO
+	wildmon 10, CYUUGI
 	wildmon 10, CYUMEMI
 	wildmon 10, CWRIGGLE
 	wildmon 10, CYUKARI
@@ -1547,11 +1547,11 @@
 	wildmon 5, CMAGAN
 	wildmon 6, CYUKA
 	wildmon 7, CORANGE
-	wildmon 6, CGENGETSU
+	wildmon 6, CYUUGI
 	wildmon 7, CGENGETSU
 	wildmon 7, CKAGUYA
 	; day
-	wildmon 6, CGENGETSU
+	wildmon 6, CYUUGI
 	wildmon 7, CGENGETSU
 	wildmon 6, CYUKA
 	wildmon 7, CORANGE
@@ -1563,7 +1563,7 @@
 	wildmon 5, CWRIGGLE
 	wildmon 6, CYUKA
 	wildmon 7, CMEIRA
-	wildmon 6, CWRIGGLE
+	wildmon 6, CYUUGI
 	wildmon 7, CSHINKI
 	wildmon 7, CKAGUYA
 	end_grass_wildmons

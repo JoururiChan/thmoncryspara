@@ -3,7 +3,7 @@
 
 	db BEAST, FIRE ; type
 	db 50 ; catch rate
-	db 125 ; base exp
+	db 203 ; base exp
 	db NO_ITEM, DRAGON_SCALE ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
