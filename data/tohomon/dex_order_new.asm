@@ -254,7 +254,7 @@ NewTohodexOrder:
 	dp AMOMIJI    ; 113
 	dp DSTAR  ; 114
 	dp CLUNA  ; 115
-	dp SYLVEON    ; 116
+	dp LUNA    ; 116
 	dp TLUNA ; 117
 	dp CKYOUKO    ; 118
 	dp KYOUKO ; 119

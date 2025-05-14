@@ -636,7 +636,7 @@ ConvertMonIndexesTo9Bit:
 	dh 0xf0, 30  ; CSUNNY
 	dh 0xfb, 0   ; ICHIRIN
 	dh 0xfd, 21  ; STAR
-	dh 0xfe, 24  ; SYLVEON
+	dh 0xfe, 24  ; LUNA
 	dh -1
 
 .mon_forms:

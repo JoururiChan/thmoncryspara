@@ -8,9 +8,9 @@
 	dn GENDER_F12_5, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for SYLVEON, CUTE_CHARM, CUTE_CHARM, PIXILATE
+	abilities_for LUNA, CUTE_CHARM, CUTE_CHARM, PIXILATE
 else
-	abilities_for SYLVEON, CUTE_CHARM, SERENE_GRACE, PIXILATE
+	abilities_for LUNA, CUTE_CHARM, SERENE_GRACE, PIXILATE
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups

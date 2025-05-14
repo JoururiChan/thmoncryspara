@@ -3,7 +3,6 @@
 AbnormalContactMoves:
 	; Special moves that make contact
 	db DRAINING_KISS
-	db BATTLE_CHANT
 	; Physical moves that don't make contact
 	db BONEMERANG
 	db BULLDOZE

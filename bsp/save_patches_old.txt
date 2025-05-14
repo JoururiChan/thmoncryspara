@@ -306,7 +306,7 @@ AdjustDSuwakoAndTLyricalutionIndexes:
 	dh 0xd4, -2  ; SUWAKO
 	dh 0xe9, -1  ; SATORI
 	dh 0xfb, 0   ; ICHIRIN
-	dh 0xfc, 2   ; SYLVEON
+	dh 0xfc, 2   ; LUNA
 	dh 0xfd, -20 ; CLUNA
 	dh -1
 

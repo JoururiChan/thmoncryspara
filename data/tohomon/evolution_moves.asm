@@ -171,49 +171,49 @@ EvolutionMoves::
 	db NO_MOVE        ; EIKI
 	db NO_MOVE      ; AEIKI
 	db NO_MOVE      ; CSHIZUHA
-	db ANCIENTPOWER ; SHIZUHA
-	db PSYSHOT    ; SSHIZUHA
-	db PURSUIT      ; CMINORIKO
+	db NO_MOVE ; SHIZUHA
+	db NO_MOVE    ; SSHIZUHA
+	db NO_MOVE      ; CMINORIKO
 	db NO_MOVE      ; MINORIKO
 	db NO_MOVE      ; HMINORIKO
 	db NO_MOVE      ; CHINA
 	db NO_MOVE      ; HINA
-	db RECOVER      ; AHINA
+	db NO_MOVE      ; AHINA
 	db NO_MOVE      ; CNITORI
 	db NO_MOVE      ; NITORI
-	db STAR_CANNON ; ANITORI
+	db NO_MOVE ; ANITORI
 	db NO_MOVE      ; CMOMIJI
 	db NO_MOVE      ; MOMIJI
-	db BRAVER    ; CKANAKO
+	db NO_MOVE    ; CKANAKO
 	db NO_MOVE      ; KANAKO
 	db NO_MOVE      ; AKANAKO
 	db NO_MOVE      ; CSUWAKO
-	db METAL_CLAW   ; SUWAKO
+	db NO_MOVE   ; SUWAKO
 	db NO_MOVE      ; DSUWAKO
 	db NO_MOVE      ; CIKU
 	db NO_MOVE      ; IKU
 	db NO_MOVE      ; AIKU
 	db NO_MOVE      ; CTENSHI
 	db NO_MOVE      ; TENSHI
-	db POWER_TRICK  ; STENSHI
+	db NO_MOVE  ; STENSHI
 	db NO_MOVE      ; CKISUME
-	db FURY_STRIKES ; KISUME
+	db NO_MOVE ; KISUME
 	db NO_MOVE      ; DKISUME
 	db NO_MOVE      ; CYAMAME
-	db BLACK_RIPPLE    ; YAMAME
+	db NO_MOVE    ; YAMAME
 	db NO_MOVE      ; SYAMAME
 	db NO_MOVE      ; CPARSEE
 	db NO_MOVE      ; PARSEE
 	db NO_MOVE      ; DPARSEE
 	db NO_MOVE      ; CYUUGI
-	db SPIRIT_SWEEP ; YUUGI
+	db NO_MOVE ; YUUGI
 	db NO_MOVE      ; AYUUGI
-	db FURY_STRIKES ; CSATORI
+	db NO_MOVE ; CSATORI
 	db NO_MOVE      ; SATORI
 	db NO_MOVE      ; HSATORI
 	db NO_MOVE      ; CRIN
 	db NO_MOVE      ; RIN
-	db LOW_KICK     ; HRIN
+	db NO_MOVE    ; HRIN
 	db NO_MOVE      ; CUTSUHO
 	db NO_MOVE      ; UTSUHO
 	db NO_MOVE      ; AUTSUHO
@@ -254,7 +254,7 @@ EvolutionMoves::
 	db NO_MOVE      ; AMOMIJI
 	db NO_MOVE      ; DSTAR
 	db NASTY_PLOT   ; CLUNA
-	db DISARM_VOICE ; SYLVEON
+	db DISARM_VOICE ; LUNA
 	db IRON_HEAD    ; TLUNA
 	db NO_MOVE      ; CKYOUKO
 	db COUNTER      ; KYOUKO

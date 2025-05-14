@@ -261,7 +261,7 @@ TohomonBodyData:
 	body_data  20,  425, WINGS,        PURPLE ; AMOMIJI
 	body_data  25, 2910, QUADRUPED,    BROWN  ; DSTAR
 	body_data   9,  340, HEAD_ARMS,    RED    ; CLUNA
-	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
+	body_data  10,  235, QUADRUPED,    PINK   ; LUNA
 	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; TLUNA
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CKYOUKO
 	body_data   8, 1170, WINGS,        WHITE  ; KYOUKO

@@ -1700,33 +1700,33 @@ AEikiTohodexEntry::
 
 SECTION "CShizuhaTohodexEntry", ROMX
 CShizuhaTohodexEntry::
-	db "Water Fish@"
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
+	db "Autumn@"
+	db   "It and Minoriko"
+	next "#mon are close in"
+	next "proximity of power,"
+	page "but it happens to"
+	next "be on the lower end"
+	next "in comparison.@"
 
 SECTION "ShizuhaTohodexEntry", ROMX
 ShizuhaTohodexEntry::
-	db "Water Fish@"
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	db "Autumn@"
+	db   "Compared to Minoriko"
+	next "#mon, it is slightly"
+	next "more held in regard"
+	page "by humans as they"
+	next "existed longer than"
+	next "Minoriko.@"
 
 SECTION "SShizuhaTohodexEntry", ROMX
 SShizuhaTohodexEntry::
-	db "Sun@"
-	db   "The tip of its"
-	next "forked tail"
-	next "quivers when it is"
-	page "predicting its"
-	next "opponent's next"
-	next "move.@"
+	db "Goddess@"
+	db   "It is said to"
+	next "have the power to"
+	next "turn autumn leaves,"
+	page "meaning making the"
+	next "leaves reach their"
+	next "end in autumn.@"
 
 SECTION "CMinorikoTohodexEntry", ROMX
 CMinorikoTohodexEntry::

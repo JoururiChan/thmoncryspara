@@ -171,55 +171,55 @@ EggMovePointers::
 	dw CEikiEggMoves            ; Eiki
 	dw CEikiEggMoves          ; AEiki
 	dw CShizuhaEggMoves    ; CShizuha
-	dw NoEggMoves             ; Shizuha
-	dw NoEggMoves             ; SShizuha
-	dw NoEggMoves             ; CMinoriko
-	dw MinorikoEggMoves        ; Minoriko
-	dw NoEggMoves             ; HMinoriko
+	dw CShizuhaEggMoves              ; Shizuha
+	dw CShizuhaEggMoves              ; SShizuha
+	dw CMinorikoEggMoves             ; CMinoriko
+	dw CMinorikoEggMoves         ; Minoriko
+	dw CMinorikoEggMoves              ; HMinoriko
 	dw CHinaEggMoves     ; CHina
-	dw NoEggMoves             ; Hina
-	dw NoEggMoves             ; AHina
+	dw CHinaEggMoves             ; Hina
+	dw CHinaMoves             ; AHina
 	dw CNitoriEggMoves      ; CNitori
-	dw NitoriEggMoves         ; Nitori
-	dw NoEggMoves             ; ANitori
+	dw CNitoriEggMoves         ; Nitori
+	dw CNitoriEggMoves             ; ANitori
 	dw CMomijiEggMoves      ; CMomiji
-	dw MomijiEggMoves         ; Momiji
-	dw NoEggMoves             ; CKanako
-	dw KanakoEggMoves       ; Kanako
-	dw NoEggMoves             ; AKanako
+	dw CMomijiEggMoves         ; Momiji
+	dw CKanakoEggMoves             ; CKanako
+	dw CKanakoEggMoves       ; Kanako
+	dw CKanakoEggMoves             ; AKanako
 	dw CSuwakoEggMoves       ; Suwako
-	dw NoEggMoves             ; Suwako
-	dw DSuwakoEggMoves        ; DSuwako
+	dw CSuwakoEggMoves             ; Suwako
+	dw CSuwakoEggMoves        ; DSuwako
 	dw CIkuEggMoves      ; CIku
-	dw IkuEggMoves        ; Iku
-	dw AIkuEggMoves      ; AIku
-	dw NoEggMoves             ; CTenshi
-	dw TenshiEggMoves         ; Tenshi
-	dw NoEggMoves             ; STenshi
+	dw CIkuEggMoves        ; Iku
+	dw CIkuEggMoves      ; AIku
+	dw CTenshiEggMoves             ; CTenshi
+	dw CTenshiEggMoves         ; Tenshi
+	dw CTenshiEggMoves             ; STenshi
 	dw CKisumeEggMoves         ; CKisume
-	dw NoEggMoves             ; Kisume
-	dw DKisumeEggMoves   ; DKisume
+	dw CKisumeEggMoves             ; Kisume
+	dw CKisumeEggMoves   ; DKisume
 	dw CYamameEggMoves       ; CYamame
-	dw NoEggMoves             ; Yamame
-	dw SYamameEggMoves       ; SYamame
-	dw NoEggMoves             ; CParsee
-	dw ParseeEggMoves       ; Parsee
-	dw DParseeEggMoves       ; DParsee
-	dw NoEggMoves             ; CYuugi
-	dw NoEggMoves             ; Yuugi
-	dw AYuugiEggMoves         ; AYuugi
-	dw NoEggMoves             ; CSatori
-	dw NoEggMoves             ; Satori
-	dw HSatoriEggMoves       ; HSatori
-	dw NoEggMoves             ; CRin
-	dw RinEggMoves        ; Rin
-	dw NoEggMoves             ; HRin
+	dw CYamameEggMoves             ; Yamame
+	dw CYamameEggMoves       ; SYamame
+	dw CParseeEggMoves             ; CParsee
+	dw CParseeEggMoves       ; Parsee
+	dw CParseeEggMoves       ; DParsee
+	dw CYuugiEggMoves             ; CYuugi
+	dw CYuugiEggMoves             ; Yuugi
+	dw CYuugiEggMoves         ; AYuugi
+	dw CSatoriEggMoves             ; CSatori
+	dw CSatoriEggMoves             ; Satori
+	dw CSatoriEggMoves       ; HSatori
+	dw CRinEggMoves             ; CRin
+	dw CRinEggMoves        ; Rin
+	dw CRinEggMoves             ; HRin
 	dw CUtsuhoEggMoves       ; CUtsuho
-	dw UtsuhoEggMoves         ; Utsuho
-	dw AUtsuhoEggMoves          ; AUtsuho
+	dw CUtsuhoEggMoves         ; Utsuho
+	dw CUtsuhoEggMoves          ; AUtsuho
 	dw CKoishiEggMoves        ; CKoishi
-	dw NoEggMoves             ; Koishi
-	dw NoEggMoves             ; SKoishi
+	dw CKoishiEggMoves             ; Koishi
+	dw CKoishiEggMoves             ; SKoishi
 	dw NoEggMoves             ; CNazrin
 	dw NoEggMoves             ; Nazrin
 	dw HNazrinEggMoves       ; HNazrin
@@ -251,7 +251,7 @@ EggMovePointers::
 	dw NoEggMoves             ; ASunny
 	dw NoEggMoves             ; CStar
 	dw NoEggMoves             ; Star
-	dw NoEggMoves             ; AMomiji
+	dw CMomijiEggMoves             ; AMomiji
 	dw NoEggMoves             ; DStar
 	dw NoEggMoves             ; CLuna
 	dw NoEggMoves             ; Luna

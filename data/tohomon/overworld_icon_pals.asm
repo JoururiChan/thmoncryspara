@@ -174,56 +174,56 @@ OverworldMonIconColors::
 	iconpal GREEN, BLUE ; CEIKI
 	iconpal GREEN, BLUE ; EIKI
 	iconpal GREEN, BLUE ; AEIKI
-	iconpal AZURE, RED ; CSHIZUHA
-	iconpal AZURE, RED ; SHIZUHA
-	iconpal PURPLE, GREEN ; SSHIZUHA
-	iconpal YELLOW, GREEN ; CMINORIKO
-	iconpal BLUE, PURPLE ; MINORIKO
-	iconpal PINK, PURPLE ; HMINORIKO
-	iconpal PURPLE, BROWN ; CHINA
-	iconpal BLACK, BLUE ; HINA
-	iconpal AZURE, PURPLE ; AHINA
-	iconpal BROWN, BLUE ; CNITORI
-	iconpal GRAY, RED ; NITORI
-	iconpal PURPLE, BROWN ; ANITORI
-	iconpal AZURE, RED ; CMOMIJI
-	iconpal PURPLE, GRAY ; MOMIJI
-	iconpal GRAY, BROWN ; CKANAKO
-	iconpal PINK, BLUE ; KANAKO
-	iconpal PURPLE, GRAY ; AKANAKO
-	iconpal BLUE, PURPLE ; CSUWAKO
-	iconpal RED, GRAY ; SUWAKO
-	iconpal RED, BLUE ; DSUWAKO
-	iconpal BLUE, PURPLE ; CIKU
-	iconpal BLUE, RED ; IKU
-	iconpal BROWN, GREEN ; AIKU
-	iconpal BROWN, GREEN ; CTENSHI
-	iconpal RED, GRAY ; TENSHI
-	iconpal RED, BLUE ; STENSHI
-	iconpal BROWN, BLUE ; CKISUME
-	iconpal BROWN, GREEN ; KISUME
-	iconpal PINK, AZURE ; DKISUME
-	iconpal BLUE, GRAY ; CYAMAME
-	iconpal RED, TEAL ; YAMAME
-	iconpal RED, PINK ; SYAMAME
-	iconpal BLUE, WHITE ; CPARSEE
-	iconpal GRAY, GREEN ; PARSEE
-	iconpal RED, GRAY ; DPARSEE
-	iconpal RED, GRAY ; CYUUGI
-	iconpal BLUE, PURPLE ; YUUGI
-	iconpal AZURE, WHITE ; AYUUGI
-	iconpal GRAY, RED ; CSATORI
-	iconpal BLUE, PURPLE ; SATORI
-	iconpal BROWN, GREEN ; HSATORI
-	iconpal BROWN, GREEN ; CRIN
-	iconpal BROWN, AZURE ; RIN
-	iconpal BROWN, AZURE ; HRIN
-	iconpal PURPLE, PINK ; CUTSUHO
-	iconpal BROWN, RED ; UTSUHO
-	iconpal RED, BROWN ; AUTSUHO
-	iconpal PINK, AZURE ; CKOISHI
-	iconpal PINK, RED ; KOISHI
-	iconpal BROWN, RED ; SKOISHI
+	iconpal RED, ORANGE ; CSHIZUHA
+	iconpal RED, ORANGE ; SHIZUHA
+	iconpal RED, ORANGE ; SSHIZUHA
+	iconpal RED, ORANGE ; CMINORIKO
+	iconpal RED, ORANGE ; MINORIKO
+	iconpal RED, ORANGE ; HMINORIKO
+	iconpal GREEN, RED ; CHINA
+	iconpal GREEN, RED ; HINA
+	iconpal GREEN, RED ; AHINA
+	iconpal BLUE, GREEN ; CNITORI
+	iconpal BLUE, GREEN ; NITORI
+	iconpal BLUE, GREEN ; ANITORI
+	iconpal GRAY, RED ; CMOMIJI
+	iconpal GRAY, RED ; MOMIJI
+	iconpal PURPLE, RED ; CKANAKO
+	iconpal PURPLE, RED ; KANAKO
+	iconpal PURPLE, RED ; AKANAKO
+	iconpal YELLOW, PURPLE ; CSUWAKO
+	iconpal YELLOW, PURPLE ; SUWAKO
+	iconpal YELLOW, PURPLE ; DSUWAKO
+	iconpal PURPLE, RED ; CIKU
+	iconpal PURPLE, RED ; IKU
+	iconpal PURPLE, RED ; AIKU
+	iconpal BLUE, WHITE ; CTENSHI
+	iconpal BLUE, WHITE ; TENSHI
+	iconpal BLUE, WHITE ; STENSHI
+	iconpal GREEN, BROWN ; CKISUME
+	iconpal GREEN, BROWN ; KISUME
+	iconpal GREEN, BROWN ; DKISUME
+	iconpal YELLOW, BROWN ; CYAMAME
+	iconpal YELLOW, BROWN ; YAMAME
+	iconpal YELLOW, BROWN ; SYAMAME
+	iconpal YELLOW, GREEN ; CPARSEE
+	iconpal YELLOW, GREEN ; PARSEE
+	iconpal YELLOW, GREEN ; DPARSEE
+	iconpal YELLOW, AZURE ; CYUUGI
+	iconpal YELLOW, AZURE ; YUUGI
+	iconpal YELLOW, AZURE ; AYUUGI
+	iconpal PINK, AZURE ; CSATORI
+	iconpal PINK, AZURE ; SATORI
+	iconpal PINK, AZURE ; HSATORI
+	iconpal RED, GREEN ; CRIN
+	iconpal RED, GREEN ; RIN
+	iconpal RED, GREEN ; HRIN
+	iconpal BLACK, GREEN ; CUTSUHO
+	iconpal BLACK, GREEN ; UTSUHO
+	iconpal BLACK, GREEN ; AUTSUHO
+	iconpal GREEN, YELLOW ; CKOISHI
+	iconpal GREEN, YELLOW ; KOISHI
+	iconpal GREEN, YELLOW ; SKOISHI
 	iconpal RED, BROWN ; CNAZRIN
 	iconpal BLUE, WHITE ; NAZRIN
 	iconpal GREEN, TEAL ; HNAZRIN
@@ -255,10 +255,10 @@ OverworldMonIconColors::
 	iconpal RED, BLUE ; ASUNNY
 	iconpal GREEN, BROWN ; CSTAR
 	iconpal AZURE, BLUE ; STAR
-	iconpal PURPLE, GRAY ; AMOMIJI
+	iconpal GRAY, RED ; AMOMIJI
 	iconpal BROWN, GREEN ; DSTAR
 	iconpal BLUE, PURPLE ; CLUNA
-	iconpal PINK, AZURE ; SYLVEON
+	iconpal PINK, AZURE ; LUNA
 	iconpal GRAY, BROWN ; TLUNA
 	iconpal GRAY, PINK ; CKYOUKO
 	iconpal WHITE, RED ; KYOUKO

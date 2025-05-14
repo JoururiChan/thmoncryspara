@@ -647,6 +647,15 @@ ChiyuriEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, AQUA_JET ; XD move
+	db 7, THUNDER_WAVE
+	db 11, CONVERSION
+	db 14, SPARK ; Mud-Slap → LGPE move
+	db 17, SCALD
+	db 22, HONE_TOOLS
+	db 25, FOCUS_ENERGY
+	db 28, BULK_UP
+	db 32, THUNDERBOLT
+	db 35, ICE_BEAM
 	db 37, HEADBUTT
 	db 40, RAIN_DANCE
 	db 43, RECOVER
@@ -676,6 +685,15 @@ YumemiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, EMBER
 	db 1, PSYSHOT
+	db 5, SKILL_SWAP
+	db 9, DOUBLE_TEAM
+	db 13, REFLECT
+	db 17, POISON_SHOT
+	db 21, SUNNY_DAY
+	db 25, FIRE_PUNCH
+	db 29, POWER_TRICK
+	db 32, SPARK
+	db 36, FLAME_SHOOT
 	db 40, CROSS_JAM
 	db 43, ICE_BEAM
 	db 46, THUNDER_WAVE
@@ -2338,6 +2356,14 @@ SanaeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
+	db 6, GUST
+	db 9, WATER_GUN
+	db 14, SAFEGUARD
+	db 19, SEAL_NEEDLE ; Ice Fang → egg move
+	db 24, MEGA_DRAIN ; Flail → similar move
+	db 27, RAIN_DANCE ; DSanae move
+	db 31, STAR_CANNON
+	db 35, ICY_WIND
 	db 37, AIR_SLASH
 	db 40, ENERGY_LIGHT ; Chip Away → HGSS tutor move
 	db 43, WATERFALL
@@ -2352,6 +2378,14 @@ DSanaeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
+	db 6, GUST
+	db 9, WATER_GUN
+	db 14, SAFEGUARD
+	db 19, SEAL_NEEDLE ; Ice Fang → egg move
+	db 24, MEGA_DRAIN ; Flail → similar move
+	db 27, RAIN_DANCE ; DSanae move
+	db 31, STAR_CANNON
+	db 35, ICY_WIND
 	db 37, MIRROR_COAT
 	db 40, ENERGY_LIGHT ; Chip Away → HGSS tutor move
 	db 43, HURRICANE

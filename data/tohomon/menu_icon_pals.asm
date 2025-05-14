@@ -240,7 +240,7 @@ MenuMonIconColors::
 	iconpal GREEN, RED ; ICHIRIN
 	iconpal GREEN, BROWN ; CSTAR
 	iconpal BLUE, BLUE ; STAR
-	iconpal PINK, BLUE ; SYLVEON
+	iconpal PINK, BLUE ; LUNA
 	assert_table_length NUM_TOHOMON
 
 	iconpal RED, BLUE ; EGG

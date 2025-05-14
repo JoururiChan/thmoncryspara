@@ -278,7 +278,7 @@
 	const AMOMIJI    ; 113
 	const DSTAR  ; 114
 	const CLUNA  ; 115
-	const SYLVEON    ; 116
+	const LUNA    ; 116
 	const TLUNA ; 117
 	const CKYOUKO    ; 118
 	const KYOUKO ; 119

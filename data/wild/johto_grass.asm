@@ -313,7 +313,7 @@
 	; morn
 	wildmon 13, CYAMAME
 	wildmon 14, CKOAKUMA
-	wildmon 15, CREISEN
+	wildmon 15, CRIN
 	wildmon 14, CKOTOHIME
 	wildmon 15, CREISEN
 	wildmon 15, CMOKOU
@@ -321,7 +321,7 @@
 	; day
 	wildmon 13, CYAMAME
 	wildmon 14, CKOAKUMA
-	wildmon 15, CYAMAME
+	wildmon 15, CRIN
 	wildmon 14, CKOTOHIME
 	wildmon 15, CMIMA
 	wildmon 15, CMOKOU
@@ -329,11 +329,11 @@
 	; nite
 	wildmon 13, CREISEN
 	wildmon 14, CKOAKUMA
+	wildmon 15, CRIN
 	wildmon 15, CYAMAME
 	wildmon 14, CKOTOHIME
 	wildmon 15, CSHINKI
 	wildmon 15, CMOKOU
-	wildmon 15, CELIS
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_B1F
@@ -344,7 +344,7 @@
 	wildmon 16, CKOAKUMA
 	wildmon 15, CKOTOHIME
 	wildmon 12, CFLANDRE
-	wildmon 15, CFLANDRE
+	wildmon 15, CUTSUHO
 	wildmon 15, CMOKOU
 	; day
 	wildmon 14, CYUKI
@@ -352,7 +352,7 @@
 	wildmon 16, CYUKI
 	wildmon 15, CKOTOHIME
 	wildmon 12, CFLANDRE
-	wildmon 15, CFLANDRE
+	wildmon 15, CUTSUHO
 	wildmon 15, CMOKOU
 	; nite
 	wildmon 14, CYUKI
@@ -360,7 +360,7 @@
 	wildmon 16, CYUKI
 	wildmon 15, CKOTOHIME
 	wildmon 12, CFLANDRE
-	wildmon 15, CFLANDRE
+	wildmon 15, CUTSUHO
 	wildmon 15, CMOKOU
 	end_grass_wildmons
 
@@ -426,25 +426,25 @@
 	wildmon 10, CHINA
 	wildmon 5, CHINA
 	wildmon 5, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
+	wildmon 10, CSATORI
+	wildmon 10, CSATORI
+	wildmon 10, CSATORI
 	wildmon 10, CHINA
 	; day
 	wildmon 10, CHINA
 	wildmon 5, CHINA
 	wildmon 5, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
+	wildmon 10, CSATORI
+	wildmon 10, CSATORI
+	wildmon 10, CSATORI
 	wildmon 15, CHINA
 	; nite
 	wildmon 10, CHINA
 	wildmon 10, CHINA
 	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
+	wildmon 10, CKOISHI
+	wildmon 10, CKOISHI
+	wildmon 10, CKOISHI
 	wildmon 15, CHINA
 	end_grass_wildmons
 
@@ -564,7 +564,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 22, CKOTOHIME
-	wildmon 22, CKOTOHIME
+	wildmon 22, CKOISHI
 	wildmon 22, CKOTOHIME
 	wildmon 21, CMEIRA
 	wildmon 20, CSARA
@@ -572,7 +572,7 @@
 	wildmon 23, CRUMIA
 	; day
 	wildmon 22, CKOTOHIME
-	wildmon 22, CKOTOHIME
+	wildmon 22, CKOISHI
 	wildmon 22, CKOTOHIME
 	wildmon 21, CMEIRA
 	wildmon 20, CSARA
@@ -581,7 +581,7 @@
 	; nite
 	wildmon 22, CKOTOHIME
 	wildmon 22, CMEIRA
-	wildmon 22, SHIZUHA
+	wildmon 22, CKOISHI
 	wildmon 21, CKIKURI
 	wildmon 20, CSARA
 	wildmon 23, CRUMIA
@@ -1293,7 +1293,7 @@
 	; morn
 	wildmon 3, CSARA
 	wildmon 2, CKOTOHIME
-	wildmon 2, CSARA
+	wildmon 2, CSAKUYA
 	wildmon 4, CKOMACHI
 	wildmon 2, CIKU
 	wildmon 4, CMUGETSU
@@ -1301,7 +1301,7 @@
 	; day
 	wildmon 3, CSARA
 	wildmon 2, CKOTOHIME
-	wildmon 2, CSARA
+	wildmon 2, CSAKUYA
 	wildmon 4, CKOMACHI
 	wildmon 2, CIKU
 	wildmon 4, CMUGETSU
@@ -1309,7 +1309,7 @@
 	; nite
 	wildmon 3, CSARA
 	wildmon 2, CKOTOHIME
-	wildmon 2, CSARA
+	wildmon 2, CSAKUYA
 	wildmon 4, CKOMACHI
 	wildmon 2, CIKU
 	wildmon 4, CMUGETSU
@@ -1519,7 +1519,7 @@
 	wildmon 14, CKIKURI
 	wildmon 14, CKONGARA
 	wildmon 14, CMEDICINE
-	wildmon 12, CELLEN
+	wildmon 12, CKOISHI
 	wildmon 10, CEIRIN
 	wildmon 13, CKOAKUMA
 	; day
@@ -1527,7 +1527,7 @@
 	wildmon 14, CKIKURI
 	wildmon 14, CMEDICINE
 	wildmon 14, CKONGARA
-	wildmon 12, CELLEN
+	wildmon 12, CKOISHI
 	wildmon 10, CEIRIN
 	wildmon 13, CKOAKUMA
 	; nite
@@ -1535,7 +1535,7 @@
 	wildmon 14, CKIKURI
 	wildmon 14, CMEDICINE
 	wildmon 14, CSHINKI
-	wildmon 12, CELLEN
+	wildmon 12, CKOISHI
 	wildmon 10, CEIRIN
 	wildmon 13, CKOAKUMA
 	end_grass_wildmons
@@ -1544,7 +1544,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 5, CCHIYURI
-	wildmon 5, CMAGAN
+	wildmon 5, CSATORI
 	wildmon 6, CYUKA
 	wildmon 7, CORANGE
 	wildmon 6, CYUUGI
@@ -1553,13 +1553,13 @@
 	; day
 	wildmon 6, CYUUGI
 	wildmon 7, CGENGETSU
-	wildmon 6, CYUKA
+	wildmon 6, CSATORI
 	wildmon 7, CORANGE
 	wildmon 6, CREIMU
 	wildmon 7, CMARISA
 	wildmon 7, CKAGUYA
 	; nite
-	wildmon 5, CRIKAKO
+	wildmon 5, CKOISHI
 	wildmon 5, CWRIGGLE
 	wildmon 6, CYUKA
 	wildmon 7, CMEIRA
