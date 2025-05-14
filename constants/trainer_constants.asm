@@ -573,7 +573,7 @@ DEF CRYS EQU __trainer_class__
 	const TAMARA
 	const ASHLEY
 	const AMY
-	const LUNA
+	const LUNA_T
 	const NATALIE
 	const VIVIAN
 	const ESTHER

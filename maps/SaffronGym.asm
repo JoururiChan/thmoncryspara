@@ -70,7 +70,7 @@ SaffronGymSabrinaScript:
 	setevent EVENT_BEAT_MEDIUM_DORIS
 	setevent EVENT_BEAT_PSYCHIC_LEON
 	setevent EVENT_BEAT_PSYCHIC_JARED
-	setevent EVENT_BEAT_HEX_MANIAC_LUNA
+	setevent EVENT_BEAT_HEX_MANIAC_LUNA_T
 	setevent EVENT_BEAT_HEX_MANIAC_NATALIE
 	setevent EVENT_BEAT_PSYCHIC_FRANKLIN
 	setevent EVENT_BEAT_MEDIUM_REBECCA
@@ -140,7 +140,7 @@ GenericTrainerPsychicJared:
 	done
 
 GenericTrainerHexManiacLuna:
-	generictrainer HEX_MANIAC, LUNA, EVENT_BEAT_HEX_MANIAC_LUNA, HexManiacLunaSeenText, HexManiacLunaBeatenText
+	generictrainer HEX_MANIAC, LUNA_T, EVENT_BEAT_HEX_MANIAC_LUNA_T, HexManiacLunaSeenText, HexManiacLunaBeatenText
 
 	text "CYuka is a pow-"
 	line "erful #mon,"
