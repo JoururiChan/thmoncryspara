@@ -609,7 +609,7 @@ CShizuhaEggMoves:
 	db SACRED_FIRE
 	db $ff
 
-MinorikoEggMoves:
+CMinorikoEggMoves:
 	db DISARM_VOICE
 	db SAFEGUARD
 	db POWER_WHIP

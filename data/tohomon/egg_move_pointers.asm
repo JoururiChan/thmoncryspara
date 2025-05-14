@@ -178,7 +178,7 @@ EggMovePointers::
 	dw CMinorikoEggMoves              ; HMinoriko
 	dw CHinaEggMoves     ; CHina
 	dw CHinaEggMoves             ; Hina
-	dw CHinaMoves             ; AHina
+	dw CHinaEggMoves             ; AHina
 	dw CNitoriEggMoves      ; CNitori
 	dw CNitoriEggMoves         ; Nitori
 	dw CNitoriEggMoves             ; ANitori

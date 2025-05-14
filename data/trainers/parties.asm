@@ -2500,7 +2500,7 @@ CamperGroup:
 	db "Todd@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 14, CYSARA
+	dbp 14, CSARA
 	db -1 ; end
 
 	; CAMPER
