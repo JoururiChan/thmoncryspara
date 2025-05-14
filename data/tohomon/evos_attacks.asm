@@ -3861,6 +3861,7 @@ AYuugiEvosAttacks:
 
 CSatoriEvosAttacks:
 	evo_data EVOLVE_LEVEL, 36, SATORI
+	evo_data EVOLVE_ITEM, DUSK_STONE, HSATORI
 	db -1 ; no more evolutions
 	db 1, RECOLLECT
 	db 1, ASTONISH
@@ -3918,8 +3919,9 @@ HSatoriEvosAttacks:
 	db -1 ; no more level-up moves
 
 CRinEvosAttacks:
-	db -1 ; no more evolutions
 	evo_data EVOLVE_LEVEL, 36, RIN
+	evo_data EVOLVE_ITEM, FIRE_STONE, HRIN
+	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
 	db 6, EMBER
@@ -3981,6 +3983,7 @@ HRinEvosAttacks:
 
 CUtsuhoEvosAttacks:
 	evo_data EVOLVE_LEVEL, 40, UTSUHO
+	evo_data EVOLVE_ITEM, FIRE_STONE, AUTSUHO
 	db -1 ; no more evolutions
 	db 1, EMBER
 	db 1, LEER
@@ -4044,6 +4047,7 @@ AUtsuhoEvosAttacks:
 
 CKoishiEvosAttacks:
 	evo_data EVOLVE_LEVEL, 40, KOISHI
+	evo_data EVOLVE_ITEM, SHINY_STONE, SKOISHI
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
