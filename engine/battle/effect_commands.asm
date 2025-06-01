@@ -5869,12 +5869,12 @@ BattleCommand_traptarget:
 	ld a, [wAttackMissed]
 	and a
 	ret nz
-	ld hl, wEnemyFangShotCount
+	ld hl, wEnemyWrapCount
 	ld de, wEnemyTrappingMove
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .got_trap
-	ld hl, wPlayerFangShotCount
+	ld hl, wPlayerWrapCount
 	ld de, wPlayerTrappingMove
 
 .got_trap
@@ -5922,7 +5922,7 @@ BattleCommand_traptarget:
 	jmp StdBattleTextbox
 
 .Traps:
-	dbw FANG_SHOT,      FangShotpedByText     ; 'was WRAPPED by'
+	dbw FANG_SHOT,      WrappedByText     ; 'was WRAPPED by'
 	dbw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
 	dbw WHIRLPOOL, WhirlpoolTrapText ; 'was trapped!'
 
