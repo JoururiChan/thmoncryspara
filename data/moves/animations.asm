@@ -539,6 +539,7 @@ BattleAnim_KarateChop:
 
 BattleAnim_DualShot:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_WATER
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
 	anim_sound 6, 2, SFX_THROW_BALL
