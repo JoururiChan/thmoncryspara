@@ -543,7 +543,7 @@ BattleAnim_DualShot:
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
 	anim_sound 6, 2, SFX_THROW_BALL
-	anim_obj ANIM_OBJ_HORN, 64, 92, $4
+	anim_obj ANIM_OBJ_HORN,   9, 0,  10, 0, $14
 	anim_wait 16
 	anim_sound 0, 1, SFX_COMET_PUNCH
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -15, 0,   6, 0, $0
