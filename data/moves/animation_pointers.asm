@@ -252,7 +252,6 @@ BattleAnimations::
 	fardw BattleAnim_ShadowBall
 	fardw BattleAnim_FutureSight
 	fardw BattleAnim_BrickBreak
-	fardw BattleAnim_RockSmash
 	fardw BattleAnim_Whirlpool
 	fardw BattleAnim_DarkPulse
 	fardw BattleAnim_Moonblast
