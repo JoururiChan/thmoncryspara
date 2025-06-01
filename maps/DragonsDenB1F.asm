@@ -69,8 +69,8 @@ DragonsDenB1FClairTrigger:
 	opentext
 	writetext .GiveTMText
 	promptbutton
-	verbosegivetmhm TM_VOICE_BURST
-	setevent EVENT_GOT_TM59_VOICE_BURST
+	verbosegivetmhm TM_ECHO_RAVE
+	setevent EVENT_GOT_TM59_ECHO_RAVE
 	writetext .DescribeDragonPulseText
 	promptbutton
 	writetext ClairTohomonLeagueDirectionsText ; in BlackthornGym1F.asm

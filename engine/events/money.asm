@@ -191,11 +191,11 @@ _GiveUpto50K:
 
 TakeBP::
 	ld de, wBattlePoints
-	jr _TakeDownTo0
+	jr _VenomPoolTo0
 
 TakeCoins::
 	ld de, wCoins
-_TakeDownTo0:
+_VenomPoolTo0:
 	ld a, 2
 	call SubtractFunds
 	jr nc, .okay

@@ -187,13 +187,13 @@ BattleAnimFrameData:
 	dw .Frameset_b8 ; b8
 	dw .Frameset_PowerGem                ; BATTLEANIMFRAMESET_POWER_GEM
 	dw .Frameset_GunkShot                ; BATTLEANIMFRAMESET_GUNK_SHOT
-	dw .Frameset_StoneHit ; bb
+	dw .Frameset_StoneBreak ; bb
 	dw .Frameset_AquaJet
 	dw .Frameset_BrickBreak ; bc
 	dw .Frameset_VoiceBind ; bd
 	dw .Frameset_SeedBomb                ; BATTLEANIMFRAMESET_SEED_BOMB
 	dw .Frameset_MidGlowShrinking ; bf
-	dw .Frameset_VoiceBurst ; c0
+	dw .Frameset_EchoRave ; c0
 	dw .Frameset_SteelFist ; c1
 	dw .Frameset_LongPunch ; c2
 	dw .Frameset_FocusBlast ; c3
@@ -1352,8 +1352,8 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_F3, 4
 	battleoamdelete
 
-.Frameset_StoneHit:
-	battleoamframe BATTLEANIMOAMSET_STONE_HIT,  50
+.Frameset_StoneBreak:
+	battleoamframe BATTLEANIMOAMSET_STONE_BREAK,  50
 	battleoamdelete
 
 .Frameset_AquaJet:
@@ -1385,7 +1385,7 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_F2,  1
 	battleoamdelete
 
-.Frameset_VoiceBurst:
+.Frameset_EchoRave:
 	battleoamframe BATTLEANIMOAMSET_1E,  3
 	battleoamframe BATTLEANIMOAMSET_55,  3
 	battleoamframe BATTLEANIMOAMSET_54,  3

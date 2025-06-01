@@ -509,10 +509,10 @@ ParsePlayerAction:
 	ld [wPlayerCharging], a
 
 	ld a, [wPlayerMoveStruct + MOVE_EFFECT]
-	cp EFFECT_RAGE
+	cp EFFECT_FIRE_LAUNCH
 	jr z, .continue_rage
 	ld hl, wPlayerSubStatus4
-	res SUBSTATUS_RAGE, [hl]
+	res SUBSTATUS_FIRE_LAUNCH, [hl]
 
 .continue_rage
 	ld a, [wPlayerMoveStruct + MOVE_EFFECT]
@@ -531,7 +531,7 @@ ParsePlayerAction:
 	xor a
 	ld [wPlayerProtectCount], a
 	ld hl, wPlayerSubStatus4
-	res SUBSTATUS_RAGE, [hl]
+	res SUBSTATUS_FIRE_LAUNCH, [hl]
 
 .continue_protect
 	call ParseEnemyAction
@@ -542,7 +542,7 @@ ParsePlayerAction:
 	xor a
 	ld [wPlayerProtectCount], a
 	ld hl, wPlayerSubStatus4
-	res SUBSTATUS_RAGE, [hl]
+	res SUBSTATUS_FIRE_LAUNCH, [hl]
 .lavender_ghost
 	xor a
 	ret
@@ -1145,7 +1145,7 @@ SendInUserPkmn:
 	and [hl]
 	ld [hli], a
 	; substatus4
-	ld a, ~(1 << SUBSTATUS_RAGE | 1 << SUBSTATUS_FLINCHED | 1 << SUBSTATUS_CURLED)
+	ld a, ~(1 << SUBSTATUS_FIRE_LAUNCH | 1 << SUBSTATUS_FLINCHED | 1 << SUBSTATUS_CURLED)
 	and [hl]
 	ld [hl], a
 
@@ -5766,10 +5766,10 @@ ParseEnemyAction:
 
 .raging
 	ld a, [wEnemyMoveStruct + MOVE_EFFECT]
-	cp EFFECT_RAGE
+	cp EFFECT_FIRE_LAUNCH
 	jr z, .no_rage
 	ld hl, wEnemySubStatus4
-	res SUBSTATUS_RAGE, [hl]
+	res SUBSTATUS_FIRE_LAUNCH, [hl]
 
 .no_rage
 	ld a, [wEnemyMoveStruct + MOVE_EFFECT]
@@ -5789,7 +5789,7 @@ ResetVarsForSubstatusRage:
 	xor a
 	ld [wEnemyProtectCount], a
 	ld hl, wEnemySubStatus4
-	res SUBSTATUS_RAGE, [hl]
+	res SUBSTATUS_FIRE_LAUNCH, [hl]
 	ret
 
 LinkBattleError:

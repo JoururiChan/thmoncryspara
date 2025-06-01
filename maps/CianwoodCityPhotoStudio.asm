@@ -35,7 +35,7 @@ CianwoodPhotoStudioFishingGuruScript:
 	special LoadMapPalettes
 	callasm LoadBlindingFlashPalette
 	pause 10
-	playsound SFX_DOUBLE_SLAP
+	playsound SFX_DUAL_SHOT
 	waitsfx
 	pause 10
 	special FadeInPalettes_EnableDynNoApply

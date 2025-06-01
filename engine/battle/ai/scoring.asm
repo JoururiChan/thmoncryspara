@@ -335,7 +335,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_SPEED_DOWN_HIT,    AI_Smart_SpeedDownHit
 	dbw EFFECT_SUBSTITUTE,        AI_Smart_Substitute
 	dbw EFFECT_POWER_BEAM,        AI_Smart_PowerBeam
-	dbw EFFECT_RAGE,              AI_Smart_Rage
+	dbw EFFECT_FIRE_LAUNCH,              AI_Smart_Rage
 	dbw EFFECT_LEECH_SEED,        AI_Smart_LeechSeed
 	dbw EFFECT_DISABLE,           AI_Smart_Disable
 	dbw EFFECT_COUNTER,           AI_Smart_Counter
@@ -1024,7 +1024,7 @@ AI_Smart_PowerBeam:
 
 AI_Smart_Rage:
 	ld a, [wEnemySubStatus4]
-	bit SUBSTATUS_RAGE, a
+	bit SUBSTATUS_FIRE_LAUNCH, a
 	jr z, .notbuilding
 
 ; If enemy's Rage is building, 50% chance to encourage this move.

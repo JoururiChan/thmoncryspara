@@ -1273,7 +1273,7 @@ KnockOff:
 	knockoff TRUE
 	endmove
 
-SeedPelt:
+BulletSeed:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1355,7 +1355,7 @@ PowerBeam:
 	posthiteffects
 	endmove
 
-Rage:
+FireLaunch:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1395,7 +1395,7 @@ LeechSeed:
 	leechseed
 	endmove
 
-Splash:
+Cheer:
 	checkobedience
 	usedmovetext
 	doturn

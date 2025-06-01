@@ -5,5 +5,5 @@ CriticalHitMoves:
 	db SLASH
 	db CROSS_CHOP
 	db SHADOW_HIT
-	db STONE_HIT
+	db STONE_BREAK
 	db -1

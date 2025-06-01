@@ -5,7 +5,7 @@ BattleAnimations::
 	fardw BattleAnim_0
 	fardw BattleAnim_Acrobatics
 	fardw BattleAnim_KarateChop
-	fardw BattleAnim_DoubleSlap
+	fardw BattleAnim_DualShot
 	fardw BattleAnim_AerialAce
 	fardw BattleAnim_PoisonClaw
 	fardw BattleAnim_PayDay
@@ -13,7 +13,7 @@ BattleAnimations::
 	fardw BattleAnim_IcePunch
 	fardw BattleAnim_Thunderpunch
 	fardw BattleAnim_Scratch
-	fardw BattleAnim_CrossJam
+	fardw BattleAnim_CrossEye
 	fardw BattleAnim_NightSlash
 	fardw BattleAnim_AirSlash
 	fardw BattleAnim_SwordsDance
@@ -28,23 +28,23 @@ BattleAnimations::
 	fardw BattleAnim_Stomp
 	fardw BattleAnim_DoubleKick
 	fardw BattleAnim_FlareOut
-	fardw BattleAnim_StoneHit
+	fardw BattleAnim_StoneBreak
 	fardw BattleAnim_FocusBlast
 	fardw BattleAnim_PoisonNail
 	fardw BattleAnim_Headbutt
-	fardw BattleAnim_KnifeThrow
+	fardw BattleAnim_BladeThrow
 	fardw BattleAnim_Trick
 	fardw BattleAnim_Hex
 	fardw BattleAnim_Tackle
 	fardw BattleAnim_BodySlam
-	fardw BattleAnim_Wrap
-	fardw BattleAnim_TakeDown
+	fardw BattleAnim_FangShot
+	fardw BattleAnim_VenomPool
 	fardw BattleAnim_Thrash
 	fardw BattleAnim_DoubleEdge
 	fardw BattleAnim_Hail
-	fardw BattleAnim_SealNeedle
+	fardw BattleAnim_PaperThrow
 	fardw BattleAnim_ChargeOut
-	fardw BattleAnim_PinMissile
+	fardw BattleAnim_PinBarrage
 	fardw BattleAnim_Leer
 	fardw BattleAnim_Bite
 	fardw BattleAnim_Growl
@@ -64,10 +64,10 @@ BattleAnimations::
 	fardw BattleAnim_Blizzard
 	fardw BattleAnim_Psybeam
 	fardw BattleAnim_BubbleBeam
-	fardw BattleAnim_StarryBeam
+	fardw BattleAnim_StarBlast
 	fardw BattleAnim_HyperBeam
 	fardw BattleAnim_FeatherJab
-	fardw BattleAnim_DragonDrill
+	fardw BattleAnim_ArmThrust
 	fardw BattleAnim_ColorFist
 	fardw BattleAnim_LowKick
 	fardw BattleAnim_Counter
@@ -79,12 +79,12 @@ BattleAnimations::
 	fardw BattleAnim_Growth
 	fardw BattleAnim_RazorLeaf
 	fardw BattleAnim_FlowerShoot
-	fardw BattleAnim_ToxicSpore
+	fardw BattleAnim_PoisonPowder
 	fardw BattleAnim_StunSpore
 	fardw BattleAnim_SleepPowder
 	fardw BattleAnim_BattleChant
-	fardw BattleAnim_WireWeb
-	fardw BattleAnim_PoisonShot
+	fardw BattleAnim_Jamming
+	fardw BattleAnim_ToxinShot
 	fardw BattleAnim_FireSpin
 	fardw BattleAnim_Thundershock
 	fardw BattleAnim_Thunderbolt
@@ -101,10 +101,10 @@ BattleAnimations::
 	fardw BattleAnim_HoneTools
 	fardw BattleAnim_LeafStorm
 	fardw BattleAnim_QuickAttack
-	fardw BattleAnim_Rage
+	fardw BattleAnim_FireLaunch
 	fardw BattleAnim_Teleport
 	fardw BattleAnim_NightShade
-	fardw BattleAnim_VoiceBurst
+	fardw BattleAnim_EchoRave
 	fardw BattleAnim_Screech
 	fardw BattleAnim_DoubleTeam
 	fardw BattleAnim_Recover
@@ -145,19 +145,19 @@ BattleAnimations::
 	fardw BattleAnim_SteelFist
 	fardw BattleAnim_LeechLife
 	fardw BattleAnim_DrainKiss
-	fardw BattleAnim_DiveKick
+	fardw BattleAnim_AquaCharge
 	fardw BattleAnim_Recollect
 	fardw BattleAnim_WaterPulse
 	fardw BattleAnim_DizzyPunch
 	fardw BattleAnim_Spore
 	fardw BattleAnim_Flash
 	fardw BattleAnim_Extrasensory
-	fardw BattleAnim_Splash
+	fardw BattleAnim_Cheer
 	fardw BattleAnim_Tailwind
-	fardw BattleAnim_Aquahammer
+	fardw BattleAnim_QuakeRoar
 	fardw BattleAnim_Explosion
 	fardw BattleAnim_FuryStrikes
-	fardw BattleAnim_Bonemerang
+	fardw BattleAnim_SandBomb
 	fardw BattleAnim_Rest
 	fardw BattleAnim_RockSlide
 	fardw BattleAnim_PowerBite
@@ -202,7 +202,7 @@ BattleAnimations::
 	fardw BattleAnim_PowerGem
 	fardw BattleAnim_WildCharge
 	fardw BattleAnim_PowerWhip
-	fardw BattleAnim_HolyLance
+	fardw BattleAnim_ToxicSpikes
 	fardw BattleAnim_Sandstorm
 	fardw BattleAnim_GigaDrain
 	fardw BattleAnim_Endure
@@ -212,7 +212,7 @@ BattleAnimations::
 	fardw BattleAnim_Swagger
 	fardw BattleAnim_PowerTrick
 	fardw BattleAnim_Spark
-	fardw BattleAnim_SeedPelt
+	fardw BattleAnim_BulletSeed
 	fardw BattleAnim_SteelWing
 	fardw BattleAnim_MeanLook
 	fardw BattleAnim_LusterHeart
@@ -226,8 +226,8 @@ BattleAnimations::
 	fardw BattleAnim_SacredFire
 	fardw BattleAnim_Magnitude
 	fardw BattleAnim_Dynamicpunch
-	fardw BattleAnim_HornLeech
-	fardw BattleAnim_SpiritSweep
+	fardw BattleAnim_DrainDrill
+	fardw BattleAnim_PsychoCut
 	fardw BattleAnim_BatonPass
 	fardw BattleAnim_Encore
 	fardw BattleAnim_Pursuit
@@ -244,7 +244,7 @@ BattleAnimations::
 	fardw BattleAnim_AquaJet
 	fardw BattleAnim_RainDance
 	fardw BattleAnim_SunnyDay
-	fardw BattleAnim_AvariceBite
+	fardw BattleAnim_GluttonyBite
 	fardw BattleAnim_MirrorCoat
 	fardw BattleAnim_NastyPlot
 	fardw BattleAnim_Extremespeed

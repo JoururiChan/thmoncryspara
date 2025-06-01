@@ -44,7 +44,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_Absorb
 	dw BattleAnimFunction_Egg
 	dw BattleAnimFunction_MoveUp
-	dw BattleAnimFunction_Wrap
+	dw BattleAnimFunction_FangShot
 	dw BattleAnimFunction_LeechSeed
 	dw BattleAnimFunction_Sound
 	dw BattleAnimFunction_ConfuseRay
@@ -61,7 +61,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_BattleChant
 	dw BattleAnimFunction_ThiefPayday
 	dw BattleAnimFunction_AbsorbCircle
-	dw BattleAnimFunction_Bonemerang
+	dw BattleAnimFunction_SandBomb
 	dw BattleAnimFunction_Shiny
 	dw BattleAnimFunction_SkyAttack
 	dw BattleAnimFunction_GrowthSwordsDance
@@ -1789,7 +1789,7 @@ BattleAnimFunction_Absorb:
 	jr nz, .loop
 	ret
 
-BattleAnimFunction_Wrap:
+BattleAnimFunction_FangShot:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw DoNothing
@@ -3230,7 +3230,7 @@ BattleAnimFunction_Conversion:
 	ret nz
 	jmp FarDeinitBattleAnimation
 
-BattleAnimFunction_Bonemerang:
+BattleAnimFunction_SandBomb:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .zero

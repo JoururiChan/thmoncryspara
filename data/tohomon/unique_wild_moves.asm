@@ -48,7 +48,7 @@ UniqueWildMoves:
 	unique_moves CCHIYURIS_CAVE,    CHIYURI,    SCREECH      ; Sw/Sh move
 	unique_moves ROCK_TUNNEL,      CLILYWHITE, METRONOME    ; RBY TM move
 	unique_moves DIM_CAVE,         SARA,   SUCKER_PUNCH ; HGSS tutor move
-	unique_moves DIM_CAVE,         TPATCHOULI,     AVARICE_BITE       ; Prism tutor move
+	unique_moves DIM_CAVE,         TPATCHOULI,     GLUTTONY_BITE       ; Prism tutor move
 	unique_moves SOUL_HOUSE,       SHINKI,    MOONBLAST    ; Prism tutor move
 	unique_moves SOUL_HOUSE,       CHINA, HEAL_BELL    ; HGSS tutor move
 	unique_moves LAV_RADIO_TOWER,  MEILING,    SHADOW_DANCE  ; Dream World move
@@ -62,7 +62,7 @@ UniqueWildMoves:
 	unique_moves SCARY_CAVE,       KOTOHIME,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       TEI,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves SEAFOAM_ISLANDS,  HCHEN,       METRONOME    ; RBY TM move
-	unique_moves TOHOMON_MANSION,  CPATCHOULI,    AVARICE_BITE       ; Prism tutor move
+	unique_moves TOHOMON_MANSION,  CPATCHOULI,    GLUTTONY_BITE       ; Prism tutor move
 	unique_moves TOHOMON_MANSION,  LUIZE,   NASTY_PLOT   ; Prism tutor move
 	unique_moves CINNABAR_VOLCANO, LILYWHITE,     METRONOME    ; RBY TM move
 	unique_moves TOHJO_FALLS,      0,          0
@@ -70,10 +70,10 @@ UniqueWildMoves:
 	unique_moves SHAMOUTI_ISLAND,  0,          0
 	unique_moves BEAUTIFUL_BEACH,  0,          0
 	unique_moves ROCKY_BEACH,      CSATORI,    LOW_KICK     ; HGSS tutor move
-	unique_moves NOISY_FOREST,     SUWAKO,     AQUAHAMMER   ; new move
+	unique_moves NOISY_FOREST,     SUWAKO,     QUAKE_ROAR   ; new move
 	unique_moves NOISY_FOREST,     NITORI,     LIFE_BALANCE   ; HGSS tutor move
 	unique_moves SHRINE_RUINS,     ARUMIA,      METRONOME    ; RBY TM move
-	unique_moves SHAMOUTI_TUNNEL,  KOTOHIME,     HOLY_LANCE      ; Prism tutor move
+	unique_moves SHAMOUTI_TUNNEL,  KOTOHIME,     TOXIC_SPIKES      ; Prism tutor move
 	unique_moves WARM_BEACH,       FLANDRE,     FLAME_SHOOT ; new move
 	unique_moves SHAMOUTI_COAST,   0,          0
 	unique_moves FIRE_ISLAND,      CYUUGI,   SUCKER_PUNCH ; HGSS tutor move

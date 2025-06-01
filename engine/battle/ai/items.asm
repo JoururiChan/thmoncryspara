@@ -201,7 +201,7 @@ AI_TryItem:
 .used_item
 
 	ld hl, wEnemySubStatus4
-	res SUBSTATUS_RAGE, [hl]
+	res SUBSTATUS_FIRE_LAUNCH, [hl]
 
 	xor a
 	ld [de], a

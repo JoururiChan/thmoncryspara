@@ -113,7 +113,7 @@ CinnabarLabIchirinEventScript:
 	callasm BlindingFlash
 	waitsfx
 	pause 15
-	playsound SFX_HOLY_LANCE
+	playsound SFX_TOXIC_SPIKES
 	callasm BlindingFlash
 	callasm BlindingFlash
 	waitsfx

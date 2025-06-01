@@ -1562,7 +1562,7 @@ BattleCheckTypeMatchup:
 	ld hl, wBattleMonType1
 	; fallthrough
 CheckTypeMatchup:
-; Wrapper that handles ability immunities, because type matchups take predecence,
+; FangShotper that handles ability immunities, because type matchups take predecence,
 ; this matters for Earth tohomon with Lightning Rod (and Trace edge-cases).
 ; Yes, Lightning Rod is useless on ground types since GSC has no doubles.
 	push hl
@@ -1747,7 +1747,7 @@ BattleCommand_checkpowder:
 	jr z, BattleCommand_resettypematchup
 	cp TOXIC
 	jr z, .check_corrosion
-	cp TOXIC_SPORE
+	cp POISONPOWDER
 	jr nz, .powder
 .check_corrosion
 	ld b, a
@@ -3209,7 +3209,7 @@ BattleCommand_posthiteffects:
 	jr z, .rage_done
 	ld a, BATTLE_VARS_SUBSTATUS4_OPP
 	call GetBattleVar
-	bit SUBSTATUS_RAGE, a
+	bit SUBSTATUS_FIRE_LAUNCH, a
 	jr z, .rage_done
 
 	call SwitchTurn
@@ -5565,7 +5565,7 @@ CheckRampageStatusAndGetTremorsCount:
 	ret
 
 CheckIfTrappedByAbility:
-; Wrapper around ability checks to ensure that no double-traps happen.
+; FangShotper around ability checks to ensure that no double-traps happen.
 	call .CheckTrap
 	ret nz
 	call .CheckOpponentTrap
@@ -5869,12 +5869,12 @@ BattleCommand_traptarget:
 	ld a, [wAttackMissed]
 	and a
 	ret nz
-	ld hl, wEnemyWrapCount
+	ld hl, wEnemyFangShotCount
 	ld de, wEnemyTrappingMove
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .got_trap
-	ld hl, wPlayerWrapCount
+	ld hl, wPlayerFangShotCount
 	ld de, wPlayerTrappingMove
 
 .got_trap
@@ -5922,7 +5922,7 @@ BattleCommand_traptarget:
 	jmp StdBattleTextbox
 
 .Traps:
-	dbw WRAP,      WrappedByText     ; 'was WRAPPED by'
+	dbw FANG_SHOT,      FangShotpedByText     ; 'was WRAPPED by'
 	dbw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
 	dbw WHIRLPOOL, WhirlpoolTrapText ; 'was trapped!'
 

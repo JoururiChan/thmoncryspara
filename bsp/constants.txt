@@ -92,7 +92,7 @@
 	define SLILYBLACK, 0x82
 
 ; move constants
-	define RAGE,         0x63
+	define FIRE_LAUNCH,         0x63
 	define SELFDESTRUCT, 0x78 ; becomes Trick Room
 	define FRESH_SNACK,  0x87
 	define EXPLOSION,    0x99

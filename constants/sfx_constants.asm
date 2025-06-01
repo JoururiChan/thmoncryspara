@@ -65,11 +65,11 @@
 	const SFX_DOUBLE_KICK                 ; 3d
 	const SFX_MEGA_KICK                   ; 3e
 	const SFX_HEADBUTT                    ; 3f
-	const SFX_KNIFE_THROW                 ; 40
+	const SFX_BLADE_THROW                 ; 40
 	const SFX_TACKLE                      ; 41
-	const SFX_SEAL_NEEDLE                ; 42
+	const SFX_PAPER_THROW                ; 42
 	const SFX_POWDER                      ; 43
-	const SFX_DOUBLE_SLAP                 ; 44
+	const SFX_DUAL_SHOT                 ; 44
 	const SFX_BITE                        ; 45
 	const SFX_JUMP_KICK                   ; 46
 	const SFX_STOMP                       ; 47
@@ -118,7 +118,7 @@
 	const SFX_AEROBLAST                   ; 72
 	const SFX_SPARK                       ; 73
 	const SFX_CURSE                       ; 74
-	const SFX_RAGE                        ; 75
+	const SFX_FIRE_LAUNCH                        ; 75
 	const SFX_THIEF                       ; 76
 	const SFX_THIEF_2                     ; 77
 	const SFX_SPIDER_WEB                  ; 78
@@ -132,7 +132,7 @@
 	const SFX_SLUDGE_BOMB                 ; 80
 	const SFX_FORESIGHT                   ; 81
 	const SFX_SPITE                       ; 82
-	const SFX_HOLY_LANCE                     ; 83
+	const SFX_TOXIC_SPIKES                     ; 83
 	const SFX_SHADOW_DANCE                 ; 84
 	const SFX_GIGA_DRAIN                  ; 85
 	const SFX_LUSTER_HEART                     ; 86

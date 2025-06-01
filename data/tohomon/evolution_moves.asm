@@ -243,12 +243,12 @@ EvolutionMoves::
 	db NO_MOVE      ; CNUE
 	db FIVEELEMENTS   ; NUE
 	db NO_MOVE      ; SNUE
-	db HOLY_LANCE      ; CHATATE
+	db TOXIC_SPIKES      ; CHATATE
 	db NO_MOVE      ; HATATE
 	db COLOR_FIST ; THATATE
 	db STAR_CANNON ; CSUNNY
 	db DISARM_VOICE ; SUNNY
-	db SPIRIT_SWEEP ; ASUNNY
+	db PSYCHO_CUT ; ASUNNY
 	db RAZOR_LEAF   ; CSTAR
 	db ICY_WIND     ; STAR
 	db NO_MOVE      ; AMOMIJI
@@ -266,7 +266,7 @@ EvolutionMoves::
 	db NO_MOVE      ; TOJIKO
 	db NO_MOVE      ; CFUTO
 	db NO_MOVE      ; MIKO
-	db HORN_LEECH     ; FUTO
+	db DRAIN_DRILL     ; FUTO
 	db SHADOW_HIT  ; CMIKO
 	assert_table_length NUM_SPECIES
 

@@ -40,7 +40,7 @@ ENDM
 	add_tm SAFEGUARD    ; $13
 	add_tm BULLDOZE     ; $14
 	add_tm FLOWER_SHOOT   ; $15
-	add_tm SEAL_NEEDLE    ; $16
+	add_tm PAPER_THROW    ; $16
 	add_tm THUNDERBOLT  ; $17
 	add_tm THUNDER      ; $18
 	add_tm EARTHQUAKE   ; $19
@@ -77,10 +77,10 @@ endc
 	add_tm ENERGY_BALL  ; $34
 	add_tm BLADE_FLASH  ; $35
 	add_tm SCALD        ; $36
-	add_tm CROSS_JAM    ; $37
+	add_tm CROSS_EYE    ; $37
 	add_tm WILD_CHARGE  ; $38
 	add_tm DARK_PULSE   ; $39
-	add_tm VOICE_BURST ; $3a
+	add_tm ECHO_RAVE ; $3a
 	add_tm DRAIN_PUNCH  ; $3b
 	add_tm WILL_O_WISP  ; $3c
 	add_tm ACROBATICS   ; $3d
@@ -92,7 +92,7 @@ endc
 	add_tm ULTICHARGE  ; $43
 	add_tm CHARGE_OUT       ; $44
 	add_tm FLASH        ; $45
-	add_tm STONE_HIT   ; $46
+	add_tm STONE_BREAK   ; $46
 	add_tm VOLT_SWITCH  ; $47
 	add_tm THUNDER_WAVE ; $48
 	add_tm GYRO_BALL    ; $49
@@ -123,7 +123,7 @@ MACRO add_mt
 ENDM
 
 	add_mt LEAF_STORM      ; $51
-	add_mt KNIFE_THROW    ; $52
+	add_mt BLADE_THROW    ; $52
 	add_mt BATON_PASS   ; $53
 	add_mt BODY_SLAM    ; $54
 	add_mt CHARM        ; $55

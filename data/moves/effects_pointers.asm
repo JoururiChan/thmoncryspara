@@ -89,10 +89,10 @@ MoveEffectsPointers:
 	dw Recollect
 	dw Substitute
 	dw PowerBeam
-	dw Rage
+	dw FireLaunch
 	dw Metronome
 	dw LeechSeed
-	dw Splash
+	dw Cheer
 	dw Disable
 	dw Counter
 	dw Encore
@@ -148,7 +148,7 @@ MoveEffectsPointers:
 	dw SkillSwap
 	dw Trick
 	dw KnockOff
-	dw SeedPelt
+	dw BulletSeed
 	dw GyroBall
 	dw BodySlam
 	dw LowKick

@@ -1,7 +1,7 @@
 SoundMoves::
 	db SPIRIT_VOICE
 	db DISARM_VOICE
-	db VOICE_BURST
+	db ECHO_RAVE
 	db GROWL
 	db VOICE_BIND
 	db ROAR

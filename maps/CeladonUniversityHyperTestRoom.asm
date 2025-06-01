@@ -25,7 +25,7 @@ CeladonUniversityHyperTestRoom_MapScriptHeader:
 CeladonUniversityHyperTestRoomWestwoodScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_POISON_SHOT_LILYBLACK
+	checkevent EVENT_GOT_TOXIN_SHOT_LILYBLACK
 	iftrue_jumpopenedtext .TestOverText
 	checkevent EVENT_PASSED_CELADON_HYPER_TEST
 	iftruefwd .GiveLilyBlack
@@ -133,9 +133,9 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	writetext .CongratulationsText
 	waitbutton
 
-	givepoke LILYBLACK, 10, EVIOLITE, ULTRA_BALL, POISON_SHOT
+	givepoke LILYBLACK, 10, EVIOLITE, ULTRA_BALL, TOXIN_SHOT
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	setevent EVENT_GOT_POISON_SHOT_LILYBLACK
+	setevent EVENT_GOT_TOXIN_SHOT_LILYBLACK
 	jumpopenedtext .TestOverText
 
 .WrongAnswer:

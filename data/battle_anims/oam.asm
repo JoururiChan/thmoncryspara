@@ -260,7 +260,7 @@ BattleAnimOAMData:
 	battleanimoam $16, 12, .OAMData_f7            ; BATTLEANIMOAMSET_FA
 	battleanimoam $00, 12, .OAMData_fb            ; BATTLEANIMOAMSET_FB
 	battleanimoam $04,  6, .OAMData_93            ; BATTLEANIMOAMSET_FC
-	battleanimoam $11,  2, .OAMData_StoneHit     ; BATTLEANIMOAMSET_STONE_HIT
+	battleanimoam $11,  2, .OAMData_StoneBreak     ; BATTLEANIMOAMSET_STONE_BREAK
 	battleanimoam $1b,  4, .OAMData_03            ; BATTLEANIMOAMSET_BRICK_BREAK
 	battleanimoam $07, 10, .OAMData_VoiceBind    ; BATTLEANIMOAMSET_VOICE_BIND
 	battleanimoam $fc,  3, .OAMData_SpiritVoice1      ; BATTLEANIMOAMSET_SPIRIT_VOICE1
@@ -1485,7 +1485,7 @@ BattleAnimOAMData:
 	dbsprite   0,   1, 0, 0, $01, X_FLIP | Y_FLIP
 	dbsprite   1,   1, 0, 0, $00, X_FLIP | Y_FLIP
 
-.OAMData_StoneHit:
+.OAMData_StoneBreak:
 	dsprite  -1, 0,  -1, 0, $00, $0
 	dsprite   0, 0,  -1, 0, $01, $0
 

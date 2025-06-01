@@ -238,7 +238,7 @@ ReplaceSelfDestruct:
 	db EXPLOSION, 5
 	db RETURN,   20
 	db FACADE,   20
-	db RAGE,     20
+	db FIRE_LAUNCH,     20
 
 ReplaceMilkDrink:
 	; without hacking, no mon should have both Softboiled (Fresh Snack) and Milk Drink

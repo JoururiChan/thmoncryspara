@@ -1006,7 +1006,7 @@ Sfx_Headbutt:
 	sound_ret
 
 
-Sfx_KnifeThrow:
+Sfx_BladeThrow:
 	channel_count 1
 	channel 8, .Ch8
 
@@ -1027,7 +1027,7 @@ Sfx_Tackle:
 	sound_ret
 
 
-Sfx_SealNeedle:
+Sfx_PaperThrow:
 	channel_count 1
 	channel 8, .Ch8
 
@@ -1048,7 +1048,7 @@ Sfx_Powder:
 	sound_ret
 
 
-Sfx_DoubleSlap:
+Sfx_DualShot:
 	channel_count 1
 	channel 8, .Ch8
 
@@ -3712,7 +3712,7 @@ Sfx_Curse:
 	sound_ret
 
 
-Sfx_Rage:
+Sfx_Fire_Launch:
 	channel_count 2
 	channel 5, .Ch5
 	channel 8, .Ch8
@@ -3990,7 +3990,7 @@ Sfx_Spite:
 	sound_ret
 
 
-Sfx_HolyLance:
+Sfx_ToxicSpikes:
 	channel_count 1
 	channel 8, .Ch8
 

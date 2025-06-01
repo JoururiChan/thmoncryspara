@@ -67,11 +67,11 @@ SFX:
 	fardw Sfx_DoubleKick
 	fardw Sfx_MegaKick
 	fardw Sfx_Headbutt
-	fardw Sfx_KnifeThrow
+	fardw Sfx_BladeThrow
 	fardw Sfx_Tackle
-	fardw Sfx_SealNeedle
+	fardw Sfx_PaperThrow
 	fardw Sfx_Powder
-	fardw Sfx_DoubleSlap
+	fardw Sfx_DualShot
 	fardw Sfx_Bite
 	fardw Sfx_JumpKick
 	fardw Sfx_Stomp
@@ -120,7 +120,7 @@ SFX:
 	fardw Sfx_Aeroblast
 	fardw Sfx_Spark
 	fardw Sfx_Curse
-	fardw Sfx_Rage
+	fardw Sfx_Fire_Launch
 	fardw Sfx_Thief
 	fardw Sfx_Thief2
 	fardw Sfx_SpiderWeb
@@ -134,7 +134,7 @@ SFX:
 	fardw Sfx_SludgeBomb
 	fardw Sfx_Foresight
 	fardw Sfx_Spite
-	fardw Sfx_HolyLance
+	fardw Sfx_ToxicSpikes
 	fardw Sfx_ShadowDance
 	fardw Sfx_GigaDrain
 	fardw Sfx_LusterHeart

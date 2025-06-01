@@ -4,7 +4,7 @@ AbnormalContactMoves:
 	; Special moves that make contact
 	db DRAINING_KISS
 	; Physical moves that don't make contact
-	db BONEMERANG
+	db SAND_BOMB
 	db BULLDOZE
 	db EARTHQUAKE
 	db EXPLOSION
@@ -14,13 +14,13 @@ AbnormalContactMoves:
 	db ICICLE_SPEAR
 	db MAGNITUDE
 	db PAY_DAY
-	db PIN_MISSILE
-	db SEAL_NEEDLE
+	db PIN_BARRAGE
+	db PAPER_THROW
 	db RAZOR_LEAF
 	db ROCK_BLAST
 	db ROCK_SLIDE
 	db ROCK_BULLET
 	db SACRED_FIRE
 	db SEED_BOMB
-	db STONE_HIT
+	db STONE_BREAK
 	db STRUGGLE ; -1
