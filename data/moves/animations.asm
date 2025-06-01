@@ -5731,29 +5731,6 @@ BattleAnim_FutureSight:
 	anim_incbgeffect ANIM_BG_PSYCHIC
 	anim_ret
 
-BattleAnim_RockSmash:
-	anim_2gfx ANIM_GFX_ROCKS, ANIM_GFX_HIT
-	anim_sound 0, 1, SFX_SPARK
-	anim_obj ANIM_OBJ_HIT_YFIX,  16, 0,   7, 0, $0
-	anim_sound 0, 1, SFX_SPARK
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $28
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $5c
-	anim_sound 0, 1, SFX_SPARK
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $10
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $e8
-	anim_sound 0, 1, SFX_SPARK
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $9c
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $d0
-	anim_wait 6
-	anim_sound 0, 1, SFX_SPARK
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $1c
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $50
-	anim_sound 0, 1, SFX_SPARK
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $dc
-	anim_obj ANIM_OBJ_ROCK_SMASH,  16, 0,   8, 0, $90
-	anim_wait 32
-	anim_ret
-
 BattleAnim_BrickBreak:
 	anim_1gfx ANIM_GFX_HIT
 	anim_sound 6, 2, SFX_SHINE

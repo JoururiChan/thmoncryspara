@@ -1669,7 +1669,7 @@ wDecompressedCollisions:: ds 256 * 4
 SECTION "Battle Animations RAM", WRAMX
 
 wBattleAnims::
-wBattleAnimTileDict:: ds 11
+wBattleAnimTileDict:: ds 10
 
 wActiveAnimObjects::
 for n, 1, NUM_ANIM_OBJECTS + 1
