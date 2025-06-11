@@ -138,7 +138,7 @@ FalknerGroup:
 	dbp 11, CKURUMI
 		db NO_ITEM
 		ev_spread 32 HP
-		db GUST, GROWL, SONIC_BOOM, NO_MOVE
+		db GUST, GROWL, FANG_SHOT, NO_MOVE
 	dbp 11, CMYSTIA
 		db NO_ITEM
 		ev_spread 32 HP
