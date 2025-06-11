@@ -51,7 +51,7 @@ ReimuEvosAttacks:
 	db 22, REFLECT
 	db 28, HEALINGLIGHT
 	db 33, PIN_BARRAGE ; Worry Seed → event move
-	db 38, AERIAL_ACE
+	db 38, ARM_THRUST
 	db 41, JUMP_KICK ; Worry Seed → event move
 	db 44, ACROBATICS ; Synthesis → similar move
 	db 47, CALM_MIND
@@ -100,9 +100,15 @@ MarisaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, THUNDERSHOCK
-	db 1, THIEF
-	db 38, FIRE_SPIN
+	db 7, THUNDERSHOCK
+	db 11, THIEF
+	db 15, EMBER ; Toxin Shot → TM move
+	db 20, SPORE ; Scary Face → Toxin Shot
+	db 23, SWIFT ; Fire Fang → Scary Face
+	db 28, SLUDGE_BOMB ; Flame Burst → TM move
+	db 31, AIR_SLASH
+	db 35, THUNDERBOLT
+	db 38, FIRE_LAUNCH
 	db 41, FOCUS_ENERGY ; Worry Seed → event move
 	db 44, TAILWIND ; Synthesis → similar move
 	db 47, FLAME_CHARGE
@@ -115,14 +121,20 @@ AMarisaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, THUNDERSHOCK
-	db 1, THIEF
-	db 38, SLUDGE_BOMB
+	db 7, THUNDERSHOCK
+	db 11, THIEF
+	db 15, EMBER ; Toxin Shot → TM move
+	db 20, SPORE ; Scary Face → Toxin Shot
+	db 23, SWIFT ; Fire Fang → Scary Face
+	db 28, SLUDGE_BOMB ; Flame Burst → TM move
+	db 31, AIR_SLASH
+	db 35, THUNDERBOLT
+	db 38, POISONPOWDER
 	db 41, FOCUS_ENERGY ; Worry Seed → event move
 	db 44, TAILWIND ; Synthesis → similar move
 	db 47, POISON_GAS
 	db 50, POWER_BEAM ; Solar Beam → Sludge Bomb
-	db 53, POISONPOWDER
+	db 53, VENOM_POOL
 	db 56, ZAP_CANNON
 	db -1 ; no more level-up moves
 
@@ -178,7 +190,7 @@ HSakuyaEvosAttacks:
 	db 47, GLARE
 	db 50, SUPERSONIC ; Solar Beam → Sludge Bomb
 	db 53, ULTICHARGE
-	db 56, CROSS_EYE
+	db 56, PSYCHO_CUT
 	db -1 ; no more level-up moves
 
 CGyokuEvosAttacks:
@@ -214,7 +226,7 @@ MGyokuEvosAttacks:
 	db 35, REFLECT
 	db 35, LIGHT_SCREEN
 	db 39, STAR_BLAST
-	db 43, EARTH_POWER
+	db 43, SAND_BOMB
 	db 46, SANDSTORM
 	db 49, PIN_BARRAGE
 	db 52, SACRED_FIRE
@@ -290,12 +302,22 @@ MaganEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, POISON_TEARS ; OGyoku move
 	db 1, LEER ; OGyoku move
-	db 45, FUTURE_SIGHT
+	db 6, MEAN_LOOK
+	db 10, GLARE
+	db 13, VENOSHOCK
+	db 17, THUNDERSHOCK
+	db 22, FORESIGHT
+	db 25, POISONPOWDER
+	db 29, HYPNOSIS
+	db 33, ENERGY_BALL
+	db 37, THUNDERBOLT
+	db 41, THUNDER_WAVE
+	db 45, TOXIC_SPIKES
 	db 48, CROSS_EYE
 	db 51, CONFUSE_RAY
 	db 54, BARRIER
 	db 57, ZAP_CANNON
-	db 60, GUNK_SHOT
+	db 60, VENOM_POOL
 	db -1 ; no more level-up moves
 
 CMimaEvosAttacks:
@@ -328,7 +350,7 @@ MimaEvosAttacks:
 	db 40, MANA_BURST
 	db 43, HYPNOSIS
 	db 46, BLAZE_STAR
-	db 49, STAR_CANNON
+	db 49, DRAIN_DRILL
 	db 52, POWER_BEAM
 	db 55, DARK_PULSE
 	db 58, SHADOW_DANCE
@@ -371,7 +393,7 @@ CKikuriEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 6, HEALINGLIGHT
 	db 10, ROCK_BULLET
-	db 14, DISABLE
+	db 14, JAMMING
 	db 19, PSYBEAM
 	db 23, STAR_BLAST
 	db 27, CALM_MIND
@@ -384,6 +406,15 @@ KikuriEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
 	db 1, DEFENSE_CURL
+	db 6, HEALINGLIGHT
+	db 10, ROCK_BULLET
+	db 14, JAMMING
+	db 19, PSYBEAM
+	db 23, STAR_BLAST
+	db 27, CALM_MIND
+	db 30, HYPNOSIS
+	db 35, EARTH_POWER
+	db 39, EXTRASENSORY
 	db 43, RECOVER
 	db 46, SUBSTITUTE
 	db 49, POWER_GEM
@@ -483,7 +514,7 @@ RikaEvosAttacks:
 	db 33, GROWTH
 	db 38, ROCK_BLAST
 	db 41, THUNDERBOLT
-	db 44, FLAME_SHOOT
+	db 44, FIRE_LAUNCH
 	db 47, SUBSTITUTE
 	db 50, PROTECT
 	db 53, ENERGY_BALL
@@ -504,7 +535,7 @@ ARikaEvosAttacks:
 	db 27, FLAME_SHOOT
 	db 30, STAR_BLAST
 	db 33, GROWTH
-	db 38, DRAIN_DRILL
+	db 38, ARM_THRUST
 	db 41, THUNDERBOLT
 	db 44, DOUBLE_EDGE
 	db 47, WING_ATTACK
@@ -543,12 +574,12 @@ MeiraEvosAttacks:
 	db 31, METAL_CLAW
 	db 33, BARRIER
 	db 36, REFLECT
-	db 39, JUMP_KICK
+	db 39, ARM_THRUST
 	db 42, DRAIN_PUNCH
 	db 45, REST
 	db 48, STEEL_FIST
 	db 51, BRAVER
-	db 54, BRICK_BREAK
+	db 54, PSYCHO_CUT
 	db 57, RECOVER
 	db 60, SLASH
 	db -1 ; no more level-up moves
@@ -633,7 +664,7 @@ CKanaEvosAttacks:
 	db 1, LICK
 	db 1, ASTONISH ; Sweet Scent → event move
 	db 6, PURSUIT
-	db 10, ENCORE
+	db 10, JAMMING
 	db 14, SWAGGER
 	db 17, HEX
 	db 21, CHARM
@@ -647,7 +678,7 @@ KanaEvosAttacks:
 	db 1, LICK
 	db 1, ASTONISH ; Sweet Scent → event move
 	db 6, PURSUIT
-	db 10, ENCORE
+	db 10, JAMMING
 	db 14, SWAGGER
 	db 17, HEX
 	db 21, CHARM
@@ -659,7 +690,7 @@ KanaEvosAttacks:
 	db 41, DARK_PULSE
 	db 44, CONFUSE_RAY
 	db 47, ECHO_RAVE
-	db 50, LEECH_LIFE
+	db 50, DRAIN_DRILL
 	db 53, NASTY_PLOT
 	db 56, THRASH
 	db 59, SHADOW_DANCE
@@ -670,7 +701,7 @@ CRikakoEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
 	db 5, SONIC_BOOM
-	db 9, SKILL_SWAP ; LGPE move
+	db 9, JAMMING ; LGPE move
 	db 12, SUPERSONIC
 	db 16, PSYBEAM ; Fury Cutter → egg move
 	db 20, POISONPOWDER
@@ -681,17 +712,24 @@ CRikakoEvosAttacks:
 
 RikakoEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, AERIAL_ACE ; evo move
 	db 1, PSYSHOT
+	db 5, SONIC_BOOM
+	db 9, JAMMING ; LGPE move
+	db 12, SUPERSONIC
+	db 16, PSYBEAM ; Fury Cutter → egg move
+	db 20, POISONPOWDER
+	db 23, VENOM_POOL
+	db 27, CALM_MIND
+	db 31, TELEPORT
 	db 34, MANA_BURST
-	db 37, HURRICANE
+	db 37, FIRE_LAUNCH
 	db 40, AERIAL_ACE
 	db 43, EXPLOSION
 	db 46, PSYSTRIKE
 	db 49, DOUBLE_EDGE
 	db 52, ENERGY_BALL
 	db 55, ZAP_CANNON
-	db 58, FLARE_OUT
+	db 58, PSYCHO_CUT
 	db -1 ; no more level-up moves
 
 CChiyuriEvosAttacks:
@@ -726,7 +764,7 @@ ChiyuriEvosAttacks:
 	db 37, HEADBUTT
 	db 40, RAIN_DANCE
 	db 43, RECOVER
-	db 46, QUAKE_ROAR
+	db 46, AQUA_CHARGE
 	db 49, VOICE_BIND
 	db 52, DRAIN_PUNCH
 	db 55, WILD_CHARGE
@@ -743,7 +781,7 @@ CYumemiEvosAttacks:
 	db 17, TOXIN_SHOT
 	db 21, SUNNY_DAY
 	db 25, FIRE_PUNCH
-	db 29, POWER_TRICK
+	db 29, JAMMING
 	db 32, SPARK
 	db 36, FLAME_SHOOT
 	db -1 ; no more level-up moves
@@ -758,11 +796,11 @@ YumemiEvosAttacks:
 	db 17, TOXIN_SHOT
 	db 21, SUNNY_DAY
 	db 25, FIRE_PUNCH
-	db 29, POWER_TRICK
+	db 29, JAMMING
 	db 32, SPARK
 	db 36, FLAME_SHOOT
 	db 40, CROSS_EYE
-	db 43, ICE_BEAM
+	db 43, FIRE_LAUNCH
 	db 46, THUNDER_WAVE
 	db 49, SACRED_FIRE
 	db 52, MANA_BURST
@@ -794,7 +832,7 @@ OrangeEvosAttacks:
 	db 28, BATON_PASS ; Assurance → egg move
 	db 31, PURSUIT ; Punishment → new move
 	db 34, JUMP_KICK
-	db 37, STEEL_FIST
+	db 37, ARM_THRUST
 	db 40, COLOR_FIST
 	db 43, CROSS_CHOP ; Stomping Tantrum → HGSS tutor move
 	db 46, ENDURE
@@ -810,8 +848,8 @@ CKurumiEvosAttacks:
 	db 1, GUST
 	db 1, DEFENSE_CURL
 	db 5, GROWL
-	db 9, SONIC_BOOM
-	db 13, SCREECH
+	db 9, FANG_SHOT
+	db 13, JAMMING
 	db 16, ROAR
 	db 20, BITE
 	db 24, WING_ATTACK
@@ -824,8 +862,8 @@ KurumiEvosAttacks:
 	db 1, GUST
 	db 1, DEFENSE_CURL
 	db 5, GROWL
-	db 9, SONIC_BOOM
-	db 13, SCREECH
+	db 9, FANG_SHOT
+	db 13, JAMMING
 	db 16, ROAR
 	db 20, BITE
 	db 24, WING_ATTACK
@@ -874,7 +912,7 @@ EllyEvosAttacks:
 	db 45, CROSS_CHOP
 	db 48, EXTREMESPEED
 	db 51, SHADOW_HIT
-	db 54, DRAIN_PUNCH
+	db 54, PSYCHO_CUT
 	db -1 ; no more level-up moves
 
 CYukaEvosAttacks:
@@ -1004,7 +1042,7 @@ SaraEvosAttacks:
 	db 25, BODY_SLAM
 	db 30, FIRE_PUNCH
 	db 33, BULK_UP
-	db 36, JUMP_KICK
+	db 36, ARM_THRUST
 	db 39, DRAIN_PUNCH
 	db 42, FOCUS_ENERGY
 	db 45, BARRIER
@@ -1063,7 +1101,7 @@ DLuizeEvosAttacks:
 	db 36, SPIRIT_VOICE
 	db 39, TOXIN_SHOT
 	db 42, SWEET_KISS ; Bounce → new move
-	db 45, PSYCHO_CUT
+	db 45, DRAIN_DRILL
 	db 48, CURSE
 	db 51, HELLBLAZE
 	db 54, FLARE_OUT
@@ -1078,7 +1116,7 @@ CAliceEvosAttacks:
 	db 6, PSYSHOT
 	db 10, BLADE_THROW
 	db 14, RAPID_SPIN
-	db 18, DEFENSE_CURL
+	db 18, JAMMING
 	db 21, LIGHT_SCREEN
 	db 21, REFLECT
 	db 25, SUBSTITUTE
@@ -1094,7 +1132,7 @@ AliceEvosAttacks:
 	db 6, PSYSHOT
 	db 10, BLADE_THROW
 	db 14, RAPID_SPIN
-	db 18, DEFENSE_CURL
+	db 18, JAMMING
 	db 21, LIGHT_SCREEN
 	db 21, REFLECT
 	db 25, SUBSTITUTE
@@ -1118,12 +1156,12 @@ AAliceEvosAttacks:
 	db 6, PSYSHOT
 	db 10, BLADE_THROW
 	db 14, RAPID_SPIN
-	db 18, DEFENSE_CURL
+	db 18, JAMMING
 	db 21, LIGHT_SCREEN
 	db 21, REFLECT
 	db 25, SUBSTITUTE
 	db 28, PSYBEAM
-	db 32, DUAL_SHOT
+	db 32, FIRE_LAUNCH
 	db 35, EXTREMESPEED
 	db 37, EARTH_POWER
 	db 40, CALM_MIND
@@ -1182,6 +1220,14 @@ YukiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, EMBER
 	db 1, FOCUS_ENERGY
+	db 6, LEER
+	db 10, GLARE
+	db 14, PURSUIT
+	db 18, FIRE_SPIN
+	db 22, DISABLE
+	db 26, CALM_MIND
+	db 29, FLAME_CHARGE
+	db 33, SUCKER_PUNCH
 	db 36, FLAME_CHARGE
 	db 39, WILL_O_WISP
 	db 42, DARK_PULSE
@@ -1273,7 +1319,7 @@ RumiaEvosAttacks:
 	db 21, BLACK_RIPPLE
 	db 25, MEAN_LOOK
 	db 29, HAZE
-	db 33, RAPID_SPIN
+	db 33, FANG_SHOT
 	db 36, GLUTTONY_BITE
 	db 39, LIFE_BALANCE
 	db 42, CONFUSE_RAY
@@ -1298,11 +1344,11 @@ ARumiaEvosAttacks:
 	db 33, BLADE_FLASH
 	db 36, BATTLE_CHANT
 	db 39, LIFE_BALANCE
-	db 42, CONFUSE_RAY
+	db 42, TOXIC_SPIKES
 	db 45, NIGHT_SLASH
 	db 48, SLASH
 	db 51, TOXIC
-	db 54, TOXIC_SPIKES
+	db 54, SPIRIT_VOICE
 	db 57, THRASH
 	db -1 ; no more level-up moves
 
@@ -1447,7 +1493,7 @@ MeilingEvosAttacks:
 	db 27, DUAL_SHOT
 	db 31, DRAIN_PUNCH
 	db 35, TAILWIND
-	db 38, AURA_SPHERE
+	db 38, ARM_THRUST
 	db 41, POWER_TRICK
 	db 44, SWAGGER
 	db 47, CROSS_CHOP
@@ -1506,7 +1552,7 @@ KoakumaEvosAttacks:
 	db 39, LIGHT_SCREEN
 	db 42, REFLECT
 	db 45, DARK_PULSE
-	db 48, EXTREMESPEED
+	db 48, PSYCHO_CUT
 	db 51, DESTINY_BOND
 	db 54, LIFE_BALANCE
 	db 57, DREAM_EATER
@@ -1543,7 +1589,7 @@ CPatchouliEvosAttacks:
 	db 1, CONVERSION
 	db 6, EMBER
 	db 9, WATER_GUN
-	db 13, ROCK_BULLET
+	db 13, SAND_BOMB
 	db 17, TRICK
 	db 20, CONFUSE_RAY
 	db 24, PSYBEAM
@@ -1559,7 +1605,7 @@ PatchouliEvosAttacks:
 	db 1, CONVERSION
 	db 6, EMBER
 	db 9, WATER_GUN
-	db 13, ROCK_BULLET
+	db 13, SAND_BOMB
 	db 17, TRICK
 	db 20, CONFUSE_RAY
 	db 24, PSYBEAM
@@ -1583,7 +1629,7 @@ TPatchouliEvosAttacks:
 	db 1, CONVERSION
 	db 6, EMBER
 	db 9, WATER_GUN
-	db 13, ROCK_BULLET
+	db 13, SAND_BOMB
 	db 17, TRICK
 	db 20, CONFUSE_RAY
 	db 24, PSYBEAM
@@ -1594,7 +1640,7 @@ TPatchouliEvosAttacks:
 	db 35, HYPNOSIS
 	db 38, BARRIER
 	db 41, DREAM_EATER
-	db 44, HELLBLAZE
+	db 44, FIRE_LAUNCH
 	db 47, HYDRO_PUMP
 	db 50, STONE_BREAK
 	db 53, CROSS_EYE
@@ -1654,7 +1700,7 @@ SRemiliaEvosAttacks:
 	db 35, HAZE
 	db 39, LEECH_LIFE
 	db 42, POWER_BITE
-	db 45, CHARGE_OUT
+	db 45, FANG_SHOT
 	db 48, WILL_O_WISP
 	db 51, MEAN_LOOK
 	db 54, ULTICHARGE
@@ -1692,7 +1738,7 @@ FlandreEvosAttacks:
 	db 32, BULK_UP
 	db 35, HAZE
 	db 39, LEECH_LIFE
-	db 43, GLUTTONY_BITE
+	db 43, FANG_SHOT
 	db 46, THUNDERBOLT
 	db 49, THUNDER_WAVE
 	db 52, TAILWIND
@@ -1743,7 +1789,7 @@ LettyEvosAttacks:
 	db 15, SONIC_BOOM
 	db 18, BARRIER
 	db 22, REFLECT
-	db 27, PSYCHO_CUT
+	db 27, DRAIN_DRILL
 	db 30, SHADOW_DANCE
 	db 33, TRICK
 	db 36, GROWTH
@@ -1766,7 +1812,7 @@ DLettyEvosAttacks:
 	db 15, SONIC_BOOM
 	db 18, BARRIER
 	db 22, REFLECT
-	db 27, PSYCHO_CUT
+	db 27, DRAIN_DRILL
 	db 30, SHADOW_DANCE
 	db 33, LIGHT_SCREEN
 	db 36, GROWTH
@@ -1806,9 +1852,9 @@ ChenEvosAttacks:
 	db 24, SWIFT
 	db 29, BULK_UP
 	db 32, SCREECH
-	db 35, SLASH
+	db 35, SAND_BOMB
 	db 38, DIG
-	db 41, HEAT_CLAW
+	db 41, FANG_SHOT
 	db 44, TAILWIND
 	db 47, ENDURE
 	db 50, BATTLE_CHANT
@@ -1957,7 +2003,7 @@ CLyricaEvosAttacks:
 	db 1, ASTONISH
 	db 1, SING
 	db 7, THUNDERSHOCK
-	db 12, TRICK
+	db 12, JAMMING
 	db 16, CURSE
 	db 20, STAR_BLAST
 	db 25, SWIFT
@@ -1970,7 +2016,7 @@ LyricaEvosAttacks:
 	db 1, ASTONISH
 	db 1, SING
 	db 7, THUNDERSHOCK
-	db 12, TRICK
+	db 12, JAMMING
 	db 16, CURSE
 	db 20, STAR_BLAST
 	db 25, SWIFT
@@ -1991,7 +2037,7 @@ TLyricaEvosAttacks:
 	db 1, ASTONISH
 	db 1, SING
 	db 7, THUNDERSHOCK
-	db 12, TRICK
+	db 12, JAMMING
 	db 16, CURSE
 	db 20, STAR_BLAST
 	db 25, SWIFT
@@ -2002,7 +2048,7 @@ TLyricaEvosAttacks:
 	db 43, DESTINY_BOND
 	db 46, HEALINGLIGHT
 	db 49, THUNDERBOLT
-	db 52, PSYCHO_CUT
+	db 52, DRAIN_DRILL
 	db 55, BLAZE_STAR
 	db 58, POWER_BEAM
 	db -1 ; no more level-up moves
@@ -2014,7 +2060,7 @@ CMerlinEvosAttacks:
 	db 1, ASTONISH
 	db 1, SING
 	db 7, EMBER
-	db 12, TRICK
+	db 12, JAMMING
 	db 16, CURSE
 	db 20, FIRE_SPIN
 	db 25, SUNNY_DAY
@@ -2027,7 +2073,7 @@ MerlinEvosAttacks:
 	db 1, ASTONISH
 	db 1, SING
 	db 7, EMBER
-	db 12, TRICK
+	db 12, JAMMING
 	db 16, CURSE
 	db 20, FIRE_SPIN
 	db 25, SUNNY_DAY
@@ -2048,13 +2094,13 @@ SMerlinEvosAttacks:
 	db 1, ASTONISH
 	db 1, SING
 	db 7, EMBER
-	db 12, TRICK
+	db 12, JAMMING
 	db 16, CURSE
 	db 20, FIRE_SPIN
 	db 25, SUNNY_DAY
 	db 29, SPIRIT_VOICE
 	db 33, CONFUSE_RAY
-	db 37, TOXIC_SPIKES
+	db 37, FIRE_LAUNCH
 	db 40, WILL_O_WISP
 	db 43, SACRED_FIRE
 	db 46, HEALINGLIGHT
@@ -2071,7 +2117,7 @@ CLunasaEvosAttacks:
 	db 1, ASTONISH
 	db 1, SING
 	db 7, PURSUIT
-	db 12, TRICK
+	db 12, JAMMING
 	db 16, CURSE
 	db 20, FEINT_ATTACK
 	db 25, GLARE
@@ -2084,7 +2130,7 @@ LunasaEvosAttacks:
 	db 1, ASTONISH
 	db 1, SING
 	db 7, PURSUIT
-	db 12, TRICK
+	db 12, JAMMING
 	db 16, CURSE
 	db 20, FEINT_ATTACK
 	db 25, GLARE
@@ -2092,7 +2138,7 @@ LunasaEvosAttacks:
 	db 33, CONFUSE_RAY
 	db 37, LEECH_LIFE
 	db 40, WILL_O_WISP
-	db 43, SHADOW_HIT
+	db 43, DRAIN_DRILL
 	db 46, HEALINGLIGHT
 	db 49, DARK_PULSE
 	db 52, SHADOW_DANCE
@@ -2105,7 +2151,7 @@ ALunasaEvosAttacks:
 	db 1, ASTONISH
 	db 1, SING
 	db 7, PURSUIT
-	db 12, TRICK
+	db 12, JAMMING
 	db 16, CURSE
 	db 20, FEINT_ATTACK
 	db 25, GLARE
@@ -2135,7 +2181,7 @@ CYuyukoEvosAttacks:
 	db 26, ENERGY_LIGHT
 	db 30, POWER_TRICK
 	db 34, SPIRIT_VOICE
-	db 37, PSYCHO_CUT
+	db 37, BLACK_RIPPLE
 	db -1 ; no more level-up moves
 
 YuyukoEvosAttacks:
@@ -2150,7 +2196,7 @@ YuyukoEvosAttacks:
 	db 26, ENERGY_LIGHT
 	db 30, POWER_TRICK
 	db 34, SPIRIT_VOICE
-	db 37, PSYCHO_CUT
+	db 37, BLACK_RIPPLE
 	db 40, DRAINING_KISS
 	db 43, HYPNOSIS
 	db 46, DREAM_EATER
@@ -2173,10 +2219,10 @@ AYuyukoEvosAttacks:
 	db 26, ENERGY_LIGHT
 	db 30, POWER_TRICK
 	db 34, SPIRIT_VOICE
-	db 37, PSYCHO_CUT
+	db 37, BLACK_RIPPLE
 	db 40, EXTRASENSORY
 	db 43, SAFEGUARD
-	db 46, ECHO_RAVE
+	db 46, DRAIN_DRILL
 	db 49, POWER_WHIP
 	db 52, HEAL_BELL
 	db 55, LIFE_BALANCE
@@ -2241,7 +2287,7 @@ TRanEvosAttacks:
 	db 51, TRICK_ROOM
 	db 54, DREAM_EATER
 	db 58, ENERGY_BALL
-	db 61, POWER_BITE
+	db 61, QUAKE_ROAR
 	db -1 ; no more level-up moves
 
 CYukariEvosAttacks:
@@ -2277,7 +2323,7 @@ YukariEvosAttacks:
 	db 38, SHADOW_BALL
 	db 41, NASTY_PLOT
 	db 45, MANA_BURST
-	db 48, BLACK_RIPPLE
+	db 48, PSYCHO_CUT
 	db 51, HAZE
 	db 54, CONFUSE_RAY
 	db 58, DARK_PULSE
@@ -2364,12 +2410,12 @@ TSuikaEvosAttacks:
 	db 35, POISONPOWDER
 	db 39, POISON_JAB
 	db 42, GLUTTONY_BITE
-	db 45, TOXIC
+	db 45, TOXIC_SPIKES
 	db 48, BELLY_DRUM
 	db 51, DOUBLE_EDGE
 	db 54, DYNAMICPUNCH
 	db 57, GUNK_SHOT
-	db 60, POISON_CLAW
+	db 60, QUAKE_ROAR
 	db -1 ; no more level-up moves
 
 CYoumuEvosAttacks:
@@ -2405,7 +2451,7 @@ YoumuEvosAttacks:
 	db 43, SWORDS_DANCE
 	db 46, FORESIGHT
 	db 49, BATTLE_CHANT
-	db 52, AIR_SLASH
+	db 52, PSYCHO_CUT
 	db 55, BRAVER
 	db 58, REST
 	db 61, CROSS_EYE
@@ -2428,7 +2474,7 @@ SYoumuEvosAttacks:
 	db 43, SWORDS_DANCE
 	db 46, CALM_MIND
 	db 49, BATTLE_CHANT
-	db 52, EXTREMESPEED
+	db 52, DRAIN_DRILL
 	db 55, SLASH
 	db 58, SUPERSONIC
 	db 61, ULTICHARGE	
@@ -2444,7 +2490,7 @@ CReisenEvosAttacks:
 	db 10, CONFUSE_RAY
 	db 13, HYPNOSIS
 	db 17, PSYBEAM
-	db 20, TELEPORT ; Flame Wheel → Defense Curl
+	db 20, JAMMING ; Flame Wheel → Defense Curl
 	db 24, STAR_BLAST ; Defense Curl → Flame Charge
 	db 29, MEAN_LOOK
 	db 32, DARK_PULSE
@@ -2454,12 +2500,21 @@ CReisenEvosAttacks:
 ReisenEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
-	db 1, LEER
+	db 1, GROWL
+	db 6, PSYSHOT
+	db 10, CONFUSE_RAY
+	db 13, HYPNOSIS
+	db 17, PSYBEAM
+	db 20, JAMMING ; Flame Wheel → Defense Curl
+	db 24, STAR_BLAST ; Defense Curl → Flame Charge
+	db 29, MEAN_LOOK
+	db 32, DARK_PULSE
+	db 35, CALM_MIND
 	db 38, MANA_BURST ; Flame Charge → TM move
 	db 41, PROTECT ; Lava Plume → egg move
 	db 44, TRICK_ROOM
 	db 47, LUSTER_HEART
-	db 50, POISONPOWDER
+	db 50, VENOM_POOL
 	db 53, CHARM
 	db 56, SHADOW_BALL
 	db -1 ; no more level-up moves
@@ -2467,11 +2522,21 @@ ReisenEvosAttacks:
 TReisenEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
+	db 1, GROWL
+	db 6, PSYSHOT
+	db 10, CONFUSE_RAY
+	db 13, HYPNOSIS
+	db 17, PSYBEAM
+	db 20, JAMMING ; Flame Wheel → Defense Curl
+	db 24, STAR_BLAST ; Defense Curl → Flame Charge
+	db 29, MEAN_LOOK
+	db 32, DARK_PULSE
+	db 35, CALM_MIND
 	db 38, MANA_BURST ; Flame Charge → TM move
 	db 41, POWER_TRICK ; Lava Plume → egg move
 	db 44, TRICK_ROOM
 	db 47, FIVEELEMENTS
-	db 50, SHADOW_HIT
+	db 50, VENOM_POOL
 	db 53, CHARM
 	db 56, CROSS_EYE
 	db -1 ; no more level-up moves
@@ -2564,7 +2629,7 @@ WriggleEvosAttacks:
 	db 36, AERIAL_ACE
 	db 39, LIGHT_SCREEN
 	db 42, PROTECT
-	db 45, BLAZE_STAR
+	db 45, ARM_THRUST
 	db 48, SEED_BOMB
 	db 51, TAILWIND
 	db 54, SWAGGER
@@ -2605,7 +2670,7 @@ CMystiaEvosAttacks:
 	db 9, SMOKESCREEN
 	db 13, GUST
 	db 18, WING_ATTACK
-	db 21, MEAN_LOOK
+	db 21, JAMMING
 	db 24, HYPNOSIS
 	db 28, BLACK_RIPPLE
 	db -1 ; no more level-up moves
@@ -2618,7 +2683,7 @@ MystiaEvosAttacks:
 	db 9, SMOKESCREEN
 	db 13, GUST
 	db 18, WING_ATTACK
-	db 21, MEAN_LOOK
+	db 21, JAMMING
 	db 24, HYPNOSIS
 	db 28, BLACK_RIPPLE
 	db 32, SCREECH
@@ -2640,7 +2705,7 @@ TMystiaEvosAttacks:
 	db 9, SMOKESCREEN
 	db 13, GUST
 	db 18, WING_ATTACK
-	db 21, MEAN_LOOK
+	db 21, JAMMING
 	db 24, HYPNOSIS
 	db 28, BLACK_RIPPLE
 	db 32, SCREECH
@@ -2706,10 +2771,10 @@ AKeineEvosAttacks:
 	db 31, DISABLE
 	db 33, TRICK
 	db 36, MANA_BURST
-	db 39, FURY_STRIKES
+	db 39, FANG_SHOT
 	db 42, GLARE
 	db 45, MEAN_LOOK
-	db 48, DRAIN_DRILL
+	db 48, PSYCHO_CUT
 	db 51, DOUBLE_EDGE
 	db 54, PSYSTRIKE
 	db -1 ; no more level-up moves
@@ -2765,7 +2830,7 @@ TTeiEvosAttacks:
 	db 34, CHARGE_OUT
 	db 37, SWAGGER
 	db 40, NASTY_PLOT
-	db 43, DRAIN_DRILL
+	db 43, REVERSAL
 	db 46, ARM_THRUST
 	db 49, DOUBLE_EDGE
 	db 52, LIGHT_SCREEN
@@ -2806,7 +2871,7 @@ EirinEvosAttacks:
 	db 43, MANA_BURST
 	db 46, VENOSHOCK
 	db 49, CROSS_EYE
-	db 52, TOXIC
+	db 52, TOXIC_SPIKES
 	db 55, LEECH_SEED
 	db 58, GUNK_SHOT
 	db 61, FIVEELEMENTS
@@ -2933,7 +2998,7 @@ MokouEvosAttacks:
 	db 41, GLARE
 	db 44, DRAIN_PUNCH
 	db 47, DYNAMICPUNCH
-	db 50, EXPLOSION
+	db 50, FIRE_LAUNCH
 	db 53, HEALINGLIGHT
 	db 56, CROSS_CHOP
 	db 59, FLARE_OUT
@@ -2954,7 +3019,7 @@ AMokouEvosAttacks:
 	db 35, PAPER_THROW
 	db 38, POWER_TRICK
 	db 41, TAILWIND
-	db 44, BRICK_BREAK
+	db 44, ARM_THRUST
 	db 47, SACRED_FIRE
 	db 50, HELLBLAZE
 	db 53, HEALINGLIGHT
@@ -3075,9 +3140,9 @@ AMedicineEvosAttacks:
 	db 34, DESTINY_BOND
 	db 38, BULLET_SEED
 	db 41, POISONPOWDER
-	db 44, SPORE
+	db 44, TOXIC_SPIKES
 	db 47, PROTECT
-	db 51, SLUDGE_BOMB
+	db 51, VENOM_POOL
 	db 54, VENOSHOCK
 	db 58, GUNK_SHOT
 	db 62, LEAF_STORM
@@ -3113,11 +3178,11 @@ KomachiEvosAttacks:
 	db 32, HONE_TOOLS
 	db 37, LIFE_BALANCE
 	db 40, AQUA_CUT
-	db 43, QUAKE_ROAR
+	db 43, AQUA_CHARGE
 	db 47, RAIN_DANCE
 	db 50, CONFUSE_RAY
 	db 54, BRAVER
-	db 58, TOXIC_SPIKES
+	db 58, WATERFALL
 	db 62, HYDRO_PUMP
 	db -1 ; no more level-up moves
 
@@ -3202,7 +3267,7 @@ AEikiEvosAttacks:
 	db 45, MANA_BURST
 	db 49, POWER_TRICK
 	db 52, SUBSTITUTE
-	db 55, TOXIC_SPIKES
+	db 55, PSYCHO_CUT
 	db 59, CROSS_EYE
 	db 62, POWER_BEAM
 	db -1 ; no more level-up moves
@@ -3289,7 +3354,7 @@ MinorikoEvosAttacks:
 	db 17, LIGHT_SCREEN
 	db 21, SLEEP_POWDER
 	db 24, BULLET_SEED
-	db 28, ANCIENTPOWER
+	db 28, SAND_BOMB
 	db 31, HEALINGLIGHT
 	db 34, SLEEP_POWDER
 	db 37, ENERGY_LIGHT
@@ -3376,9 +3441,9 @@ AHinaEvosAttacks:
 	db 41, ARM_THRUST
 	db 44, CURSE
 	db 47, SUBSTITUTE
-	db 50, ICICLE_SPEAR
+	db 50, VENOM_POOL
 	db 53, GUNK_SHOT
-	db 57, EXTRASENSORY
+	db 57, DRAIN_DRILL
 	db 61, LIFE_BALANCE 
 	db -1 ; no more level-up moves
 
@@ -3413,7 +3478,7 @@ NitoriEvosAttacks:
 	db 36, BARRIER
 	db 39, THUNDERBOLT
 	db 43, THUNDER_WAVE
-	db 47, QUAKE_ROAR
+	db 47, AQUA_CHARGE
 	db 51, ICE_BEAM
 	db 55, HYDRO_PUMP
 	db 58, CONVERSION
@@ -3493,16 +3558,16 @@ AMomijiEvosAttacks:
 	db 21, HONE_TOOLS
 	db 24, BLADE_FLASH
 	db 27, QUICK_ATTACK
-	db 31, FURY_STRIKES
+	db 31, FANG_SHOT
 	db 35, SCREECH
 	db 38, BARRIER
 	db 42, CHARGE_OUT
-	db 45, POISON_CLAW
+	db 45, PSYCHO_CUT
 	db 48, REFLECT
 	db 51, BATON_PASS
 	db 54, POWER_BITE
 	db 57, BRAVER
-	db 62, HEAT_CLAW
+	db 62, QUAKE_ROAR
 	db -1 ; no more level-up moves
 
 CKanakoEvosAttacks:
@@ -3516,7 +3581,7 @@ CKanakoEvosAttacks:
 	db 13, DEFENSE_CURL
 	db 17, CONVERSION
 	db 21, FLASH
-	db 25, BULLDOZE
+	db 25, SAND_BOMB
 	db 29, HONE_TOOLS
 	db 32, THUNDER_WAVE
 	db 35, EXTRASENSORY
@@ -3532,7 +3597,7 @@ KanakoEvosAttacks:
 	db 13, DEFENSE_CURL
 	db 17, CONVERSION
 	db 21, FLASH
-	db 25, BULLDOZE
+	db 25, SAND_BOMB
 	db 29, HONE_TOOLS
 	db 32, THUNDER_WAVE
 	db 35, EXTRASENSORY
@@ -3541,7 +3606,7 @@ KanakoEvosAttacks:
 	db 45, BULK_UP
 	db 49, SPIKES
 	db 52, EARTH_POWER
-	db 55, STONE_BREAK
+	db 55, QUAKE_ROAR
 	db 58, ENERGY_BALL
 	db -1 ; no more level-up moves
 
@@ -3554,7 +3619,7 @@ AKanakoEvosAttacks:
 	db 13, DEFENSE_CURL
 	db 17, CONVERSION
 	db 21, FLASH
-	db 25, BULLDOZE
+	db 25, SAND_BOMB
 	db 29, HONE_TOOLS
 	db 32, THUNDER_WAVE
 	db 35, EXTRASENSORY
@@ -3603,7 +3668,7 @@ SuwakoEvosAttacks:
 	db 46, HEAL_BELL
 	db 49, CURSE
 	db 52, RAIN_DANCE
-	db 55, HYDRO_PUMP
+	db 55, AQUA_CHARGE
 	db 58, ENERGY_BALL
 	db 61, MAGNITUDE
 	db -1 ; no more level-up moves
@@ -3690,7 +3755,7 @@ AIkuEvosAttacks:
 	db 43, THUNDERBOLT
 	db 46, HEALINGLIGHT
 	db 49, REFLECT
-	db 52, ENERGY_BALL
+	db 52, DRAIN_DRILL
 	db 55, EXTREMESPEED
 	db 59, BLAZE_STAR
 	db 62, POWER_BEAM
@@ -3708,7 +3773,7 @@ CTenshiEvosAttacks:
 	db 17, SPIKES
 	db 21, HONE_TOOLS
 	db 25, BULLDOZE
-	db 28, STOMP
+	db 28, SAND_BOMB
 	db 31, AIR_SLASH
 	db 34, JAMMING
 	db 37, BARRIER
@@ -3724,7 +3789,7 @@ TenshiEvosAttacks:
 	db 17, SPIKES
 	db 21, HONE_TOOLS
 	db 25, BULLDOZE
-	db 28, STOMP
+	db 28, SAND_BOMB
 	db 31, AIR_SLASH
 	db 34, JAMMING
 	db 37, BARRIER
@@ -3748,7 +3813,7 @@ STenshiEvosAttacks:
 	db 17, SPIKES
 	db 21, HONE_TOOLS
 	db 25, BULLDOZE
-	db 28, STOMP
+	db 28, SAND_BOMB
 	db 31, AIR_SLASH
 	db 34, JAMMING
 	db 37, BARRIER
@@ -3825,9 +3890,9 @@ CYamameEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, DEFENSE_CURL
-	db 7, FANG_SHOT
-	db 11, JAMMING
-	db 14, ROCK_BULLET
+	db 7, TACKLE
+	db 11, ROCK_BULLET
+	db 14, SAND_BOMB
 	db 18, SPIKES
 	db 21, FOCUS_ENERGY
 	db 24, TOXIN_SHOT
@@ -3837,9 +3902,9 @@ YamameEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, DEFENSE_CURL
-	db 7, FANG_SHOT
-	db 11, JAMMING
-	db 14, ROCK_BULLET
+	db 7, TACKLE
+	db 11, ROCK_BULLET
+	db 14, SAND_BOMB
 	db 18, SPIKES
 	db 21, FOCUS_ENERGY
 	db 24, TOXIN_SHOT
@@ -3859,9 +3924,9 @@ SYamameEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, DEFENSE_CURL
-	db 7, FANG_SHOT
-	db 11, JAMMING
-	db 14, ROCK_BULLET
+	db 7, TACKLE
+	db 11, ROCK_BULLET
+	db 14, SAND_BOMB
 	db 18, SPIKES
 	db 21, FOCUS_ENERGY
 	db 24, TOXIN_SHOT
@@ -3869,7 +3934,7 @@ SYamameEvosAttacks:
 	db 31, DIG
 	db 34, STUN_SPORE
 	db 37, SCARY_FACE
-	db 40, POISON_NAIL
+	db 40, VENOM_POOL
 	db 43, EARTHQUAKE
 	db 47, TOXIC
 	db 50, BATON_PASS
@@ -3910,7 +3975,7 @@ ParseeEvosAttacks:
 	db 44, SLUDGE_BOMB
 	db 47, LIFE_BALANCE
 	db 50, NASTY_PLOT
-	db 54, GUNK_SHOT
+	db 54, VENOM_POOL
 	db 58, LUSTER_HEART
 	db -1 ; no more level-up moves
 
@@ -3969,7 +4034,7 @@ YuugiEvosAttacks:
 	db 39, BARRIER
 	db 42, EARTH_POWER
 	db 45, DYNAMICPUNCH
-	db 48, VOICE_BIND
+	db 48, QUAKE_ROAR
 	db 51, PROTECT
 	db 54, SPIKES
 	db 57, STONE_BREAK
@@ -3992,10 +4057,10 @@ AYuugiEvosAttacks:
 	db 39, REFLECT
 	db 42, EARTHQUAKE
 	db 45, DRAIN_PUNCH
-	db 48, ACROBATICS
+	db 48, ARM_THRUST
 	db 51, PROTECT
 	db 54, SPIKES
-	db 57, CROSS_CHOP
+	db 57, QUAKE_ROAR
 	db 60, REVERSAL
 	db -1 ; no more level-up moves
 
@@ -4091,7 +4156,7 @@ RinEvosAttacks:
 	db 38, FURY_STRIKES
 	db 41, WILL_O_WISP
 	db 44, CONFUSE_RAY
-	db 47, VENOM_POOL
+	db 47, FANG_SHOT
 	db 50, FLAME_SHOOT
 	db 53, LIFE_BALANCE
 	db 57, SACRED_FIRE
@@ -4114,11 +4179,11 @@ HRinEvosAttacks:
 	db 38, BITE
 	db 41, WILL_O_WISP
 	db 44, CONFUSE_RAY
-	db 47, VENOM_POOL
+	db 47, FANG_SHOT
 	db 50, FLAME_SHOOT
 	db 53, LIFE_BALANCE
 	db 57, SACRED_FIRE
-	db 61, VOICE_BIND
+	db 61, QUAKE_ROAR
 	db -1 ; no more level-up moves
 
 CUtsuhoEvosAttacks:
@@ -4135,7 +4200,7 @@ CUtsuhoEvosAttacks:
 	db 25, ROAR
 	db 28, WILL_O_WISP
 	db 32, ACROBATICS
-	db 36, FLAME_SHOOT
+	db 36, FIRE_LAUNCH
 	db 39, BULK_UP
 	db -1 ; no more level-up moves
 
@@ -4151,7 +4216,7 @@ UtsuhoEvosAttacks:
 	db 25, ROAR
 	db 28, WILL_O_WISP
 	db 32, ACROBATICS
-	db 36, FLAME_SHOOT
+	db 36, FIRE_LAUNCH
 	db 39, BULK_UP
 	db 42, FLARE_OUT
 	db 45, BLAZE_STAR
@@ -4174,7 +4239,7 @@ AUtsuhoEvosAttacks:
 	db 25, ROAR
 	db 28, WILL_O_WISP
 	db 32, ACROBATICS
-	db 36, FLAME_SHOOT
+	db 36, FIRE_LAUNCH
 	db 39, BULK_UP
 	db 42, FIRE_PUNCH
 	db 45, ENERGY_LIGHT

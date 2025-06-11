@@ -13,7 +13,6 @@ ContactMoves:
 	db STEEL_FIST
 	db COLOR_FIST
 	db COUNTER
-	db QUAKE_ROAR
 	db CROSS_CHOP
 	db GLUTTONY_BITE
 	db CUT
@@ -54,7 +53,6 @@ ContactMoves:
 	db DRAIN_DRILL
 	db METAL_CLAW
 	db NIGHT_SLASH
-	db TOXIC_SPIKES
 	db FEATHER_JAB
 	db BATTLE_CHANT
 	db PLAY_ROUGH
@@ -63,7 +61,6 @@ ContactMoves:
 	db POWER_WHIP
 	db PURSUIT
 	db QUICK_ATTACK
-	db FIRE_LAUNCH
 	db RAPID_SPIN
 	db RETURN
 	db REVERSAL
@@ -80,7 +77,6 @@ ContactMoves:
 	db SUCKER_PUNCH
 	db HEAT_CLAW
 	db TACKLE
-	db VENOM_POOL
 	db THIEF
 	db THRASH
 	db THUNDERPUNCH

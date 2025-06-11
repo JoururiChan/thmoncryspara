@@ -4,7 +4,6 @@ AbnormalContactMoves:
 	; Special moves that make contact
 	db DRAINING_KISS
 	; Physical moves that don't make contact
-	db SAND_BOMB
 	db BULLDOZE
 	db EARTHQUAKE
 	db EXPLOSION

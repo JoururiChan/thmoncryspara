@@ -27,7 +27,7 @@ AI_Redundant:
 	dbw EFFECT_MEAN_LOOK,     .MeanLook
 	dbw EFFECT_CURSE,         .Curse
 	dbw EFFECT_SPIKES,        .Spikes
-	dbw EFFECT_POISON_NAIL,  .PoisonNail
+	dbw EFFECT_TOXIC_SPIKES,  .PoisonNail
 	dbw EFFECT_FORESIGHT,     .Foresight
 	dbw EFFECT_SHADOW_DANCE,   .ShadowDance
 	dbw EFFECT_SANDSTORM,     .Sandstorm

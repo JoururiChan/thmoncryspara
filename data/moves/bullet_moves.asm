@@ -11,4 +11,5 @@ BulletMoves:
 	db PAPER_THROW
 	db PIN_BARRAGE
 	db TOXIN_SHOT
+	db SAND_BOMB
 	db -1

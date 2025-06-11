@@ -6,4 +6,6 @@ CriticalHitMoves:
 	db CROSS_CHOP
 	db SHADOW_HIT
 	db STONE_BREAK
+	db AQUA_CHARGE
+	db PSYCHO_CUT
 	db -1

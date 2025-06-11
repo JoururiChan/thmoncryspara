@@ -9,5 +9,6 @@ LauncherMoves:
 	db POWER_BEAM
 	db FLAME_SHOOT
 	db PIN_BARRAGE
-	db PAPER_THROW
+	db FIRE_LAUNCH
+	db STAR_BLAST
 	db -1

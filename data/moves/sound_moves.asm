@@ -9,4 +9,6 @@ SoundMoves::
 	db SING
 	db SUPERSONIC
 	db HEAL_BELL
+	db QUAKE_ROAR
+	db JAMMING
 	db -1

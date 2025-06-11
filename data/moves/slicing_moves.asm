@@ -3,12 +3,9 @@ SlicingMoves:
 	db AIR_SLASH
 	db CUT
 	db NIGHT_SLASH
-	db PAPER_THROW
 	db PIN_BARRAGE
-	db ARM_THRUST
 	db FEATHER_JAB
 	db AQUA_CUT
-	db TOXIC_SPIKES
 	db RAZOR_LEAF
 	db SLASH
 	db BLADE_THROW
@@ -17,4 +14,5 @@ SlicingMoves:
 	db POISON_NAIL
 	db CROSS_EYE
 	db BRAVER
+	db PSYCHO_CUT
 	db -1
