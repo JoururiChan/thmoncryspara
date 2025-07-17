@@ -2838,7 +2838,7 @@ SeijaTohodexEntry::
 	next "F@"
 
 SECTION "CSukunaTohodexEntry", ROMX
-CSukunaohodexEntry::
+CSukunaTohodexEntry::
 	db "Placeholder@"
 	db   "A"
 	next "B"
