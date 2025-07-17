@@ -264,6 +264,7 @@
 	const CBYAKUREN    ; 105
 	const BYAKUREN   ; 106
 	const TBYAKUREN    ; 107
+	const CNUE
 	const NUE  ; 109
 	const SNUE ; 10a
 	const CHATATE  ; 10b
