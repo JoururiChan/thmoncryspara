@@ -1522,9 +1522,9 @@ CNueNMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 CNueNIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueO Mini Icon", ROMX
-CNueOMini::     INCBIN "gfx/minis/creimu_o.2bpp.lz"
+CNueOMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
 CNueOMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
-CNueOIcon::     INCBIN "gfx/icons/creimu_o.2bpp.lz"
+CNueOIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueP Mini Icon", ROMX
 CNuePMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
