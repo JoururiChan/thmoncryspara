@@ -1122,8 +1122,8 @@ CChenFrontpic: INCBIN "gfx/tohomon/cchen/front.animated.2bpp.lz"
 CChenBackpic:  INCBIN "gfx/tohomon/cchen/back.2bpp.lz"
 
 SECTION "AShou Pics", ROMX
-AShouFrontpic: INCBIN "gfx/tohomon/ashou_/front.animated.2bpp.lz"
-AShouBackpic:  INCBIN "gfx/tohomon/ashou_/back.2bpp.lz"
+AShouFrontpic: INCBIN "gfx/tohomon/ashou/front.animated.2bpp.lz"
+AShouBackpic:  INCBIN "gfx/tohomon/ashou/back.2bpp.lz"
 
 SECTION "CYoshika Pics", ROMX
 CYoshikaFrontpic: INCBIN "gfx/tohomon/mr__rime/front.animated.2bpp.lz"

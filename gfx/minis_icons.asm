@@ -1177,9 +1177,9 @@ ShouMiniMask:: INCBIN "gfx/minis/shou_mask.1bpp.lz"
 ShouIcon::     INCBIN "gfx/icons/shou.2bpp.lz"
 
 SECTION "AShou Mini Icon", ROMX
-AShouMini::     INCBIN "gfx/minis/ashou_.2bpp.lz"
-AShouMiniMask:: INCBIN "gfx/minis/ashou__mask.1bpp.lz"
-AShouIcon::     INCBIN "gfx/icons/ashou_.2bpp.lz"
+AShouMini::     INCBIN "gfx/minis/ashou.2bpp.lz"
+AShouMiniMask:: INCBIN "gfx/minis/ashou_mask.1bpp.lz"
+AShouIcon::     INCBIN "gfx/icons/ashou.2bpp.lz"
 
 SECTION "CByakuren Mini Icon", ROMX
 CByakurenMini::     INCBIN "gfx/minis/cbyakuren.2bpp.lz"

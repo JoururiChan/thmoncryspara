@@ -254,7 +254,7 @@ INCLUDE "gfx/tohomon/egg/front.dimensions" ; $100
 INCLUDE "gfx/tohomon/amurasa/front.dimensions"
 INCLUDE "gfx/tohomon/cshou/front.dimensions"
 INCLUDE "gfx/tohomon/shou/front.dimensions"
-INCLUDE "gfx/tohomon/ashou_/front.dimensions"
+INCLUDE "gfx/tohomon/ashou/front.dimensions"
 INCLUDE "gfx/tohomon/cbyakuren/front.dimensions"
 INCLUDE "gfx/tohomon/byakuren/front.dimensions"
 INCLUDE "gfx/tohomon/tbyakuren/front.dimensions"
