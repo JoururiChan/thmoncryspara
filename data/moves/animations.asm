@@ -1398,7 +1398,7 @@ BattleAnim_HyperBeam:
 	anim_ret
 
 BattleAnim_StarBlast:
-	anim_1gfx ANIM_GFX_BEAM_LIGHT
+	anim_2gfx ANIM_GFX_BEAM_LIGHT, ANIM_GFX_SPEED
 	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_AURORA
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
@@ -1441,7 +1441,6 @@ BattleAnim_CrossEye:
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $08, $2, $0
 	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, 150, 40, $0
 	anim_obj ANIM_OBJ_CUT_LONG_DOWN_RIGHT, 118, 40, $0
-	anim_sound 0, 1, SFX_MEAN_LOOK
 	anim_obj ANIM_OBJ_MEAN_LOOK, -15, 0,   6, 0, $0
 	anim_wait 32
 	anim_ret
@@ -2568,11 +2567,9 @@ BattleAnim_DrainKiss:
 
 BattleAnim_SandBomb:
 	anim_2gfx ANIM_GFX_EGG, ANIM_GFX_HAZE
-	anim_sound 0, 0, SFX_SWITCH_TOHOMON
-	anim_obj ANIM_OBJ_EGG,   5, 4,  13, 0, $1
-	anim_wait 128
-	anim_wait 96
-	anim_incobj 1
+	anim_sound 6, 2, SFX_THROW_BALL
+	anim_obj ANIM_OBJ_SLUDGE_BOMB,   8, 0,  11, 4, $10
+	anim_wait 36
 	anim_sound 0, 1, SFX_SURF
 .loop
 	anim_obj ANIM_OBJ_SMOG, -16, 4,   2, 0, $0
@@ -4740,7 +4737,7 @@ BattleAnim_WildCharge:
 	anim_ret
 
 BattleAnim_BulletSeed:
-	anim_1gfx ANIM_GFX_EGG
+	anim_3gfx ANIM_GFX_EGG, ANIM_GFX_ROCKS, ANIM_GFX_HIT
 	anim_sound 6, 2, SFX_THROW_BALL
 	anim_obj ANIM_OBJ_BLACK_RIPPLE, 64, 92, $4
 	anim_wait 14
@@ -5101,9 +5098,7 @@ BattleAnim_PsychoCut:
 	anim_sound 0, 1, SFX_CUT
 	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, -13, 0,   5, 0, $0
 	anim_sound 0, 1, SFX_PSYCHIC
-	anim_bgeffect ANIM_BG_NIGHT_SHADE, $0, $0, $8
 	anim_wait 128
-	anim_incbgeffect ANIM_BG_NIGHT_SHADE
 	anim_incbgeffect ANIM_BG_FADE_MON_TO_WHITE_WAIT_FADE_BACK
 	anim_call BattleAnim_ShowMon_0
 	anim_wait 4
