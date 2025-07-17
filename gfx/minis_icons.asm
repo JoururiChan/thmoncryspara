@@ -1458,138 +1458,138 @@ SumirekoIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueB Mini Icon", ROMX
 CNueBMini::     INCBIN "gfx/minis/creimu_b.2bpp.lz"
-CNueBMiniMask:: INCBIN "gfx/minis/creimu_b_mask.1bpp.lz"
-CNueBIcon::     INCBIN "gfx/icons/creimu_b.2bpp.lz"
+CNueBMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueBIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueC Mini Icon", ROMX
-CNueCMini::     INCBIN "gfx/minis/creimu_c.2bpp.lz"
-CNueCMiniMask:: INCBIN "gfx/minis/creimumu_c_mask.1bpp.lz"
-CNueCIcon::     INCBIN "gfx/icons/creimu_c.2bpp.lz"
+CNueCMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueCMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueCIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueD Mini Icon", ROMX
-CNueDMini::     INCBIN "gfx/minis/creimu_d.2bpp.lz"
-CNueDMiniMask:: INCBIN "gfx/minis/creimu_d_mask.1bpp.lz"
-CNueDIcon::     INCBIN "gfx/icons/creimu_d.2bpp.lz"
+CNueDMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueDMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueDIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueE Mini Icon", ROMX
-CNueEMini::     INCBIN "gfx/minis/creimu_e.2bpp.lz"
-CNueEMiniMask:: INCBIN "gfx/minis/creimumu_e_mask.1bpp.lz"
-CNueEIcon::     INCBIN "gfx/icons/creimumu_e.2bpp.lz"
+CNueEMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueEMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueEIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueF Mini Icon", ROMX
-CNueFMini::     INCBIN "gfx/minis/creimumu_f.2bpp.lz"
-CNueFMiniMask:: INCBIN "gfx/minis/creimumu_f_mask.1bpp.lz"
-CNueFIcon::     INCBIN "gfx/icons/creimumu_f.2bpp.lz"
+CNueFMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueFMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueFIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueG Mini Icon", ROMX
-CNueGMini::     INCBIN "gfx/minis/creimu_g.2bpp.lz"
-CNueGMiniMask:: INCBIN "gfx/minis/creimumumumumumu_g_mask.1bpp.lz"
-CNueGIcon::     INCBIN "gfx/icons/creimumumumu_g.2bpp.lz"
+CNueGMini::     INCBIN "gfx/minis/crei.2bpp.lz"
+CNueGMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueGIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueH Mini Icon", ROMX
-CNueHMini::     INCBIN "gfx/minis/creimumu_h.2bpp.lz"
-CNueHMiniMask:: INCBIN "gfx/minis/creimu_h_mask.1bpp.lz"
-CNueHIcon::     INCBIN "gfx/icons/creimu_h.2bpp.lz"
+CNueHMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueHMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueHIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueI Mini Icon", ROMX
-CNueIMini::     INCBIN "gfx/minis/creimu_i.2bpp.lz"
-CNueIMiniMask:: INCBIN "gfx/minis/creimu_i_mask.1bpp.lz"
-CNueIIcon::     INCBIN "gfx/icons/creimu_i.2bpp.lz"
+CNueIMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueIMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueIIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueJ Mini Icon", ROMX
-CNueJMini::     INCBIN "gfx/minis/creimu_j.2bpp.lz"
-CNueJMiniMask:: INCBIN "gfx/minis/creimu_j_mask.1bpp.lz"
-CNueJIcon::     INCBIN "gfx/icons/creimu_j.2bpp.lz"
+CNueJMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueJMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueJIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueK Mini Icon", ROMX
-CNueKMini::     INCBIN "gfx/minis/creimu_k.2bpp.lz"
-CNueKMiniMask:: INCBIN "gfx/minis/creimumu_k_mask.1bpp.lz"
-CNueKIcon::     INCBIN "gfx/icons/creimu_k.2bpp.lz"
+CNueKMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueKMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueKIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueL Mini Icon", ROMX
-CNueLMini::     INCBIN "gfx/minis/creimumu_l.2bpp.lz"
-CNueLMiniMask:: INCBIN "gfx/minis/creimumu_l_mask.1bpp.lz"
-CNueLIcon::     INCBIN "gfx/icons/creimumu_l.2bpp.lz"
+CNueLMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueLMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueLIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueM Mini Icon", ROMX
-CNueMMini::     INCBIN "gfx/minis/creimu_m.2bpp.lz"
-CNueMMiniMask:: INCBIN "gfx/minis/creimumumumu_m_mask.1bpp.lz"
-CNueMIcon::     INCBIN "gfx/icons/creimumumu_m.2bpp.lz"
+CNueMMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueMMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueMIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueN Mini Icon", ROMX
-CNueNMini::     INCBIN "gfx/minis/creimumu_n.2bpp.lz"
-CNueNMiniMask:: INCBIN "gfx/minis/creimu_n_mask.1bpp.lz"
-CNueNIcon::     INCBIN "gfx/icons/creimumumumu_n.2bpp.lz"
+CNueNMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueNMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueNIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueO Mini Icon", ROMX
 CNueOMini::     INCBIN "gfx/minis/creimu_o.2bpp.lz"
-CNueOMiniMask:: INCBIN "gfx/minis/creimumu_o_mask.1bpp.lz"
+CNueOMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 CNueOIcon::     INCBIN "gfx/icons/creimu_o.2bpp.lz"
 
 SECTION "CNueP Mini Icon", ROMX
-CNuePMini::     INCBIN "gfx/minis/creimu_p.2bpp.lz"
-CNuePMiniMask:: INCBIN "gfx/minis/creimu_p_mask.1bpp.lz"
-CNuePIcon::     INCBIN "gfx/icons/creimu_p.2bpp.lz"
+CNuePMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNuePMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNuePIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueQ Mini Icon", ROMX
-CNueQMini::     INCBIN "gfx/minis/creimu_q.2bpp.lz"
-CNueQMiniMask:: INCBIN "gfx/minis/creimu_q_mask.1bpp.lz"
-CNueQIcon::     INCBIN "gfx/icons/creimu_q.2bpp.lz"
+CNueQMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueQMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueQIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueR Mini Icon", ROMX
-CNueRMini::     INCBIN "gfx/minis/creimu_r.2bpp.lz"
-CNueRMiniMask:: INCBIN "gfx/minis/creimu_r_mask.1bpp.lz"
-CNueRIcon::     INCBIN "gfx/icons/creimu_r.2bpp.lz"
+CNueRMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueRMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueRIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueS Mini Icon", ROMX
-CNueSMini::     INCBIN "gfx/minis/creimu_s.2bpp.lz"
-CNueSMiniMask:: INCBIN "gfx/minis/creimu_s_mask.1bpp.lz"
-CNueSIcon::     INCBIN "gfx/icons/creimumu_s.2bpp.lz"
+CNueSMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueSMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueSIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueT Mini Icon", ROMX
-CNueTMini::     INCBIN "gfx/minis/creimumu_t.2bpp.lz"
-CNueTMiniMask:: INCBIN "gfx/minis/creimu_t_mask.1bpp.lz"
-CNueTIcon::     INCBIN "gfx/icons/creimumumumumu_t.2bpp.lz"
+CNueTMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueTMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueTIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueU Mini Icon", ROMX
-CNueUMini::     INCBIN "gfx/minis/creimu_u.2bpp.lz"
-CNueUMiniMask:: INCBIN "gfx/minis/creimumumumumumumumu_u_mask.1bpp.lz"
-CNueUIcon::     INCBIN "gfx/icons/creimumumumumumumu_u.2bpp.lz"
+CNueUMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueUMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueUIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueV Mini Icon", ROMX
-CNueVMini::     INCBIN "gfx/minis/creimumumumumumu_v.2bpp.lz"
-CNueVMiniMask:: INCBIN "gfx/minis/creimumumumumu_v_mask.1bpp.lz"
-CNueVIcon::     INCBIN "gfx/icons/creimumumumu_v.2bpp.lz"
+CNueVMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueVMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueVIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueW Mini Icon", ROMX
-CNueWMini::     INCBIN "gfx/minis/creimumu_w.2bpp.lz"
-CNueWMiniMask:: INCBIN "gfx/minis/creimumumumu_w_mask.1bpp.lz"
-CNueWIcon::     INCBIN "gfx/icons/creimu_w.2bpp.lz"
+CNueWMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueWMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueWIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueX Mini Icon", ROMX
-CNueXMini::     INCBIN "gfx/minis/creimu_x.2bpp.lz"
-CNueXMiniMask:: INCBIN "gfx/minis/creimu_x_mask.1bpp.lz"
-CNueXIcon::     INCBIN "gfx/icons/creimu_x.2bpp.lz"
+CNueXMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueXMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueXIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueY Mini Icon", ROMX
-CNueYMini::     INCBIN "gfx/minis/creimu_y.2bpp.lz"
-CNueYMiniMask:: INCBIN "gfx/minis/creimu_y_mask.1bpp.lz"
-CNueYIcon::     INCBIN "gfx/icons/creimu_y.2bpp.lz"
+CNueYMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueYMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueYIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueZ Mini Icon", ROMX
-CNueZMini::     INCBIN "gfx/minis/creimu_z.2bpp.lz"
-CNueZMiniMask:: INCBIN "gfx/minis/creimu_z_mask.1bpp.lz"
-CNueZIcon::     INCBIN "gfx/icons/creimu_z.2bpp.lz"
+CNueZMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueZMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueZIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueExclamation Mini Icon", ROMX
-CNueExclamationMini::     INCBIN "gfx/minis/creimumu_exclamation.2bpp.lz"
-CNueExclamationMiniMask:: INCBIN "gfx/minis/creimumu_exclamation_mask.1bpp.lz"
-CNueExclamationIcon::     INCBIN "gfx/icons/creimumu_exclamation.2bpp.lz"
+CNueExclamationMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueExclamationMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueExclamationIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueQuestion Mini Icon", ROMX
-CNueQuestionMini::     INCBIN "gfx/minis/creimumu_question.2bpp.lz"
-CNueQuestionMiniMask:: INCBIN "gfx/minis/creimu_question_mask.1bpp.lz"
-CNueQuestionIcon::     INCBIN "gfx/icons/creimu_question.2bpp.lz"
+CNueQuestionMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueQuestionMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueQuestionIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CFutoThreeSegment Mini Icon", ROMX
 CFutoThreeSegmentMini::     INCBIN "gfx/minis/placethm_three_segment.2bpp.lz"
