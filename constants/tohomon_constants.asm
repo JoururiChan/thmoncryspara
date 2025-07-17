@@ -298,8 +298,8 @@
 	const KOKORO ; X
 	const CWAKASAGI ; X
 	const WAKASAGI ; X
-	const CSEKIBANKI ; X
-	const SEKIBANKI ; X
+	const CSEKIBAKI ; X
+	const SEKIBAKI ; X
 	const CKAGEROU ; X
 	const KAGEROU ; X
 	const CBENBEN ; X

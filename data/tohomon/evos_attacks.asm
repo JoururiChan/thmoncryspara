@@ -5281,12 +5281,12 @@ WakasagiEvosAttacks:
 	db 1, TACKLE
 	db -1 ; no more level-up moves
 
-CSekibankiEvosAttacks:
+CSekibakiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db -1 ; no more level-up moves
 
-SekibankiEvosAttacks:
+SekibakiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db -1 ; no more level-up moves

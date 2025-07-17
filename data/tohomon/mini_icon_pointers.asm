@@ -278,8 +278,8 @@ MiniIconPointers:
 	mini_icon Kokoro
 	mini_icon CWakasagi
 	mini_icon Wakasagi
-	mini_icon CSekibanki
-	mini_icon Sekibanki
+	mini_icon CSekibaki
+	mini_icon Sekibaki
 	mini_icon CKagerou
 	mini_icon Kagerou
 	mini_icon CBenben

@@ -274,8 +274,8 @@ FootprintPointers::
 	dw KokoroFootprint
 	dw CWakasagiFootprint
 	dw WakasagiFootprint
-	dw CSekibankiFootprint
-	dw SekibankiFootprint
+	dw CSekibakiFootprint
+	dw SekibakiFootprint
 	dw CKagerouFootprint
 	dw KagerouFootprint
 	dw CBenbenFootprint

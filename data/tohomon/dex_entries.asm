@@ -2737,8 +2737,8 @@ WakasagiTohodexEntry::
 	next "E"
 	next "F@"
 
-SECTION "CSekibankiTohodexEntry", ROMX
-CSekibankiTohodexEntry::
+SECTION "CSekibakiTohodexEntry", ROMX
+CSekibakiTohodexEntry::
 	db "Placeholder@"
 	db   "A"
 	next "B"
@@ -2747,8 +2747,8 @@ CSekibankiTohodexEntry::
 	next "E"
 	next "F@"
 
-SECTION "SekibankiTohodexEntry", ROMX
-SekibankiTohodexEntry::
+SECTION "SekibakiTohodexEntry", ROMX
+SekibakiTohodexEntry::
 	db "Placeholder@"
 	db   "A"
 	next "B"

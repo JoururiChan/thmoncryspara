@@ -278,8 +278,8 @@ EvosAttacksPointers::
 	dw KokoroEvosAttacks
 	dw CWakasagiEvosAttacks
 	dw WakasagiEvosAttacks
-	dw CSekibankiEvosAttacks
-	dw SekibankiEvosAttacks
+	dw CSekibakiEvosAttacks
+	dw SekibakiEvosAttacks
 	dw CKagerouEvosAttacks
 	dw KagerouEvosAttacks
 	dw CBenbenEvosAttacks

@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F87_5, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for CREIMU, HAKUREI_MIKO, HAKUREI_MIKO, OWN_TEMPO
+	abilities_for CMAMIZOU, HAKUREI_MIKO, HAKUREI_MIKO, OWN_TEMPO
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_FLYING ; egg groups
 

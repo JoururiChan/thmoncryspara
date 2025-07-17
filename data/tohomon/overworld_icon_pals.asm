@@ -284,43 +284,6 @@ OverworldMonIconColors::
 	iconpal RED, ORANGE ; X
 	iconpal RED, ORANGE ; X
 	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
 	assert_table_length NUM_SPECIES
 
 rept NUM_HINA - 1

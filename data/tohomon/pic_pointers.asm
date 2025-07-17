@@ -278,8 +278,8 @@ TohomonPicPointers::
 	pics Kokoro
 	pics CWakasagi
 	pics Wakasagi
-	pics CSekibanki
-	pics Sekibanki
+	pics CSekibaki
+	pics Sekibaki
 	pics CKagerou
 	pics Kagerou
 	pics CBenben

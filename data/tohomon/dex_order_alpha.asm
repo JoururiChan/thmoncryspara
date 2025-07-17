@@ -274,8 +274,8 @@ AlphabeticalTohodexOrder:
 	dp KOKORO ; X
 	dp CWAKASAGI ; X
 	dp WAKASAGI ; X
-	dp CSEKIBANKI ; X
-	dp SEKIBANKI ; X
+	dp CSEKIBAKI ; X
+	dp SEKIBAKI ; X
 	dp CKAGEROU ; X
 	dp KAGEROU ; X
 	dp CBENBEN ; X

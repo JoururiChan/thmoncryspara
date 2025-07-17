@@ -275,8 +275,8 @@ TohodexDataPointerTable:
 	dba KokoroTohodexEntry
 	dba CWakasagiTohodexEntry
 	dba WakasagiTohodexEntry
-	dba CSekibankiTohodexEntry
-	dba SekibankiTohodexEntry
+	dba CSekibakiTohodexEntry
+	dba SekibakiTohodexEntry
 	dba CKagerouTohodexEntry
 	dba KagerouTohodexEntry
 	dba CBenbenTohodexEntry

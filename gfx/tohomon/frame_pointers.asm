@@ -274,8 +274,8 @@ FramesPointers:
 	dw KokoroFrames
 	dw CWakasagiFrames
 	dw WakasagiFrames
-	dw CSekibankiFrames
-	dw SekibankiFrames
+	dw CSekibakiFrames
+	dw SekibakiFrames
 	dw CKagerouFrames
 	dw KagerouFrames
 	dw CBenbenFrames

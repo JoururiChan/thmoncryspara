@@ -274,8 +274,8 @@ AnimationExtraPointers:
 	dw KokoroAnimationExtra
 	dw CWakasagiAnimationExtra
 	dw WakasagiAnimationExtra
-	dw CSekibankiAnimationExtra
-	dw SekibankiAnimationExtra
+	dw CSekibakiAnimationExtra
+	dw SekibakiAnimationExtra
 	dw CKagerouAnimationExtra
 	dw KagerouAnimationExtra
 	dw CBenbenAnimationExtra

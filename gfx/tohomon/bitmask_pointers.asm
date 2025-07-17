@@ -274,8 +274,8 @@ BitmasksPointers:
 	dw KokoroBitmasks
 	dw CWakasagiBitmasks
 	dw WakasagiBitmasks
-	dw CSekibankiBitmasks
-	dw SekibankiBitmasks
+	dw CSekibakiBitmasks
+	dw SekibakiBitmasks
 	dw CKagerouBitmasks
 	dw KagerouBitmasks
 	dw CBenbenBitmasks

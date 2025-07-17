@@ -1231,13 +1231,13 @@ SECTION "Wakasagi Pics", ROMX
 WakasagiFrontpic: INCBIN "gfx/tohomon/wakasagi/front.animated.2bpp.lz"
 WakasagiBackpic:  INCBIN "gfx/tohomon/wakasagi/back.2bpp.lz"
 
-SECTION "CSekibanki Pics", ROMX
-CSekibankiFrontpic: INCBIN "gfx/tohomon/csekibanki/front.animated.2bpp.lz"
-CSekibankiBackpic:  INCBIN "gfx/tohomon/csekibanki/back.2bpp.lz"
+SECTION "CSekibaki Pics", ROMX
+CSekibakiFrontpic: INCBIN "gfx/tohomon/csekibanki/front.animated.2bpp.lz"
+CSekibakiBackpic:  INCBIN "gfx/tohomon/csekibanki/back.2bpp.lz"
 
-SECTION "Sekibanki Pics", ROMX
-SekibankiFrontpic: INCBIN "gfx/tohomon/sekibanki/front.animated.2bpp.lz"
-SekibankiBackpic:  INCBIN "gfx/tohomon/sekibanki/back.2bpp.lz"
+SECTION "Sekibaki Pics", ROMX
+SekibakiFrontpic: INCBIN "gfx/tohomon/sekibanki/front.animated.2bpp.lz"
+SekibakiBackpic:  INCBIN "gfx/tohomon/sekibanki/back.2bpp.lz"
 
 SECTION "CKagerou Pics", ROMX
 CKagerouFrontpic: INCBIN "gfx/tohomon/ckagerou/front.animated.2bpp.lz"

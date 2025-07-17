@@ -1366,15 +1366,15 @@ WakasagiMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
 WakasagiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 WakasagiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
-SECTION "CSekibanki Mini Icon", ROMX
-CSekibankiMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
-CSekibankiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
-CSekibankiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+SECTION "CSekibaki Mini Icon", ROMX
+CSekibakiMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CSekibakiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CSekibakiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
-SECTION "Sekibanki Mini Icon", ROMX
-SekibankiMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
-SekibankiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
-SekibankiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+SECTION "Sekibaki Mini Icon", ROMX
+SekibakiMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+SekibakiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+SekibakiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CKagerou Mini Icon", ROMX
 CKagerouMini::     INCBIN "gfx/minis/creimu.2bpp.lz"

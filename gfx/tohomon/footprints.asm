@@ -275,8 +275,8 @@ CKokoroFootprint::
 KokoroFootprint:: 
 CWakasagiFootprint:: 
 WakasagiFootprint::
-CSekibankiFootprint:: 
-SekibankiFootprint:: 
+CSekibakiFootprint:: 
+SekibakiFootprint:: 
 CKagerouFootprint:: 
 KagerouFootprint:: 
 CBenbenFootprint::

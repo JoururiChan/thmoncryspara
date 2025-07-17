@@ -275,6 +275,28 @@ TohomonBodyData:
 	body_data  32, 1600, QUADRUPED,    YELLOW ; MIKO
 	body_data  18, 2230, QUADRUPED,    BROWN  ; FUTO
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; CMIKO
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; SLILYBLACK (SLILYBLACK_RED_FORM)
