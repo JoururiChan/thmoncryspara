@@ -1457,7 +1457,7 @@ SumirekoMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 SumirekoIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueB Mini Icon", ROMX
-CNueBMini::     INCBIN "gfx/minis/creimu_b.2bpp.lz"
+CNueBMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
 CNueBMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 CNueBIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
