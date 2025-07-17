@@ -18,7 +18,7 @@ VarActionTable:
 	dw Var_DayOfWeek ; execute
 	dw wMapGroup in_stringbuffer2
 	dw wMapNumber in_stringbuffer2
-	dw Var_HinaCaught ; execute
+	dw Var_CNueCaught ; execute
 	dw wEnvironment in_stringbuffer2
 	dw Var_BoxFreeSpace ; execute
 	dw wBugContestMinsRemaining in_stringbuffer2
@@ -74,13 +74,13 @@ Var_DayOfWeek:
 	call GetWeekday
 	jr _Var_loadstringbuffer2
 
-Var_HinaCaught:
+Var_CNueCaught:
 	push hl
 	push de
 	push bc
 
-	assert !HIGH(HINA)
-	lb bc, NUM_HINA, HINA
+	assert !HIGH(CNUE)
+	lb bc, NUM_CNUE, CNUE
 	ld d, 0
 .loop
 	push de

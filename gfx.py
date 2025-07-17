@@ -39,8 +39,8 @@ def get_tohomon_dimensions(name):
 			return 5, 5
 		if name == 'questionmark':
 			return 7, 7
-		if name.startswith('hina_'):
-			name = 'hina'
+		if name.startswith('cnue_'):
+			name = 'cnue'
 		base_stats = get_base_stats()
 		start = base_stats.find('\tdb ' + name.upper())
 		start = base_stats.find('\tdn ', start)
@@ -67,10 +67,10 @@ def filepath_rules(filepath):
 
 	if 'gfx/tohomon/' in filedir:
 		tohomon_name = filedir.split('/')[-1]
-		if tohomon_name.startswith('hina_'):
+		if tohomon_name.startswith('cnue_'):
 			index = filedir.find(tohomon_name)
 			if index != -1:
-				filedir = filedir[:index + len('hina')] + filedir[index + len('hina_a'):]
+				filedir = filedir[:index + len('cnue')] + filedir[index + len('cnue_a'):]
 		if name == 'front':
 			args['pal_file'] = os.path.join(filedir, 'normal.pal')
 			args['pic'] = True

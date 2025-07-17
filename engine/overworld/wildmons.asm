@@ -373,20 +373,20 @@ _ChooseWildEncounter:
 	pop hl
 
 	push af
-	cp HINA
-	jr nz, .hina_check_done
+	cp CNUE
+	jr nz, .cnue_check_done
 
-	; verify that it is actually hina
+	; verify that it is actually cnue
 	bit MON_EXTSPECIES_F, b
-	jr nz, .hina_check_done
+	jr nz, .cnue_check_done
 
-	ld a, [wUnlockedHinas]
+	ld a, [wUnlockedCNues]
 	and a
-	jr nz, .hina_check_done
+	jr nz, .cnue_check_done
 	pop af
 	jr .nowildbattle
 
-.hina_check_done
+.cnue_check_done
 	pop af
 
 	; Check if we're forcing type

@@ -3,33 +3,33 @@
 
 CosmeticSpeciesAndFormTable:
 	table_width 2
-	dp HINA,      HINA_B_FORM
-	dp HINA,      HINA_C_FORM
-	dp HINA,      HINA_D_FORM
-	dp HINA,      HINA_E_FORM
-	dp HINA,      HINA_F_FORM
-	dp HINA,      HINA_G_FORM
-	dp HINA,      HINA_H_FORM
-	dp HINA,      HINA_I_FORM
-	dp HINA,      HINA_J_FORM
-	dp HINA,      HINA_K_FORM
-	dp HINA,      HINA_L_FORM
-	dp HINA,      HINA_M_FORM
-	dp HINA,      HINA_N_FORM
-	dp HINA,      HINA_O_FORM
-	dp HINA,      HINA_P_FORM
-	dp HINA,      HINA_Q_FORM
-	dp HINA,      HINA_R_FORM
-	dp HINA,      HINA_S_FORM
-	dp HINA,      HINA_T_FORM
-	dp HINA,      HINA_U_FORM
-	dp HINA,      HINA_V_FORM
-	dp HINA,      HINA_W_FORM
-	dp HINA,      HINA_X_FORM
-	dp HINA,      HINA_Y_FORM
-	dp HINA,      HINA_Z_FORM
-	dp HINA,      HINA_EXCLAMATION_FORM
-	dp HINA,      HINA_QUESTION_FORM
+	dp CNUE,      CNUE_B_FORM
+	dp CNUE,      CNUE_C_FORM
+	dp CNUE,      CNUE_D_FORM
+	dp CNUE,      CNUE_E_FORM
+	dp CNUE,      CNUE_F_FORM
+	dp CNUE,      CNUE_G_FORM
+	dp CNUE,      CNUE_H_FORM
+	dp CNUE,      CNUE_I_FORM
+	dp CNUE,      CNUE_J_FORM
+	dp CNUE,      CNUE_K_FORM
+	dp CNUE,      CNUE_L_FORM
+	dp CNUE,      CNUE_M_FORM
+	dp CNUE,      CNUE_N_FORM
+	dp CNUE,      CNUE_O_FORM
+	dp CNUE,      CNUE_P_FORM
+	dp CNUE,      CNUE_Q_FORM
+	dp CNUE,      CNUE_R_FORM
+	dp CNUE,      CNUE_S_FORM
+	dp CNUE,      CNUE_T_FORM
+	dp CNUE,      CNUE_U_FORM
+	dp CNUE,      CNUE_V_FORM
+	dp CNUE,      CNUE_W_FORM
+	dp CNUE,      CNUE_X_FORM
+	dp CNUE,      CNUE_Y_FORM
+	dp CNUE,      CNUE_Z_FORM
+	dp CNUE,      CNUE_EXCLAMATION_FORM
+	dp CNUE,      CNUE_QUESTION_FORM
 	dp KIKURI,      KIKURI_KANTO_FORM
 	dp KIKURI,      KIKURI_KOGA_FORM
 	dp KIKURI,      KIKURI_AGATHA_FORM

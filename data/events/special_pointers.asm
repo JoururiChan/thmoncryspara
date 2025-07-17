@@ -42,7 +42,7 @@ SpecialsPointers::
 	add_special Special_SetDayOfWeek
 	add_special Special_TownMap
 	add_special MapRadio
-	add_special Special_HinaPuzzle
+	add_special Special_CNuePuzzle
 	add_special Special_SlotMachine
 	add_special Special_CardFlip
 ;	add_special Special_UnusedMemoryGame
@@ -108,7 +108,7 @@ SpecialsPointers::
 	add_special SoftReset
 	add_special Special_MoveTutor
 	add_special SpecialLunasaChamber
-	add_special Special_DisplayHinaWords
+	add_special Special_DisplayCNueWords
 	add_special SpecialCIchirinChamber
 	add_special Special_IchirinShrineEvent
 	add_special CheckBattleCaughtResult

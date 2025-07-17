@@ -177,7 +177,7 @@ BitmasksPointers:
 	dw MinorikoBitmasks
 	dw HMinorikoBitmasks
 	dw CHinaBitmasks
-	dw HinaABitmasks
+	dw CNueABitmasks
 	dw AHinaBitmasks
 	dw CNitoriBitmasks
 	dw NitoriBitmasks
@@ -240,7 +240,7 @@ BitmasksPointers:
 	dw CByakurenBitmasks
 	dw ByakurenBitmasks
 	dw TByakurenBitmasks
-	dw CNueBitmasks
+	dw HinaBitmasks
 	dw NueBitmasks
 	dw SNueBitmasks
 	dw CHatateBitmasks
@@ -294,33 +294,33 @@ BitmasksPointers:
 	dw SumirekoBitmasks
 	assert_table_length NUM_SPECIES
 
-	dw HinaBBitmasks
-	dw HinaCBitmasks
-	dw HinaDBitmasks
-	dw HinaEBitmasks
-	dw HinaFBitmasks
-	dw HinaGBitmasks
-	dw HinaHBitmasks
-	dw HinaIBitmasks
-	dw HinaJBitmasks
-	dw HinaKBitmasks
-	dw HinaLBitmasks
-	dw HinaMBitmasks
-	dw HinaNBitmasks
-	dw HinaOBitmasks
-	dw HinaPBitmasks
-	dw HinaQBitmasks
-	dw HinaRBitmasks
-	dw HinaSBitmasks
-	dw HinaTBitmasks
-	dw HinaUBitmasks
-	dw HinaVBitmasks
-	dw HinaWBitmasks
-	dw HinaXBitmasks
-	dw HinaYBitmasks
-	dw HinaZBitmasks
-	dw HinaExclamationBitmasks
-	dw HinaQuestionBitmasks
+	dw CNueBBitmasks
+	dw CNueCBitmasks
+	dw CNueDBitmasks
+	dw CNueEBitmasks
+	dw CNueFBitmasks
+	dw CNueGBitmasks
+	dw CNueHBitmasks
+	dw CNueIBitmasks
+	dw CNueJBitmasks
+	dw CNueKBitmasks
+	dw CNueLBitmasks
+	dw CNueMBitmasks
+	dw CNueNBitmasks
+	dw CNueOBitmasks
+	dw CNuePBitmasks
+	dw CNueQBitmasks
+	dw CNueRBitmasks
+	dw CNueSBitmasks
+	dw CNueTBitmasks
+	dw CNueUBitmasks
+	dw CNueVBitmasks
+	dw CNueWBitmasks
+	dw CNueXBitmasks
+	dw CNueYBitmasks
+	dw CNueZBitmasks
+	dw CNueExclamationBitmasks
+	dw CNueQuestionBitmasks
 
 	dw KikuriKantoBitmasks
 	dw KikuriKogaBitmasks

@@ -192,9 +192,9 @@
 ; new to Crystal
 	const SFX_GLASS_TING                  ; bc
 	const SFX_GLASS_TING_2                ; bd
-	const SFX_INTRO_HINA_1               ; be
-	const SFX_INTRO_HINA_2               ; bf
-	const SFX_INTRO_HINA_3               ; c0
+	const SFX_INTRO_CNUE_1               ; be
+	const SFX_INTRO_CNUE_2               ; bf
+	const SFX_INTRO_CNUE_3               ; c0
 	const SFX_LYRICA_POP_UP                ; c1
 	const SFX_LYRICA_RECOLLECT             ; c2
 	const SFX_INTRO_NAZRIN_1             ; c3

@@ -231,7 +231,7 @@ ScriptCommandTable:
 	dw Script_gettmhmname                ; ac
 	dw Script_checkdarkness              ; ad
 	dw Script_checkunits                 ; ae
-	dw Script_hinatypeface              ; af
+	dw Script_cnuetypeface              ; af
 	dw Script_restoretypeface            ; b0
 	dw Script_jumpstashedtext            ; b1
 	dw Script_jumpopenedtext             ; b2
@@ -2480,11 +2480,11 @@ Script_checkunits:
 	ldh [hScriptVar], a
 	ret
 
-Script_hinatypeface:
+Script_cnuetypeface:
 	ld a, [wOptions2]
 	ld [wOptionsBuffer], a
 	and ~FONT_MASK
-	or HINA_FONT
+	or CNUE_FONT
 	ld [wOptions2], a
 	jmp LoadStandardFont
 

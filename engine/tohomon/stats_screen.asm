@@ -904,13 +904,13 @@ StatsScreen_PlaceFrontpic:
 	set 5, [hl]
 	hlcoord 0, 0
 	ld a, [wCurPartySpecies]
-	cp HINA
+	cp CNUE
 	jmp z, PrepMonFrontpicFlipped
 	jmp PrepMonFrontpic
 
 .Animate:
 	ld a, [wCurPartySpecies]
-	sub HINA
+	sub CNUE
 	jr z, .got_align
 	ld a, TRUE
 .got_align

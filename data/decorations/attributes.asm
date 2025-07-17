@@ -59,7 +59,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,     LYRICA,             SET_UP_DOLL,        EVENT_DECO_LYRICA_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CDAICHAN,           SET_UP_DOLL,        EVENT_DECO_CDAICHAN_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     ELLY,              SET_UP_DOLL,        EVENT_DECO_ELLY_DOLL,               SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     HINA,             SET_UP_DOLL,        EVENT_DECO_HINA_DOLL,              SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     CNUE,             SET_UP_DOLL,        EVENT_DECO_CNUE_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CSARA,           SET_UP_DOLL,        EVENT_DECO_CSARA_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     NITORI,            SET_UP_DOLL,        EVENT_DECO_NITORI_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     AYA,            SET_UP_DOLL,        EVENT_DECO_AYA_DOLL,             SPRITE_MON_DOLL_1

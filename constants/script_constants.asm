@@ -57,7 +57,7 @@ DEF STRING_BUFFER_LENGTH EQU 19
 	const VAR_WEEKDAY          ; 09
 	const VAR_MAPGROUP         ; 0a
 	const VAR_MAPNUMBER        ; 0b
-	const VAR_HINACOUNT       ; 0c
+	const VAR_CNUECOUNT       ; 0c
 	const VAR_ENVIRONMENT      ; 0d
 	const VAR_BOXSPACE         ; 0e
 	const VAR_CONTESTMINUTES   ; 0f
@@ -317,22 +317,22 @@ DEF BUG_CONTESTANT_SIZE EQU 4
 	const HEALMACHINE_ELMS_LAB     ; 1
 	const HEALMACHINE_HALL_OF_FAME ; 2
 
-; HinaPuzzle setval arguments
-; LoadHinaPuzzlePiecesGFX.LZPointers indexes (see engine/games/hina_puzzle.asm)
+; CNuePuzzle setval arguments
+; LoadCNuePuzzlePiecesGFX.LZPointers indexes (see engine/games/cnue_puzzle.asm)
 	const_def
-	const HINAPUZZLE_LUNASA     ; 0
-	const HINAPUZZLE_CYUYUKO    ; 1
-	const HINAPUZZLE_AYUYUKO ; 2
-	const HINAPUZZLE_CICHIRIN      ; 3
-DEF NUM_HINA_PUZZLES EQU const_value
+	const CNUEPUZZLE_LUNASA     ; 0
+	const CNUEPUZZLE_CYUYUKO    ; 1
+	const CNUEPUZZLE_AYUYUKO ; 2
+	const CNUEPUZZLE_CICHIRIN      ; 3
+DEF NUM_CNUE_PUZZLES EQU const_value
 
-; DisplayHinaWords setval arguments
-; HinaWalls and MenuHeaders_HinaWalls indexes (see data/events/hina_walls.asm)
+; DisplayCNueWords setval arguments
+; CNueWalls and MenuHeaders_CNueWalls indexes (see data/events/cnue_walls.asm)
 	const_def
-	const HINAWORDS_ESCAPE ; 0
-	const HINAWORDS_LIGHT  ; 1
-	const HINAWORDS_WATER  ; 2
-	const HINAWORDS_CICHIRIN  ; 3
+	const CNUEWORDS_ESCAPE ; 0
+	const CNUEWORDS_LIGHT  ; 1
+	const CNUEWORDS_WATER  ; 2
+	const CNUEWORDS_CICHIRIN  ; 3
 
 ; paintingpic arguments
 ; PaintingPicPointers indexes (see data/events/paintings/pic_pointers.asm)

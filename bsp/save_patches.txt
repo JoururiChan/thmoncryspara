@@ -345,8 +345,8 @@ ConvertMonIndexesTo9Bit:
 	set #r1, .mon_forms
 
 ; First, we need to shift existing caught flags into their new indexes,
-; then we need to shift caught data/hina dex forward to account for the bigger seen flag array
-; (we've already converted hina dex to a flag array, so we have a buffer to work with).
+; then we need to shift caught data/cnue dex forward to account for the bigger seen flag array
+; (we've already converted cnue dex to a flag array, so we have a buffer to work with).
 ; We'll handle caught data for forms later.
 	set #1, TOHODEX_CAUGHT_OFFSET
 	call GetGameDataPointer
@@ -358,12 +358,12 @@ ConvertMonIndexesTo9Bit:
 	pos #3 ; file pointer is at tohodex seen
 	set #4, #result
 
-; Since Hina data is becoming part of the main seen/caught array, wHinaDex must be converted
+; Since CNue data is becoming part of the main seen/caught array, wCNueDex must be converted
 ; to the appropriate flags. Flags will be written to the caught array and copied later to the seen array
-; Miraculously, Hina flags in 9bit are one byte shy from interfering with seen flags in their current location,
+; Miraculously, CNue flags in 9bit are one byte shy from interfering with seen flags in their current location,
 ; so no extra shifting is necessary
 
-; First, Hina A data is cleared in seen and caught arrays (note that it's index $c6, we haven't modified indexes to 9bit yet)
+; First, CNue A data is cleared in seen and caught arrays (note that it's index $c6, we haven't modified indexes to 9bit yet)
 	set #1, 0xc5
 	set #2, #zero
 	push #1
@@ -373,31 +373,31 @@ ConvertMonIndexesTo9Bit:
 	seek #4
 	call FlagAction
 
-	set #1, HINA_DEX_OFFSET_v7
+	set #1, CNUE_DEX_OFFSET_v7
 	call GetGameDataPointer
-; Next, go to wHinaDex and convert the index to a flag in the wCaughtMon array
+; Next, go to wCNueDex and convert the index to a flag in the wCaughtMon array
 	seek #result
 	set #2, 1
 	set #length, 28
-.hina_loop
+.cnue_loop
 	getfilebyte #1
 	writebyte #zero
-	jumpz #1, .hina_loop_skip
-	add #1, 0x121 ; NUM_SPECIES + hina form - 2 (wTohodexCaught is 1-indexed, first variant Hina is form 2)
+	jumpz #1, .cnue_loop_skip
+	add #1, 0x121 ; NUM_SPECIES + cnue form - 2 (wTohodexCaught is 1-indexed, first variant CNue is form 2)
 	pushpos
-	ifgt #1, 0x122, .hina_loop_cont
+	ifgt #1, 0x122, .cnue_loop_cont
 	set #1, 0xc5 ; special case for form A, since it is not a variant
-	seek #3 ; hina form A gets set in seen array as well, just easier this way
+	seek #3 ; cnue form A gets set in seen array as well, just easier this way
 	push #1
 	call FlagAction
 	pop #1
-.hina_loop_cont
+.cnue_loop_cont
 	seek #4
 	call FlagAction
 	poppos
-.hina_loop_skip
+.cnue_loop_skip
 	decrement #length
-	jumpnz #length, .hina_loop
+	jumpnz #length, .cnue_loop
 
 	set #1, 32
 	set #2, 10
@@ -407,11 +407,11 @@ ConvertMonIndexesTo9Bit:
 	seek #3
 	fillbyte #2, #zero
 
-	set #1, HINA_CAUGHT_OFFSET
-	call GetGameDataPointer ; copy caught hina flags to seen hina flags
+	set #1, CNUE_CAUGHT_OFFSET
+	call GetGameDataPointer ; copy caught cnue flags to seen cnue flags
 	set #1, #result
 	add #2, #1, 50
-	set #3, 5 ; hina variant flags cover bit 7 of byte 0 to bit 2 of byte 5 (no other bits are set)
+	set #3, 5 ; cnue variant flags cover bit 7 of byte 0 to bit 2 of byte 5 (no other bits are set)
 	call CopyFrom1To2
 
 ; modify tohodex flags

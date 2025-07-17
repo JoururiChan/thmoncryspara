@@ -154,10 +154,10 @@ MapRadio:
 	ld e, a
 	farjp PlayRadio
 
-Special_HinaPuzzle:
+Special_CNuePuzzle:
 	call FadeToMenu_BackupSprites
-	farcall HinaPuzzle
-	ld a, [wSolvedHinaPuzzle]
+	farcall CNuePuzzle
+	ld a, [wSolvedCNuePuzzle]
 	ldh [hScriptVar], a
 	jmp ExitAllMenus
 

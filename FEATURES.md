@@ -91,7 +91,7 @@ These are *some* of the new features as of 2.2.0. Some would be spoilers.
 
 * Team Rocket has another plan to thwart.
 * Random Wonder Trades in the Goldenrod TohoCom Center, including random held items and original trainers.
-* Catching all 26 Hina is worthwhile…
+* Catching all 26 CNue is worthwhile…
 * Move Reminder in the same house as the Move Deleter. (Code borrowed from TPP Anniversary Crystal, thanks to its developers graciously making [their source code](https://github.com/TwitchPlaysTohomon/tppcrystal251pub/) public.)
 * 21 move tutors throughout Johto and Kanto.
 * Falkner is in Dark Cave, encouraging you to beat Autumn Tower first.
@@ -210,7 +210,7 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * New music ported from RBY and devamped from future generations.
 * Unique mini sprites for each Tohomon (thanks to [this patch](http://www.pokecommunity.com/showthread.php?t=338470)).
 * Revised some shiny palettes (CSuika is blue like Dragonair, Nidoqueen is pink like Nidoking, Scizor is silver, Espeon is sky blue, Electabuzz is red, etc).
-* Hina isn't the only Tohomon with variant forms…
+* CNue isn't the only Tohomon with variant forms…
 * Color-coded starter Toho Balls.
 * Item balls for TMs are blue (inspired by Gen VI's yellow).
 * Surfing on Kikuri uses the minigame music from Yellow version.

@@ -181,7 +181,7 @@ TohomonPicPointers::
 	pics Minoriko
 	pics HMinoriko
 	pics CHina
-	pics HinaA
+	pics CNueA
 	pics AHina
 	pics CNitori
 	pics Nitori
@@ -244,7 +244,7 @@ TohomonPicPointers::
 	pics CByakuren
 	pics Byakuren
 	pics TByakuren
-	pics CNue
+	pics Hina
 	pics Nue
 	pics SNue
 	pics CHatate
@@ -298,33 +298,33 @@ TohomonPicPointers::
 	pics Sumireko
 	assert_table_length NUM_SPECIES
 
-	pics HinaB
-	pics HinaC
-	pics HinaD
-	pics HinaE
-	pics HinaF
-	pics HinaG
-	pics HinaH
-	pics HinaI
-	pics HinaJ
-	pics HinaK
-	pics HinaL
-	pics HinaM
-	pics HinaN
-	pics HinaO
-	pics HinaP
-	pics HinaQ
-	pics HinaR
-	pics HinaS
-	pics HinaT
-	pics HinaU
-	pics HinaV
-	pics HinaW
-	pics HinaX
-	pics HinaY
-	pics HinaZ
-	pics HinaExclamation
-	pics HinaQuestion
+	pics CNueB
+	pics CNueC
+	pics CNueD
+	pics CNueE
+	pics CNueF
+	pics CNueG
+	pics CNueH
+	pics CNueI
+	pics CNueJ
+	pics CNueK
+	pics CNueL
+	pics CNueM
+	pics CNueN
+	pics CNueO
+	pics CNueP
+	pics CNueQ
+	pics CNueR
+	pics CNueS
+	pics CNueT
+	pics CNueU
+	pics CNueV
+	pics CNueW
+	pics CNueX
+	pics CNueY
+	pics CNueZ
+	pics CNueExclamation
+	pics CNueQuestion
 
 	pics KikuriKanto
 	pics KikuriKoga

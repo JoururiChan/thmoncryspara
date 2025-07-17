@@ -15,20 +15,20 @@ RuinsOfAlphSinjohChamber_MapScriptHeader:
 	bg_event  6,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
 
 	def_object_events
-	object_event  3,  1, SPRITE_WII, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MYSTRI_HINA_W
-	object_event  7,  1, SPRITE_GAMECUBE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MYSTRI_HINA_A
-	object_event  3,  5, SPRITE_GOLD_TROPHY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MYSTRI_HINA_R
-	object_event  7,  5, SPRITE_SILVER_TROPHY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MYSTRI_HINA_P
+	object_event  3,  1, SPRITE_WII, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MYSTRI_CNUE_W
+	object_event  7,  1, SPRITE_GAMECUBE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MYSTRI_CNUE_A
+	object_event  3,  5, SPRITE_GOLD_TROPHY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MYSTRI_CNUE_R
+	object_event  7,  5, SPRITE_SILVER_TROPHY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MYSTRI_CNUE_P
 
 	object_const_def
-	const RUINSOFALPHSINJOHCHAMBER_HINA_W
-	const RUINSOFALPHSINJOHCHAMBER_HINA_A
-	const RUINSOFALPHSINJOHCHAMBER_HINA_R
-	const RUINSOFALPHSINJOHCHAMBER_HINA_P
+	const RUINSOFALPHSINJOHCHAMBER_CNUE_W
+	const RUINSOFALPHSINJOHCHAMBER_CNUE_A
+	const RUINSOFALPHSINJOHCHAMBER_CNUE_R
+	const RUINSOFALPHSINJOHCHAMBER_CNUE_P
 
 RuinsofAlphSinjohChamberSignpost:
 	opentext
-	hinatypeface
+	cnuetypeface
 	writetext RuinsofAlphSinjohChamberMystriText
 	waitbutton
 	closetext
@@ -36,38 +36,38 @@ RuinsofAlphSinjohChamberSignpost:
 	showtext RuinsofAlphSinjohChamberSurpriseText
 	special Special_FadeOutMusic
 	pause 30
-	playsound SFX_INTRO_HINA_3
-	appear RUINSOFALPHSINJOHCHAMBER_HINA_W
-	turnobject RUINSOFALPHSINJOHCHAMBER_HINA_W, LEFT
+	playsound SFX_INTRO_CNUE_3
+	appear RUINSOFALPHSINJOHCHAMBER_CNUE_W
+	turnobject RUINSOFALPHSINJOHCHAMBER_CNUE_W, LEFT
 	waitsfx
 	pause 7
-	playsound SFX_INTRO_HINA_2
-	appear RUINSOFALPHSINJOHCHAMBER_HINA_A
-	turnobject RUINSOFALPHSINJOHCHAMBER_HINA_A, LEFT
+	playsound SFX_INTRO_CNUE_2
+	appear RUINSOFALPHSINJOHCHAMBER_CNUE_A
+	turnobject RUINSOFALPHSINJOHCHAMBER_CNUE_A, LEFT
 	waitsfx
 	pause 7
-	playsound SFX_INTRO_HINA_1
-	appear RUINSOFALPHSINJOHCHAMBER_HINA_R
-	turnobject RUINSOFALPHSINJOHCHAMBER_HINA_R, LEFT
+	playsound SFX_INTRO_CNUE_1
+	appear RUINSOFALPHSINJOHCHAMBER_CNUE_R
+	turnobject RUINSOFALPHSINJOHCHAMBER_CNUE_R, LEFT
 	waitsfx
 	pause 7
-	playsound SFX_INTRO_HINA_2
-	appear RUINSOFALPHSINJOHCHAMBER_HINA_P
-	turnobject RUINSOFALPHSINJOHCHAMBER_HINA_P, LEFT
+	playsound SFX_INTRO_CNUE_2
+	appear RUINSOFALPHSINJOHCHAMBER_CNUE_P
+	turnobject RUINSOFALPHSINJOHCHAMBER_CNUE_P, LEFT
 	waitsfx
 	pause 7
 	; Call assembly so the fourth sound will play
-	callasm .PlayHinaSound3 ; playsound SFX_INTRO_HINA_3
-	turnobject RUINSOFALPHSINJOHCHAMBER_HINA_W, UP
+	callasm .PlayCNueSound3 ; playsound SFX_INTRO_CNUE_3
+	turnobject RUINSOFALPHSINJOHCHAMBER_CNUE_W, UP
 	pause 10
-	callasm .PlayHinaSound2 ; playsound SFX_INTRO_HINA_2
-	turnobject RUINSOFALPHSINJOHCHAMBER_HINA_A, UP
+	callasm .PlayCNueSound2 ; playsound SFX_INTRO_CNUE_2
+	turnobject RUINSOFALPHSINJOHCHAMBER_CNUE_A, UP
 	pause 10
-	callasm .PlayHinaSound1 ; playsound SFX_INTRO_HINA_1
-	turnobject RUINSOFALPHSINJOHCHAMBER_HINA_R, UP
+	callasm .PlayCNueSound1 ; playsound SFX_INTRO_CNUE_1
+	turnobject RUINSOFALPHSINJOHCHAMBER_CNUE_R, UP
 	pause 10
-	callasm .PlayHinaSound2 ; playsound SFX_INTRO_HINA_2
-	turnobject RUINSOFALPHSINJOHCHAMBER_HINA_P, UP
+	callasm .PlayCNueSound2 ; playsound SFX_INTRO_CNUE_2
+	turnobject RUINSOFALPHSINJOHCHAMBER_CNUE_P, UP
 	waitsfx
 	pause 30
 	showemote EMOTE_SHOCK, PLAYER, 15
@@ -75,10 +75,10 @@ RuinsofAlphSinjohChamberSignpost:
 	applymovement PLAYER, MovementData_WarpToSinjohRuins
 	waitsfx
 	special FadeOutPalettes
-	disappear RUINSOFALPHSINJOHCHAMBER_HINA_W
-	disappear RUINSOFALPHSINJOHCHAMBER_HINA_A
-	disappear RUINSOFALPHSINJOHCHAMBER_HINA_R
-	disappear RUINSOFALPHSINJOHCHAMBER_HINA_P
+	disappear RUINSOFALPHSINJOHCHAMBER_CNUE_W
+	disappear RUINSOFALPHSINJOHCHAMBER_CNUE_A
+	disappear RUINSOFALPHSINJOHCHAMBER_CNUE_R
+	disappear RUINSOFALPHSINJOHCHAMBER_CNUE_P
 	checkevent EVENT_LISTENED_TO_CYNTHIA_INTRO
 	iftruefwd .HeardIntro
 	setmapscene MYSTRI_STAGE, $1
@@ -88,19 +88,19 @@ RuinsofAlphSinjohChamberSignpost:
 	warp MYSTRI_STAGE, 6, 15
 	end
 
-.PlayHinaSound1:
+.PlayCNueSound1:
 	call SFXChannelsOff
-	ld de, SFX_INTRO_HINA_1
+	ld de, SFX_INTRO_CNUE_1
 	jmp PlaySFX
 
-.PlayHinaSound2:
+.PlayCNueSound2:
 	call SFXChannelsOff
-	ld de, SFX_INTRO_HINA_2
+	ld de, SFX_INTRO_CNUE_2
 	jmp PlaySFX
 
-.PlayHinaSound3:
+.PlayCNueSound3:
 	call SFXChannelsOff
-	ld de, SFX_INTRO_HINA_3
+	ld de, SFX_INTRO_CNUE_3
 	jmp PlaySFX
 
 MovementData_WarpToSinjohRuins:

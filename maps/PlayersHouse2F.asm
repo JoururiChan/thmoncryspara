@@ -63,7 +63,7 @@ if DEF(DEBUG)
 	setflag ENGINE_EXPN_CARD
 	; tohodex
 	setflag ENGINE_TOHODEX
-;	setflag ENGINE_HINA_DEX
+;	setflag ENGINE_CNUE_DEX
 	; judge machine
 	setflag ENGINE_JUDGE_MACHINE
 	; all key items

@@ -544,9 +544,9 @@ TinTower1FSage6Text2:
 	line "also be a link to"
 
 	para "#mon known as"
-	line "Hina."
+	line "CNue."
 
-	para "The #mon Hina"
+	para "The #mon CNue"
 	line "must be sharing a"
 
 	para "cooperative bond"

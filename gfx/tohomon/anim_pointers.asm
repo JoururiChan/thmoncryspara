@@ -177,7 +177,7 @@ AnimationPointers:
 	dw MinorikoAnimation
 	dw HMinorikoAnimation
 	dw CHinaAnimation
-	dw HinaAAnimation
+	dw CNueAAnimation
 	dw AHinaAnimation
 	dw CNitoriAnimation
 	dw NitoriAnimation
@@ -240,7 +240,7 @@ AnimationPointers:
 	dw CByakurenAnimation
 	dw ByakurenAnimation
 	dw TByakurenAnimation
-	dw CNueAnimation
+	dw HinaAnimation
 	dw NueAnimation
 	dw SNueAnimation
 	dw CHatateAnimation
@@ -294,33 +294,33 @@ AnimationPointers:
 	dw SumirekoAnimation
 	assert_table_length NUM_SPECIES
 
-	dw HinaBAnimation
-	dw HinaCAnimation
-	dw HinaDAnimation
-	dw HinaEAnimation
-	dw HinaFAnimation
-	dw HinaGAnimation
-	dw HinaHAnimation
-	dw HinaIAnimation
-	dw HinaJAnimation
-	dw HinaKAnimation
-	dw HinaLAnimation
-	dw HinaMAnimation
-	dw HinaNAnimation
-	dw HinaOAnimation
-	dw HinaPAnimation
-	dw HinaQAnimation
-	dw HinaRAnimation
-	dw HinaSAnimation
-	dw HinaTAnimation
-	dw HinaUAnimation
-	dw HinaVAnimation
-	dw HinaWAnimation
-	dw HinaXAnimation
-	dw HinaYAnimation
-	dw HinaZAnimation
-	dw HinaExclamationAnimation
-	dw HinaQuestionAnimation
+	dw CNueBAnimation
+	dw CNueCAnimation
+	dw CNueDAnimation
+	dw CNueEAnimation
+	dw CNueFAnimation
+	dw CNueGAnimation
+	dw CNueHAnimation
+	dw CNueIAnimation
+	dw CNueJAnimation
+	dw CNueKAnimation
+	dw CNueLAnimation
+	dw CNueMAnimation
+	dw CNueNAnimation
+	dw CNueOAnimation
+	dw CNuePAnimation
+	dw CNueQAnimation
+	dw CNueRAnimation
+	dw CNueSAnimation
+	dw CNueTAnimation
+	dw CNueUAnimation
+	dw CNueVAnimation
+	dw CNueWAnimation
+	dw CNueXAnimation
+	dw CNueYAnimation
+	dw CNueZAnimation
+	dw CNueExclamationAnimation
+	dw CNueQuestionAnimation
 
 	dw KikuriKantoAnimation
 	dw KikuriKogaAnimation

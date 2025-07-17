@@ -1,6 +1,6 @@
 	const_def
 	const DEXDISP_MAIN
-	const DEXDISP_HINA
+	const DEXDISP_CNUE
 DEF DEXDISP_SPRITEANIM_OK EQU const_value ; Display modes with sprite anim cursor.
 	const DEXDISP_MODE
 	const DEXDISP_NEWDESC
@@ -43,7 +43,7 @@ DEF NUM_DEXSEARCH EQU const_value
 	const DEXMODE_OLD
 DEF DEXMODE_ABC EQU const_value ; Only used as a search option, not a proper mode.
 	; Other options
-	const DEXMODE_HINA
+	const DEXMODE_CNUE
 	const DEXMODE_CANCEL
 DEF NUM_DEXMODE EQU const_value
 

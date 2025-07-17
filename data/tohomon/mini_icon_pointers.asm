@@ -181,7 +181,7 @@ MiniIconPointers:
 	mini_icon Minoriko
 	mini_icon HMinoriko
 	mini_icon CHina
-	mini_icon HinaA
+	mini_icon CNueA
 	mini_icon AHina
 	mini_icon CNitori
 	mini_icon Nitori
@@ -298,33 +298,33 @@ MiniIconPointers:
 	mini_icon Sumireko
 	assert_table_length NUM_SPECIES
 
-	mini_icon HinaB
-	mini_icon HinaC
-	mini_icon HinaD
-	mini_icon HinaE
-	mini_icon HinaF
-	mini_icon HinaG
-	mini_icon HinaH
-	mini_icon HinaI
-	mini_icon HinaJ
-	mini_icon HinaK
-	mini_icon HinaL
-	mini_icon HinaM
-	mini_icon HinaN
-	mini_icon HinaO
-	mini_icon HinaP
-	mini_icon HinaQ
-	mini_icon HinaR
-	mini_icon HinaS
-	mini_icon HinaT
-	mini_icon HinaU
-	mini_icon HinaV
-	mini_icon HinaW
-	mini_icon HinaX
-	mini_icon HinaY
-	mini_icon HinaZ
-	mini_icon HinaExclamation
-	mini_icon HinaQuestion
+	mini_icon CNueB
+	mini_icon CNueC
+	mini_icon CNueD
+	mini_icon CNueE
+	mini_icon CNueF
+	mini_icon CNueG
+	mini_icon CNueH
+	mini_icon CNueI
+	mini_icon CNueJ
+	mini_icon CNueK
+	mini_icon CNueL
+	mini_icon CNueM
+	mini_icon CNueN
+	mini_icon CNueO
+	mini_icon CNueP
+	mini_icon CNueQ
+	mini_icon CNueR
+	mini_icon CNueS
+	mini_icon CNueT
+	mini_icon CNueU
+	mini_icon CNueV
+	mini_icon CNueW
+	mini_icon CNueX
+	mini_icon CNueY
+	mini_icon CNueZ
+	mini_icon CNueExclamation
+	mini_icon CNueQuestion
 
 	mini_icon Kikuri ; Kanto
 	mini_icon Kikuri ; Koga

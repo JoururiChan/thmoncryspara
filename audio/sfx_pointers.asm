@@ -193,9 +193,9 @@ SFX:
 	fardw Sfx_2Boops
 	fardw Sfx_GlassTing
 	fardw Sfx_GlassTing2
-	fardw Sfx_IntroHina1
-	fardw Sfx_IntroHina2
-	fardw Sfx_IntroHina3
+	fardw Sfx_IntroCNue1
+	fardw Sfx_IntroCNue2
+	fardw Sfx_IntroCNue3
 	fardw Sfx_LyricaPopUp
 	fardw Sfx_LyricaRecollect
 	fardw Sfx_IntroNazrin1

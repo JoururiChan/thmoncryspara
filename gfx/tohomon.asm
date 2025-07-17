@@ -883,117 +883,117 @@ SeigaBackpic:  INCBIN "gfx/tohomon/ursaluna_plain/back.2bpp.lz"
 SECTION "EggPic", ROMX
 EggPic: INCBIN "gfx/tohomon/egg/front.animated.2bpp.lz"
 
-SECTION "HinaA Pics", ROMX
-HinaAFrontpic: INCBIN "gfx/tohomon/hina_a/front.animated.2bpp.lz"
-HinaABackpic:  INCBIN "gfx/tohomon/hina_a/back.2bpp.lz"
+SECTION "CNueA Pics", ROMX
+CNueAFrontpic: INCBIN "gfx/tohomon/cnue_a/front.animated.2bpp.lz"
+CNueABackpic:  INCBIN "gfx/tohomon/cnue_a/back.2bpp.lz"
 
-SECTION "HinaB Pics", ROMX
-HinaBFrontpic: INCBIN "gfx/tohomon/hina_b/front.animated.2bpp.lz"
-HinaBBackpic:  INCBIN "gfx/tohomon/hina_b/back.2bpp.lz"
+SECTION "CNueB Pics", ROMX
+CNueBFrontpic: INCBIN "gfx/tohomon/cnue_b/front.animated.2bpp.lz"
+CNueBBackpic:  INCBIN "gfx/tohomon/cnue_b/back.2bpp.lz"
 
-SECTION "HinaC Pics", ROMX
-HinaCFrontpic: INCBIN "gfx/tohomon/hina_c/front.animated.2bpp.lz"
-HinaCBackpic:  INCBIN "gfx/tohomon/hina_c/back.2bpp.lz"
+SECTION "CNueC Pics", ROMX
+CNueCFrontpic: INCBIN "gfx/tohomon/cnue_c/front.animated.2bpp.lz"
+CNueCBackpic:  INCBIN "gfx/tohomon/cnue_c/back.2bpp.lz"
 
-SECTION "HinaD Pics", ROMX
-HinaDFrontpic: INCBIN "gfx/tohomon/hina_d/front.animated.2bpp.lz"
-HinaDBackpic:  INCBIN "gfx/tohomon/hina_d/back.2bpp.lz"
+SECTION "CNueD Pics", ROMX
+CNueDFrontpic: INCBIN "gfx/tohomon/cnue_d/front.animated.2bpp.lz"
+CNueDBackpic:  INCBIN "gfx/tohomon/cnue_d/back.2bpp.lz"
 
-SECTION "HinaE Pics", ROMX
-HinaEFrontpic: INCBIN "gfx/tohomon/hina_e/front.animated.2bpp.lz"
-HinaEBackpic:  INCBIN "gfx/tohomon/hina_e/back.2bpp.lz"
+SECTION "CNueE Pics", ROMX
+CNueEFrontpic: INCBIN "gfx/tohomon/cnue_e/front.animated.2bpp.lz"
+CNueEBackpic:  INCBIN "gfx/tohomon/cnue_e/back.2bpp.lz"
 
-SECTION "HinaF Pics", ROMX
-HinaFFrontpic: INCBIN "gfx/tohomon/hina_f/front.animated.2bpp.lz"
-HinaFBackpic:  INCBIN "gfx/tohomon/hina_f/back.2bpp.lz"
+SECTION "CNueF Pics", ROMX
+CNueFFrontpic: INCBIN "gfx/tohomon/cnue_f/front.animated.2bpp.lz"
+CNueFBackpic:  INCBIN "gfx/tohomon/cnue_f/back.2bpp.lz"
 
-SECTION "HinaG Pics", ROMX
-HinaGFrontpic: INCBIN "gfx/tohomon/hina_g/front.animated.2bpp.lz"
-HinaGBackpic:  INCBIN "gfx/tohomon/hina_g/back.2bpp.lz"
+SECTION "CNueG Pics", ROMX
+CNueGFrontpic: INCBIN "gfx/tohomon/cnue_g/front.animated.2bpp.lz"
+CNueGBackpic:  INCBIN "gfx/tohomon/cnue_g/back.2bpp.lz"
 
-SECTION "HinaH Pics", ROMX
-HinaHFrontpic: INCBIN "gfx/tohomon/hina_h/front.animated.2bpp.lz"
-HinaHBackpic:  INCBIN "gfx/tohomon/hina_h/back.2bpp.lz"
+SECTION "CNueH Pics", ROMX
+CNueHFrontpic: INCBIN "gfx/tohomon/cnue_h/front.animated.2bpp.lz"
+CNueHBackpic:  INCBIN "gfx/tohomon/cnue_h/back.2bpp.lz"
 
-SECTION "HinaI Pics", ROMX
-HinaIFrontpic: INCBIN "gfx/tohomon/hina_i/front.animated.2bpp.lz"
-HinaIBackpic:  INCBIN "gfx/tohomon/hina_i/back.2bpp.lz"
+SECTION "CNueI Pics", ROMX
+CNueIFrontpic: INCBIN "gfx/tohomon/cnue_i/front.animated.2bpp.lz"
+CNueIBackpic:  INCBIN "gfx/tohomon/cnue_i/back.2bpp.lz"
 
-SECTION "HinaJ Pics", ROMX
-HinaJFrontpic: INCBIN "gfx/tohomon/hina_j/front.animated.2bpp.lz"
-HinaJBackpic:  INCBIN "gfx/tohomon/hina_j/back.2bpp.lz"
+SECTION "CNueJ Pics", ROMX
+CNueJFrontpic: INCBIN "gfx/tohomon/cnue_j/front.animated.2bpp.lz"
+CNueJBackpic:  INCBIN "gfx/tohomon/cnue_j/back.2bpp.lz"
 
-SECTION "HinaK Pics", ROMX
-HinaKFrontpic: INCBIN "gfx/tohomon/hina_k/front.animated.2bpp.lz"
-HinaKBackpic:  INCBIN "gfx/tohomon/hina_k/back.2bpp.lz"
+SECTION "CNueK Pics", ROMX
+CNueKFrontpic: INCBIN "gfx/tohomon/cnue_k/front.animated.2bpp.lz"
+CNueKBackpic:  INCBIN "gfx/tohomon/cnue_k/back.2bpp.lz"
 
-SECTION "HinaL Pics", ROMX
-HinaLFrontpic: INCBIN "gfx/tohomon/hina_l/front.animated.2bpp.lz"
-HinaLBackpic:  INCBIN "gfx/tohomon/hina_l/back.2bpp.lz"
+SECTION "CNueL Pics", ROMX
+CNueLFrontpic: INCBIN "gfx/tohomon/cnue_l/front.animated.2bpp.lz"
+CNueLBackpic:  INCBIN "gfx/tohomon/cnue_l/back.2bpp.lz"
 
-SECTION "HinaM Pics", ROMX
-HinaMFrontpic: INCBIN "gfx/tohomon/hina_m/front.animated.2bpp.lz"
-HinaMBackpic:  INCBIN "gfx/tohomon/hina_m/back.2bpp.lz"
+SECTION "CNueM Pics", ROMX
+CNueMFrontpic: INCBIN "gfx/tohomon/cnue_m/front.animated.2bpp.lz"
+CNueMBackpic:  INCBIN "gfx/tohomon/cnue_m/back.2bpp.lz"
 
-SECTION "HinaN Pics", ROMX
-HinaNFrontpic: INCBIN "gfx/tohomon/hina_n/front.animated.2bpp.lz"
-HinaNBackpic:  INCBIN "gfx/tohomon/hina_n/back.2bpp.lz"
+SECTION "CNueN Pics", ROMX
+CNueNFrontpic: INCBIN "gfx/tohomon/cnue_n/front.animated.2bpp.lz"
+CNueNBackpic:  INCBIN "gfx/tohomon/cnue_n/back.2bpp.lz"
 
-SECTION "HinaO Pics", ROMX
-HinaOFrontpic: INCBIN "gfx/tohomon/hina_o/front.animated.2bpp.lz"
-HinaOBackpic:  INCBIN "gfx/tohomon/hina_o/back.2bpp.lz"
+SECTION "CNueO Pics", ROMX
+CNueOFrontpic: INCBIN "gfx/tohomon/cnue_o/front.animated.2bpp.lz"
+CNueOBackpic:  INCBIN "gfx/tohomon/cnue_o/back.2bpp.lz"
 
-SECTION "HinaP Pics", ROMX
-HinaPFrontpic: INCBIN "gfx/tohomon/hina_p/front.animated.2bpp.lz"
-HinaPBackpic:  INCBIN "gfx/tohomon/hina_p/back.2bpp.lz"
+SECTION "CNueP Pics", ROMX
+CNuePFrontpic: INCBIN "gfx/tohomon/cnue_p/front.animated.2bpp.lz"
+CNuePBackpic:  INCBIN "gfx/tohomon/cnue_p/back.2bpp.lz"
 
-SECTION "HinaQ Pics", ROMX
-HinaQFrontpic: INCBIN "gfx/tohomon/hina_q/front.animated.2bpp.lz"
-HinaQBackpic:  INCBIN "gfx/tohomon/hina_q/back.2bpp.lz"
+SECTION "CNueQ Pics", ROMX
+CNueQFrontpic: INCBIN "gfx/tohomon/cnue_q/front.animated.2bpp.lz"
+CNueQBackpic:  INCBIN "gfx/tohomon/cnue_q/back.2bpp.lz"
 
-SECTION "HinaR Pics", ROMX
-HinaRFrontpic: INCBIN "gfx/tohomon/hina_r/front.animated.2bpp.lz"
-HinaRBackpic:  INCBIN "gfx/tohomon/hina_r/back.2bpp.lz"
+SECTION "CNueR Pics", ROMX
+CNueRFrontpic: INCBIN "gfx/tohomon/cnue_r/front.animated.2bpp.lz"
+CNueRBackpic:  INCBIN "gfx/tohomon/cnue_r/back.2bpp.lz"
 
-SECTION "HinaS Pics", ROMX
-HinaSFrontpic: INCBIN "gfx/tohomon/hina_s/front.animated.2bpp.lz"
-HinaSBackpic:  INCBIN "gfx/tohomon/hina_s/back.2bpp.lz"
+SECTION "CNueS Pics", ROMX
+CNueSFrontpic: INCBIN "gfx/tohomon/cnue_s/front.animated.2bpp.lz"
+CNueSBackpic:  INCBIN "gfx/tohomon/cnue_s/back.2bpp.lz"
 
-SECTION "HinaT Pics", ROMX
-HinaTFrontpic: INCBIN "gfx/tohomon/hina_t/front.animated.2bpp.lz"
-HinaTBackpic:  INCBIN "gfx/tohomon/hina_t/back.2bpp.lz"
+SECTION "CNueT Pics", ROMX
+CNueTFrontpic: INCBIN "gfx/tohomon/cnue_t/front.animated.2bpp.lz"
+CNueTBackpic:  INCBIN "gfx/tohomon/cnue_t/back.2bpp.lz"
 
-SECTION "HinaU Pics", ROMX
-HinaUFrontpic: INCBIN "gfx/tohomon/hina_u/front.animated.2bpp.lz"
-HinaUBackpic:  INCBIN "gfx/tohomon/hina_u/back.2bpp.lz"
+SECTION "CNueU Pics", ROMX
+CNueUFrontpic: INCBIN "gfx/tohomon/cnue_u/front.animated.2bpp.lz"
+CNueUBackpic:  INCBIN "gfx/tohomon/cnue_u/back.2bpp.lz"
 
-SECTION "HinaV Pics", ROMX
-HinaVFrontpic: INCBIN "gfx/tohomon/hina_v/front.animated.2bpp.lz"
-HinaVBackpic:  INCBIN "gfx/tohomon/hina_v/back.2bpp.lz"
+SECTION "CNueV Pics", ROMX
+CNueVFrontpic: INCBIN "gfx/tohomon/cnue_v/front.animated.2bpp.lz"
+CNueVBackpic:  INCBIN "gfx/tohomon/cnue_v/back.2bpp.lz"
 
-SECTION "HinaW Pics", ROMX
-HinaWFrontpic: INCBIN "gfx/tohomon/hina_w/front.animated.2bpp.lz"
-HinaWBackpic:  INCBIN "gfx/tohomon/hina_w/back.2bpp.lz"
+SECTION "CNueW Pics", ROMX
+CNueWFrontpic: INCBIN "gfx/tohomon/cnue_w/front.animated.2bpp.lz"
+CNueWBackpic:  INCBIN "gfx/tohomon/cnue_w/back.2bpp.lz"
 
-SECTION "HinaX Pics", ROMX
-HinaXFrontpic: INCBIN "gfx/tohomon/hina_x/front.animated.2bpp.lz"
-HinaXBackpic:  INCBIN "gfx/tohomon/hina_x/back.2bpp.lz"
+SECTION "CNueX Pics", ROMX
+CNueXFrontpic: INCBIN "gfx/tohomon/cnue_x/front.animated.2bpp.lz"
+CNueXBackpic:  INCBIN "gfx/tohomon/cnue_x/back.2bpp.lz"
 
-SECTION "HinaY Pics", ROMX
-HinaYFrontpic: INCBIN "gfx/tohomon/hina_y/front.animated.2bpp.lz"
-HinaYBackpic:  INCBIN "gfx/tohomon/hina_y/back.2bpp.lz"
+SECTION "CNueY Pics", ROMX
+CNueYFrontpic: INCBIN "gfx/tohomon/cnue_y/front.animated.2bpp.lz"
+CNueYBackpic:  INCBIN "gfx/tohomon/cnue_y/back.2bpp.lz"
 
-SECTION "HinaZ Pics", ROMX
-HinaZFrontpic: INCBIN "gfx/tohomon/hina_z/front.animated.2bpp.lz"
-HinaZBackpic:  INCBIN "gfx/tohomon/hina_z/back.2bpp.lz"
+SECTION "CNueZ Pics", ROMX
+CNueZFrontpic: INCBIN "gfx/tohomon/cnue_z/front.animated.2bpp.lz"
+CNueZBackpic:  INCBIN "gfx/tohomon/cnue_z/back.2bpp.lz"
 
-SECTION "HinaExclamation Pics", ROMX
-HinaExclamationFrontpic: INCBIN "gfx/tohomon/hina_exclamation/front.animated.2bpp.lz"
-HinaExclamationBackpic:  INCBIN "gfx/tohomon/hina_exclamation/back.2bpp.lz"
+SECTION "CNueExclamation Pics", ROMX
+CNueExclamationFrontpic: INCBIN "gfx/tohomon/cnue_exclamation/front.animated.2bpp.lz"
+CNueExclamationBackpic:  INCBIN "gfx/tohomon/cnue_exclamation/back.2bpp.lz"
 
-SECTION "HinaQuestion Pics", ROMX
-HinaQuestionFrontpic: INCBIN "gfx/tohomon/hina_question/front.animated.2bpp.lz"
-HinaQuestionBackpic:  INCBIN "gfx/tohomon/hina_question/back.2bpp.lz"
+SECTION "CNueQuestion Pics", ROMX
+CNueQuestionFrontpic: INCBIN "gfx/tohomon/cnue_question/front.animated.2bpp.lz"
+CNueQuestionBackpic:  INCBIN "gfx/tohomon/cnue_question/back.2bpp.lz"
 
 SECTION "TTei Pics", ROMX
 TTeiFrontpic: INCBIN "gfx/tohomon/ttei/front.animated.2bpp.lz"
@@ -1191,9 +1191,9 @@ SECTION "Iku Pics", ROMX
 IkuFrontpic: INCBIN "gfx/tohomon/iku/front.animated.2bpp.lz"
 IkuBackpic:  INCBIN "gfx/tohomon/iku/back.2bpp.lz"
 
-SECTION "CNue Pics", ROMX
-CNueFrontpic: INCBIN "gfx/tohomon/cnue/front.animated.2bpp.lz"
-CNueBackpic:  INCBIN "gfx/tohomon/cnue/back.2bpp.lz"
+SECTION "Hina Pics", ROMX
+HinaFrontpic: INCBIN "gfx/tohomon/hina/front.animated.2bpp.lz"
+Hinaackpic:  INCBIN "gfx/tohomon/hina/back.2bpp.lz"
 
 SECTION "CTojiko Pics", ROMX
 CTojikoFrontpic: INCBIN "gfx/tohomon/sneasler/front.animated.2bpp.lz"

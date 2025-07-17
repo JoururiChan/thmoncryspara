@@ -682,7 +682,7 @@ wTohodex_PendingHBlankFunction:: dw
 
 ; Palettes and tile offset for listview minis
 UNION
-wTohodex_HinaCursor: db
+wTohodex_CNueCursor: db
 NEXTU
 wTohodex_Pals::
 wTohodex_Row1::
@@ -864,12 +864,12 @@ wCardFlipEnd::
 
 
 SECTION UNION "Misc 404", WRAM0
-; Hina puzzle
+; CNue puzzle
 	ds 172
 
-wHinaPuzzle::
+wCNuePuzzle::
 wPuzzlePieces:: ds 6 * 6
-wHinaPuzzleEnd::
+wCNuePuzzleEnd::
 
 
 SECTION "Footprint Queue", WRAM0
@@ -1152,10 +1152,10 @@ wMagnetTrainPosition:: db
 wMagnetTrainWaitCounter:: db
 
 NEXTU
-; hina puzzle data
-wHoldingHinaPuzzlePiece:: db
-wHinaPuzzleCursorPosition:: db
-wHinaPuzzleHeldPiece:: db
+; cnue puzzle data
+wHoldingCNuePuzzlePiece:: db
+wCNuePuzzleCursorPosition:: db
+wCNuePuzzleHeldPiece:: db
 
 NEXTU
 ; battle transitions

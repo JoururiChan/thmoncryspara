@@ -2100,16 +2100,16 @@ _Tohodex_Mode:
 	ld hl, DexTilemap_Mode
 	call Tohodex_LoadTilemap
 
-	; Maybe add Hina Mode option
-	ld de, ENGINE_HINA_DEX
+	; Maybe add CNue Mode option
+	ld de, ENGINE_CNUE_DEX
 	farcall CheckEngineFlag
-	jr c, .done_hina_mode
+	jr c, .done_cnue_mode
 
 	hlcoord 2, 8
-	ld de, .HinaMode
+	ld de, .CNueMode
 	rst PlaceString
 
-.done_hina_mode
+.done_cnue_mode
 	hlcoord 1, 4
 	ld a, [wTohodex_MenuCursorY]
 	push af
@@ -2152,7 +2152,7 @@ _Tohodex_Mode:
 	cp 2
 	jr c, .change_mode
 	jr nz, .return
-	jmp Tohodex_Hina
+	jmp Tohodex_CNue
 
 .change_mode
 	ld [wTohodexMode], a
@@ -2183,11 +2183,11 @@ _Tohodex_Mode:
 	jr nc, .change_menu_loop
 	ld [wTohodex_MenuCursorY], a
 
-	cp DEXMODE_HINA
+	cp DEXMODE_CNUE
 	jmp nz, _Tohodex_Mode
 
 	push bc
-	ld de, ENGINE_HINA_DEX
+	ld de, ENGINE_CNUE_DEX
 	farcall CheckEngineFlag
 	pop bc
 	jr c, .change_menu
@@ -2197,8 +2197,8 @@ _Tohodex_Mode:
 	ld b, 1
 	jr .change_menu
 
-.HinaMode:
-	db "Hina Mode@"
+.CNueMode:
+	db "CNue Mode@"
 
 .MenuDescriptions:
 	db   "<PK><MN> are listed in"
@@ -2207,7 +2207,7 @@ _Tohodex_Mode:
 	db   "<PK><MN> are listed in"
 	next "national order.@"
 
-	db   "Display Hina"
+	db   "Display CNue"
 	next "information.@"
 
 	db   "Return to the <PK><MN>"

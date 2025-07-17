@@ -31,7 +31,7 @@ RadioJumptable:
 	dw FernMonMusic1 ; $06
 	dw RocketRadio1 ; $07
 	dw TohoFluteRadio ; $08
-	dw HinaRadio ; $09
+	dw CNueRadio ; $09
 	dw EvolutionRadio ; $0a
 	assert_table_length NUM_RADIO_CHANNELS
 ; OaksPkmnTalk
@@ -1412,7 +1412,7 @@ TohoFluteRadio:
 	ld [wNumRadioLinesPrinted], a
 	ret
 
-HinaRadio:
+CNueRadio:
 	call StartRadioStation
 	ld a, 1
 	ld [wNumRadioLinesPrinted], a

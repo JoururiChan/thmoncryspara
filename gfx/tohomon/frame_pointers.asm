@@ -177,7 +177,7 @@ FramesPointers:
 	dw MinorikoFrames
 	dw HMinorikoFrames
 	dw CHinaFrames
-	dw HinaAFrames
+	dw CNueAFrames
 	dw AHinaFrames
 	dw CNitoriFrames
 	dw NitoriFrames
@@ -240,7 +240,7 @@ FramesPointers:
 	dw CByakurenFrames
 	dw ByakurenFrames
 	dw TByakurenFrames
-	dw CNueFrames
+	dw HinaFrames
 	dw NueFrames
 	dw SNueFrames
 	dw CHatateFrames
@@ -294,33 +294,33 @@ FramesPointers:
 	dw SumirekoFrames
 	assert_table_length NUM_SPECIES
 
-	dw HinaBFrames
-	dw HinaCFrames
-	dw HinaDFrames
-	dw HinaEFrames
-	dw HinaFFrames
-	dw HinaGFrames
-	dw HinaHFrames
-	dw HinaIFrames
-	dw HinaJFrames
-	dw HinaKFrames
-	dw HinaLFrames
-	dw HinaMFrames
-	dw HinaNFrames
-	dw HinaOFrames
-	dw HinaPFrames
-	dw HinaQFrames
-	dw HinaRFrames
-	dw HinaSFrames
-	dw HinaTFrames
-	dw HinaUFrames
-	dw HinaVFrames
-	dw HinaWFrames
-	dw HinaXFrames
-	dw HinaYFrames
-	dw HinaZFrames
-	dw HinaExclamationFrames
-	dw HinaQuestionFrames
+	dw CNueBFrames
+	dw CNueCFrames
+	dw CNueDFrames
+	dw CNueEFrames
+	dw CNueFFrames
+	dw CNueGFrames
+	dw CNueHFrames
+	dw CNueIFrames
+	dw CNueJFrames
+	dw CNueKFrames
+	dw CNueLFrames
+	dw CNueMFrames
+	dw CNueNFrames
+	dw CNueOFrames
+	dw CNuePFrames
+	dw CNueQFrames
+	dw CNueRFrames
+	dw CNueSFrames
+	dw CNueTFrames
+	dw CNueUFrames
+	dw CNueVFrames
+	dw CNueWFrames
+	dw CNueXFrames
+	dw CNueYFrames
+	dw CNueZFrames
+	dw CNueExclamationFrames
+	dw CNueQuestionFrames
 
 	dw KikuriKantoFrames
 	dw KikuriKogaFrames

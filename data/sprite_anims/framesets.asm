@@ -41,13 +41,13 @@ SpriteAnimFrameData:
 	dw .Frameset_IntroNazrin2
 	dw .Frameset_IntroTTei
 	dw .Frameset_IntroCShizuha
-	dw .Frameset_IntroHina1
-	dw .Frameset_IntroHina2
-	dw .Frameset_IntroHina3
-	dw .Frameset_IntroHina4
-	dw .Frameset_IntroHinaF2
+	dw .Frameset_IntroCNue1
+	dw .Frameset_IntroCNue2
+	dw .Frameset_IntroCNue3
+	dw .Frameset_IntroCNue4
+	dw .Frameset_IntroCNueF2
 	dw .Frameset_IntroNazrinAway
-	dw .Frameset_IntroHinaF
+	dw .Frameset_IntroCNueF
 	dw .Frameset_IchirinLeft
 	dw .Frameset_IchirinRight
 	dw .Frameset_MaxStatSparkle
@@ -59,7 +59,7 @@ SpriteAnimFrameData:
 	dw .Frameset_PcMode2
 	dw .Frameset_PcPack
 	dw .Frameset_DexCursor
-	dw .Frameset_DexHinaCursor
+	dw .Frameset_DexCNueCursor
 	dw .Frameset_DexDLuize
 	dw .Frameset_TownMapFly
 	dw .Frameset_GreenWalk
@@ -299,43 +299,43 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_INTRO_CSHIZUHA,  3
 	oamend
 
-.Frameset_IntroHina1:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_1,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_2,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_3,  7
+.Frameset_IntroCNue1:
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_1,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_2,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_3,  7
 	oamdelete
 
-.Frameset_IntroHina2:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_1,  3, OAM_X_FLIP
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_2,  3, OAM_X_FLIP
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_3,  7, OAM_X_FLIP
+.Frameset_IntroCNue2:
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_1,  3, OAM_X_FLIP
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_2,  3, OAM_X_FLIP
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_3,  7, OAM_X_FLIP
 	oamdelete
 
-.Frameset_IntroHina3:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_1,  3, OAM_Y_FLIP
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_2,  3, OAM_Y_FLIP
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_3,  7, OAM_Y_FLIP
+.Frameset_IntroCNue3:
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_1,  3, OAM_Y_FLIP
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_2,  3, OAM_Y_FLIP
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_3,  7, OAM_Y_FLIP
 	oamdelete
 
-.Frameset_IntroHina4:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_1,  3, OAM_X_FLIP, OAM_Y_FLIP
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_2,  3, OAM_X_FLIP, OAM_Y_FLIP
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_3,  7, OAM_X_FLIP, OAM_Y_FLIP
+.Frameset_IntroCNue4:
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_1,  3, OAM_X_FLIP, OAM_Y_FLIP
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_2,  3, OAM_X_FLIP, OAM_Y_FLIP
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_3,  7, OAM_X_FLIP, OAM_Y_FLIP
 	oamdelete
 
-.Frameset_IntroHinaF2:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_1,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_2,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_3,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_4,  7
-	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_5,  7
+.Frameset_IntroCNueF2:
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_F_2_1,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_F_2_2,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_F_2_3,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_F_2_4,  7
+	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_F_2_5,  7
 	oamend
 
 .Frameset_IntroNazrinAway:
 	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_AWAY,  3
 	oamend
 
-.Frameset_IntroHinaF:
+.Frameset_IntroCNueF:
 	dorepeat 0
 	oamend
 
@@ -386,8 +386,8 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_DEX_CURSOR, 32
 	oamrestart
 
-.Frameset_DexHinaCursor:
-	oamframe SPRITE_ANIM_OAMSET_DEX_HINA_CURSOR, 32
+.Frameset_DexCNueCursor:
+	oamframe SPRITE_ANIM_OAMSET_DEX_CNUE_CURSOR, 32
 	oamrestart
 
 .Frameset_DexDLuize:

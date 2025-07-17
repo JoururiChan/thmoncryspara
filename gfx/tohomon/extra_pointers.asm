@@ -177,7 +177,7 @@ AnimationExtraPointers:
 	dw MinorikoAnimationExtra
 	dw HMinorikoAnimationExtra
 	dw CHinaAnimationExtra
-	dw HinaAAnimationExtra
+	dw CNueAAnimationExtra
 	dw AHinaAnimationExtra
 	dw CNitoriAnimationExtra
 	dw NitoriAnimationExtra
@@ -240,7 +240,7 @@ AnimationExtraPointers:
 	dw CByakurenAnimationExtra
 	dw ByakurenAnimationExtra
 	dw TByakurenAnimationExtra
-	dw CNueAnimationExtra
+	dw HinaAnimationExtra
 	dw NueAnimationExtra
 	dw SNueAnimationExtra
 	dw CHatateAnimationExtra
@@ -294,33 +294,33 @@ AnimationExtraPointers:
 	dw SumirekoAnimationExtra
 	assert_table_length NUM_SPECIES
 
-	dw HinaBAnimationExtra
-	dw HinaCAnimationExtra
-	dw HinaDAnimationExtra
-	dw HinaEAnimationExtra
-	dw HinaFAnimationExtra
-	dw HinaGAnimationExtra
-	dw HinaHAnimationExtra
-	dw HinaIAnimationExtra
-	dw HinaJAnimationExtra
-	dw HinaKAnimationExtra
-	dw HinaLAnimationExtra
-	dw HinaMAnimationExtra
-	dw HinaNAnimationExtra
-	dw HinaOAnimationExtra
-	dw HinaPAnimationExtra
-	dw HinaQAnimationExtra
-	dw HinaRAnimationExtra
-	dw HinaSAnimationExtra
-	dw HinaTAnimationExtra
-	dw HinaUAnimationExtra
-	dw HinaVAnimationExtra
-	dw HinaWAnimationExtra
-	dw HinaXAnimationExtra
-	dw HinaYAnimationExtra
-	dw HinaZAnimationExtra
-	dw HinaExclamationAnimationExtra
-	dw HinaQuestionAnimationExtra
+	dw CNueBAnimationExtra
+	dw CNueCAnimationExtra
+	dw CNueDAnimationExtra
+	dw CNueEAnimationExtra
+	dw CNueFAnimationExtra
+	dw CNueGAnimationExtra
+	dw CNueHAnimationExtra
+	dw CNueIAnimationExtra
+	dw CNueJAnimationExtra
+	dw CNueKAnimationExtra
+	dw CNueLAnimationExtra
+	dw CNueMAnimationExtra
+	dw CNueNAnimationExtra
+	dw CNueOAnimationExtra
+	dw CNuePAnimationExtra
+	dw CNueQAnimationExtra
+	dw CNueRAnimationExtra
+	dw CNueSAnimationExtra
+	dw CNueTAnimationExtra
+	dw CNueUAnimationExtra
+	dw CNueVAnimationExtra
+	dw CNueWAnimationExtra
+	dw CNueXAnimationExtra
+	dw CNueYAnimationExtra
+	dw CNueZAnimationExtra
+	dw CNueExclamationAnimationExtra
+	dw CNueQuestionAnimationExtra
 
 	dw KikuriKantoAnimationExtra
 	dw KikuriKogaAnimationExtra

@@ -35,9 +35,9 @@ if !DEF(MONOCHROME)
 	RGB 11, 14, 31
 	RGB 00, 00, 00
 
-	; OB2: highlighted nest + hina mode cursor
+	; OB2: highlighted nest + cnue mode cursor
 	RGB 31, 31, 31
-	RGB 07, 16, 26 ; hina mode cursor
+	RGB 07, 16, 26 ; cnue mode cursor
 	RGB 31, 29, 05 ; nest highlight coloring
 	RGB 00, 00, 00
 

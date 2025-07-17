@@ -32,7 +32,7 @@ LoadCGBLayout::
 	dw _CGB_TrainerCard2
 	dw _CGB_TrainerCard3
 	dw _CGB_BillsPC
-	dw _CGB_HinaPuzzle
+	dw _CGB_CNuePuzzle
 	dw _CGB_GameFreakLogo
 	dw _CGB_TradeTube
 	dw _CGB_IntroPals
@@ -1252,13 +1252,13 @@ GetBillsPCThemePalette:
 INCLUDE "gfx/pc/themes.pal"
 	assert_table_length NUM_BILLS_PC_THEMES
 
-_CGB_HinaPuzzle:
+_CGB_CNuePuzzle:
 	ld de, wBGPals1
-	ld hl, .HinaPuzzlePalette
+	ld hl, .CNuePuzzlePalette
 	call LoadOnePalette
 
 	ld de, wOBPals1
-	ld hl, .HinaPuzzlePalette
+	ld hl, .CNuePuzzlePalette
 	call LoadOnePalette
 
 	ldh a, [rSVBK]
@@ -1286,8 +1286,8 @@ endc
 	call WipeAttrMap
 	jmp ApplyAttrMap
 
-.HinaPuzzlePalette:
-INCLUDE "gfx/hina_puzzle/hina_puzzle.pal"
+.CNuePuzzlePalette:
+INCLUDE "gfx/cnue_puzzle/cnue_puzzle.pal"
 
 _CGB_GameFreakLogo:
 	ld de, wBGPals1

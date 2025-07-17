@@ -1,44 +1,44 @@
-Tohodex_Hina:
-	ld a, DEXDISP_HINA
+Tohodex_CNue:
+	ld a, DEXDISP_CNUE
 	ld [wTohodex_DisplayMode], a
 
-	; Reset the cursor for Hina Mode.
+	; Reset the cursor for CNue Mode.
 	xor a
-	ld [wTohodex_HinaCursor], a
+	ld [wTohodex_CNueCursor], a
 
 	; Writes interface palettes. Tohopic is handled seperately.
-	ld hl, HinaModePals
+	ld hl, CNueModePals
 	ld de, wBGPals1 palette 2
 	ld bc, 2 palettes
-	ld a, BANK(HinaModePals)
+	ld a, BANK(CNueModePals)
 	call FarCopyBytesToColorWRAM
 
 	call ClearSpriteAnims
 	lb de, $5c, $24
-	ld a, SPRITE_ANIM_INDEX_DEX_HINA_CURSOR
+	ld a, SPRITE_ANIM_INDEX_DEX_CNUE_CURSOR
 	call InitSpriteAnimStruct
 
 	; fallthrough
-_Tohodex_Hina:
-	; Load current hina pic.
-	call Tohodex_LoadHinaPic
+_Tohodex_CNue:
+	; Load current cnue pic.
+	call Tohodex_LoadCNuePic
 	push af
-	ld hl, DexTilemap_Hina
+	ld hl, DexTilemap_CNue
 	call Tohodex_LoadTilemapWithTohopic
 
-	; If we have caught the current Hina, we want to
+	; If we have caught the current CNue, we want to
 	; display the relevant letter and a word alongside.
-	; If not, we want to replace "HINA" with whitespace.
+	; If not, we want to replace "CNUE" with whitespace.
 	pop af
 	jr z, .not_caught
 
-	; Since Hina forms are 1-indexed, load table from HinaWords-1.
-	call Tohodex_GetHinaCursorForm
+	; Since CNue forms are 1-indexed, load table from CNueWords-1.
+	call Tohodex_GetCNueCursorForm
 	ld a, b
 	push af
 	ld e, a
 	ld d, 0
-	ld hl, HinaWords - 1
+	ld hl, CNueWords - 1
 	add hl, de
 	ld e, [hl]
 	add hl, de
@@ -47,23 +47,23 @@ _Tohodex_Hina:
 	hlcoord 10, 5
 	rst PlaceString
 	pop af
-	call Tohodex_GetPrintableHinaChar
+	call Tohodex_GetPrintableCNueChar
 
 	hlcoord 16, 3
 	ld [hl], a
 	jr .current_done
 
 .not_caught
-	; Remove "HINA"
+	; Remove "CNUE"
 	hlcoord 10, 3
 	ld a, " "
 	ld bc, 5
 	rst ByteFill
 
 .current_done
-	; Print a table of Hina characters for all forms we've caught.
+	; Print a table of CNue characters for all forms we've caught.
 	hlcoord 4, 10
-	lb bc, HINA_A_FORM, LOW(HINA)
+	lb bc, CNUE_A_FORM, LOW(CNUE)
 	ld d, 4
 .outer_loop
 	ld e, 7
@@ -80,7 +80,7 @@ _Tohodex_Hina:
 
 	; Print character
 	ld a, b
-	call Tohodex_GetPrintableHinaChar
+	call Tohodex_GetPrintableCNueChar
 	ld [hl], a
 .next
 	inc b
@@ -89,7 +89,7 @@ _Tohodex_Hina:
 	dec e
 	jr nz, .inner_loop
 	push bc
-	; 2x(screen) - hina chars per line * 2
+	; 2x(screen) - cnue chars per line * 2
 	ld bc, 2 * SCREEN_WIDTH - 7 * 2
 	add hl, bc
 	pop bc
@@ -137,25 +137,25 @@ _Tohodex_Hina:
 .pressed_down
 	ld b, $10
 .move_cursor
-	ld a, [wTohodex_HinaCursor]
+	ld a, [wTohodex_CNueCursor]
 	add b
 	and $37
-	ld [wTohodex_HinaCursor], a
+	ld [wTohodex_CNueCursor], a
 
 	; There's 7 columns, not 8.
 	maskbits $7
 	cp $7
 	jr z, .move_cursor
-	jmp _Tohodex_Hina
+	jmp _Tohodex_CNue
 
-Tohodex_GetPrintableHinaChar:
-; Convert hina form in a to printable character.
+Tohodex_GetPrintableCNueChar:
+; Convert cnue form in a to printable character.
 	add "A" - 1
 
-	cp (HINA_Z_FORM + 1) + ("A" - 1)
+	cp (CNUE_Z_FORM + 1) + ("A" - 1)
 	ret c
 
-	assert HINA_Z_FORM + 1 == HINA_EXCLAMATION_FORM
+	assert CNUE_Z_FORM + 1 == CNUE_EXCLAMATION_FORM
 	ld a, "!"
 	ret z
 
@@ -163,15 +163,15 @@ Tohodex_GetPrintableHinaChar:
 	dec a
 	ret
 
-Tohodex_LoadHinaPic:
-; Returns z if the Hina form we are hovering isn't captured.
+Tohodex_LoadCNuePic:
+; Returns z if the CNue form we are hovering isn't captured.
 	; Cycle pokepic VRAM. Pointless on initial setup, but necessary after.
 	call Tohodex_SwitchMonInfoBank
 
-	; Get relevant Hina.
-	call Tohodex_GetHinaCursorForm
+	; Get relevant CNue.
+	call Tohodex_GetCNueCursorForm
 
-	; Have we captured this Hina?
+	; Have we captured this CNue?
 	push bc
 	call CheckCaughtMon
 	pop bc
@@ -200,16 +200,16 @@ Tohodex_LoadHinaPic:
 	ld bc, 4
 	call FarCopyBytesToColorWRAM
 
-	; Return nz, to signify that we have caught this Hina.
+	; Return nz, to signify that we have caught this CNue.
 	or 1
 	ret
 
-Tohodex_GetHinaCursorForm:
-; Returns given Hina form in bc from what the cursor is hovering.
-	ld a, [wTohodex_HinaCursor]
+Tohodex_GetCNueCursorForm:
+; Returns given CNue form in bc from what the cursor is hovering.
+	ld a, [wTohodex_CNueCursor]
 	ld c, a
 
-	; Hina form is (vertical pos * 7 + horizontal pos + 1)
+	; CNue form is (vertical pos * 7 + horizontal pos + 1)
 	; Horizontal position
 	and %111
 	ld b, a
@@ -231,12 +231,12 @@ Tohodex_GetHinaCursorForm:
 	inc a
 
 	; Now we have the form.
-	assert !HIGH(HINA)
+	assert !HIGH(CNUE)
 	ld b, a
-	ld c, LOW(HINA)
+	ld c, LOW(CNUE)
 	ret
 
-INCLUDE "data/tohomon/hina_words.asm"
+INCLUDE "data/tohomon/cnue_words.asm"
 
-HinaModePals:
-INCLUDE "gfx/tohodex/hina.pal"
+CNueModePals:
+INCLUDE "gfx/tohodex/cnue.pal"

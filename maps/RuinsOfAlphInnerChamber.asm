@@ -62,7 +62,7 @@ RuinsofAlphInnerChamberTrigger0:
 RuinsOfAlphInnerChamberStrangePresenceScript:
 	showtext RuinsOfAlphStrangePresenceText
 	setscene $0
-	setevent EVENT_MADE_HINA_APPEAR_IN_RUINS
+	setevent EVENT_MADE_CNUE_APPEAR_IN_RUINS
 	clearevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_FISHER
 	end
 

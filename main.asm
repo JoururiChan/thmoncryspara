@@ -206,7 +206,7 @@ SECTION "Tohodex", ROMX
 INCLUDE "engine/tohodex/area.asm"
 INCLUDE "engine/tohodex/lcd.asm"
 INCLUDE "engine/tohodex/tohodex.asm"
-INCLUDE "engine/tohodex/hina_dex.asm"
+INCLUDE "engine/tohodex/cnue_dex.asm"
 
 
 SECTION "Tohodex Footprints", ROMX
@@ -341,7 +341,7 @@ SECTION "Crystal Features 2", ROMX
 
 INCLUDE "engine/events/kurt.asm"
 INCLUDE "engine/gfx/player_gfx.asm"
-INCLUDE "engine/events/hina_walls.asm"
+INCLUDE "engine/events/cnue_walls.asm"
 INCLUDE "engine/events/buena.asm"
 INCLUDE "engine/events/battle_tower/battle_tower.asm"
 INCLUDE "engine/events/battle_tower/trainer_text.asm"
@@ -531,7 +531,7 @@ INCLUDE "gfx/tohomon/johto_frames.asm"
 SECTION "bank38", ROMX
 
 INCLUDE "engine/games/card_flip.asm"
-INCLUDE "engine/games/hina_puzzle.asm"
+INCLUDE "engine/games/cnue_puzzle.asm"
 ;INCLUDE "engine/games/memory_game.asm"
 INCLUDE "engine/gfx/fade.asm"
 

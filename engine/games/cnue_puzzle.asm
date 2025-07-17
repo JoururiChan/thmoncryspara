@@ -2,7 +2,7 @@ DEF puzcoord EQUS "* 6 +"
 DEF PUZZLE_BORDER EQU $ee
 DEF PUZZLE_VOID   EQU $ef
 
-HinaPuzzle:
+CNuePuzzle:
 	ldh a, [hInMenu]
 	push af
 	ld a, $1
@@ -13,18 +13,18 @@ HinaPuzzle:
 	xor a
 	ldh [hBGMapMode], a
 	call DisableLCD
-	ld hl, wHinaPuzzle
-	ld bc, wHinaPuzzleEnd - wHinaPuzzle
+	ld hl, wCNuePuzzle
+	ld bc, wCNuePuzzleEnd - wCNuePuzzle
 	xor a
 	rst ByteFill
-	ld hl, HinaPuzzleCursorGFX
+	ld hl, CNuePuzzleCursorGFX
 	ld de, vTiles1 tile $60
 	ld bc, 4 tiles
 	rst CopyBytes
-	ld hl, HinaPuzzleStartCancelLZ
+	ld hl, CNuePuzzleStartCancelLZ
 	ld de, vTiles1 tile $6d
 	call Decompress
-	call LoadHinaPuzzlePiecesGFX
+	call LoadCNuePuzzlePiecesGFX
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	ld a, PUZZLE_BORDER
@@ -33,43 +33,43 @@ HinaPuzzle:
 	lb bc, 12, 12
 	ld a, PUZZLE_VOID
 	call FillBoxWithByte
-	call InitHinaPuzzlePiecePositions
-	call HinaPuzzle_UpdateTilemap
+	call InitCNuePuzzlePiecePositions
+	call CNuePuzzle_UpdateTilemap
 	call PlaceStartCancelBox
 	xor a
 	ldh [hSCY], a
 	ldh [hSCX], a
 	ldh [rWY], a
 	ld [wJumptableIndex], a
-	ld [wHoldingHinaPuzzlePiece], a
-	ld [wHinaPuzzleCursorPosition], a
-	ld [wHinaPuzzleHeldPiece], a
+	ld [wHoldingCNuePuzzlePiece], a
+	ld [wCNuePuzzleCursorPosition], a
+	ld [wCNuePuzzleHeldPiece], a
 	ld a, (1 << rLCDC_ENABLE) | (1 << rLCDC_TILE_DATA) | (1 << rLCDC_SPRITES_ENABLE) | (1 << rLCDC_BG_PRIORITY)
 	ldh [rLCDC], a
 	call ApplyTilemapInVBlank
-	ld a, CGB_HINA_PUZZLE
+	ld a, CGB_CNUE_PUZZLE
 	call GetCGBLayout
 	ld a, $e4
 	call DmgToCgbBGPals
 	ld a, $24
 	call DmgToCgbObjPal0
 	xor a
-	ld [wSolvedHinaPuzzle], a
+	ld [wSolvedCNuePuzzle], a
 	call DelayFrame
 .loop
 	call JoyTextDelay
 	ld a, [wJumptableIndex]
 	bit 7, a
 	jr nz, .quit
-	call _HinaPuzzle
-	ld a, [wHoldingHinaPuzzlePiece]
+	call _CNuePuzzle
+	ld a, [wHoldingCNuePuzzlePiece]
 	and a
 	jr nz, .holding_piece
 	ldh a, [hVBlankCounter]
 	and $10
 	jr z, .clear
 .holding_piece
-	call RedrawHinaPuzzlePieces
+	call RedrawCNuePuzzlePieces
 	jr .next
 
 .clear
@@ -88,7 +88,7 @@ HinaPuzzle:
 	ldh [rLCDC], a
 	ret
 
-InitHinaPuzzlePiecePositions:
+InitCNuePuzzlePiecePositions:
 	lb bc, 16, 1
 .load_loop
 	call Random
@@ -165,13 +165,13 @@ PlaceStartCancelBoxBorder:
 	ld [hl], $f5
 	ret
 
-_HinaPuzzle:
+_CNuePuzzle:
 	ldh a, [hJoyPressed]
 	and START
-	jmp nz, HinaPuzzle_Quit
+	jmp nz, CNuePuzzle_Quit
 	ldh a, [hJoyPressed]
 	and A_BUTTON
-	jmp nz, HinaPuzzle_A
+	jmp nz, CNuePuzzle_A
 	ld hl, hJoyLast
 	ld a, [hl]
 	and D_UP
@@ -188,7 +188,7 @@ _HinaPuzzle:
 	ret
 
 .d_up
-	ld hl, wHinaPuzzleCursorPosition
+	ld hl, wCNuePuzzleCursorPosition
 	ld a, [hl]
 	cp 1 puzcoord 0
 	ret c
@@ -197,7 +197,7 @@ _HinaPuzzle:
 	jr .done_joypad
 
 .d_down
-	ld hl, wHinaPuzzleCursorPosition
+	ld hl, wCNuePuzzleCursorPosition
 	ld a, [hl]
 	cp 4 puzcoord 1
 	ret z
@@ -214,7 +214,7 @@ _HinaPuzzle:
 	jr .done_joypad
 
 .d_left
-	ld hl, wHinaPuzzleCursorPosition
+	ld hl, wCNuePuzzleCursorPosition
 	ld a, [hl]
 	and a
 	ret z
@@ -238,7 +238,7 @@ _HinaPuzzle:
 	jr .done_joypad
 
 .d_right
-	ld hl, wHinaPuzzleCursorPosition
+	ld hl, wCNuePuzzleCursorPosition
 	ld a, [hl]
 	cp 0 puzcoord 5
 	ret z
@@ -261,7 +261,7 @@ _HinaPuzzle:
 	ld [hl], 5 puzcoord 5
 
 .done_joypad
-	ld a, [wHoldingHinaPuzzlePiece]
+	ld a, [wHoldingCNuePuzzlePiece]
 	and a
 	jr nz, .holding_piece
 	ld de, SFX_POUND
@@ -273,42 +273,42 @@ _HinaPuzzle:
 .play_sfx
 	jmp PlaySFX
 
-HinaPuzzle_A:
-	ld a, [wHoldingHinaPuzzlePiece]
+CNuePuzzle_A:
+	ld a, [wHoldingCNuePuzzlePiece]
 	and a
 	jr nz, .TryPlacePiece
-	call HinaPuzzle_CheckCurrentTileOccupancy
+	call CNuePuzzle_CheckCurrentTileOccupancy
 	and a
-	jr z, HinaPuzzle_InvalidAction
+	jr z, CNuePuzzle_InvalidAction
 	ld de, SFX_MEGA_KICK
 	call PlaySFX
 	ld [hl], 0
-	ld [wHinaPuzzleHeldPiece], a
-	call RedrawHinaPuzzlePieces
+	ld [wCNuePuzzleHeldPiece], a
+	call RedrawCNuePuzzlePieces
 	call FillUnoccupiedPuzzleSpace
 	call ApplyTilemapInVBlank
 	call WaitSFX
 	ld a, TRUE
-	ld [wHoldingHinaPuzzlePiece], a
+	ld [wHoldingCNuePuzzlePiece], a
 	ret
 
 .TryPlacePiece:
-	call HinaPuzzle_CheckCurrentTileOccupancy
+	call CNuePuzzle_CheckCurrentTileOccupancy
 	and a
-	jr nz, HinaPuzzle_InvalidAction
+	jr nz, CNuePuzzle_InvalidAction
 	ld de, SFX_PLACE_PUZZLE_PIECE_DOWN
 	call PlaySFX
-	ld a, [wHinaPuzzleHeldPiece]
+	ld a, [wCNuePuzzleHeldPiece]
 	ld [hl], a
-	call PlaceHinaPuzzlePieceGFX
+	call PlaceCNuePuzzlePieceGFX
 	call ApplyTilemapInVBlank
 	xor a
-	ld [wHinaPuzzleHeldPiece], a
-	call RedrawHinaPuzzlePieces
+	ld [wCNuePuzzleHeldPiece], a
+	call RedrawCNuePuzzlePieces
 	xor a
-	ld [wHoldingHinaPuzzlePiece], a
+	ld [wHoldingCNuePuzzlePiece], a
 	call WaitSFX
-	call CheckSolvedHinaPuzzle
+	call CheckSolvedCNuePuzzle
 	ret nc
 
 ; You solved the puzzle!
@@ -319,44 +319,44 @@ HinaPuzzle_A:
 	call WaitSFX
 	call SimpleWaitPressAorB
 	ld a, TRUE
-	ld [wSolvedHinaPuzzle], a
-HinaPuzzle_Quit:
+	ld [wSolvedCNuePuzzle], a
+CNuePuzzle_Quit:
 	ld hl, wJumptableIndex
 	set 7, [hl]
 	ret
 
-HinaPuzzle_InvalidAction:
+CNuePuzzle_InvalidAction:
 	ld de, SFX_WRONG
 	call PlaySFX
 	jmp WaitSFX
 
-HinaPuzzle_UpdateTilemap:
+CNuePuzzle_UpdateTilemap:
 	xor a
-	ld [wHinaPuzzleCursorPosition], a
+	ld [wCNuePuzzleCursorPosition], a
 	ld c, 6 * 6
 .loop
 	push bc
-	call HinaPuzzle_CheckCurrentTileOccupancy
-	ld [wHinaPuzzleHeldPiece], a
+	call CNuePuzzle_CheckCurrentTileOccupancy
+	ld [wCNuePuzzleHeldPiece], a
 	and a
 	jr z, .not_holding_piece
-	call PlaceHinaPuzzlePieceGFX
+	call PlaceCNuePuzzlePieceGFX
 	jr .next
 
 .not_holding_piece
 	call FillUnoccupiedPuzzleSpace
 
 .next
-	ld hl, wHinaPuzzleCursorPosition
+	ld hl, wCNuePuzzleCursorPosition
 	inc [hl]
 	pop bc
 	dec c
 	jr nz, .loop
 	ret
 
-PlaceHinaPuzzlePieceGFX:
+PlaceCNuePuzzlePieceGFX:
 	ld a, $2 ; tilemap coords
-	call GetHinaPuzzleCoordData
+	call GetCNuePuzzleCoordData
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
@@ -382,13 +382,13 @@ PlaceHinaPuzzlePieceGFX:
 
 FillUnoccupiedPuzzleSpace:
 	ld a, 2 ; tilemap coords
-	call GetHinaPuzzleCoordData
+	call GetCNuePuzzleCoordData
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
 	push hl
 	ld a, 4 ; tile
-	call GetHinaPuzzleCoordData
+	call GetCNuePuzzleCoordData
 	ld a, [hl]
 	pop hl
 	ld de, SCREEN_WIDTH
@@ -406,21 +406,21 @@ FillUnoccupiedPuzzleSpace:
 	jr nz, .row
 	ret
 
-GetHinaPuzzleCoordData:
+GetCNuePuzzleCoordData:
 	ld e, a
 	ld d, 0
-	ld hl, HinaPuzzleCoordData
+	ld hl, CNuePuzzleCoordData
 	add hl, de
-	ld a, [wHinaPuzzleCursorPosition]
+	ld a, [wCNuePuzzleCursorPosition]
 	ld e, a
 rept 5
 	add hl, de
 endr
 	ret
 
-HinaPuzzle_CheckCurrentTileOccupancy:
+CNuePuzzle_CheckCurrentTileOccupancy:
 	ld hl, wPuzzlePieces
-	ld a, [wHinaPuzzleCursorPosition]
+	ld a, [wCNuePuzzleCursorPosition]
 	ld e, a
 	ld d, $0
 	add hl, de
@@ -428,7 +428,7 @@ HinaPuzzle_CheckCurrentTileOccupancy:
 	ret
 
 GetCurrentPuzzlePieceVTileCorner:
-	ld a, [wHinaPuzzleHeldPiece]
+	ld a, [wCNuePuzzleHeldPiece]
 	ld hl, .Corners
 	ld e, a
 	ld d, 0
@@ -446,7 +446,7 @@ GetCurrentPuzzlePieceVTileCorner:
 	db $48, $4b, $4e, $51
 	db $6c, $6f, $72, $75
 
-CheckSolvedHinaPuzzle:
+CheckSolvedCNuePuzzle:
 	ld hl, .SolvedPuzzleConfiguration
 	ld de, wPuzzlePieces
 	ld c, 6 * 6
@@ -473,15 +473,15 @@ CheckSolvedHinaPuzzle:
 	db $00, $0d, $0e, $0f, $10, $00
 	db $00, $00, $00, $00, $00, $00
 
-RedrawHinaPuzzlePieces:
+RedrawCNuePuzzlePieces:
 	call GetCurrentPuzzlePieceVTileCorner
-	ld [wHinaPuzzleCornerTile], a
+	ld [wCNuePuzzleCornerTile], a
 	xor a
-	call GetHinaPuzzleCoordData ; get pixel positions
+	call GetCNuePuzzleCoordData ; get pixel positions
 	ld a, [hli]
 	ld b, [hl]
 	ld c, a
-	ld a, [wHinaPuzzleCornerTile]
+	ld a, [wCNuePuzzleCornerTile]
 	cp $e0
 	jr z, .NoPiece
 	ld hl, .OAM_HoldingPiece
@@ -503,7 +503,7 @@ RedrawHinaPuzzlePieces:
 	add c
 	ld [de], a
 	inc de
-	ld a, [wHinaPuzzleCornerTile]
+	ld a, [wCNuePuzzleCornerTile]
 	add [hl]
 	ld [de], a
 	inc hl
@@ -537,7 +537,7 @@ RedrawHinaPuzzlePieces:
 	dsprite  0,  4,  0,  4, $00, $0 | X_FLIP | Y_FLIP
 	db -1
 
-HinaPuzzleCoordData:
+CNuePuzzleCoordData:
 
 MACRO puzzle_coords
 	dbpixel \1, \2, \3, \4
@@ -606,7 +606,7 @@ ConvertLoadedPuzzlePieces:
 	pop bc
 	dec b
 	jr nz, .loop
-	jr HinaPuzzle_AddPuzzlePieceBorders
+	jr CNuePuzzle_AddPuzzlePieceBorders
 
 .EnlargePuzzlePieceTiles:
 ; double size
@@ -695,7 +695,7 @@ for x, 16
 	db ((x & %1000) * %11000) + ((x & %0100) * %1100) + ((x & %0010) * %110) + ((x & %0001) * %11)
 endr
 
-HinaPuzzle_AddPuzzlePieceBorders:
+CNuePuzzle_AddPuzzlePieceBorders:
 	ld hl, GFXHeaders
 	ld a, 8
 .loop
@@ -761,9 +761,9 @@ GFXHeaders:
 	dw .TileBordersGFX + 7 tiles, vTiles0 tile $1a
 
 .TileBordersGFX:
-INCBIN "gfx/hina_puzzle/tile_borders.2bpp"
+INCBIN "gfx/cnue_puzzle/tile_borders.2bpp"
 
-LoadHinaPuzzlePiecesGFX:
+LoadCNuePuzzlePiecesGFX:
 	ldh a, [hScriptVar]
 	and 3
 	ld e, a
@@ -784,20 +784,20 @@ LoadHinaPuzzlePiecesGFX:
 	dw AYuyukoPuzzleLZ
 	dw CIchirinPuzzleLZ
 
-HinaPuzzleCursorGFX:
-INCBIN "gfx/hina_puzzle/cursor.2bpp"
+CNuePuzzleCursorGFX:
+INCBIN "gfx/cnue_puzzle/cursor.2bpp"
 
-HinaPuzzleStartCancelLZ:
-INCBIN "gfx/hina_puzzle/start_cancel.2bpp.lz"
+CNuePuzzleStartCancelLZ:
+INCBIN "gfx/cnue_puzzle/start_cancel.2bpp.lz"
 
 CIchirinPuzzleLZ:
-INCBIN "gfx/hina_puzzle/hooh.2bpp.lz"
+INCBIN "gfx/cnue_puzzle/hooh.2bpp.lz"
 
 AYuyukoPuzzleLZ:
-INCBIN "gfx/hina_puzzle/ayuyuko.2bpp.lz"
+INCBIN "gfx/cnue_puzzle/ayuyuko.2bpp.lz"
 
 LunasaPuzzleLZ:
-INCBIN "gfx/hina_puzzle/lunasa.2bpp.lz"
+INCBIN "gfx/cnue_puzzle/lunasa.2bpp.lz"
 
 CYuyukoPuzzleLZ:
-INCBIN "gfx/hina_puzzle/cyuyuko.2bpp.lz"
+INCBIN "gfx/cnue_puzzle/cyuyuko.2bpp.lz"

@@ -62,7 +62,7 @@ RuinsofAlphCYuyukoChamberWallOpenScript:
 MapRuinsofAlphCYuyukoChamberSignpost2Script:
 	reanchormap
 	setval $0
-	special Special_HinaPuzzle
+	special Special_CNuePuzzle
 	closetext
 	iftruefwd .PuzzleComplete
 	end
@@ -70,7 +70,7 @@ MapRuinsofAlphCYuyukoChamberSignpost2Script:
 .PuzzleComplete:
 	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
 	setevent EVENT_SOLVED_LUNASA_PUZZLE
-	setflag ENGINE_UNLOCKED_HINAS_A_TO_J
+	setflag ENGINE_UNLOCKED_CNUES_A_TO_J
 	setevent EVENT_RUINS_OF_ALPH_CYUYUKO_CHAMBER_RECEPTIONIST
 	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, $1
 	earthquake 30
@@ -88,8 +88,8 @@ MapRuinsofAlphCYuyukoChamberSignpost2Script:
 	end
 
 RuinsOfAlphCYuyukoChamberScientistScript:
-	readvar VAR_HINACOUNT
-	ifequalfwd NUM_HINA, .AllHinaCaught
+	readvar VAR_CNUECOUNT
+	ifequalfwd NUM_CNUE, .AllCNueCaught
 	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
 	iftrue_jumptextfaceplayer RuinsOfAlphCYuyukoChamberScientistHoleText
 	faceplayer
@@ -105,12 +105,12 @@ RuinsOfAlphCYuyukoChamberScientistScript:
 	turnobject LAST_TALKED, UP
 	end
 
-.AllHinaCaught:
-	jumptextfaceplayer RuinsOfAlphResearchCenterScientist1Text_GotAllHina
+.AllCNueCaught:
+	jumptextfaceplayer RuinsOfAlphResearchCenterScientist1Text_GotAllCNue
 
 MapRuinsofAlphCYuyukoChamberSignpost3Script:
 	opentext
-	hinatypeface
+	cnuetypeface
 	writetext RuinsOfAlphCYuyukoChamberDescriptionText
 	waitbutton
 	closetext
@@ -125,13 +125,13 @@ MapRuinsofAlphCYuyukoChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
-	writetext RuinsOfAlphChambersItsHinaText
-	sjumpfwd .hinawords
+	writetext RuinsOfAlphChambersItsCNueText
+	sjumpfwd .cnuewords
 .unsolved
 	writetext RuinsOfAlphAYuyukoChamberWallPatternLeftText
-.hinawords
+.cnuewords
 	setval $0
-	special Special_DisplayHinaWords
+	special Special_DisplayCNueWords
 	endtext
 
 RuinsOfAlphCYuyukoChamberReceptionistText:

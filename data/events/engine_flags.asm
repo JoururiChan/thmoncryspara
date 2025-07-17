@@ -26,7 +26,7 @@ EngineFlags:
 	engine_flag wMomSavingMoney, MOM_ACTIVE_F
 
 	engine_flag wStatusFlags, STATUSFLAGS_TOHODEX_F
-	engine_flag wStatusFlags, STATUSFLAGS_HINA_DEX_F
+	engine_flag wStatusFlags, STATUSFLAGS_CNUE_DEX_F
 	engine_flag wStatusFlags, STATUSFLAGS_CAUGHT_TOHORUS_F
 	engine_flag wStatusFlags, STATUSFLAGS_ROCKET_SIGNAL_F
 	engine_flag wStatusFlags, STATUSFLAGS_HALL_OF_FAME_F
@@ -69,15 +69,15 @@ EngineFlags:
 	engine_flag wKantoBadges, VOLCANOBADGE
 	engine_flag wKantoBadges, EARTHBADGE
 
-	; hina sets (see data/wild/unlocked_hinas.asm)
-	engine_flag wUnlockedHinas, UNLOCKED_HINAS_A_TO_J_F
-	engine_flag wUnlockedHinas, UNLOCKED_HINAS_K_TO_Q_F
-	engine_flag wUnlockedHinas, UNLOCKED_HINAS_R_TO_W_F
-	engine_flag wUnlockedHinas, UNLOCKED_HINAS_X_TO_QUESTION_F
-	engine_flag wUnlockedHinas, 4 ; unused
-	engine_flag wUnlockedHinas, 5 ; unused
-	engine_flag wUnlockedHinas, 6 ; unused
-	engine_flag wUnlockedHinas, 7 ; unused
+	; cnue sets (see data/wild/unlocked_cnues.asm)
+	engine_flag wUnlockedCNues, UNLOCKED_CNUES_A_TO_J_F
+	engine_flag wUnlockedCNues, UNLOCKED_CNUES_K_TO_Q_F
+	engine_flag wUnlockedCNues, UNLOCKED_CNUES_R_TO_W_F
+	engine_flag wUnlockedCNues, UNLOCKED_CNUES_X_TO_QUESTION_F
+	engine_flag wUnlockedCNues, 4 ; unused
+	engine_flag wUnlockedCNues, 5 ; unused
+	engine_flag wUnlockedCNues, 6 ; unused
+	engine_flag wUnlockedCNues, 7 ; unused
 
 	; fly
 	engine_flag wVisitedSpawns, SPAWN_HOME

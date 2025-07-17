@@ -886,10 +886,10 @@ CHinaMini::     INCBIN "gfx/minis/china.2bpp.lz"
 CHinaMiniMask:: INCBIN "gfx/minis/china_mask.1bpp.lz"
 CHinaIcon::     INCBIN "gfx/icons/china.2bpp.lz"
 
-SECTION "HinaA Mini Icon", ROMX
-HinaAMini::     INCBIN "gfx/minis/china.2bpp.lz"
-HinaAMiniMask:: INCBIN "gfx/minis/china_mask.1bpp.lz"
-HinaAIcon::     INCBIN "gfx/icons/china.2bpp.lz"
+SECTION "CNueA Mini Icon", ROMX
+CNueAMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CNueAMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CNueAIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "AHina Mini Icon", ROMX
 AHinaMini::     INCBIN "gfx/minis/china.2bpp.lz"
@@ -1196,10 +1196,10 @@ TByakurenMini::     INCBIN "gfx/minis/tbyakuren.2bpp.lz"
 TByakurenMiniMask:: INCBIN "gfx/minis/tbyakuren_mask.1bpp.lz"
 TByakurenIcon::     INCBIN "gfx/icons/tbyakuren.2bpp.lz"
 
-SECTION "CNue Mini Icon", ROMX
-CNueMini::     INCBIN "gfx/minis/cnue.2bpp.lz"
-CNueMiniMask:: INCBIN "gfx/minis/cnue_mask.1bpp.lz"
-CNueIcon::     INCBIN "gfx/icons/cnue.2bpp.lz"
+SECTION "Hina Mini Icon", ROMX
+HinaMini::     INCBIN "gfx/minis/china.2bpp.lz"
+HinaMiniMask:: INCBIN "gfx/minis/china_mask.1bpp.lz"
+HinaIcon::     INCBIN "gfx/icons/china.2bpp.lz"
 
 SECTION "Nue Mini Icon", ROMX
 NueMini::     INCBIN "gfx/minis/nue.2bpp.lz"
@@ -1456,140 +1456,140 @@ SumirekoMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
 SumirekoMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 SumirekoIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
-SECTION "HinaB Mini Icon", ROMX
-HinaBMini::     INCBIN "gfx/minis/hina_b.2bpp.lz"
-HinaBMiniMask:: INCBIN "gfx/minis/hina_b_mask.1bpp.lz"
-HinaBIcon::     INCBIN "gfx/icons/hina_b.2bpp.lz"
+SECTION "CNueB Mini Icon", ROMX
+CNueBMini::     INCBIN "gfx/minis/creimu_b.2bpp.lz"
+CNueBMiniMask:: INCBIN "gfx/minis/creimu_b_mask.1bpp.lz"
+CNueBIcon::     INCBIN "gfx/icons/creimu_b.2bpp.lz"
 
-SECTION "HinaC Mini Icon", ROMX
-HinaCMini::     INCBIN "gfx/minis/hina_c.2bpp.lz"
-HinaCMiniMask:: INCBIN "gfx/minis/hina_c_mask.1bpp.lz"
-HinaCIcon::     INCBIN "gfx/icons/hina_c.2bpp.lz"
+SECTION "CNueC Mini Icon", ROMX
+CNueCMini::     INCBIN "gfx/minis/creimu_c.2bpp.lz"
+CNueCMiniMask:: INCBIN "gfx/minis/creimumu_c_mask.1bpp.lz"
+CNueCIcon::     INCBIN "gfx/icons/creimu_c.2bpp.lz"
 
-SECTION "HinaD Mini Icon", ROMX
-HinaDMini::     INCBIN "gfx/minis/hina_d.2bpp.lz"
-HinaDMiniMask:: INCBIN "gfx/minis/hina_d_mask.1bpp.lz"
-HinaDIcon::     INCBIN "gfx/icons/hina_d.2bpp.lz"
+SECTION "CNueD Mini Icon", ROMX
+CNueDMini::     INCBIN "gfx/minis/creimu_d.2bpp.lz"
+CNueDMiniMask:: INCBIN "gfx/minis/creimu_d_mask.1bpp.lz"
+CNueDIcon::     INCBIN "gfx/icons/creimu_d.2bpp.lz"
 
-SECTION "HinaE Mini Icon", ROMX
-HinaEMini::     INCBIN "gfx/minis/hina_e.2bpp.lz"
-HinaEMiniMask:: INCBIN "gfx/minis/hina_e_mask.1bpp.lz"
-HinaEIcon::     INCBIN "gfx/icons/hina_e.2bpp.lz"
+SECTION "CNueE Mini Icon", ROMX
+CNueEMini::     INCBIN "gfx/minis/creimu_e.2bpp.lz"
+CNueEMiniMask:: INCBIN "gfx/minis/creimumu_e_mask.1bpp.lz"
+CNueEIcon::     INCBIN "gfx/icons/creimumu_e.2bpp.lz"
 
-SECTION "HinaF Mini Icon", ROMX
-HinaFMini::     INCBIN "gfx/minis/hina_f.2bpp.lz"
-HinaFMiniMask:: INCBIN "gfx/minis/hina_f_mask.1bpp.lz"
-HinaFIcon::     INCBIN "gfx/icons/hina_f.2bpp.lz"
+SECTION "CNueF Mini Icon", ROMX
+CNueFMini::     INCBIN "gfx/minis/creimumu_f.2bpp.lz"
+CNueFMiniMask:: INCBIN "gfx/minis/creimumu_f_mask.1bpp.lz"
+CNueFIcon::     INCBIN "gfx/icons/creimumu_f.2bpp.lz"
 
-SECTION "HinaG Mini Icon", ROMX
-HinaGMini::     INCBIN "gfx/minis/hina_g.2bpp.lz"
-HinaGMiniMask:: INCBIN "gfx/minis/hina_g_mask.1bpp.lz"
-HinaGIcon::     INCBIN "gfx/icons/hina_g.2bpp.lz"
+SECTION "CNueG Mini Icon", ROMX
+CNueGMini::     INCBIN "gfx/minis/creimu_g.2bpp.lz"
+CNueGMiniMask:: INCBIN "gfx/minis/creimumumumumumu_g_mask.1bpp.lz"
+CNueGIcon::     INCBIN "gfx/icons/creimumumumu_g.2bpp.lz"
 
-SECTION "HinaH Mini Icon", ROMX
-HinaHMini::     INCBIN "gfx/minis/hina_h.2bpp.lz"
-HinaHMiniMask:: INCBIN "gfx/minis/hina_h_mask.1bpp.lz"
-HinaHIcon::     INCBIN "gfx/icons/hina_h.2bpp.lz"
+SECTION "CNueH Mini Icon", ROMX
+CNueHMini::     INCBIN "gfx/minis/creimumu_h.2bpp.lz"
+CNueHMiniMask:: INCBIN "gfx/minis/creimu_h_mask.1bpp.lz"
+CNueHIcon::     INCBIN "gfx/icons/creimu_h.2bpp.lz"
 
-SECTION "HinaI Mini Icon", ROMX
-HinaIMini::     INCBIN "gfx/minis/hina_i.2bpp.lz"
-HinaIMiniMask:: INCBIN "gfx/minis/hina_i_mask.1bpp.lz"
-HinaIIcon::     INCBIN "gfx/icons/hina_i.2bpp.lz"
+SECTION "CNueI Mini Icon", ROMX
+CNueIMini::     INCBIN "gfx/minis/creimu_i.2bpp.lz"
+CNueIMiniMask:: INCBIN "gfx/minis/creimu_i_mask.1bpp.lz"
+CNueIIcon::     INCBIN "gfx/icons/creimu_i.2bpp.lz"
 
-SECTION "HinaJ Mini Icon", ROMX
-HinaJMini::     INCBIN "gfx/minis/hina_j.2bpp.lz"
-HinaJMiniMask:: INCBIN "gfx/minis/hina_j_mask.1bpp.lz"
-HinaJIcon::     INCBIN "gfx/icons/hina_j.2bpp.lz"
+SECTION "CNueJ Mini Icon", ROMX
+CNueJMini::     INCBIN "gfx/minis/creimu_j.2bpp.lz"
+CNueJMiniMask:: INCBIN "gfx/minis/creimu_j_mask.1bpp.lz"
+CNueJIcon::     INCBIN "gfx/icons/creimu_j.2bpp.lz"
 
-SECTION "HinaK Mini Icon", ROMX
-HinaKMini::     INCBIN "gfx/minis/hina_k.2bpp.lz"
-HinaKMiniMask:: INCBIN "gfx/minis/hina_k_mask.1bpp.lz"
-HinaKIcon::     INCBIN "gfx/icons/hina_k.2bpp.lz"
+SECTION "CNueK Mini Icon", ROMX
+CNueKMini::     INCBIN "gfx/minis/creimu_k.2bpp.lz"
+CNueKMiniMask:: INCBIN "gfx/minis/creimumu_k_mask.1bpp.lz"
+CNueKIcon::     INCBIN "gfx/icons/creimu_k.2bpp.lz"
 
-SECTION "HinaL Mini Icon", ROMX
-HinaLMini::     INCBIN "gfx/minis/hina_l.2bpp.lz"
-HinaLMiniMask:: INCBIN "gfx/minis/hina_l_mask.1bpp.lz"
-HinaLIcon::     INCBIN "gfx/icons/hina_l.2bpp.lz"
+SECTION "CNueL Mini Icon", ROMX
+CNueLMini::     INCBIN "gfx/minis/creimumu_l.2bpp.lz"
+CNueLMiniMask:: INCBIN "gfx/minis/creimumu_l_mask.1bpp.lz"
+CNueLIcon::     INCBIN "gfx/icons/creimumu_l.2bpp.lz"
 
-SECTION "HinaM Mini Icon", ROMX
-HinaMMini::     INCBIN "gfx/minis/hina_m.2bpp.lz"
-HinaMMiniMask:: INCBIN "gfx/minis/hina_m_mask.1bpp.lz"
-HinaMIcon::     INCBIN "gfx/icons/hina_m.2bpp.lz"
+SECTION "CNueM Mini Icon", ROMX
+CNueMMini::     INCBIN "gfx/minis/creimu_m.2bpp.lz"
+CNueMMiniMask:: INCBIN "gfx/minis/creimumumumu_m_mask.1bpp.lz"
+CNueMIcon::     INCBIN "gfx/icons/creimumumu_m.2bpp.lz"
 
-SECTION "HinaN Mini Icon", ROMX
-HinaNMini::     INCBIN "gfx/minis/hina_n.2bpp.lz"
-HinaNMiniMask:: INCBIN "gfx/minis/hina_n_mask.1bpp.lz"
-HinaNIcon::     INCBIN "gfx/icons/hina_n.2bpp.lz"
+SECTION "CNueN Mini Icon", ROMX
+CNueNMini::     INCBIN "gfx/minis/creimumu_n.2bpp.lz"
+CNueNMiniMask:: INCBIN "gfx/minis/creimu_n_mask.1bpp.lz"
+CNueNIcon::     INCBIN "gfx/icons/creimumumumu_n.2bpp.lz"
 
-SECTION "HinaO Mini Icon", ROMX
-HinaOMini::     INCBIN "gfx/minis/hina_o.2bpp.lz"
-HinaOMiniMask:: INCBIN "gfx/minis/hina_o_mask.1bpp.lz"
-HinaOIcon::     INCBIN "gfx/icons/hina_o.2bpp.lz"
+SECTION "CNueO Mini Icon", ROMX
+CNueOMini::     INCBIN "gfx/minis/creimu_o.2bpp.lz"
+CNueOMiniMask:: INCBIN "gfx/minis/creimumu_o_mask.1bpp.lz"
+CNueOIcon::     INCBIN "gfx/icons/creimu_o.2bpp.lz"
 
-SECTION "HinaP Mini Icon", ROMX
-HinaPMini::     INCBIN "gfx/minis/hina_p.2bpp.lz"
-HinaPMiniMask:: INCBIN "gfx/minis/hina_p_mask.1bpp.lz"
-HinaPIcon::     INCBIN "gfx/icons/hina_p.2bpp.lz"
+SECTION "CNueP Mini Icon", ROMX
+CNuePMini::     INCBIN "gfx/minis/creimu_p.2bpp.lz"
+CNuePMiniMask:: INCBIN "gfx/minis/creimu_p_mask.1bpp.lz"
+CNuePIcon::     INCBIN "gfx/icons/creimu_p.2bpp.lz"
 
-SECTION "HinaQ Mini Icon", ROMX
-HinaQMini::     INCBIN "gfx/minis/hina_q.2bpp.lz"
-HinaQMiniMask:: INCBIN "gfx/minis/hina_q_mask.1bpp.lz"
-HinaQIcon::     INCBIN "gfx/icons/hina_q.2bpp.lz"
+SECTION "CNueQ Mini Icon", ROMX
+CNueQMini::     INCBIN "gfx/minis/creimu_q.2bpp.lz"
+CNueQMiniMask:: INCBIN "gfx/minis/creimu_q_mask.1bpp.lz"
+CNueQIcon::     INCBIN "gfx/icons/creimu_q.2bpp.lz"
 
-SECTION "HinaR Mini Icon", ROMX
-HinaRMini::     INCBIN "gfx/minis/hina_r.2bpp.lz"
-HinaRMiniMask:: INCBIN "gfx/minis/hina_r_mask.1bpp.lz"
-HinaRIcon::     INCBIN "gfx/icons/hina_r.2bpp.lz"
+SECTION "CNueR Mini Icon", ROMX
+CNueRMini::     INCBIN "gfx/minis/creimu_r.2bpp.lz"
+CNueRMiniMask:: INCBIN "gfx/minis/creimu_r_mask.1bpp.lz"
+CNueRIcon::     INCBIN "gfx/icons/creimu_r.2bpp.lz"
 
-SECTION "HinaS Mini Icon", ROMX
-HinaSMini::     INCBIN "gfx/minis/hina_s.2bpp.lz"
-HinaSMiniMask:: INCBIN "gfx/minis/hina_s_mask.1bpp.lz"
-HinaSIcon::     INCBIN "gfx/icons/hina_s.2bpp.lz"
+SECTION "CNueS Mini Icon", ROMX
+CNueSMini::     INCBIN "gfx/minis/creimu_s.2bpp.lz"
+CNueSMiniMask:: INCBIN "gfx/minis/creimu_s_mask.1bpp.lz"
+CNueSIcon::     INCBIN "gfx/icons/creimumu_s.2bpp.lz"
 
-SECTION "HinaT Mini Icon", ROMX
-HinaTMini::     INCBIN "gfx/minis/hina_t.2bpp.lz"
-HinaTMiniMask:: INCBIN "gfx/minis/hina_t_mask.1bpp.lz"
-HinaTIcon::     INCBIN "gfx/icons/hina_t.2bpp.lz"
+SECTION "CNueT Mini Icon", ROMX
+CNueTMini::     INCBIN "gfx/minis/creimumu_t.2bpp.lz"
+CNueTMiniMask:: INCBIN "gfx/minis/creimu_t_mask.1bpp.lz"
+CNueTIcon::     INCBIN "gfx/icons/creimumumumumu_t.2bpp.lz"
 
-SECTION "HinaU Mini Icon", ROMX
-HinaUMini::     INCBIN "gfx/minis/hina_u.2bpp.lz"
-HinaUMiniMask:: INCBIN "gfx/minis/hina_u_mask.1bpp.lz"
-HinaUIcon::     INCBIN "gfx/icons/hina_u.2bpp.lz"
+SECTION "CNueU Mini Icon", ROMX
+CNueUMini::     INCBIN "gfx/minis/creimu_u.2bpp.lz"
+CNueUMiniMask:: INCBIN "gfx/minis/creimumumumumumumumu_u_mask.1bpp.lz"
+CNueUIcon::     INCBIN "gfx/icons/creimumumumumumumu_u.2bpp.lz"
 
-SECTION "HinaV Mini Icon", ROMX
-HinaVMini::     INCBIN "gfx/minis/hina_v.2bpp.lz"
-HinaVMiniMask:: INCBIN "gfx/minis/hina_v_mask.1bpp.lz"
-HinaVIcon::     INCBIN "gfx/icons/hina_v.2bpp.lz"
+SECTION "CNueV Mini Icon", ROMX
+CNueVMini::     INCBIN "gfx/minis/creimumumumumumu_v.2bpp.lz"
+CNueVMiniMask:: INCBIN "gfx/minis/creimumumumumu_v_mask.1bpp.lz"
+CNueVIcon::     INCBIN "gfx/icons/creimumumumu_v.2bpp.lz"
 
-SECTION "HinaW Mini Icon", ROMX
-HinaWMini::     INCBIN "gfx/minis/hina_w.2bpp.lz"
-HinaWMiniMask:: INCBIN "gfx/minis/hina_w_mask.1bpp.lz"
-HinaWIcon::     INCBIN "gfx/icons/hina_w.2bpp.lz"
+SECTION "CNueW Mini Icon", ROMX
+CNueWMini::     INCBIN "gfx/minis/creimumu_w.2bpp.lz"
+CNueWMiniMask:: INCBIN "gfx/minis/creimumumumu_w_mask.1bpp.lz"
+CNueWIcon::     INCBIN "gfx/icons/creimu_w.2bpp.lz"
 
-SECTION "HinaX Mini Icon", ROMX
-HinaXMini::     INCBIN "gfx/minis/hina_x.2bpp.lz"
-HinaXMiniMask:: INCBIN "gfx/minis/hina_x_mask.1bpp.lz"
-HinaXIcon::     INCBIN "gfx/icons/hina_x.2bpp.lz"
+SECTION "CNueX Mini Icon", ROMX
+CNueXMini::     INCBIN "gfx/minis/creimu_x.2bpp.lz"
+CNueXMiniMask:: INCBIN "gfx/minis/creimu_x_mask.1bpp.lz"
+CNueXIcon::     INCBIN "gfx/icons/creimu_x.2bpp.lz"
 
-SECTION "HinaY Mini Icon", ROMX
-HinaYMini::     INCBIN "gfx/minis/hina_y.2bpp.lz"
-HinaYMiniMask:: INCBIN "gfx/minis/hina_y_mask.1bpp.lz"
-HinaYIcon::     INCBIN "gfx/icons/hina_y.2bpp.lz"
+SECTION "CNueY Mini Icon", ROMX
+CNueYMini::     INCBIN "gfx/minis/creimu_y.2bpp.lz"
+CNueYMiniMask:: INCBIN "gfx/minis/creimu_y_mask.1bpp.lz"
+CNueYIcon::     INCBIN "gfx/icons/creimu_y.2bpp.lz"
 
-SECTION "HinaZ Mini Icon", ROMX
-HinaZMini::     INCBIN "gfx/minis/hina_z.2bpp.lz"
-HinaZMiniMask:: INCBIN "gfx/minis/hina_z_mask.1bpp.lz"
-HinaZIcon::     INCBIN "gfx/icons/hina_z.2bpp.lz"
+SECTION "CNueZ Mini Icon", ROMX
+CNueZMini::     INCBIN "gfx/minis/creimu_z.2bpp.lz"
+CNueZMiniMask:: INCBIN "gfx/minis/creimu_z_mask.1bpp.lz"
+CNueZIcon::     INCBIN "gfx/icons/creimu_z.2bpp.lz"
 
-SECTION "HinaExclamation Mini Icon", ROMX
-HinaExclamationMini::     INCBIN "gfx/minis/hina_exclamation.2bpp.lz"
-HinaExclamationMiniMask:: INCBIN "gfx/minis/hina_exclamation_mask.1bpp.lz"
-HinaExclamationIcon::     INCBIN "gfx/icons/hina_exclamation.2bpp.lz"
+SECTION "CNueExclamation Mini Icon", ROMX
+CNueExclamationMini::     INCBIN "gfx/minis/creimumu_exclamation.2bpp.lz"
+CNueExclamationMiniMask:: INCBIN "gfx/minis/creimumu_exclamation_mask.1bpp.lz"
+CNueExclamationIcon::     INCBIN "gfx/icons/creimumu_exclamation.2bpp.lz"
 
-SECTION "HinaQuestion Mini Icon", ROMX
-HinaQuestionMini::     INCBIN "gfx/minis/hina_question.2bpp.lz"
-HinaQuestionMiniMask:: INCBIN "gfx/minis/hina_question_mask.1bpp.lz"
-HinaQuestionIcon::     INCBIN "gfx/icons/hina_question.2bpp.lz"
+SECTION "CNueQuestion Mini Icon", ROMX
+CNueQuestionMini::     INCBIN "gfx/minis/creimumu_question.2bpp.lz"
+CNueQuestionMiniMask:: INCBIN "gfx/minis/creimu_question_mask.1bpp.lz"
+CNueQuestionIcon::     INCBIN "gfx/icons/creimu_question.2bpp.lz"
 
 SECTION "CFutoThreeSegment Mini Icon", ROMX
 CFutoThreeSegmentMini::     INCBIN "gfx/minis/placethm_three_segment.2bpp.lz"

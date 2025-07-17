@@ -147,7 +147,7 @@
 	define PHONE_LIST_OFFSET_v7,              0x7fb
 	define PARTY_SPECIES_OFFSET_v7,           0x857
 	define TOHODEX_CAUGHT_OFFSET_v7,          0xa0b
-	define HINA_DEX_OFFSET_v7,               0xa4b
+	define CNUE_DEX_OFFSET_v7,               0xa4b
 
 ; removed event flags
 	define EVENT_NOISY_FOREST_PIKABLU_GUY, 2027

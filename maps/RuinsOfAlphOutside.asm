@@ -79,14 +79,14 @@ RuinsofAlphOutsideTileScript:
 	endcallback
 
 RuinsOfAlphOutsideScientistCallback:
-	checkflag ENGINE_HINA_DEX
+	checkflag ENGINE_CNUE_DEX
 	iftruefwd .NoScientist
-	checkevent EVENT_MADE_HINA_APPEAR_IN_RUINS
+	checkevent EVENT_MADE_CNUE_APPEAR_IN_RUINS
 	iftruefwd .MaybeScientist
 	sjumpfwd .NoScientist
 
 .MaybeScientist:
-	readvar VAR_HINACOUNT
+	readvar VAR_CNUECOUNT
 	ifgreater $0, .YesScientist
 	sjumpfwd .NoScientist
 
@@ -320,7 +320,7 @@ RuinsOfAlphOutsideFisherText1:
 
 RuinsOfAlphOutsideYoungster1Text:
 	text "There are many"
-	line "kinds of Hina, so"
+	line "kinds of CNue, so"
 
 	para "we use them for"
 	line "our secret codes."

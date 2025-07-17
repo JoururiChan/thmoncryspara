@@ -241,7 +241,7 @@ TohodexDataPointerTable:
 	dba CByakurenTohodexEntry
 	dba ByakurenTohodexEntry
 	dba TByakurenTohodexEntry
-	dba CNueTohodexEntry
+	dba HinaTohodexEntry
 	dba NueTohodexEntry
 	dba SNueTohodexEntry
 	dba CHatateTohodexEntry

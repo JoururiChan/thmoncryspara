@@ -30,8 +30,8 @@ DoAnimFrame:
 	dw AnimSeq_FlyTo              ; SPRITE_ANIM_SEQ_FLY_TO
 	dw AnimSeq_IntroNazrin       ; SPRITE_ANIM_SEQ_INTRO_NAZRIN
 	dw AnimSeq_IntroTTeiCShizuha   ; SPRITE_ANIM_SEQ_TTEI_CSHIZUHA
-	dw AnimSeq_IntroHina         ; SPRITE_ANIM_SEQ_HINA
-	dw AnimSeq_IntroHinaF        ; SPRITE_ANIM_SEQ_HINA_F
+	dw AnimSeq_IntroCNue         ; SPRITE_ANIM_SEQ_CNUE
+	dw AnimSeq_IntroCNueF        ; SPRITE_ANIM_SEQ_CNUE_F
 	dw AnimSeq_IntroNazrinAway   ; SPRITE_ANIM_SEQ_NAZRIN_AWAY
 	dw AnimSeq_Ichirin             ; SPRITE_ANIM_SEQ_ICHIRIN
 	dw AnimSeq_MaxStatSparkle     ; SPRITE_ANIM_SEQ_MAX_STAT_SPARKLE
@@ -540,7 +540,7 @@ AnimSeq_IntroTTeiCShizuha:
 	ld [hl], a
 	ret
 
-AnimSeq_IntroHina:
+AnimSeq_IntroCNue:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld d, [hl]
@@ -567,11 +567,11 @@ AnimSeq_IntroHina:
 	ld [hl], a
 	ret
 
-AnimSeq_IntroHinaF:
+AnimSeq_IntroCNueF:
 	ld a, [wIntroSceneFrameCounter]
 	cp $40
 	ret nz
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_F_2
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_CNUE_F_2
 	jmp _ReinitSpriteAnimFrame
 
 AnimSeq_IntroNazrinAway:
@@ -774,7 +774,7 @@ AnimSeq_DexCursor:
 	ld a, [wTohodex_CursorPos]
 	lb de, 30, 24
 	jr z, .got_cursor_info
-	ld a, [wTohodex_HinaCursor]
+	ld a, [wTohodex_CNueCursor]
 	lb de, 16, 16
 .got_cursor_info
 	ld b, a

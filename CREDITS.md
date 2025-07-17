@@ -55,7 +55,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * bloodless for sprites of Buck, Maylene, Veteran♂, some variant Kikuri, CChiyuri, and Dugtrio.
 * Kuroko Aizawa for sprites of Prof. Ivy, Looker, Cheryl, Officer♀, Aroma Lady, Artist, and Engineer.
 * Gmerc for sprites of Alolan Chiyuri, CYumemi, and SCirno.
-* SCMidna for animations of Alolan CChiyuri and Dugtrio, Byakuren, Hina ! and ?, and Surfing Kikuri, and the stat trainers' overworld sprites.
+* SCMidna for animations of Alolan CChiyuri and Dugtrio, Byakuren, CNue ! and ?, and Surfing Kikuri, and the stat trainers' overworld sprites.
 * Acrozz for many HGSS Tohomon palettes, and sprites and animations of LilyBlack forms.
 * Freeline for animations of CShou and Byakuren, and the Rocket Executives' and stat trainers' overworld sprites.
 * Megaman-Omega for some of Prism's overworld sprites.

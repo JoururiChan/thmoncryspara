@@ -1,11 +1,11 @@
 if !DEF(MONOCHROME)
-	; BG2: main hina mode coloring
+	; BG2: main cnue mode coloring
 	RGB 31, 30, 21
 	RGB 25, 24, 15
 	RGB 31, 31, 31
 	RGB 00, 00, 00
 
-	; BG3: hina mode border + text areas
+	; BG3: cnue mode border + text areas
 	RGB 31, 31, 31
 	RGB 31, 30, 21
 	RGB 16, 14, 07

@@ -45,20 +45,20 @@ MACRO random_wild_form
 ENDM
 
 RandomWildSpeciesForms:
-	random_wild_form HINA,       .Hina
+	random_wild_form CNUE,       .CNue
 	random_wild_form CKIKURI,       .CKikuriKikuri
 	random_wild_form KIKURI,       .CKikuriKikuri
 	random_wild_form CMOMIJI,   .CFuto
 	random_wild_form CFUTO, .CFuto
 	dbw 0,        .Default
 
-.Hina:
-	; Random Hina letter
-	ld a, NUM_HINA
+.CNue:
+	; Random CNue letter
+	ld a, NUM_CNUE
 	call .RandomForm
 	; Can't use any letters that haven't been unlocked
-	call CheckHinaLetter
-	jr nc, .Hina ; re-roll
+	call CheckCNueLetter
+	jr nc, .CNue ; re-roll
 	ret
 
 .CKikuriKikuri:
@@ -88,10 +88,10 @@ RandomWildSpeciesForms:
 	inc a ; or PLAIN_FORM
 	ret
 
-CheckHinaLetter:
-; Return carry if the Hina letter in a has been unlocked.
+CheckCNueLetter:
+; Return carry if the CNue letter in a has been unlocked.
 	ld b, a
-	ld a, [wUnlockedHinas]
+	ld a, [wUnlockedCNues]
 	ld c, a
 	ld de, 0
 
@@ -101,7 +101,7 @@ CheckHinaLetter:
 	jr nc, .next
 
 ; Is our letter in the set?
-	ld hl, UnlockedHinaLetterSets
+	ld hl, UnlockedCNueLetterSets
 	add hl, de
 	ld a, [hli]
 	ld h, [hl]
@@ -121,9 +121,9 @@ CheckHinaLetter:
 	inc e
 	inc e
 	ld a, e
-	cp NUM_UNLOCKED_HINA_SETS * 2
+	cp NUM_UNLOCKED_CNUE_SETS * 2
 	jr c, .loop
 
 	ret ; not unlocked or invalid letter, returns not carry
 
-INCLUDE "data/wild/unlocked_hinas.asm"
+INCLUDE "data/wild/unlocked_cnues.asm"

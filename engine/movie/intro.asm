@@ -106,7 +106,7 @@ IntroScene1:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroHinasGFX
+	ld hl, IntroCNuesGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroPulseGFX
@@ -144,7 +144,7 @@ IntroScene1:
 	jr NextIntroScene
 
 IntroScene2:
-; First Hina (A) fades in, pulses, then fades out.
+; First CNue (A) fades in, pulses, then fades out.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -154,14 +154,14 @@ IntroScene2:
 	jr nz, .DontPlaySound
 	push af
 	depixel 11, 11
-	call CrystalIntro_InitHinaAnim
-	ld de, SFX_INTRO_HINA_1
+	call CrystalIntro_InitCNueAnim
+	ld de, SFX_INTRO_CNUE_1
 	call PlaySFX
 	pop af
 .DontPlaySound:
 	ld [wIntroSceneTimer], a
 	xor a
-	jmp CrystalIntro_HinaFade
+	jmp CrystalIntro_CNueFade
 
 IntroScene3:
 ; More setup. Transition to the outdoor scene.
@@ -195,7 +195,7 @@ IntroScene4:
 	ret
 
 IntroScene5:
-; Go back to the Hina.
+; Go back to the CNue.
 	call Intro_ClearBGPals
 	call ClearSprites
 	call ClearTileMap
@@ -211,7 +211,7 @@ IntroScene5:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroHinasGFX
+	ld hl, IntroCNuesGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroPulseGFX
@@ -249,42 +249,42 @@ IntroScene5:
 	jmp NextIntroScene
 
 IntroScene6:
-; Two more Hina (I, H) fade in.
+; Two more CNue (I, H) fade in.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
 	cp $80
 	jmp nc, NextIntroScene
 	cp $60
-	jr z, .SecondHina
+	jr z, .SecondCNue
 	cp $40
-	jr nc, .StopHina
+	jr nc, .StopCNue
 	cp $20
-	jr nz, .NoHina
+	jr nz, .NoCNue
 
-.FirstHina:
+.FirstCNue:
 	push af
 	depixel 7, 15
-	call CrystalIntro_InitHinaAnim
-	ld de, SFX_INTRO_HINA_2
+	call CrystalIntro_InitCNueAnim
+	ld de, SFX_INTRO_CNUE_2
 	call PlaySFX
 	pop af
-.NoHina:
+.NoCNue:
 	ld [wIntroSceneTimer], a
 	xor a
-	jmp CrystalIntro_HinaFade
+	jmp CrystalIntro_CNueFade
 
-.SecondHina:
+.SecondCNue:
 	push af
 	depixel 14, 6
-	call CrystalIntro_InitHinaAnim
-	ld de, SFX_INTRO_HINA_1
+	call CrystalIntro_InitCNueAnim
+	ld de, SFX_INTRO_CNUE_1
 	call PlaySFX
 	pop af
-.StopHina:
+.StopCNue:
 	ld [wIntroSceneTimer], a
 	ld a, $1
-	jmp CrystalIntro_HinaFade
+	jmp CrystalIntro_CNueFade
 
 IntroScene7:
 ; Back to the outdoor scene.
@@ -416,7 +416,7 @@ IntroScene10:
 	jmp PlaySFX
 
 IntroScene11:
-; Back to Hina again.
+; Back to CNue again.
 	call Intro_ClearBGPals
 	call ClearSprites
 	call ClearTileMap
@@ -432,7 +432,7 @@ IntroScene11:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroHinasGFX
+	ld hl, IntroCNuesGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroTilemap008
@@ -467,8 +467,8 @@ IntroScene11:
 	jmp NextIntroScene
 
 IntroScene12:
-; Even more Hina.
-	call .PlayHinaSound
+; Even more CNue.
+	call .PlayCNueSound
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -485,7 +485,7 @@ IntroScene12:
 	and $e0
 	srl a
 	swap a
-	jmp CrystalIntro_HinaFade
+	jmp CrystalIntro_CNueFade
 
 .second_half
 ; double speed
@@ -498,12 +498,12 @@ IntroScene12:
 	and $70
 	or $40
 	swap a
-	jmp CrystalIntro_HinaFade
+	jmp CrystalIntro_CNueFade
 
-.PlayHinaSound:
+.PlayCNueSound:
 	ld a, [wIntroSceneFrameCounter]
 	ld c, a
-	ld hl, .HinaSounds
+	ld hl, .CNueSounds
 .loop
 	ld a, [hli]
 	cp -1
@@ -522,15 +522,15 @@ IntroScene12:
 	pop de
 	jmp PlaySFX
 
-.HinaSounds:
-	dbw $00, SFX_INTRO_HINA_3
-	dbw $20, SFX_INTRO_HINA_2
-	dbw $40, SFX_INTRO_HINA_1
-	dbw $60, SFX_INTRO_HINA_2
-	dbw $80, SFX_INTRO_HINA_3
-	dbw $90, SFX_INTRO_HINA_2
-	dbw $a0, SFX_INTRO_HINA_1
-	dbw $b0, SFX_INTRO_HINA_2
+.CNueSounds:
+	dbw $00, SFX_INTRO_CNUE_3
+	dbw $20, SFX_INTRO_CNUE_2
+	dbw $40, SFX_INTRO_CNUE_1
+	dbw $60, SFX_INTRO_CNUE_2
+	dbw $80, SFX_INTRO_CNUE_3
+	dbw $90, SFX_INTRO_CNUE_2
+	dbw $a0, SFX_INTRO_CNUE_1
+	dbw $b0, SFX_INTRO_CNUE_2
 	db -1
 
 IntroScene13:
@@ -622,7 +622,7 @@ IntroScene15:
 	ld hl, IntroNazrinJumpGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
-	ld hl, IntroHinaBackGFX
+	ld hl, IntroCNueBackGFX
 	ld de, vTiles0 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld de, IntroGrass4GFX
@@ -658,7 +658,7 @@ IntroScene15:
 	call ClearSpriteAnims
 	call Intro_SetCGBPalUpdate
 	depixel 8, 5
-	ld a, SPRITE_ANIM_INDEX_INTRO_HINA_F
+	ld a, SPRITE_ANIM_INDEX_INTRO_CNUE_F
 	call InitSpriteAnimStruct
 	depixel 12, 0
 	ld a, SPRITE_ANIM_INDEX_INTRO_NAZRIN_AWAY
@@ -669,7 +669,7 @@ IntroScene15:
 	jmp NextIntroScene
 
 IntroScene16:
-; Nazrin shows its face. An Hina appears in front.
+; Nazrin shows its face. An CNue appears in front.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -762,7 +762,7 @@ IntroScene19:
 	ld hl, IntroNazrinBackGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
-	ld hl, IntroHinasGFX
+	ld hl, IntroCNuesGFX
 	ld de, vTiles1 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld de, IntroGrass4GFX
@@ -810,7 +810,7 @@ IntroScene19:
 	jmp NextIntroScene
 
 IntroScene20:
-; Nazrin running away. A bunch of Hina appear.
+; Nazrin running away. A bunch of CNue appear.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -819,7 +819,7 @@ IntroScene20:
 	cp $58
 	ret nc
 	cp $40
-	jr nc, .AppearHina
+	jr nc, .AppearCNue
 	cp $28
 	ret nc
 	ldh a, [hSCY]
@@ -827,7 +827,7 @@ IntroScene20:
 	ldh [hSCY], a
 	ret
 
-.AppearHina:
+.AppearCNue:
 	sub $18
 	ld c, a
 	or ~$3
@@ -838,7 +838,7 @@ IntroScene20:
 	srl a
 	srl a
 	ld [wIntroSceneTimer], a
-	jmp Intro_Scene20_AppearHina
+	jmp Intro_Scene20_AppearCNue
 
 IntroScene21:
 ; Nazrin gets more distant and turns black.
@@ -909,7 +909,7 @@ IntroScene26:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroCrystalHinasGFX
+	ld hl, IntroCrystalCNuesGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroTilemap017
@@ -944,7 +944,7 @@ IntroScene26:
 	jmp NextIntroScene
 
 IntroScene27:
-; Spell out C R Y S T A L with Hina.
+; Spell out C R Y S T A L with CNue.
 	ld hl, wIntroSceneTimer
 	inc [hl]
 	ld hl, wIntroSceneFrameCounter
@@ -959,7 +959,7 @@ IntroScene27:
 	ld a, c
 	and $70
 	swap a
-	jmp Intro_FadeHinaWordPals
+	jmp Intro_FadeCNueWordPals
 
 .done
 	call NextIntroScene
@@ -1020,46 +1020,46 @@ Intro_Scene24_ApplyPaletteFade:
 .FadePals:
 INCLUDE "gfx/intro/fade.pal"
 
-CrystalIntro_InitHinaAnim:
+CrystalIntro_InitCNueAnim:
 	push de
-	ld a, SPRITE_ANIM_INDEX_INTRO_HINA
+	ld a, SPRITE_ANIM_INDEX_INTRO_CNUE
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld [hl], $8
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_4
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_CNUE_4
 	call ReinitSpriteAnimFrame
 	pop de
 
 	push de
-	ld a, SPRITE_ANIM_INDEX_INTRO_HINA
+	ld a, SPRITE_ANIM_INDEX_INTRO_CNUE
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld [hl], $18
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_3
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_CNUE_3
 	call ReinitSpriteAnimFrame
 	pop de
 
 	push de
-	ld a, SPRITE_ANIM_INDEX_INTRO_HINA
+	ld a, SPRITE_ANIM_INDEX_INTRO_CNUE
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld [hl], $28
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_1
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_CNUE_1
 	call ReinitSpriteAnimFrame
 	pop de
 
-	ld a, SPRITE_ANIM_INDEX_INTRO_HINA
+	ld a, SPRITE_ANIM_INDEX_INTRO_CNUE
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld [hl], $38
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_2
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_CNUE_2
 	jmp ReinitSpriteAnimFrame
 
-CrystalIntro_HinaFade:
+CrystalIntro_CNueFade:
 	add a
 	add a
 	add a
@@ -1209,8 +1209,8 @@ rept 8
 endr
 endc
 
-Intro_Scene20_AppearHina:
-; Spawn the palette for the nth Hina
+Intro_Scene20_AppearCNue:
+; Spawn the palette for the nth CNue
 	ld a, [wIntroSceneTimer]
 	and $7
 	add a
@@ -1249,9 +1249,9 @@ Intro_Scene20_AppearHina:
 	ret
 
 .pal
-INCLUDE "gfx/intro/hina.pal"
+INCLUDE "gfx/intro/cnue.pal"
 
-Intro_FadeHinaWordPals:
+Intro_FadeCNueWordPals:
 	add a
 	add a
 	add a
@@ -1601,8 +1601,8 @@ INCBIN "gfx/intro/004.tilemap.lz"
 Palette_e5edd:
 INCLUDE "gfx/intro/background.pal"
 
-IntroHinasGFX:
-INCBIN "gfx/intro/hinas.2bpp.lz"
+IntroCNuesGFX:
+INCBIN "gfx/intro/cnues.2bpp.lz"
 
 IntroPulseGFX:
 INCBIN "gfx/intro/pulse.2bpp.lz"
@@ -1626,10 +1626,10 @@ IntroTilemap007:
 INCBIN "gfx/intro/007.tilemap.lz"
 
 Palette_365ad:
-INCLUDE "gfx/intro/hinas.pal"
+INCLUDE "gfx/intro/cnues.pal"
 
-IntroCrystalHinasGFX:
-INCBIN "gfx/intro/crystal_hinas.2bpp.lz"
+IntroCrystalCNuesGFX:
+INCBIN "gfx/intro/crystal_cnues.2bpp.lz"
 
 IntroTilemap017:
 INCBIN "gfx/intro/017.tilemap.lz"
@@ -1638,7 +1638,7 @@ IntroTilemap015:
 INCBIN "gfx/intro/015.tilemap.lz"
 
 Palette_e679d:
-INCLUDE "gfx/intro/crystal_hinas.pal"
+INCLUDE "gfx/intro/crystal_cnues.pal"
 
 IntroNazrinCloseGFX:
 INCBIN "gfx/intro/nazrin_close.2bpp.lz"
@@ -1673,8 +1673,8 @@ INCBIN "gfx/intro/013.tilemap.lz"
 Palette_e77dd:
 INCLUDE "gfx/intro/nazrin.pal"
 
-IntroHinaBackGFX:
-INCBIN "gfx/intro/hina_back.2bpp.lz"
+IntroCNueBackGFX:
+INCBIN "gfx/intro/cnue_back.2bpp.lz"
 
 IntroGrass1GFX:
 INCBIN "gfx/intro/grass1.2bpp"

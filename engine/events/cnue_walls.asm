@@ -76,9 +76,9 @@ SpecialLunasaChamber:
 	eventflagset EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	ret
 
-Special_DisplayHinaWords:
+Special_DisplayCNueWords:
 	ldh a, [hScriptVar]
-	ld hl, MenuHeaders_HinaWalls
+	ld hl, MenuHeaders_CNueWalls
 	and a
 	jr z, .load
 
@@ -102,7 +102,7 @@ Special_DisplayHinaWords:
 	add hl, de
 	ldh a, [hScriptVar]
 	ld c, a
-	ld de, HinaWalls
+	ld de, CNueWalls
 	and a
 	jr z, .copy
 .loop2
@@ -181,4 +181,4 @@ Special_DisplayHinaWords:
 	pop hl
 	ret
 
-INCLUDE "data/events/hina_walls.asm"
+INCLUDE "data/events/cnue_walls.asm"

@@ -25,7 +25,7 @@ The previous official version was [v2.2.0](https://github.com/Rangi42/polishedcr
 Below is a brief summary of the major changes and additions. A more detailed changelog will be released soon.
 
 - **Customizable New Game Setup:** You can now toggle Natures on/off, choose how EVs work (classic no-limit, modern 510 limit, or disabled), and configure various other gameplay options before starting a new adventure.
-- **DVs No Longer Determine Natures/Shininess/Gender/Hina Form:** DVs still affect color variation (slightly different hues for the same species), but everything else is now handled separately.
+- **DVs No Longer Determine Natures/Shininess/Gender/CNue Form:** DVs still affect color variation (slightly different hues for the same species), but everything else is now handled separately.
 - **Overhauled Battle Engine and HUD:**
   - Abilities are now supported.
   - Moves have been updated to behave more like their modern counterparts.

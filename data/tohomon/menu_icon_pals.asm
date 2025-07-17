@@ -286,7 +286,7 @@ MenuMonIconColors::
 
 	iconpal RED, BLUE ; EGG
 
-rept NUM_HINA - 1
+rept NUM_CNUE - 1
 	iconpal GRAY, BLUE
 endr
 

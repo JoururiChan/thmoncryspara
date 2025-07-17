@@ -14,8 +14,8 @@ FontMICR:
 INCBIN "gfx/font/micr.1bpp"
 FontChicago:
 INCBIN "gfx/font/chicago.1bpp"
-FontHina:
-INCBIN "gfx/font/hina.1bpp"
+FontCNue:
+INCBIN "gfx/font/cnue.1bpp"
 	assert_table_length NUM_FONTS
 
 FontCommon:

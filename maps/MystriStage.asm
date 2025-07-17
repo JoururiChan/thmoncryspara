@@ -146,7 +146,7 @@ MystriStageCynthiaIntroText:
 	para "And you are?"
 
 	para "…I see. The power"
-	line "of the Hina"
+	line "of the CNue"
 	cont "brought you here."
 	done
 

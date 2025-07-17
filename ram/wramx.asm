@@ -137,7 +137,7 @@ NEXTU
 wTempItem::
 wTempPartyCount::
 wPrevPartyLevel::
-wHinaPuzzleCornerTile::
+wCNuePuzzleCornerTile::
 wKeepSevenBiasChance::
 wTempDayOfWeek::
 	db
@@ -355,7 +355,7 @@ wBattlePlayerAction::
 ; 0 - use move
 ; 1 - use item
 ; 2 - switch
-wSolvedHinaPuzzle::
+wSolvedCNuePuzzle::
 	db
 
 wStateFlags::
@@ -953,7 +953,7 @@ wSecretID:: dw
 
 wStatusFlags::
 	; bit 0: tohodex
-	; bit 1: hina dex
+	; bit 1: cnue dex
 	; bit 2: flash
 	; bit 3: caught pokerus
 	; bit 4: rocket signal
@@ -1370,7 +1370,7 @@ wEndTohodexFlags::
 
 	ds 1 ; unused
 
-wUnlockedHinas:: db
+wUnlockedCNues:: db
 
 	ds 2 ; unused
 
