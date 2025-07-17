@@ -297,6 +297,8 @@ TohomonBodyData:
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; SLILYBLACK (SLILYBLACK_RED_FORM)
