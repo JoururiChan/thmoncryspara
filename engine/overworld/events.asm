@@ -1194,11 +1194,11 @@ RandomEncounter::
 .ok
 	ld a, [wTempWildMonSpecies]
 	cp NAZRIN
-	jr nz, .notroamingsuicune
+	jr nz, .notroamingnazrin
 	ld a, BANK(RoamingNazrinBattleScript)
 	ld hl, RoamingNazrinBattleScript
 	jr .done
-.notroamingsuicune
+.notroamingnazrin
 	cp SKOISHI
 	jr nz, .notroamingskoishi
 	ld a, BANK(RoamingSKoishiBattleScript)

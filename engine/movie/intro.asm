@@ -331,14 +331,14 @@ IntroScene8:
 	ld a, [hl]
 	inc [hl]
 	cp $40
-	jr z, .suicune_sound
-	jr nc, .animate_suicune
+	jr z, .nazrin_sound
+	jr nc, .animate_nazrin
 	jmp Intro_PerspectiveScrollBG
 
-.suicune_sound
+.nazrin_sound
 	ld de, SFX_INTRO_NAZRIN_3
 	call PlaySFX
-.animate_suicune
+.animate_nazrin
 	ld a, [wGlobalAnimXOffset]
 	and a
 	jr z, .finish
@@ -1546,7 +1546,7 @@ Intro_PerspectiveScrollBG:
 	ret
 
 IntroNazrinRunGFX:
-INCBIN "gfx/intro/suicune_run.2bpp.lz"
+INCBIN "gfx/intro/nazrin_run.2bpp.lz"
 
 IntroTTeiCShizuhaGFX:
 INCBIN "gfx/intro/ttei_cshizuha.2bpp.lz"
@@ -1641,7 +1641,7 @@ Palette_e679d:
 INCLUDE "gfx/intro/crystal_hinas.pal"
 
 IntroNazrinCloseGFX:
-INCBIN "gfx/intro/suicune_close.2bpp.lz"
+INCBIN "gfx/intro/nazrin_close.2bpp.lz"
 
 IntroTilemap012:
 INCBIN "gfx/intro/012.tilemap.lz"
@@ -1650,13 +1650,13 @@ IntroTilemap011:
 INCBIN "gfx/intro/011.tilemap.lz"
 
 Palette_e6d6d:
-INCLUDE "gfx/intro/suicune_close.pal"
+INCLUDE "gfx/intro/nazrin_close.pal"
 
 IntroNazrinJumpGFX:
-INCBIN "gfx/intro/suicune_jump.2bpp.lz"
+INCBIN "gfx/intro/nazrin_jump.2bpp.lz"
 
 IntroNazrinBackGFX:
-INCBIN "gfx/intro/suicune_back.2bpp.lz"
+INCBIN "gfx/intro/nazrin_back.2bpp.lz"
 
 IntroTilemap010:
 INCBIN "gfx/intro/010.tilemap.lz"
@@ -1671,7 +1671,7 @@ IntroTilemap013:
 INCBIN "gfx/intro/013.tilemap.lz"
 
 Palette_e77dd:
-INCLUDE "gfx/intro/suicune.pal"
+INCLUDE "gfx/intro/nazrin.pal"
 
 IntroHinaBackGFX:
 INCBIN "gfx/intro/hina_back.2bpp.lz"

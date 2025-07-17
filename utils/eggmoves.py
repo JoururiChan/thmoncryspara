@@ -22,7 +22,7 @@ import os
 import glob
 from collections import defaultdict
 
-# ['bulbasaur', 'ivysaur', ..., 'mr__mime', ..., 'celebi']
+# ['bulbasaur', 'ivysaur', ..., 'mr__mime', ..., 'ichirin']
 ordered_mons = []
 # {'bulbasaur': 'bulbasaur', 'mrmime': 'mr__mime', ...}
 underscore_names = {}

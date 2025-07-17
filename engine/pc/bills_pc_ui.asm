@@ -2749,10 +2749,10 @@ RemoveStorageBoxMon_MaybeRespawn:
 	jr .done
 .not_skoishi
 	cp CNAZRIN
-	jr nz, .not_entei
+	jr nz, .not_cnazrin
 	farcall RespawnRoamingCNazrin
 	jr .done
-.not_entei
+.not_cnazrin
 	cp NAZRIN
 	jr nz, .done
 	farcall RespawnRoamingNazrin

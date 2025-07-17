@@ -1730,7 +1730,7 @@ SShizuhaTohodexEntry::
 
 SECTION "CMinorikoTohodexEntry", ROMX
 CMinorikoTohodexEntry::
-	db "Moonlight@"
+	db "Harvest@"
 	db   "On the night of a"
 	next "full moon, or when"
 	next "it gets excited,"
@@ -1740,7 +1740,7 @@ CMinorikoTohodexEntry::
 
 SECTION "MinorikoTohodexEntry", ROMX
 MinorikoTohodexEntry::
-	db "Darkness@"
+	db "Harvest@"
 	db   "It hides any shiny"
 	next "object it finds in"
 	next "a secret location."
@@ -1750,7 +1750,7 @@ MinorikoTohodexEntry::
 
 SECTION "HMinorikoTohodexEntry", ROMX
 HMinorikoTohodexEntry::
-	db "Royal@"
+	db "Goddess@"
 	db   "Every time it ya-"
 	next "wns, Yumeko"
 	next "injects more poi-"
@@ -1760,7 +1760,7 @@ HMinorikoTohodexEntry::
 
 SECTION "CHinaTohodexEntry", ROMX
 CHinaTohodexEntry::
-	db "Screech@"
+	db "Misfortune@"
 	db   "It loves to watch"
 	next "people it's scared."
 	next "It frightens them"
@@ -1770,7 +1770,7 @@ CHinaTohodexEntry::
 
 SECTION "HinaTohodexEntry", ROMX
 HinaTohodexEntry::
-	db "Symbol@"
+	db "Goddess@"
 	db   "Because different"
 	next "types of Hina"
 	next "exist, it is said"
@@ -1780,7 +1780,7 @@ HinaTohodexEntry::
 
 SECTION "AHinaTohodexEntry", ROMX
 AHinaTohodexEntry::
-	db "Patient@"
+	db "Goddess@"
 	db   "In order to"
 	next "conceal its black"
 	next "tail, it lives in"
@@ -1790,7 +1790,7 @@ AHinaTohodexEntry::
 
 SECTION "CNitoriTohodexEntry", ROMX
 CNitoriTohodexEntry::
-	db "Long Neck@"
+	db "Kappa@"
 	db   "When it is in"
 	next "danger, its tail"
 	next "uses some sort of"

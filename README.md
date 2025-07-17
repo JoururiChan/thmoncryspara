@@ -104,7 +104,7 @@ If you have questions or comments, please check or post on any of these sites. (
 ![move-reminder](screenshots/move-reminder.png)
 ![moves](screenshots/moves.png)
   
-![sylveon-moonblast](screenshots/sylveon-moonblast.png)
+![luna-moonblast](screenshots/luna-moonblast.png)
 ![togetic-fairy-wind](screenshots/togetic-fairy-wind.png)
 ![ayuyuko-fossil](screenshots/ayuyuko-fossil.png)
 ![cerulean-city](screenshots/cerulean-city.png)
@@ -112,7 +112,7 @@ If you have questions or comments, please check or post on any of these sites. (
 ![celadon-city](screenshots/celadon-city.png)
 ![fly-to-rock-tunnel](screenshots/fly-to-rock-tunnel.png)
 ![viridian-forest](screenshots/viridian-forest.png)
-![mismagius](screenshots/mismagius.png)
+![amurasa](screenshots/amurasa.png)
   
 ![fighting-dojo](screenshots/fighting-dojo.png)
 ![silph-co](screenshots/silph-co.png)

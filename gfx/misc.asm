@@ -232,13 +232,13 @@ AnimObjCherishBallGFX:: INCBIN "gfx/battle_balls/cherish_ball.2bpp.lz"
 
 SECTION "Painting Pics", ROMX
 
-CIchirinPaintingPic::      INCBIN "gfx/paintings/ho_oh_painting.2bpp.lz"
-TKogasaPaintingPic::     INCBIN "gfx/paintings/lugia_painting.2bpp.lz"
+CIchirinPaintingPic::      INCBIN "gfx/paintings/cichirin_painting.2bpp.lz"
+TKogasaPaintingPic::     INCBIN "gfx/paintings/tkogasa_painting.2bpp.lz"
 BellTowerPaintingPic:: INCBIN "gfx/paintings/bell_tower_painting.2bpp.lz"
 CYuyukoPuzzlePic::      INCBIN "gfx/paintings/cyuyuko_puzzle.2bpp.lz"
 LunasaPuzzlePic::     INCBIN "gfx/paintings/lunasa_puzzle.2bpp.lz"
 AYuyukoPuzzlePic::  INCBIN "gfx/paintings/ayuyuko_puzzle.2bpp.lz"
-CIchirinPuzzlePic::        INCBIN "gfx/paintings/ho_oh_puzzle.2bpp.lz"
+CIchirinPuzzlePic::        INCBIN "gfx/paintings/cichirin_puzzle.2bpp.lz"
 
 
 SECTION "Bill's PC Graphics", ROMX

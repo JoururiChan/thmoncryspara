@@ -701,7 +701,7 @@ InitRoamMons:
 	ld a, MAP_ROUTE_42
 	ld [wRoamMon1MapNumber], a
 
-; entei starting map
+; cnazrin starting map
 	ld a, GROUP_ROUTE_37
 	ld [wRoamMon2MapGroup], a
 	ld a, MAP_ROUTE_37

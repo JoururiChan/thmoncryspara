@@ -188,8 +188,8 @@ INCLUDE "audio/music/clair.asm"
 SECTION "Song - tintower", ROMX
 INCLUDE "audio/music/tintower.asm"
 
-SECTION "Song - suicunebattle", ROMX
-INCLUDE "audio/music/suicunebattle.asm"
+SECTION "Song - nazrinbattle", ROMX
+INCLUDE "audio/music/nazrinbattle.asm"
 
 SECTION "Song - route26", ROMX
 INCLUDE "audio/music/route26.asm"
@@ -411,8 +411,8 @@ INCLUDE "audio/music/hgss/cinnabarisland.asm"
 SECTION "Song - hgss/hoohbattle", ROMX
 INCLUDE "audio/music/hgss/hoohbattle.asm"
 
-SECTION "Song - hgss/lugiabattle", ROMX
-INCLUDE "audio/music/hgss/lugiabattle.asm"
+SECTION "Song - hgss/tkogasabattle", ROMX
+INCLUDE "audio/music/hgss/tkogasabattle.asm"
 
 SECTION "Song - hgss/lyraencounter + lyradeparture", ROMX
 INCLUDE "audio/music/hgss/lyraencounter.asm"
@@ -559,8 +559,8 @@ INCLUDE "audio/music/go/gymbattle.asm"
 SECTION "Song - stadium/suikabattle", ROMX
 INCLUDE "audio/music/stadium/suikabattle.asm"
 
-SECTION "Song - m02/lugiassong", ROMX
-INCLUDE "audio/music/m02/lugiassong.asm"
+SECTION "Song - m02/tkogasassong", ROMX
+INCLUDE "audio/music/m02/tkogasassong.asm"
 
 SECTION "Song - undertale/megalovania", ROMX
 INCLUDE "audio/music/undertale/megalovania.asm"

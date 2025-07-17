@@ -357,7 +357,7 @@ AnimateTitleCrystal:
 	ret
 
 TitleNazrinGFX:
-INCBIN "gfx/title/suicune.2bpp.lz"
+INCBIN "gfx/title/nazrin.2bpp.lz"
 
 TitleLogoGFX:
 INCBIN "gfx/title/logo_version.2bpp.lz"

@@ -241,7 +241,7 @@ INCLUDE "engine/tohodex/tohodex_2.asm"
 SECTION "Crystal Features 1", ROMX
 
 INCLUDE "engine/events/move_tutor.asm"
-INCLUDE "engine/events/celebi.asm"
+INCLUDE "engine/events/ichirin.asm"
 INCLUDE "engine/menus/main_menu.asm"
 INCLUDE "engine/tohomon/search.asm"
 INCLUDE "engine/events/buena_menu.asm"
