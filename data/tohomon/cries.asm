@@ -274,4 +274,50 @@ TohomonCries::
 	mon_cry CRY_CYUKI,        $000,  $100 ; SNue
 	mon_cry CRY_TPATCHOULI,      $000,  $100 ; CHatate
 	mon_cry CRY_ESARA,       $000,  $100 ; Hatate
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu	
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	assert_table_length NUM_SPECIES

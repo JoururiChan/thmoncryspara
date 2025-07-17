@@ -269,4 +269,28 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  32, 100 ; Miko
 	db  20, 100 ; Futo
 	db  56, 100 ; CMiko
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
+	db  1, 100 ; Placeholder
 	assert_table_length NUM_SPECIES

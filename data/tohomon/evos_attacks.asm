@@ -5251,6 +5251,126 @@ if !DEF(FAITHFUL)
 endc
 	db -1 ; no more level-up moves
 
+CMamizouEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+MamizouEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CKokoroEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+KokoroEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CWakasagiEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+WakasagiEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CSekibankiEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+SekibankiEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CKagerouEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+KagerouEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CBenbenEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+BenbenEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CYatsuhaEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+YatsuhaEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CSeijaEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+SeijaEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CSukunaEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+SukunaEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CRaikoEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+RaikoEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CKasenEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+KasenEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+CSumirekoEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
+SumirekoEvosAttacks:
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db -1 ; no more level-up moves
+
 EggEvosAttacks::
 	db -1 ; no more evolutions
 	db -1 ; no more level-up moves

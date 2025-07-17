@@ -2676,3 +2676,243 @@ SuikaArmoredTohodexEntry::
 	page "amplified by its"
 	next "armor, Suika's pow-"
 	next "er is unstoppable.@"
+
+SECTION "CMamizouTohodexEntry", ROMX
+CMamizouTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "MamizouTohodexEntry", ROMX
+MamizouTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CKokoroTohodexEntry", ROMX
+CKokoroTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "KokoroTohodexEntry", ROMX
+KokoroTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CWakasagiTohodexEntry", ROMX
+CWakasagiTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "WakasagiTohodexEntry", ROMX
+WakasagiTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CSekibankiTohodexEntry", ROMX
+CSekibankiTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "SekibankiTohodexEntry", ROMX
+SekibankiTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CKagerouTohodexEntry", ROMX
+CKagerouTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "KagerouTohodexEntry", ROMX
+KagerouTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CBenbenTohodexEntry", ROMX
+CBenbenTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "BenbenTohodexEntry", ROMX
+BenbenTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CYatsuhaTohodexEntry", ROMX
+CYatsuhaTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "YatsuhaTohodexEntry", ROMX
+YatsuhaTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CSeijaTohodexEntry", ROMX
+CSeijaTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "SeijaTohodexEntry", ROMX
+SeijaTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CSukunaTohodexEntry", ROMX
+CSukunaohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "SukunaTohodexEntry", ROMX
+SukunaTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CRaikoTohodexEntry", ROMX
+CRaikoTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "RaikoTohodexEntry", ROMX
+RaikoTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CKasenTohodexEntry", ROMX
+CKasenTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "KasenTohodexEntry", ROMX
+KasenTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "CSumirekoTohodexEntry", ROMX
+CSumirekoTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"
+
+SECTION "SumirekoTohodexEntry", ROMX
+SumirekoTohodexEntry::
+	db "Placeholder@"
+	db   "A"
+	next "B"
+	next "C"
+	page "D"
+	next "E"
+	next "F@"

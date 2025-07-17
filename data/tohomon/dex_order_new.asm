@@ -268,4 +268,28 @@ NewTohodexOrder:
 	dp MIKO  ; 121
 	dp FUTO   ; 122
 	dp CMIKO ; 123
+	dp CMAMIZOU ; X
+	dp MAMIZOU ; X
+	dp CKOKORO ; X
+	dp KOKORO ; X
+	dp CWAKASAGI ; X
+	dp WAKASAGI ; X
+	dp CSEKIBANKI ; X
+	dp SEKIBANKI ; X
+	dp CKAGEROU ; X
+	dp KAGEROU ; X
+	dp CBENBEN ; X
+	dp BENBEN ; X
+	dp CYATSUHA ; X
+	dp YATSUHA ; X
+	dp CSEIJA ; X
+	dp SEIJA ; X
+	dp CSUKUNA ; X
+	dp SUKUNA ; X
+	dp CRAIKO ; X
+	dp RAIKO ; X
+	dp CKASEN ; X
+	dp KASEN ; X
+	dp CSUMIREKO ; X
+	dp SUMIREKO ; X
 	assert_table_length NUM_TOHOMON

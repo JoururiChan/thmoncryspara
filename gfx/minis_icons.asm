@@ -1336,6 +1336,126 @@ CMikoMini::     INCBIN "gfx/minis/annihilape.2bpp.lz"
 CMikoMiniMask:: INCBIN "gfx/minis/annihilape_mask.1bpp.lz"
 CMikoIcon::     INCBIN "gfx/icons/annihilape.2bpp.lz"
 
+SECTION "CMamizou Mini Icon", ROMX
+CMamizouMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CMamizouMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CMamizouIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Mamizou Mini Icon", ROMX
+MamizouMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+MamizouMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+MamizouIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CKokoro Mini Icon", ROMX
+CKokoroMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CKokoroMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CKokoroIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Kokoro Mini Icon", ROMX
+KokoroMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+KokoroMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+KokoroIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CWakasagi Mini Icon", ROMX
+CWakasagiMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CWakasagiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CWakasagiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Wakasagi Mini Icon", ROMX
+WakasagiMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+WakasagiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+WakasagiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CSekibanki Mini Icon", ROMX
+CSekibankiMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CSekibankiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CSekibankiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Sekibanki Mini Icon", ROMX
+SekibankiMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+SekibankiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+SekibankiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CKagerou Mini Icon", ROMX
+CKagerouMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CKagerouMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CKagerouIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Kagerou Mini Icon", ROMX
+KagerouMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+KagerouMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+KagerouIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CBenben Mini Icon", ROMX
+CBenbenMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CBenbenMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CBenbenIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Benben Mini Icon", ROMX
+BenbenMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+BenbenMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+BenbenIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CYatsuha Mini Icon", ROMX
+CYatsuhaMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CYatsuhaMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CYatsuhaIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Yatsuha Mini Icon", ROMX
+YatsuhaMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+YatsuhaMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+YatsuhaIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CSeija Mini Icon", ROMX
+CSeijaMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CSeijaMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CSeijaIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Seija Mini Icon", ROMX
+SeijaMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+SeijaMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+SeijaIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CSukuna Mini Icon", ROMX
+CSukunaMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CSukunaMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CSukunaIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Sukuna Mini Icon", ROMX
+SukunaMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+SukunaMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+SukunaIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CRaiko Mini Icon", ROMX
+CRaikoMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CRaikoMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CRaikoIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Raiko Mini Icon", ROMX
+RaikoMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+RaikoMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+RaikoIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CKasen Mini Icon", ROMX
+CKasenMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CKasenMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CKasenIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Kasen Mini Icon", ROMX
+KasenMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+KasenMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+KasenIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "CSumireko Mini Icon", ROMX
+CSumirekoMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CSumirekoMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CSumirekoIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
+SECTION "Sumireko Mini Icon", ROMX
+SumirekoMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+SumirekoMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+SumirekoIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+
 SECTION "HinaB Mini Icon", ROMX
 HinaBMini::     INCBIN "gfx/minis/hina_b.2bpp.lz"
 HinaBMiniMask:: INCBIN "gfx/minis/hina_b_mask.1bpp.lz"

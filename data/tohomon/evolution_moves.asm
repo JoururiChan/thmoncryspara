@@ -268,6 +268,30 @@ EvolutionMoves::
 	db NO_MOVE      ; MIKO
 	db DRAIN_DRILL     ; FUTO
 	db SHADOW_HIT  ; CMIKO
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
+	db NO_MOVE      ; X
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; SLILYBLACK, SLILYBLACK_RED_FORM

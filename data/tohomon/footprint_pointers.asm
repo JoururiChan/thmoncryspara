@@ -268,6 +268,30 @@ FootprintPointers::
 	dw MikoFootprint
 	dw FutoFootprint
 	dw CMikoFootprint
+	dw CMamizouFootprint
+	dw MamizouFootprint
+	dw CKokoroFootprint
+	dw KokoroFootprint
+	dw CWakasagiFootprint
+	dw WakasagiFootprint
+	dw CSekibankiFootprint
+	dw SekibankiFootprint
+	dw CKagerouFootprint
+	dw KagerouFootprint
+	dw CBenbenFootprint
+	dw BenbenFootprint
+	dw CYatsuhaFootprint
+	dw YatsuhaFootprint
+	dw CSeijaFootprint
+	dw SeijaFootprint
+	dw CSukunaFootprint
+	dw SukunaFootprint
+	dw CRaikoFootprint
+	dw RaikoFootprint
+	dw CKasenFootprint
+	dw KasenFootprint
+	dw CSumirekoFootprint
+	dw SumirekoFootprint
 	assert_table_length NUM_SPECIES
 
 	dw SLilyBlackFootprint

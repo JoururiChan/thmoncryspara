@@ -268,6 +268,30 @@ EggMovePointers::
 	dw NoEggMoves             ; Miko
 	dw NoEggMoves             ; Futo
 	dw NoEggMoves             ; CMiko
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
+	dw NoEggMoves             ; Placeholder
 	assert_table_length NUM_SPECIES
 
 	dw NoEggMoves                ; SLilyBlack (Red Form)

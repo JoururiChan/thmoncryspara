@@ -268,6 +268,30 @@ FramesPointers:
 	dw MikoFrames
 	dw FutoFrames
 	dw CMikoFrames
+	dw CMamizouFrames
+	dw MamizouFrames
+	dw CKokoroFrames
+	dw KokoroFrames
+	dw CWakasagiFrames
+	dw WakasagiFrames
+	dw CSekibankiFrames
+	dw SekibankiFrames
+	dw CKagerouFrames
+	dw KagerouFrames
+	dw CBenbenFrames
+	dw BenbenFrames
+	dw CYatsuhaFrames
+	dw YatsuhaFrames
+	dw CSeijaFrames
+	dw SeijaFrames
+	dw CSukunaFrames
+	dw SukunaFrames
+	dw CRaikoFrames
+	dw RaikoFrames
+	dw CKasenFrames
+	dw KasenFrames
+	dw CSumirekoFrames
+	dw SumirekoFrames
 	assert_table_length NUM_SPECIES
 
 	dw HinaBFrames

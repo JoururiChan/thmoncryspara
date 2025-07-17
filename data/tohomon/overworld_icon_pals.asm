@@ -271,7 +271,56 @@ OverworldMonIconColors::
 	iconpal AZURE, RED ; CFUTO
 	iconpal BROWN, BLUE ; MIKO
 	iconpal BROWN, BLUE ; FUTO
-	iconpal GRAY, PURPLE ; CMIKO
+	iconpal GRAY, PURPLE ; 
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
 	assert_table_length NUM_SPECIES
 
 rept NUM_HINA - 1

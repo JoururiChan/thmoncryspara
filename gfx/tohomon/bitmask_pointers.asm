@@ -268,6 +268,30 @@ BitmasksPointers:
 	dw MikoBitmasks
 	dw FutoBitmasks
 	dw CMikoBitmasks
+	dw CMamizouBitmasks
+	dw MamizouBitmasks
+	dw CKokoroBitmasks
+	dw KokoroBitmasks
+	dw CWakasagiBitmasks
+	dw WakasagiBitmasks
+	dw CSekibankiBitmasks
+	dw SekibankiBitmasks
+	dw CKagerouBitmasks
+	dw KagerouBitmasks
+	dw CBenbenBitmasks
+	dw BenbenBitmasks
+	dw CYatsuhaBitmasks
+	dw YatsuhaBitmasks
+	dw CSeijaBitmasks
+	dw SeijaBitmasks
+	dw CSukunaBitmasks
+	dw SukunaBitmasks
+	dw CRaikoBitmasks
+	dw RaikoBitmasks
+	dw CKasenBitmasks
+	dw KasenBitmasks
+	dw CSumirekoBitmasks
+	dw SumirekoBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw HinaBBitmasks

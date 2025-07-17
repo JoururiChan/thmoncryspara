@@ -268,4 +268,28 @@ SeigaFootprint::
 CTojikoFootprint:: 
 MikoFootprint::
 FutoFootprint:: 
-CMikoFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
+CMikoFootprint::
+CMamizouFootprint:: 
+MamizouFootprint:: 
+CKokoroFootprint:: 
+KokoroFootprint:: 
+CWakasagiFootprint:: 
+WakasagiFootprint::
+CSekibankiFootprint:: 
+SekibankiFootprint:: 
+CKagerouFootprint:: 
+KagerouFootprint:: 
+CBenbenFootprint::
+BenbenFootprint:: 
+CYatsuhaFootprint::   
+YatsuhaFootprint:: 
+CSeijaFootprint::
+SeijaFootprint::
+CSukunaFootprint::
+SukunaFootprint::
+CRaikoFootprint::
+RaikoFootprint::
+CKasenFootprint::
+KasenFootprint::
+CSumirekoFootprint::
+SumirekoFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"         

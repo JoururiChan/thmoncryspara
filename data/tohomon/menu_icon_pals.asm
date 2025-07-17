@@ -174,16 +174,13 @@ MenuMonIconColors::
 	iconpal GREEN, BLUE ; CEIKI
 	iconpal GREEN, BLUE ; EIKI
 	iconpal GREEN, BLUE ; AEIKI
-	iconpal RED, BLUE ; ASUNNY
 	iconpal BLUE, RED ; CSHIZUHA
 	iconpal BLUE, RED ; SHIZUHA
 	iconpal PURPLE, GREEN ; SSHIZUHA
 	iconpal PURPLE, GREEN ; CMINORIKO
 	iconpal BLUE, PURPLE ; MINORIKO
-	iconpal BLUE, PURPLE ; CSHOU
 	iconpal PINK, PURPLE ; HMINORIKO
 	iconpal PURPLE, BROWN ; CHINA
-	iconpal PURPLE, BROWN ; AMURASA
 	iconpal GRAY, BLUE ; HINA
 	iconpal BLUE, PURPLE ; AHINA
 	iconpal BROWN, BLUE ; CNITORI
@@ -200,17 +197,16 @@ MenuMonIconColors::
 	iconpal RED, BLUE ; DSUWAKO
 	iconpal BLUE, PURPLE ; CIKU
 	iconpal BLUE, RED ; IKU
-	iconpal BLUE, RED ; CNUE
 	iconpal BROWN, GREEN ; AIKU
 	iconpal BROWN, GREEN ; CTENSHI
 	iconpal RED, GRAY ; TENSHI
 	iconpal RED, BLUE ; STENSHI
 	iconpal BROWN, BLUE ; CKISUME
 	iconpal BROWN, GREEN ; KISUME
-	iconpal BROWN, GREEN ; DSTAR
 	iconpal PINK, BLUE ; DKISUME
 	iconpal BLUE, GRAY ; CYAMAME
 	iconpal RED, TEAL ; YAMAME
+	iconpal RED, ORANGE ; SYAMAME
 	iconpal BLUE, BLUE ; CPARSEE
 	iconpal GRAY, GREEN ; PARSEE
 	iconpal RED, GRAY ; DPARSEE
@@ -219,14 +215,13 @@ MenuMonIconColors::
 	iconpal BLUE, GRAY ; AYUUGI
 	iconpal GRAY, RED ; CSATORI
 	iconpal BLUE, PURPLE ; SATORI
-	iconpal BLUE, PURPLE ; CLUNA
+	iconpal RED, ORANGE ; HSATORI
 	iconpal BROWN, GREEN ; CRIN
 	iconpal BROWN, BLUE ; RIN
 	iconpal BROWN, BLUE ; HRIN
+	iconpal RED, ORANGE ; CUTSUHO
 	iconpal BROWN, RED ; UTSUHO
-	iconpal BROWN, RED ; THATATE
 	iconpal RED, BROWN ; AUTSUHO
-	iconpal RED, BROWN ; CSUNNY
 	iconpal PINK, BLUE ; CKOISHI
 	iconpal PINK, RED ; KOISHI
 	iconpal BROWN, RED ; SKOISHI
@@ -238,9 +233,55 @@ MenuMonIconColors::
 	iconpal BLUE, RED ; TKOGASA
 	iconpal RED, GREEN ; CICHIRIN
 	iconpal GREEN, RED ; ICHIRIN
-	iconpal GREEN, BROWN ; CSTAR
-	iconpal BLUE, BLUE ; STAR
-	iconpal PINK, BLUE ; LUNA
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
+	iconpal RED, ORANGE ; X
 	assert_table_length NUM_TOHOMON
 
 	iconpal RED, BLUE ; EGG

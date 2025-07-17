@@ -272,6 +272,30 @@ EvosAttacksPointers::
 	dw MikoEvosAttacks
 	dw FutoEvosAttacks
 	dw CMikoEvosAttacks
+	dw CMamizouEvosAttacks
+	dw MamizouEvosAttacks
+	dw CKokoroEvosAttacks
+	dw KokoroEvosAttacks
+	dw CWakasagiEvosAttacks
+	dw WakasagiEvosAttacks
+	dw CSekibankiEvosAttacks
+	dw SekibankiEvosAttacks
+	dw CKagerouEvosAttacks
+	dw KagerouEvosAttacks
+	dw CBenbenEvosAttacks
+	dw BenbenEvosAttacks
+	dw CYatsuhaEvosAttacks
+	dw YatsuhaEvosAttacks
+	dw CSeijaEvosAttacks
+	dw SeijaEvosAttacks
+	dw CSukunaEvosAttacks
+	dw SukunaEvosAttacks
+	dw CRaikoEvosAttacks
+	dw RaikoEvosAttacks
+	dw CKasenEvosAttacks
+	dw KasenEvosAttacks
+	dw CSumirekoEvosAttacks
+	dw SumirekoEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw SLilyBlackEvosAttacks

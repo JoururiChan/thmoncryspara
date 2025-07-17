@@ -272,6 +272,30 @@ MiniIconPointers:
 	mini_icon Miko
 	mini_icon Futo
 	mini_icon CMiko
+	mini_icon CMamizou
+	mini_icon Mamizou
+	mini_icon CKokoro
+	mini_icon Kokoro
+	mini_icon CWakasagi
+	mini_icon Wakasagi
+	mini_icon CSekibanki
+	mini_icon Sekibanki
+	mini_icon CKagerou
+	mini_icon Kagerou
+	mini_icon CBenben
+	mini_icon Benben
+	mini_icon CYatsuha
+	mini_icon Yatsuha
+	mini_icon CSeija
+	mini_icon Seija
+	mini_icon CSukuna
+	mini_icon Sukuna
+	mini_icon CRaiko
+	mini_icon Raiko
+	mini_icon CKasen
+	mini_icon Kasen
+	mini_icon CSumireko
+	mini_icon Sumireko
 	assert_table_length NUM_SPECIES
 
 	mini_icon HinaB

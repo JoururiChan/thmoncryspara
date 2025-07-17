@@ -292,6 +292,30 @@
 	const MIKO  ; 121
 	const FUTO   ; 122
 	const CMIKO ; 123
+	const CMAMIZOU ; X
+	const MAMIZOU ; X
+	const CKOKORO ; X
+	const KOKORO ; X
+	const CWAKASAGI ; X
+	const WAKASAGI ; X
+	const CSEKIBANKI ; X
+	const SEKIBANKI ; X
+	const CKAGEROU ; X
+	const KAGEROU ; X
+	const CBENBEN ; X
+	const BENBEN ; X
+	const CYATSUHA ; X
+	const YATSUHA ; X
+	const CSEIJA ; X
+	const SEIJA ; X
+	const CSUKUNA ; X
+	const SUKUNA ; X
+	const CRAIKO ; X
+	const RAIKO ; X
+	const CKASEN ; X
+	const KASEN ; X
+	const CSUMIREKO ; X
+	const SUMIREKO ; X
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_TOHOMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

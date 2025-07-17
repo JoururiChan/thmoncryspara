@@ -268,6 +268,30 @@ AnimationPointers:
 	dw MikoAnimation
 	dw FutoAnimation
 	dw CMikoAnimation
+	dw CMamizouAnimation
+	dw MamizouAnimation
+	dw CKokoroAnimation
+	dw KokoroAnimation
+	dw CWakasagiAnimation
+	dw WakasagiAnimation
+	dw CSekibankiAnimation
+	dw SekibankiAnimation
+	dw CKagerouAnimation
+	dw KagerouAnimation
+	dw CBenbenAnimation
+	dw BenbenAnimation
+	dw CYatsuhaAnimation
+	dw YatsuhaAnimation
+	dw CSeijaAnimation
+	dw SeijaAnimation
+	dw CSukunaAnimation
+	dw SukunaAnimation
+	dw CRaikoAnimation
+	dw RaikoAnimation
+	dw CKasenAnimation
+	dw KasenAnimation
+	dw CSumirekoAnimation
+	dw SumirekoAnimation
 	assert_table_length NUM_SPECIES
 
 	dw HinaBAnimation

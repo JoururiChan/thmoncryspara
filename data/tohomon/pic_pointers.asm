@@ -272,6 +272,30 @@ TohomonPicPointers::
 	pics Miko
 	pics Futo
 	pics CMiko
+	pics CMamizou
+	pics Mamizou
+	pics CKokoro
+	pics Kokoro
+	pics CWakasagi
+	pics Wakasagi
+	pics CSekibanki
+	pics Sekibanki
+	pics CKagerou
+	pics Kagerou
+	pics CBenben
+	pics Benben
+	pics CYatsuha
+	pics Yatsuha
+	pics CSeija
+	pics Seija
+	pics CSukuna
+	pics Sukuna
+	pics CRaiko
+	pics Raiko
+	pics CKasen
+	pics Kasen
+	pics CSumireko
+	pics Sumireko
 	assert_table_length NUM_SPECIES
 
 	pics HinaB

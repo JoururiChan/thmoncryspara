@@ -1206,3 +1206,99 @@ CShizuhaBackpic:  INCBIN "gfx/tohomon/cshizuha/back.2bpp.lz"
 SECTION "CLilyBlack Pics", ROMX
 CLilyBlackFrontpic: INCBIN "gfx/tohomon/clilyblack/front.animated.2bpp.lz"
 CLilyBlackBackpic:  INCBIN "gfx/tohomon/clilyblack/back.2bpp.lz"
+
+SECTION "CMamizou Pics", ROMX
+CMamizouFrontpic: INCBIN "gfx/tohomon/cmamizou/front.animated.2bpp.lz"
+CMamizouBackpic:  INCBIN "gfx/tohomon/cmamizou/back.2bpp.lz"
+
+SECTION "Mamizou Pics", ROMX
+MamizouFrontpic: INCBIN "gfx/tohomon/mamizou/front.animated.2bpp.lz"
+MamizouBackpic:  INCBIN "gfx/tohomon/mamizou/back.2bpp.lz"
+
+SECTION "CKokoro Pics", ROMX
+CKokoroFrontpic: INCBIN "gfx/tohomon/ckokoro/front.animated.2bpp.lz"
+CKokoroBackpic:  INCBIN "gfx/tohomon/ckokoro/back.2bpp.lz"
+
+SECTION "Kokoro Pics", ROMX
+KokoroFrontpic: INCBIN "gfx/tohomon/kokoro/front.animated.2bpp.lz"
+KokoroBackpic:  INCBIN "gfx/tohomon/kokoro/back.2bpp.lz"
+
+SECTION "CWakasagi Pics", ROMX
+CWakasagiFrontpic: INCBIN "gfx/tohomon/cwakasagi/front.animated.2bpp.lz"
+CWakasagiBackpic:  INCBIN "gfx/tohomon/cwakasagi/back.2bpp.lz"
+
+SECTION "Wakasagi Pics", ROMX
+WakasagiFrontpic: INCBIN "gfx/tohomon/wakasagi/front.animated.2bpp.lz"
+WakasagiBackpic:  INCBIN "gfx/tohomon/wakasagi/back.2bpp.lz"
+
+SECTION "CSekibanki Pics", ROMX
+CSekibankiFrontpic: INCBIN "gfx/tohomon/csekibanki/front.animated.2bpp.lz"
+CSekibankiBackpic:  INCBIN "gfx/tohomon/csekibanki/back.2bpp.lz"
+
+SECTION "Sekibanki Pics", ROMX
+SekibankiFrontpic: INCBIN "gfx/tohomon/sekibanki/front.animated.2bpp.lz"
+SekibankiBackpic:  INCBIN "gfx/tohomon/sekibanki/back.2bpp.lz"
+
+SECTION "CKagerou Pics", ROMX
+CKagerouFrontpic: INCBIN "gfx/tohomon/ckagerou/front.animated.2bpp.lz"
+CKagerouBackpic:  INCBIN "gfx/tohomon/ckagerou/back.2bpp.lz"
+
+SECTION "Kagerou Pics", ROMX
+KagerouFrontpic: INCBIN "gfx/tohomon/kagerou/front.animated.2bpp.lz"
+KagerouBackpic:  INCBIN "gfx/tohomon/kagerou/back.2bpp.lz"
+
+SECTION "CBenben Pics", ROMX
+CBenbenFrontpic: INCBIN "gfx/tohomon/cbenben/front.animated.2bpp.lz"
+CBenbenBackpic:  INCBIN "gfx/tohomon/cbenben/back.2bpp.lz"
+
+SECTION "Benben Pics", ROMX
+BenbenFrontpic: INCBIN "gfx/tohomon/benben/front.animated.2bpp.lz"
+BenbenBackpic:  INCBIN "gfx/tohomon/benben/back.2bpp.lz"
+
+SECTION "CYatsuha Pics", ROMX
+CYatsuhaFrontpic: INCBIN "gfx/tohomon/cyatsuha/front.animated.2bpp.lz"
+CYatsuhaBackpic:  INCBIN "gfx/tohomon/cyatsuha/back.2bpp.lz"
+
+SECTION "Yatsuha Pics", ROMX
+YatsuhaFrontpic: INCBIN "gfx/tohomon/yatsuha/front.animated.2bpp.lz"
+YatsuhaBackpic:  INCBIN "gfx/tohomon/yatsuha/back.2bpp.lz"
+
+SECTION "CSeija Pics", ROMX
+CSeijaFrontpic: INCBIN "gfx/tohomon/cseija/front.animated.2bpp.lz"
+CSeijaBackpic:  INCBIN "gfx/tohomon/cseija/back.2bpp.lz"
+
+SECTION "Seija Pics", ROMX
+SeijaFrontpic: INCBIN "gfx/tohomon/seija/front.animated.2bpp.lz"
+SeijaBackpic:  INCBIN "gfx/tohomon/seija/back.2bpp.lz"
+
+SECTION "CSukuna Pics", ROMX
+CSukunaFrontpic: INCBIN "gfx/tohomon/csukuna/front.animated.2bpp.lz"
+CSukunaBackpic:  INCBIN "gfx/tohomon/csukuna/back.2bpp.lz"
+
+SECTION "Sukuna Pics", ROMX
+SukunaFrontpic: INCBIN "gfx/tohomon/sukuna/front.animated.2bpp.lz"
+SukunaBackpic:  INCBIN "gfx/tohomon/sukuna/back.2bpp.lz"
+
+SECTION "CRaiko Pics", ROMX
+CRaikoFrontpic: INCBIN "gfx/tohomon/craiko/front.animated.2bpp.lz"
+CRaikoBackpic:  INCBIN "gfx/tohomon/craiko/back.2bpp.lz"
+
+SECTION "Raiko Pics", ROMX
+RaikoFrontpic: INCBIN "gfx/tohomon/raiko/front.animated.2bpp.lz"
+RaikoBackpic:  INCBIN "gfx/tohomon/raiko/back.2bpp.lz"
+
+SECTION "CKasen Pics", ROMX
+CKasenFrontpic: INCBIN "gfx/tohomon/ckasen/front.animated.2bpp.lz"
+CKasenBackpic:  INCBIN "gfx/tohomon/ckasen/back.2bpp.lz"
+
+SECTION "Kasen Pics", ROMX
+KasenFrontpic: INCBIN "gfx/tohomon/kasen/front.animated.2bpp.lz"
+KasenBackpic:  INCBIN "gfx/tohomon/kasen/back.2bpp.lz"
+
+SECTION "CSumireko Pics", ROMX
+CSumirekoFrontpic: INCBIN "gfx/tohomon/csumireko/front.animated.2bpp.lz"
+CSumirekoBackpic:  INCBIN "gfx/tohomon/csumireko/back.2bpp.lz"
+
+SECTION "Sumireko Pics", ROMX
+SumirekoFrontpic: INCBIN "gfx/tohomon/sumireko/front.animated.2bpp.lz"
+SumirekoBackpic:  INCBIN "gfx/tohomon/sumireko/back.2bpp.lz"

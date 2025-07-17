@@ -268,6 +268,30 @@ AnimationExtraPointers:
 	dw MikoAnimationExtra
 	dw FutoAnimationExtra
 	dw CMikoAnimationExtra
+	dw CMamizouAnimationExtra
+	dw MamizouAnimationExtra
+	dw CKokoroAnimationExtra
+	dw KokoroAnimationExtra
+	dw CWakasagiAnimationExtra
+	dw WakasagiAnimationExtra
+	dw CSekibankiAnimationExtra
+	dw SekibankiAnimationExtra
+	dw CKagerouAnimationExtra
+	dw KagerouAnimationExtra
+	dw CBenbenAnimationExtra
+	dw BenbenAnimationExtra
+	dw CYatsuhaAnimationExtra
+	dw YatsuhaAnimationExtra
+	dw CSeijaAnimationExtra
+	dw SeijaAnimationExtra
+	dw CSukunaAnimationExtra
+	dw SukunaAnimationExtra
+	dw CRaikoAnimationExtra
+	dw RaikoAnimationExtra
+	dw CKasenAnimationExtra
+	dw KasenAnimationExtra
+	dw CSumirekoAnimationExtra
+	dw SumirekoAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw HinaBAnimationExtra

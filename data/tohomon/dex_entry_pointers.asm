@@ -269,6 +269,30 @@ TohodexDataPointerTable:
 	dba MikoTohodexEntry
 	dba FutoTohodexEntry
 	dba CMikoTohodexEntry
+	dba CMamizouTohodexEntry
+	dba MamizouTohodexEntry
+	dba CKokoroTohodexEntry
+	dba KokoroTohodexEntry
+	dba CWakasagiTohodexEntry
+	dba WakasagiTohodexEntry
+	dba CSekibankiTohodexEntry
+	dba SekibankiTohodexEntry
+	dba CKagerouTohodexEntry
+	dba KagerouTohodexEntry
+	dba CBenbenTohodexEntry
+	dba BenbenTohodexEntry
+	dba CYatsuhaTohodexEntry
+	dba YatsuhaTohodexEntry
+	dba CSeijaTohodexEntry
+	dba SeijaTohodexEntry
+	dba CSukunaTohodexEntry
+	dba SukunaTohodexEntry
+	dba CRaikoTohodexEntry
+	dba RaikoTohodexEntry
+	dba CKasenTohodexEntry
+	dba KasenTohodexEntry
+	dba CSumirekoTohodexEntry
+	dba SumirekoTohodexEntry
 	assert_table_length NUM_SPECIES
 
 	dba SLilyBlackRedTohodexEntry
