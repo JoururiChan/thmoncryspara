@@ -423,57 +423,57 @@
 	def_grass_wildmons RUINS_OF_ALPH_ENTRANCE_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 10, CHINA
-	wildmon 5, CHINA
-	wildmon 5, CHINA
+	wildmon 10, CNUE
+	wildmon 5, CNUE
+	wildmon 5, CNUE
 	wildmon 10, CSATORI
 	wildmon 10, CSATORI
 	wildmon 10, CSATORI
-	wildmon 10, CHINA
+	wildmon 10, CNUE
 	; day
-	wildmon 10, CHINA
-	wildmon 5, CHINA
-	wildmon 5, CHINA
+	wildmon 10, CNUE
+	wildmon 5, CNUE
+	wildmon 5, CNUE
 	wildmon 10, CSATORI
 	wildmon 10, CSATORI
 	wildmon 10, CSATORI
-	wildmon 15, CHINA
+	wildmon 15, CNUE
 	; nite
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
 	wildmon 10, CKOISHI
 	wildmon 10, CKOISHI
 	wildmon 10, CKOISHI
-	wildmon 15, CHINA
+	wildmon 15, CNUE
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 10, CHINA
-	wildmon 5, CHINA
-	wildmon 5, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
+	wildmon 10, CNUE
+	wildmon 5, CNUE
+	wildmon 5, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
 	; day
-	wildmon 10, CHINA
-	wildmon 5, CHINA
-	wildmon 5, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 15, CHINA
+	wildmon 10, CNUE
+	wildmon 5, CNUE
+	wildmon 5, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 15, CNUE
 	; nite
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 10, CHINA
-	wildmon 15, CHINA
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 10, CNUE
+	wildmon 15, CNUE
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_1F

@@ -186,6 +186,7 @@ NewTohodexOrder:
 	dp ANITORI ; cd
 	dp CMOMIJI  ; ce
 	dp MOMIJI     ; cf
+	dp AMOMIJI    ; 113
 	dp CKANAKO    ; d0
 	dp KANAKO   ; d1
 	dp AKANAKO   ; d2
@@ -251,7 +252,6 @@ NewTohodexOrder:
 	dp ASUNNY    ; 110
 	dp CSTAR    ; 111
 	dp STAR    ; 112
-	dp AMOMIJI    ; 113
 	dp DSTAR  ; 114
 	dp CLUNA  ; 115
 	dp LUNA    ; 116
