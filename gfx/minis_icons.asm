@@ -1482,7 +1482,7 @@ CNueFMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 CNueFIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CNueG Mini Icon", ROMX
-CNueGMini::     INCBIN "gfx/minis/crei.2bpp.lz"
+CNueGMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
 CNueGMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 CNueGIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
