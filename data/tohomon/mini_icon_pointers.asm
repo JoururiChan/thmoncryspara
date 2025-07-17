@@ -244,7 +244,7 @@ MiniIconPointers:
 	mini_icon CByakuren
 	mini_icon Byakuren
 	mini_icon TByakuren
-	mini_icon CNue
+	mini_icon Hina
 	mini_icon Nue
 	mini_icon SNue
 	mini_icon CHatate

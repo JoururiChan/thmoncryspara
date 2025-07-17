@@ -1193,7 +1193,7 @@ IkuBackpic:  INCBIN "gfx/tohomon/iku/back.2bpp.lz"
 
 SECTION "Hina Pics", ROMX
 HinaFrontpic: INCBIN "gfx/tohomon/hina/front.animated.2bpp.lz"
-Hinaackpic:  INCBIN "gfx/tohomon/hina/back.2bpp.lz"
+HinaBackpic:  INCBIN "gfx/tohomon/hina/back.2bpp.lz"
 
 SECTION "CTojiko Pics", ROMX
 CTojikoFrontpic: INCBIN "gfx/tohomon/sneasler/front.animated.2bpp.lz"
