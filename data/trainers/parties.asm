@@ -135,7 +135,7 @@ FalknerGroup:
 	db "Falkner@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
-	dbp 10, CNUE | CNUE_EXCLAMATION_FORM
+	dbp 10, CNUE
 		db NO_ITEM
 		ev_spread 32 Def
 		db GUST, GROWL, POISON_GAS, NO_MOVE
