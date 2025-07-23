@@ -18,7 +18,7 @@ Route34IlexForestGate_MapScriptHeader:
 	def_object_events
 	object_event  9,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route34IlexForestGateTeacherScript, EVENT_ROUTE_34_ILEX_FOREST_GATE_TEACHER_BEHIND_COUNTER
 	object_event  5,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route34IlexForestGateTeacherScript, EVENT_ROUTE_34_ILEX_FOREST_GATE_TEACHER_IN_WALKWAY
-	tohomon_event  9,  4, CIKU, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, Route34IlexForestGateCIkuText, EVENT_ROUTE_34_ILEX_FOREST_GATE_TEACHER_BEHIND_COUNTER
+	tohomon_event  9,  4, CYOUMU, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, Route34IlexForestGateCYoumuText, EVENT_ROUTE_34_ILEX_FOREST_GATE_TEACHER_BEHIND_COUNTER
 	object_event  3,  4, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route34IlexForestGateLassText, EVENT_ROUTE_34_ILEX_FOREST_GATE_LASS
 
 	object_const_def
@@ -105,8 +105,8 @@ Route34IlexForestGateTeacher_ForestIsRestless:
 	line "away right now."
 	done
 
-Route34IlexForestGateCIkuText:
-	text "CIku: Cross!"
+Route34IlexForestGateCYoumuText:
+	text "CYoumu: Myon!"
 	done
 
 Route34IlexForestGateLassText:

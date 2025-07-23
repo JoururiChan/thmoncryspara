@@ -14,11 +14,11 @@ BurnedTowerB1F_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	tohomon_event  7,  3, SKOISHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
-	tohomon_event 12,  3, CNAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
+	tohomon_event  7,  3, SUIKA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
+	tohomon_event 12,  3, YUUGI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
 	tohomon_event 10,  4, NAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
-	tohomon_event  7,  3, SKOISHI, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
-	tohomon_event 12,  3, CNAZRIN, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
+	tohomon_event  7,  3, SUIKA, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
+	tohomon_event 12,  3, YUUGI, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
 	tohomon_event 10,  4, NAZRIN, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
 	object_event 10, 12, SPRITE_EUSINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurnedTowerB1FEusine, EVENT_EUSINE_IN_BURNED_TOWER
 	strengthboulder_event 17, 8
@@ -185,14 +185,14 @@ BurnedTowerB1FEusineText:
 
 	para "I was shocked!"
 
-	para "Nazrin raced by"
+	para "Kasen raced by"
 	line "like a blur, right"
 
 	para "in front of my"
 	line "eyes!"
 
 	para "For ten years I"
-	line "chased Nazrin,"
+	line "chased Kasen,"
 
 	para "and I finally got"
 	line "to see it."
@@ -214,7 +214,7 @@ BurnedTowerB1FEusineText:
 	line "get close."
 
 	para "I'm going to track"
-	line "Nazrin."
+	line "Kasen."
 
 	para "<PLAYER>, let's"
 	line "meet again!"

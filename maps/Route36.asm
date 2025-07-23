@@ -92,7 +92,7 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	applyonemovement ROUTE36_WEIRD_TREE, tree_shake
 	showtext CMedicineAttackedText
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon CMEDICINE, 20
+	loadwildmon CYUYUKO, 20
 	startbattle
 	setevent EVENT_FOUGHT_CMEDICINE
 	ifequalfwd $2, DidntCatchCMedicine
@@ -317,7 +317,7 @@ Route36CooltrainerfChiaraScript:
 
 .IntroText:
 	text "I saw how you woke"
-	line "up that CMedicine."
+	line "up that CYuyuko."
 
 	para "You did great!"
 

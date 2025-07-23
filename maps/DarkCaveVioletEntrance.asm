@@ -29,7 +29,7 @@ DarkCaveVioletEntrance_MapScriptHeader:
 
 	object_const_def
 	const DARKCAVEVIOLETENTRANCE_CTENSHI
-	const DARKCAVEVIOLETENTRANCE_CMIMA
+	const DARKCAVEVIOLETENTRANCE_CUTSUHO
 	const DARKCAVEVIOLETENTRANCE_FALKNER
 
 DarkCaveVioletEntranceFalknerTrigger:
@@ -78,10 +78,10 @@ DarkCaveVioletEntranceFalknerTrigger:
 	writetext DarkCaveVioletEntranceFalknerAttackText
 	pause 30
 	closetext
-	cry CMIMA
+	cry CUTSUHO
 	waitsfx
 	playsound SFX_TACKLE
-	applymovement DARKCAVEVIOLETENTRANCE_CMIMA, DarkCaveVioletEntranceMovementData_CMimaAttack
+	applymovement DARKCAVEVIOLETENTRANCE_CUTSUHO, DarkCaveVioletEntranceMovementData_CMimaAttack
 	waitsfx
 	pause 30
 	cry CTENSHI
@@ -93,7 +93,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	writetext DarkCaveVioletEntranceFalknerReturnText
 	pause 30
 	closetext
-	disappear DARKCAVEVIOLETENTRANCE_CMIMA
+	disappear DARKCAVEVIOLETENTRANCE_CUTSUHO
 	pause 20
 	applyonemovement DARKCAVEVIOLETENTRANCE_FALKNER, step_left
 	end
@@ -119,13 +119,13 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 	step_end
 
 DarkCaveVioletEntranceFalknerAttackText:
-	text "Falkner: Use Wing"
-	line "Attack, CMima!"
+	text "Falkner: Use Aer-"
+	line "ial Ace, CUtsuho!"
 	done
 
 DarkCaveVioletEntranceFalknerReturnText:
 	text "Good job,"
-	line "CMima."
+	line "CUtsuho."
 	done
 
 DarkCaveVioletEntranceFalknerIntroText:

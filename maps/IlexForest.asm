@@ -819,7 +819,7 @@ IlexForestApprenticeIntroText:
 	line "is going to be"
 	cont "steaming…"
 
-	para "The CTsukasa"
+	para "The CKagerou"
 	line "that Cuts trees"
 
 	para "for charcoal took"
@@ -849,11 +849,11 @@ Text_ItsTheMissingTohomon:
 	done
 
 Text_Kwaaaa:
-	text "CTsukasa: Sneak!"
+	text "CKagerou: Kaaooo!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My CTsukasa!"
+	text "Ah! My CKagerou!"
 
 	para "You found it for"
 	line "us, kid?"

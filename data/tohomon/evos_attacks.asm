@@ -1020,7 +1020,7 @@ GengetsuEvosAttacks:
 CSaraEvosAttacks:
 	evo_data EVOLVE_LEVEL, 26, SARA
 	db -1 ; no more evolutions
-	db 1, FIRE_LAUNCH
+	db 1, TACKLE
 	db 1, LEER
 	db 5, ROCK_BULLET
 	db 10, KARATE_CHOP
@@ -1032,7 +1032,7 @@ CSaraEvosAttacks:
 
 SaraEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, FIRE_LAUNCH
+	db 1, TACKLE
 	db 1, LEER
 	db 5, ROCK_BULLET
 	db 10, KARATE_CHOP
@@ -4670,6 +4670,8 @@ TByakurenEvosAttacks:
 	db -1 ; no more level-up moves
 
 CNueEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, NUE
+	evo_data EVOLVE_ITEM, DUSK_STONE, SNUE
 	db -1 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, LEER
