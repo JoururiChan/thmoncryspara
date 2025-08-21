@@ -68,7 +68,7 @@ NPCTrades:
 	db TRADE_DIALOGSET_COLLECTOR
 	dp CYUYUKO, NO_FORM               ; wants
 	dp CYUKARI, FEMALE ; gives
-	rawchar "Spider@@@@@@"
+	rawchar "Spider@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_DEF_UP_ATK_DOWN,   DREAM_BALL,   CHARCOAL
 	dw 08922
 	rawchar "Jeeves@@", $00
