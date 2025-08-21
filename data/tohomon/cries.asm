@@ -15,48 +15,48 @@ TohomonCries::
 	mon_cry CRY_CSAKUYA,    $060,  $0c0 ; CSakuya
 	mon_cry CRY_CSAKUYA,    $020,  $0c0 ; Sakuya
 	mon_cry CRY_HSAKUYA,   $000,  $100 ; HSakuya
-	mon_cry CRY_CGYOKU,    $080,  $0a0 ; CGyoku
-	mon_cry CRY_MGYOKU,     $0cc,  $081 ; MGyoku
-	mon_cry CRY_CGYOKU,    $077,  $0c0 ; FGyoku
-	mon_cry CRY_OGYOKU,      $0ee,  $081 ; OGyoku
-	mon_cry CRY_HSAKUYA,   $0ff,  $081 ; CMagan
-	mon_cry CRY_HSAKUYA,   $060,  $100 ; Magan
-	mon_cry CRY_EMAGAN,      $0df,  $084 ; EMagan
-	mon_cry CRY_CMIMA,   $028,  $140 ; CMima
-	mon_cry CRY_CMIMA,   $011,  $17f ; Mima
-	mon_cry CRY_EMIMA,     $000,  $100 ; EMima
-	mon_cry CRY_EMIMA,     $020,  $17f ; CElis
-	mon_cry CRY_CMAI,  $000,  $100 ; Elis
-	mon_cry CRY_YUMEKO,    $040,  $120 ; EElis
-	mon_cry CRY_CKIKURI,       $012,  $0c0 ; CKikuri
-	mon_cry CRY_CKIKURI,       $0e0,  $090 ; Kikuri
-	mon_cry CRY_CREIMU,   $0ee,  $081 ; Kikuri
-	mon_cry CRY_CSARIEL,      $0ee,  $088 ; CSariel
-	mon_cry CRY_CRIKA,   $020,  $0c0 ; Sariel
-	mon_cry CRY_CRIKA,   $0ff,  $17f ; ESariel
-	mon_cry CRY_CKONGARA,   $000,  $100 ; CKongara
-	mon_cry CRY_CKONGARA,   $02c,  $160 ; Kongara
-	mon_cry CRY_EKONGARA,   $000,  $100 ; EKongara
-	mon_cry CRY_CRIKA,   $000,  $100 ; CRika
-	mon_cry CRY_CRIKA,   $02c,  $140 ; Rika
-	mon_cry CRY_CSARIEL,      $000,  $100 ; ARika
-	mon_cry CRY_CMEIRA,    $0cc,  $081 ; CMeira
-	mon_cry CRY_CMEIRA,    $0aa,  $0a0 ; Meira
-	mon_cry CRY_EMEIRA,      $04f,  $090 ; EMeira
-	mon_cry CRY_EMEIRA,      $088,  $0e0 ; CEllen
+	mon_cry CRY_RIN,     $02c,  $108 ; Tyrogue
+	mon_cry CRY_ESARA,       $080,  $140 ; Hitmonlee
+	mon_cry CRY_CYUKI,        $0ee,  $140 ; Hitmonchan
+	mon_cry CRY_TENSHI,      $000,  $100 ; Hitmontop
+	mon_cry CRY_MGYOKU,     $000,  $100 ; Gastly
+	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; CRY
+	mon_cry CRY_MGYOKU,     $030,  $0c0 ; CRY
+	mon_cry CRY_CYUMEKO,         $000,  $17f ; CRY
+	mon_cry CRY_CGYOKU,    $080,  $0a0 ; Caterpie
+	mon_cry CRY_CGYOKU,    $077,  $0c0 ; Butterfree
+	mon_cry CRY_CGYOKU,    $0bb,  $0c0 ; Kabuto
+	mon_cry CRY_YUMEKO,    $0ee,  $081 ; Kabutops
+	mon_cry CRY_KAGUYA,       -$067,  $100 ; Kaguya
+	mon_cry CRY_KAGUYA,       -$0a7,  $168 ; TKaguya
+	mon_cry CRY_CSAKUYA,    $011,  $0c0 ; CLilyBlack
+	mon_cry CRY_CKIKURI,       $000,  $100 ; SLilyBlack
+	mon_cry CRY_DDAICHAN,     $0ed,  $100 ; DDaichan
+	mon_cry CRY_DDAICHAN,     $0a8,  $110 ; CCirno
+	mon_cry CRY_CYUMEKO,         $0ef,  $17f ; CYumeko
+	mon_cry CRY_EORANGE,   $0f0,  $081 ; Lunasa
+	mon_cry CRY_EORANGE,   $0ff,  $0c0 ; ALunasa
 	mon_cry CRY_EMAGAN,      $0ff,  $0b5 ; Ellen
 	mon_cry CRY_EMAGAN,      $068,  $0e0 ; EEllen
+	mon_cry CRY_EORANGE,   $020,  $0c0 ; EOrange
+	mon_cry CRY_OGYOKU,      $000,  $100 ; CKurumi
+	mon_cry CRY_EMAGAN,      $0ff,  $17f ; Lyrica
+	mon_cry CRY_RIKAKO,    -$0e9,  $0f0 ; CMinoriko
+	mon_cry CRY_MGYOKU,     $080,  $0e0 ; Alice
+	mon_cry CRY_MGYOKU,     $020,  $140 ; AAlice
+	mon_cry CRY_YUMEKO,    $000,  $100 ; Yumeko
+	mon_cry CRY_YUMEKO,    $06f,  $160 ; EYumeko
+	mon_cry CRY_MGYOKU,     $0c0,  $081 ; Elly
+	mon_cry CRY_MGYOKU,     $0a8,  $140 ; EElly
+	mon_cry CRY_EKONGARA,   $0dd,  $0e0 ; COrange
+	mon_cry CRY_EKONGARA,   $0af,  $0c0 ; Orange
 	mon_cry CRY_CSAKUYA,    $0e0,  $100 ; CKotohime
 	mon_cry CRY_CSAKUYA,    $0fa,  $100 ; Kotohime
+	mon_cry CRY_EMAGAN,      $0ff,  $17f ; Kurumi
+	mon_cry CRY_CGYOKU,    $000,  $100 ; Chen
 	mon_cry CRY_EKOTOHIME,      $0dd,  $081 ; EKotohime
 	mon_cry CRY_EKOTOHIME,      $0aa,  $0c0 ; CKana
 	mon_cry CRY_KANA,   $022,  $17f ; Kana
-	mon_cry CRY_EKANA,       $020,  $160 ; EKana
-	mon_cry CRY_EKANA,       $042,  $17f ; CRikako
-	mon_cry CRY_RIKAKO,     $044,  $0c0 ; Rikako
-	mon_cry CRY_RIKAKO,     $029,  $100 ; ARikako
-	mon_cry CRY_CCHIYURI,     $0aa,  $081 ; CChiyuri
-	mon_cry CRY_CCHIYURI,     $02a,  $090 ; Chiyuri
 	mon_cry CRY_CMEIRA,    $077,  $090 ; EChiyuri
 	mon_cry CRY_CMEIRA,    $099,  $17f ; CYumemi
 	mon_cry CRY_YUMEMI,     $020,  $0e0 ; Yumemi

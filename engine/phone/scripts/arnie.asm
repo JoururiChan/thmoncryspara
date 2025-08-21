@@ -11,7 +11,7 @@ ArniePhoneScript1:
 	iftruefwd ArnieTuesdayMorning
 
 .NotTuesday:
-	checkflag ENGINE_AEIKI_SWARM
+	checkflag ENGINE_CKOTOHIME_SWARM
 	iftruefwd .AlreadySwarming
 	farsjump ArnieHangUpScript
 
@@ -49,11 +49,11 @@ ArnieWantsBattle:
 	farsjump PhoneScript_WantsToBattle_Male
 
 ArnieAEikiSwarm: ; start swarm
-	checkflag ENGINE_AEIKI_SWARM
+	checkflag ENGINE_CKOTOHIME_SWARM
 	iftruefwd ArnieAEikiAlreadySwarming
-	setflag ENGINE_AEIKI_SWARM
+	setflag ENGINE_CKOTOHIME_SWARM
 	getmonname AEIKI, $1
-	swarm SWARM_AEIKI, ROUTE_35
+	swarm SWARM_CKOTOHIME, ROUTE_35
 	getlandmarkname ROUTE_35, $2
 	farsjump ArnieSwarmScript
 

@@ -35,7 +35,7 @@ TrainerHikerAnthony:
 	opentext
 	checkflag ENGINE_ANTHONY_READY_FOR_REMATCH
 	iftruefwd .Rematch
-	checkflag ENGINE_CMOMIJI_SWARM
+	checkflag ENGINE_CEIKI_SWARM
 	iftrue_jumpopenedtext HikerAnthonyCMomijiText
 	checkcellnum PHONE_HIKER_ANTHONY
 	iftruefwd .NumberAccepted

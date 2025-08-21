@@ -6,16 +6,16 @@ ENDM
 
 ContestMons:
 	;            %, species,   min, max
-	contest_mon 15, CWRIGGLE,    7, 18
-	contest_mon 15, CMIMA,      7, 18
-	contest_mon 10, CMIMA,     9, 18
-	contest_mon 10, CWRIGGLE,      9, 18
-	contest_mon  5, CGYOKU, 12, 15
-	contest_mon  5, CMAGAN,   12, 15
-	contest_mon 10, RIKAKO,    10, 16
-	contest_mon 10, KANA,      10, 17
-	contest_mon  5, RIKAKO,   12, 15
-	contest_mon  5, AEIKI,      13, 14
-	contest_mon  5, CHEN,    13, 14
-	contest_mon  5, DLILYWHITE,     13, 14
+	contest_mon 15, CCIRNO,    7, 18
+	contest_mon 15, CCIRNO,      7, 18
+	contest_mon 10, CLILYWHITE,     9, 18
+	contest_mon 10, CLILYWHITE,      9, 18
+	contest_mon  5, CLILYBLACK, 12, 15
+	contest_mon  5, CLILYBLACK,   12, 15
+	contest_mon 10, CDAICHAN,    10, 16
+	contest_mon 10, CDAICHAN,      10, 17
+	contest_mon  5, CMAI,   12, 15
+	contest_mon  5, LILYWHITE,      13, 14
+	contest_mon  5, DAICHAN,    13, 14
+	contest_mon  5, CIRNO,     13, 14
 ContestMonsEnd:

@@ -9,23 +9,23 @@ AsleepTreeMons:
 	assert_table_length NUM_DAYTIMES
 .Nite
 .Eve
-	dp CGYOKU
-	dp CREIMU
-	dp CMARISA
-	dp CSAKUYA
-	dp CMAGAN
-	dp CMAGAN
-	dp CELIS
-	dp CKIKURI
-	dp CCIRNO
+	dp CWRIGGLE
 	dp CMYSTIA
+	dp CSUIKA
+	dp CYAMAME
+	dp CPATCHOULI
+	dp CMEDICINE
+	dp CKEINE
+	dp CKAGUYA
+	dp CMOKOU
+	dp CYUKA
 	db 0 ; end
 
 .Morn
 .Day
-	dp CRIKAKO
-	dp CWRIGGLE
-	dp CMYSTIA
-	dp CKEINE
-	dp CIKU
+	dp CDAICHAN
+	dp CMEILING
+	dp CORANGE
+	dp CYUKA
+	dp CYUKARI
 	db 0 ; end

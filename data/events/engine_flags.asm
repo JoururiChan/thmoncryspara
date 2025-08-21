@@ -228,8 +228,8 @@ EngineFlags:
 	engine_flag wDailyPhoneTimeOfDayFlags, 22 ; parry friday afternoon
 	engine_flag wDailyPhoneTimeOfDayFlags, 23 ; erin saturday night
 
-	engine_flag wSwarmFlags, SWARMFLAGS_CMOMIJI_SWARM_F
-	engine_flag wSwarmFlags, SWARMFLAGS_AEIKI_SWARM_F
+	engine_flag wSwarmFlags, SWARMFLAGS_CEIKI_SWARM_F
+	engine_flag wSwarmFlags, SWARMFLAGS_CKOTOHIME_SWARM_F
 
 	engine_flag wTohomonJournals, FALKNER_JOURNAL
 	engine_flag wTohomonJournals, BUGSY_JOURNAL

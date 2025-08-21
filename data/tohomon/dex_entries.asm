@@ -1590,7 +1590,7 @@ CAyaTohodexEntry::
 
 SECTION "AyaTohodexEntry", ROMX
 AyaTohodexEntry::
-	db "Photography@"
+	db "Tengu@"
 	db   "It is equipped with"
 	next "a camera which it"
 	next "uses to record ev-"
@@ -1731,116 +1731,116 @@ SShizuhaTohodexEntry::
 SECTION "CMinorikoTohodexEntry", ROMX
 CMinorikoTohodexEntry::
 	db "Harvest@"
-	db   "On the night of a"
-	next "full moon, or when"
-	next "it gets excited,"
-	page "the ring patterns"
-	next "on its body glow"
-	next "yellow.@"
+	db   "They keep their"
+	next "extravagant scent"
+	next "fresh by using the"
+	page "fruit they harvest"
+	next "as perfumes on a"
+	next "daily basis.@"
 
 SECTION "MinorikoTohodexEntry", ROMX
 MinorikoTohodexEntry::
 	db "Harvest@"
-	db   "It hides any shiny"
-	next "object it finds in"
-	next "a secret location."
-	page "Minoriko and"
-	next "Chiyuri loot one"
-	next "another's stashes.@"
+	db   "Even though they"
+	next "have slight more"
+	next "power than Shi-"
+	page "zuha #mon,"
+	next "they see each o-"
+	next "ther as allies.@"
 
 SECTION "HMinorikoTohodexEntry", ROMX
 HMinorikoTohodexEntry::
 	db "Goddess@"
-	db   "Every time it ya-"
-	next "wns, Yumeko"
-	next "injects more poi-"
-	page "son into it. The"
-	next "poison makes it"
-	next "more intelligent.@"
+	db   "They see over the"
+	next "consistency of"
+	next "produce being h-"
+	page "arvested. They"
+	next "tend to each plant"
+	next "one by one.@"
 
 SECTION "CHinaTohodexEntry", ROMX
 CHinaTohodexEntry::
 	db "Misfortune@"
-	db   "It loves to watch"
-	next "people it's scared."
-	next "It frightens them"
-	page "by screaming loud-"
-	next "ly or appearing"
-	next "suddenly.@"
+	db   "It's most power-"
+	next "ful defense mech-"
+	next "anism is spinning."
+	page "By spinning, it"
+	next "releases it's e-"
+	next "nergy outwards.@"
 
 SECTION "HinaTohodexEntry", ROMX
 HinaTohodexEntry::
 	db "Goddess@"
-	db   "Because different"
-	next "types of Hina"
-	next "exist, it is said"
-	page "that they must"
-	next "have a variety of"
-	next "abilities.@"
+	db   "It gathers mis-"
+	next "fortune around it,"
+	next "and at will it can"
+	page "spread this mis-"
+	next "fortune to humans"
+	next "and #mon.@"
 
 SECTION "AHinaTohodexEntry", ROMX
 AHinaTohodexEntry::
 	db "Goddess@"
-	db   "In order to"
-	next "conceal its black"
-	next "tail, it lives in"
-	page "a dark cave and"
-	next "only moves about"
-	next "at night.@"
+	db   "It crafts dolls"
+	next "that seal the mi-"
+	next "sfortune it gath-"
+	page "ers so that less"
+	next "pressure is put"
+	next "on it's mind.@"
 
 SECTION "CNitoriTohodexEntry", ROMX
 CNitoriTohodexEntry::
 	db "Kappa@"
-	db   "When it is in"
-	next "danger, its tail"
-	next "uses some sort of"
-	page "mysterious powers"
-	next "to drive away the"
-	next "enemy.@"
+	db   "It is very wary"
+	next "of humans and"
+	next "even #mon"
+	page "as well. It would"
+	next "rather be in it's"
+	next "own company.@"
 
 SECTION "NitoriTohodexEntry", ROMX
 NitoriTohodexEntry::
-	db "Bagworm@"
-	db   "It spits out a"
-	next "fluid that it uses"
-	next "to glue tree bark"
-	page "to its body. The"
-	next "fluid hardens when"
-	next "it touches air.@"
+	db "Kappa@"
+	db   "It enhances it's"
+	next "power through co-"
+	next "ntrol of water a-"
+	page "nd weaponry it c-"
+	next "rafts, being like"
+	next "an engineer.@"
 
 SECTION "ANitoriTohodexEntry", ROMX
 ANitoriTohodexEntry::
-	db "Bagworm@"
-	db   "Usually found"
-	next "hanging on to a"
-	next "fat tree trunk. It"
-	page "shoots out bits of"
-	next "its shell when it"
-	next "sees action.@"
+	db "Engineer@"
+	db   "It is capable of"
+	next "engineering like"
+	next "Rika and Takane"
+	page "#mon. It also us-"
+	next "es the research"
+	next "of Rikako.@"
 
 SECTION "CMomijiTohodexEntry", ROMX
 CMomijiTohodexEntry::
-	db "Land Snake@"
-	db   "It hides deep"
-	next "inside caves where"
-	next "no light ever"
-	page "reaches it and"
-	next "remains virtually"
-	next "motionless there.@"
+	db "Wolf@"
+	db   "It's favorite spot"
+	next "to do sparring and"
+	next "training is the m-"
+	page "ountain waterfalls,"
+	next "where it seeks ult-"
+	next "imate solace.@"
 
 SECTION "MomijiTohodexEntry", ROMX
 MomijiTohodexEntry::
-	db "FlyScorpion@"
-	db   "It builds its nest"
-	next "on a steep cliff."
-	next "When it is done"
-	page "gliding, it hops"
-	next "along the ground"
-	next "back to its nest.@"
+	db "Tengu@"
+	db   "It is very skilled"
+	next "with a sword and a"
+	next "shield in it's ha-"
+	page "nds, and also uses"
+	next "it's fangs as a"
+	next "battle method.@"
 
 SECTION "CKanakoTohodexEntry", ROMX
 CKanakoTohodexEntry::
-	db "Iron Snake@"
+	db "@"
 	db   "The many small"
 	next "metal particles"
 	next "that cover this"

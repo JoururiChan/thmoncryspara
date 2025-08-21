@@ -134,7 +134,7 @@ TrainerBug_catcherArnie1:
 	opentext
 	checkflag ENGINE_ARNIE_READY_FOR_REMATCH
 	iftruefwd .WantsBattle
-	checkflag ENGINE_AEIKI_SWARM
+	checkflag ENGINE_CKOTOHIME_SWARM
 	iftruefwd .AEikiSwarming
 	checkcellnum PHONE_BUG_CATCHER_ARNIE
 	iftrue Route35NumberAcceptedM

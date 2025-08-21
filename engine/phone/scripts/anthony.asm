@@ -11,7 +11,7 @@ AnthonyPhoneScript1:
 	iftruefwd AnthonyFridayNight
 
 .NotFriday:
-	checkflag ENGINE_CMOMIJI_SWARM
+	checkflag ENGINE_CEIKI_SWARM
 	iftruefwd .AlreadySwarming
 	farsjump AnthonyHangUpScript
 
@@ -49,11 +49,11 @@ AnthonyWantsBattle:
 	farsjump PhoneScript_WantsToBattle_Male
 
 AnthonyTriesCMomijiSwarm:
-	checkflag ENGINE_CMOMIJI_SWARM
+	checkflag ENGINE_CEIKI_SWARM
 	iftruefwd .Generic
-	setflag ENGINE_CMOMIJI_SWARM
-	getmonname CMOMIJI, $1
-	swarm SWARM_CMOMIJI, DARK_CAVE_VIOLET_ENTRANCE
+	setflag ENGINE_CEIKI_SWARM
+	getmonname CEIKI, $1
+	swarm SWARM_CEIKI, DARK_CAVE_VIOLET_ENTRANCE
 	getlandmarkname DARK_CAVE, $2
 	farsjump AnthonySwarmScript
 

@@ -272,8 +272,8 @@ DEF NUM_DECODESCS EQU const_value
 ; swarm arguments
 ; StoreSwarmMapIndices arguments
 	const_def
-	const SWARM_CMOMIJI ; 0
-	const SWARM_AEIKI     ; 1
+	const SWARM_CEIKI ; 0
+	const SWARM_CKOTOHIME     ; 1
 
 ; ActivateFishingSwarm setval arguments
 	const_def

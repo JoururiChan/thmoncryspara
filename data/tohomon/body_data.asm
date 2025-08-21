@@ -177,56 +177,56 @@ TohomonBodyData:
 	body_data   40,   300, BIPEDAL_TAIL,  BLUE ; CEIKI
 	body_data  40,   550, BIPEDAL_TAIL,   BLUE ; EIKI
 	body_data  40,  750, BIPEDAL_TAIL,  BLUE    ; AEIKI
-	body_data   4,   85, HEAD_LEGS,    BLUE   ; CSHIZUHA
-	body_data  14,  750, BIPEDAL_TAIL, BLUE   ; SHIZUHA
-	body_data   9,  265, QUADRUPED,    PURPLE ; SSHIZUHA
-	body_data  10,  270, QUADRUPED,    BLACK  ; CMINORIKO
-	body_data   5,   21, WINGS,        BLACK  ; MINORIKO
-	body_data  20,  795, BIPEDAL_TAIL, PINK   ; HMINORIKO
-	body_data   7,   10, HEAD,         GRAY   ; CHINA
-	body_data   5,   50, HEAD,         BLACK  ; HINA
-	body_data  13,  285, HEAD_BASE,    BLUE   ; AHINA
-	body_data  15,  415, QUADRUPED,    YELLOW ; CNITORI
-	body_data   6,   72, HEAD,         GRAY   ; NITORI
-	body_data  12, 1258, HEAD,         PURPLE ; ANITORI
-	body_data  15,  140, SERPENTINE,   YELLOW ; CMOMIJI
-	body_data  11,  648, WINGS,        PURPLE ; MOMIJI
-	body_data  92, 4000, SERPENTINE,   GRAY   ; CKANAKO
-	body_data   6,   78, BIPEDAL,      PINK   ; KANAKO
-	body_data  14,  487, BIPEDAL_TAIL, PURPLE ; AKANAKO
-	body_data   5,   39, FINS,         GRAY   ; CSUWAKO
-	body_data  18, 1180, MULTIWINGS,   RED    ; SUWAKO
-	body_data   6,  205, INSECTOID,    YELLOW ; DSUWAKO
-	body_data  15,  540, BIPEDAL,      BLUE   ; CIKU
-	body_data   9,  280, BIPEDAL_TAIL, BLACK  ; IKU
-	body_data   6,   88, BIPEDAL_TAIL, BROWN  ; AIKU
-	body_data  18, 1258, BIPEDAL_TAIL, BROWN  ; CTENSHI
-	body_data   7,  350, SERPENTINE,   RED    ; TENSHI
-	body_data   8,  550, SERPENTINE,   RED    ; STENSHI
-	body_data   4,   65, QUADRUPED,    BROWN  ; CKISUME
-	body_data  11,  558, QUADRUPED,    BROWN  ; KISUME
-	body_data   6,   50, INSECTOID,    PINK   ; DKISUME
-	body_data   6,  120, FINS,         GRAY   ; CYAMAME
-	body_data   9,  285, TENTACLES,    RED    ; YAMAME
-	body_data   9,  160, WINGS,        RED    ; SYAMAME
-	body_data  21, 2200, WINGS,        PURPLE ; CPARSEE
-	body_data  17,  505, WINGS,        GRAY   ; PARSEE
-	body_data   6,  108, QUADRUPED,    BLACK  ; DPARSEE
-	body_data  14,  350, QUADRUPED,    BLACK  ; CYUUGI
-	body_data  18, 1520, HEAD_BASE,    BLUE   ; YUUGI
-	body_data   5,  335, QUADRUPED,    BLUE   ; AYUUGI
-	body_data  11, 1200, QUADRUPED,    GRAY   ; CSATORI
-	body_data   6,  325, HEAD_LEGS,    RED    ; SATORI
-	body_data  14,  712, QUADRUPED,    BROWN  ; HSATORI
-	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; CRIN
-	body_data   7,  210, BIPEDAL,      PURPLE ; RIN
-	body_data  14,  480, BIPEDAL_TAIL, BROWN  ; HRIN
-	body_data   4,   60, BIPEDAL,      PINK   ; CUTSUHO
-	body_data   6,  235, BIPEDAL,      YELLOW ; UTSUHO
-	body_data   7,  214, BIPEDAL_TAIL, RED    ; AUTSUHO
-	body_data  12,  755, BIPEDAL_TAIL, PINK   ; CKOISHI
-	body_data  15,  468, BIPEDAL,      PINK   ; KOISHI
-	body_data  19, 1780, QUADRUPED,    YELLOW ; SKOISHI
+	body_data   25,  25, BIPEDAL,    RED   ; CSHIZUHA
+	body_data  25,  50, BIPEDAL, RED   ; SHIZUHA
+	body_data  25,  140, BIPEDAL,    RED ; SSHIZUHA
+	body_data  25,  30, BIPEDAL,    RED  ; CMINORIKO
+	body_data   25,  55, BIPEDAL,        RED  ; MINORIKO
+	body_data  25,  160, BIPEDAL, RED   ; HMINORIKO
+	body_data  32,   80, BIPEDAL,         GREEN   ; CHINA
+	body_data  32,  130, BIPEDAL,         GREEN  ; HINA
+	body_data  32,  170, BIPEDAL,    GREEN   ; AHINA
+	body_data  32,  100, BIPEDAL,    BLUE ; CNITORI
+	body_data  32,   180, BIPEDAL,         BLUE   ; NITORI
+	body_data  32,  280, BIPEDAL,         BLUE ; ANITORI
+	body_data  28,  110, BIPEDAL_TAIL,   GRAY ; CMOMIJI
+	body_data  28,  170, BIPEDAL_TAIL,        GRAY ; MOMIJI
+	body_data  40, 250, HEAD_BASE,   PURPLE   ; CKANAKO
+	body_data  40,  400, HEAD_BASE,      PURPLE   ; KANAKO
+	body_data  40,  480, HEAD_BASE, PURPLE ; AKANAKO
+	body_data  40,  250, MULTIBODY,         PURPLE   ; CSUWAKO
+	body_data  40, 400, MULTIBODY,   PURPLE    ; SUWAKO
+	body_data  40,  480, MULTIBODY,    PURPLE ; DSUWAKO
+	body_data  36,  540, SERPENTINE,      PURPLE   ; CIKU
+	body_data  36,  280, SERPENTINE, PURPLE  ; IKU
+	body_data  36,   88, SERPENTINE, PURPLE  ; AIKU
+	body_data  40, 1258, BIPEDAL, BLUE  ; CTENSHI
+	body_data  40,  350, BIPEDAL,   BLUE    ; TENSHI
+	body_data  40,  550, BIPEDAL,   BLUE    ; STENSHI
+	body_data  23,   65, QUADRUPED,    GREEN  ; CKISUME
+	body_data  23,  558, QUADRUPED,    GREEN  ; KISUME
+	body_data  23,   50, QUADRUPED,    GREEN   ; DKISUME
+	body_data  25,  120, INSECTOID,   BROWN    ; CYAMAME
+	body_data  25,  285, INSECTOID,    BROWN    ; YAMAME
+	body_data  25,  160, INSECTOID,     BROWN    ; SYAMAME
+	body_data  30, 2200, BIPEDAL,       BLACK ; CPARSEE
+	body_data  30,  505, BIPEDAL,        BLACK   ; PARSEE
+	body_data  30,  108, BIPEDAL,    BLACK  ; DPARSEE
+	body_data  36,  350, BIPEDAL,    RED  ; CYUUGI
+	body_data  36, 1520, BIPEDAL,    RED   ; YUUGI
+	body_data  36,  335, BIPEDAL,    RED   ; AYUUGI
+	body_data  36, 1200, SERPENTINE,    PURPLE   ; CSATORI
+	body_data  36,  325, SERPENTINE,    PURPLE   ; SATORI
+	body_data  36,  712, SERPENTINE,    PURPLE  ; HSATORI
+	body_data  36,  580, QUADRUPED, RED  ; CRIN
+	body_data  36,  210, QUADRUPED,   RED ; RIN
+	body_data  36,  480, QUADRUPED, RED  ; HRIN
+	body_data  40,   60, WINGS,      GREEN   ; CUTSUHO
+	body_data  40,  235, WINGS,      GREEN ; UTSUHO
+	body_data  40,  214, WINGS, RED  GREEN  ; AUTSUHO
+	body_data  40,  755, SERPENTINE, GREEN   ; CKOISHI
+	body_data  40,  468, SERPENTINE,   GREEN   ; KOISHI
+	body_data  40, 1780, SERPENTINE,   GREEN ; SKOISHI
 	body_data  21, 1980, QUADRUPED,    BROWN  ; CNAZRIN
 	body_data  20, 1870, QUADRUPED,    BLUE   ; NAZRIN
 	body_data   6,  720, BIPEDAL_TAIL, GREEN  ; HNAZRIN
@@ -247,9 +247,9 @@ TohomonBodyData:
 	body_data   6,  244, BIPEDAL,      PINK   ; CBYAKUREN
 	body_data   6, 1050, BIPEDAL,      BLACK  ; BYAKUREN
 	body_data  10,  650, WINGS,        BLUE   ; TBYAKUREN
-	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; CNUE
-	body_data  12, 1800, HEAD_ARMS,    GRAY   ; NUE
-	body_data  17, 1400, BIPEDAL,      PINK   ; SNUE
+	body_data  40,  340, MULTIWINGS, BLACK  ; CNUE
+	body_data  40, 1800, MULTIWINGS,   BLACK   ; NUE
+	body_data  40, 1400, MULTIWINGS,    BLACK   ; SNUE
 	body_data  24, 2828, BIPEDAL_TAIL, GRAY   ; CHATATE
 	body_data  20, 1286, BIPEDAL,      BLUE   ; HATATE
 	body_data  18, 1386, BIPEDAL_TAIL, YELLOW ; THATATE
@@ -258,7 +258,7 @@ TohomonBodyData:
 	body_data  19,  515, MULTIWINGS,   GREEN  ; ASUNNY
 	body_data  10,  255, QUADRUPED,    GREEN  ; CSTAR
 	body_data   8,  259, QUADRUPED,    BLUE   ; STAR
-	body_data  20,  425, WINGS,        PURPLE ; AMOMIJI
+	body_data  28,  280, BIPEDAL_TAIL,   GRAY ; AMOMIJI
 	body_data  25, 2910, QUADRUPED,    BROWN  ; DSTAR
 	body_data   9,  340, HEAD_ARMS,    RED    ; CLUNA
 	body_data  10,  235, QUADRUPED,    PINK   ; LUNA

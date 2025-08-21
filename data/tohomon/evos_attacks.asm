@@ -3463,7 +3463,6 @@ CNitoriEvosAttacks:
 	db -1 ; no more level-up moves
 
 NitoriEvosAttacks:
-	evo_data EVOLVE_LEVEL, 31, ANITORI
 	db -1 ; no more evolutions
 	db 1, AQUA_JET
 	db 1, LEER

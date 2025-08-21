@@ -30,36 +30,36 @@ ENDM
 
 TreeMonSet_City:
 TreeMonSet_Canyon:
-	tree_mon 80, ELIS,    10
-	tree_mon 20, AKOMACHI,      10
+	tree_mon 80, CDAICHAN,    10
+	tree_mon 20, CSUIKA,      10
 	db -1
 	; rare
-	tree_mon 50, ELIS,    10
-	tree_mon 30, CIKU,  10
-	tree_mon 20, AKOMACHI,      10
+	tree_mon 50, CMEILING,    10
+	tree_mon 30, CKAGUYA,  10
+	tree_mon 20, CMOKOU,      10
 	db -1
 
 TreeMonSet_Town:
-	tree_mon 65, ELIS,    10
-	tree_mon 15, CKIKURI,      10
-	tree_mon 20, AKOMACHI,      10
+	tree_mon 65, CYAMAME,    10
+	tree_mon 15, CYUKA,      10
+	tree_mon 20, CKAGUYA,      10
 	db -1
 	; rare
-	tree_mon 60, ELIS,    10
-	tree_mon 30, CIKU,  10
-	tree_mon 10, CHIYURI,     10
+	tree_mon 60, CORANGE,    10
+	tree_mon 30, CMEILING,  10
+	tree_mon 10, CORANGE,     10
 	db -1
 
 TreeMonSet_Route:
-	tree_mon 50, SWRIGGLE,   10
-	tree_mon 15, CKEINE,   10
-	tree_mon 15, MYSTIA,     10
-	tree_mon 20, CIRNO,  10
+	tree_mon 50, CWRIGGLE,   10
+	tree_mon 15, CMYSTIA,   10
+	tree_mon 15, CYUKA,     10
+	tree_mon 20, CPATCHOULI,  10
 	db -1
 	; rare
-	tree_mon 40, MINORIKO,    10
-	tree_mon 40, NITORI,     10
-	tree_mon 20, CIRNO,  10
+	tree_mon 40, CKEINE,    10
+	tree_mon 40, CYUKA,     10
+	tree_mon 20, CYUKARI,  10
 	db -1
 
 TreeMonSet_Kanto:
@@ -74,42 +74,42 @@ TreeMonSet_Kanto:
 	db -1
 
 TreeMonSet_Lake:
-	tree_mon 65, SWRIGGLE,   10
-	tree_mon 15, RIKAKO,    10
-	tree_mon 20, CIRNO,  10
+	tree_mon 65, CPATCHOULI,   10
+	tree_mon 15, CKAGUYA,    10
+	tree_mon 20, CKEINE,  10
 	db -1
 	; rare
-	tree_mon 50, SWRIGGLE,   10
-	tree_mon 30, NITORI,     10
-	tree_mon 20, CIRNO,  10
+	tree_mon 50, CMEILING,   10
+	tree_mon 30, CORANGE,     10
+	tree_mon 20, CMYSTIA,  10
 	db -1
 
 TreeMonSet_Forest:
-	tree_mon 50, SWRIGGLE,   10
-	tree_mon 30, NITORI,     10
-	tree_mon 10, CMYSTIA,    10
-	tree_mon  5, FGYOKU, 10
-	tree_mon  5, MAGAN,   10
+	tree_mon 50, CWRIGGLE,   10
+	tree_mon 30, CMYSTIA,     10
+	tree_mon 10, CSUIKA,    10
+	tree_mon  5, CKAGUYA, 10
+	tree_mon  5, CDAICHAN,   10
 	db -1
 	; rare
-	tree_mon 60, SWRIGGLE,   10
-	tree_mon 15, CGYOKU,   10
-	tree_mon 15, CMAGAN,     10
-	tree_mon  5, CMIMA,    10
-	tree_mon  5, CMAGAN,     10
+	tree_mon 60, CWRIGGLE,   10
+	tree_mon 15, CYAMAME,    10
+	tree_mon 15, CYUKA,     10
+	tree_mon  5, CMOKOU,    10
+	tree_mon  5, CYUKARI,     10
 	db -1
 
 TreeMonSet_Apricorns:
-	tree_mon 50, ELIS,               10
-	tree_mon 20, CKIKURI,                 10
-	tree_mon 20, AKOMACHI,                 10
-	tree_mon 10, DDAICHAN, 10
+	tree_mon 50, CDAICHAN,               10
+	tree_mon 20, CWRIGGLE,                 10
+	tree_mon 20, CMEDICINE,                 10
+	tree_mon 10, CKEINE, 10
 	db -1
 	; rare
-	tree_mon 40, ELIS,               10
-	tree_mon 20, DDAICHAN, 10
-	tree_mon 20, CIKU,             10
-	tree_mon 20, CHIYURI,                10
+	tree_mon 40, CYUKA,               10
+	tree_mon 20, CPATCHOULI 10
+	tree_mon 20, CKAGUYA,             10
+	tree_mon 20, CMOKOU,                10
 	db -1
 
 TreeMonSet_NoisyForest:
