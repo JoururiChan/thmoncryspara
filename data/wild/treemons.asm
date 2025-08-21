@@ -107,7 +107,7 @@ TreeMonSet_Apricorns:
 	db -1
 	; rare
 	tree_mon 40, CYUKA,               10
-	tree_mon 20, CPATCHOULI 10
+	tree_mon 20, CPATCHOULI,          10
 	tree_mon 20, CKAGUYA,             10
 	tree_mon 20, CMOKOU,                10
 	db -1

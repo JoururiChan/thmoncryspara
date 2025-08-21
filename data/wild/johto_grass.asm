@@ -334,7 +334,7 @@
 	wildmon 14, CLUIZE
 	wildmon 15, CYUMEKO
 	wildmon 15, CFLANDRE
-	end_grass_wildmon
+	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite

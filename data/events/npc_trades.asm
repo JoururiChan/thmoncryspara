@@ -12,7 +12,7 @@ NPCTrades:
 	db TRADE_DIALOGSET_COLLECTOR
 	dp CKEINE, NO_FORM ; wants
 	dp CMOKOU, MALE    ; gives
-	rawchar "Paint@@@@@@@"
+	rawchar "Paint@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_DEF_DOWN,   PREMIER_BALL, PERSIM_BERRY
 	dw 48926
 	rawchar "Kyle@@@@", $00
@@ -60,7 +60,7 @@ NPCTrades:
 	db TRADE_DIALOGSET_COLLECTOR
 	dp CREMILIA, NO_FORM ; wants
 	dp CFLANDRE, FEMALE         ; gives
-	rawchar "Owen@@@@@@@@"
+	rawchar "Owen@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_DEF_DOWN,   FAST_BALL,    GOLD_LEAF
 	dw 43972
 	rawchar "Hari@@@@", $00

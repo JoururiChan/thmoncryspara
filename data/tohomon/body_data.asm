@@ -223,7 +223,7 @@ TohomonBodyData:
 	body_data  36,  480, QUADRUPED, RED  ; HRIN
 	body_data  40,   60, WINGS,      GREEN   ; CUTSUHO
 	body_data  40,  235, WINGS,      GREEN ; UTSUHO
-	body_data  40,  214, WINGS, RED  GREEN  ; AUTSUHO
+	body_data  40,  214, WINGS,      GREEN  ; AUTSUHO
 	body_data  40,  755, SERPENTINE, GREEN   ; CKOISHI
 	body_data  40,  468, SERPENTINE,   GREEN   ; KOISHI
 	body_data  40, 1780, SERPENTINE,   GREEN ; SKOISHI
