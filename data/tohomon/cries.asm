@@ -65,16 +65,13 @@ TohomonCries::
 	mon_cry CRY_CMOMIJI,   $000,  $180 ; AKanako
 	mon_cry CRY_CSHIZUHA,      $093,  $0af ; CShizuha
 	mon_cry CRY_CSHIZUHA,     -$0c6,  $140 ; Shizuha
-	mon_cry CRY_CGYOKU,    $010,  $17f ; CLetty
-	mon_cry CRY_EKANA,       $002,  $0a0 ; Letty
-	mon_cry CRY_MGYOKU,     $098,  $17f ; CYuka
-	mon_cry CRY_TEIRIN,      $010,  $100 ; TEirin
-	mon_cry CRY_CKAGUYA,     $03b,  $038 ; CKaguya
-	mon_cry CRY_AMOKOU,    $27b,  $144 ; AHina
-	mon_cry CRY_MYSTIA,      $000,  $0de ; Mystia
-	mon_cry CRY_MYSTIA,     -$096,  $138 ; TMystia
+	mon_cry CRY_CYOUMU,  -$010,  $0b0 ; CYoumu
+	mon_cry CRY_CYOUMU,  -$022,  $120 ; Youmu
+	mon_cry CRY_CYOUMU,  -$0b7,  $200 ; SYoumu
 	mon_cry CRY_EMUGETSU,  $000,  $100 ; CLuize
 	mon_cry CRY_EMUGETSU,  $020,  $140 ; Luize
+	mon_cry CRY_MYSTIA,      $000,  $0de ; Mystia
+	mon_cry CRY_MYSTIA,     -$096,  $138 ; TMystia
 	mon_cry CRY_CSHIZUHA,      $053,  $0af ; Iku
 	mon_cry CRY_AMOKOU,    $035,  $0e0 ; CIku
 	mon_cry CRY_CKONGARA,   $000,  $100 ; CKongara
