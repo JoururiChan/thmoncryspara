@@ -65,6 +65,7 @@ TohomonCries::
 	mon_cry CRY_CMOMIJI,   $000,  $180 ; AKanako
 	mon_cry CRY_CSHIZUHA,      $093,  $0af ; CShizuha
 	mon_cry CRY_CSHIZUHA,     -$0c6,  $140 ; Shizuha
+	mon_cry CRY_MGYOKU,     $098,  $17f ; CYuka
 	mon_cry CRY_CYOUMU,  -$010,  $0b0 ; CYoumu
 	mon_cry CRY_CYOUMU,  -$022,  $120 ; Youmu
 	mon_cry CRY_CYOUMU,  -$0b7,  $200 ; SYoumu
@@ -293,7 +294,6 @@ TohomonCries::
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_STENSHI,    $000,  $180 ; Kasen
-	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
