@@ -29,7 +29,7 @@ SafeCheckSafeguard:
 	and GUARD_SAFEGUARD
 	ret z
 	call GetTrueUserAbility
-	cp GUARDPASS
+	cp GUARD_PASS
 	ret
 
 BattleCommand_checksafeguard:

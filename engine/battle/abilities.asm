@@ -1614,7 +1614,7 @@ OffensiveDamageAbilities_AfterTypeMatchup:
 
 DefensiveDamageAbilities_AfterTypeMatchup:
 	dbw SOLID_ROCK, EnemySolidRockAbility
-	dbw FILTER, EnemyEnduranceAbility
+	dbw ENDURANCE, EnemyEnduranceAbility
 	dbw -1, -1
 
 ApplyDamageAbilities:

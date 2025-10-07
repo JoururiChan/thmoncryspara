@@ -472,7 +472,7 @@ ApplyAbilityEffectsOnEncounterMon:
 	dbw HARVEST,       .Harvest
 	dbw HUSTLE,        .Hustle
 	dbw ROLLCALL,    .Rollcall
-	dbw GUARDPASS,   .GuardPass
+	dbw GUARD_PASS,   .GuardPass
 	dbw INTIMIDATE,    .Intimidate
 	dbw KEEN_EYE,      .KeenEye
 	dbw LIGHTNING_ROD, .LightningRod

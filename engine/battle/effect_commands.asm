@@ -3838,7 +3838,7 @@ BattleCommand_damagestats:
 	call TrueUserPartyAttr
 .atk_ok
 	call GetTrueUserAbility
-	cp GUARDPASS
+	cp GUARD_PASS
 	jr z, .thickcluborlightball
 	ldh a, [hBattleTurn]
 	and a
@@ -3892,7 +3892,7 @@ BattleCommand_damagestats:
 	call TrueUserPartyAttr
 .sat_ok
 	call GetTrueUserAbility
-	cp GUARDPASS
+	cp GUARD_PASS
 	jr z, .lightball
 	ldh a, [hBattleTurn]
 	and a
@@ -6269,7 +6269,7 @@ PrintParalyze:
 CheckSubstituteOpp:
 ; returns z when not behind a sub (or if overridden by Infiltrator or sound)
 	call GetTrueUserAbility
-	cp GUARDPASS
+	cp GUARD_PASS
 	ret z
 	call GetFutureSightUser
 	jr c, .not_future_sight

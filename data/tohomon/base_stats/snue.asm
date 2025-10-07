@@ -7,7 +7,7 @@
 	db GRIP_CLAW, QUICK_CLAW ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for SNUE, PRESSURE, FILTER, WONDER_SKIN
+	abilities_for SNUE, PRESSURE, ENDURANCE, WONDER_SKIN
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_INDETERMINATE, EGG_FLYING ; egg groups
 

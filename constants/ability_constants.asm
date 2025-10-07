@@ -100,7 +100,7 @@
 	const ALERT
 	const UNAWARE
 	const POWER_BOOST
-	const FILTER
+	const ENDURANCE
 	const SCRAPPY
 	const ICE_BODY
 	const SOLID_ROCK
@@ -127,7 +127,7 @@
 	const WONDER_SKIN
 	const ANALYTIC
 	const RECOLLECTOR
-	const GUARDPASS
+	const GUARD_PASS
 	const MOXIE
 	const JUSTIFIED
 	const RATTLED

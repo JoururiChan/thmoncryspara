@@ -7,7 +7,7 @@
 	db NO_ITEM, LEPPA_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for ASHOU_, SOUNDPROOF, FILTER, TECHNICIAN
+	abilities_for ASHOU_, SOUNDPROOF, ENDURANCE, TECHNICIAN
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

@@ -23,7 +23,7 @@ BattleCommand_transform:
 .not_armored_suika
 
 	call GetTrueUserAbility
-	cp GUARDPASS
+	cp GUARD_PASS
 	jr z, .bypass_sub
 	ld a, BATTLE_VARS_SUBSTATUS4_OPP
 	call GetBattleVarAddr

@@ -7,6 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
+	abilities_for CKONGARA, COMPETITIVE, HI_STRENGTH, JUSTIFIED
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_INDETERMINATE ; egg groups
 

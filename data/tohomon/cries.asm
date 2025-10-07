@@ -57,9 +57,6 @@ TohomonCries::
 	mon_cry CRY_EKOTOHIME,      $0dd,  $081 ; EKotohime
 	mon_cry CRY_EKOTOHIME,      $0aa,  $0c0 ; CKana
 	mon_cry CRY_KANA,   $022,  $17f ; Kana
-	mon_cry CRY_CMEIRA,    $099,  $17f ; CYumemi
-	mon_cry CRY_YUMEMI,     $020,  $0e0 ; Yumemi
-	mon_cry CRY_YUMEMI,     $0ff,  $0c0 ; EYumemi
 	mon_cry CRY_CAYA,   $061,  $091 ; Cleffa
 	mon_cry CRY_RIN,     $0a2,  $140 ; SShizuha
 	mon_cry CRY_CMEIRA,    $0cc,  $081 ; CMeira

@@ -6,7 +6,7 @@ MoldBreakerSuppressedAbilities:
 	db CONTRARY
 	db DAMP
 	db DRY_SKIN
-	db FILTER
+	db ENDURANCE
 	db FLASH_FIRE
 	db ARMOR_LAYER
 	db HI_STRENGTH
