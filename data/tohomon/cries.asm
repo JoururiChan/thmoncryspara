@@ -295,4 +295,7 @@ TohomonCries::
 	mon_cry CRY_STENSHI,    $000,  $180 ; Kasen
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	assert_table_length NUM_SPECIES
