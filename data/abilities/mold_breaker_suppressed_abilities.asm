@@ -31,7 +31,7 @@ MoldBreakerSuppressedAbilities:
 	db OWN_TEMPO
 	db POISON_GUARD
 	db SAND_VEIL
-	db SAP_ABAOBB
+	db SAP_ABSORB
 	db GUARD_ARMOR
 	db MONOCHANNEL
 	db SNOW_CLOAK

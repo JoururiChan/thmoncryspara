@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F100, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for MIMA, PPRESSURE, RAW_POWER, POWER_BOOST
+	abilities_for MIMA, PRESSURE, RAW_POWER, POWER_BOOST
 	db GROWTH_SLOW ; growth rate
 	dn EGG_INDETERMINATE, EGG_FLYING ; egg groups
 

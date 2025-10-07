@@ -604,7 +604,7 @@ _GetWaterWildmonPointer:
 _PureHeartWildmonCheck:
 	call CopyCurrMapDE
 	push hl
-	ld hl, wPureHeartFlags
+	ld hl, wSwarmFlags
 	bit 2, [hl]
 	pop hl
 	jr z, .CheckAEiki
@@ -621,7 +621,7 @@ _PureHeartWildmonCheck:
 
 .CheckAEiki:
 	push hl
-	ld hl, wPureHeartFlags
+	ld hl, wSwarmFlags
 	bit 3, [hl]
 	pop hl
 	jr z, _NoPureHeartWildmon
