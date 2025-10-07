@@ -7,7 +7,7 @@
 	db NO_ITEM, EVERSTONE ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for ESARA, MAGNET_PULL, STURDY, GALVANIZE
+	abilities_for ESARA, ELECTRO_WAVE, STURDY, GALVANIZE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 

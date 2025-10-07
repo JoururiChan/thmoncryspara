@@ -23,11 +23,11 @@ AbilityJumptable:
 
 BattleEntryAbilitiesNonfainted:
 	dbw TRACE, TraceAbility
-	dbw IMPOSTER, ImposterAbility
+	dbw RECOLLECTOR, RecollectorAbility
 	dbw INTIMIDATE, IntimidateAbility
 	dbw DOWNLOAD, DownloadAbility
 	dbw ANTICIPATION, AnticipationAbility
-	dbw FOREWARN, ForewarnAbility
+	dbw ALERT, AlertAbility
 	dbw FRISK, FriskAbility
 	dbw UNNERVE, UnnerveAbility
 BattleEntryAbilities:
@@ -35,18 +35,18 @@ BattleEntryAbilities:
 	dbw DROUGHT, DroughtAbility
 	dbw SAND_STREAM, SandStreamAbility
 	dbw SNOW_WARNING, SnowWarningAbility
-	dbw CLOUD_NINE, CloudNineAbility
+	dbw HISOUTEN, HisoutenAbility
 	dbw PRESSURE, PressureAbility
 	dbw MOLD_BREAKER, MoldBreakerAbility
-	dbw NEUTRALIZING_GAS, NeutralizingGasAbility
-	dbw SCREEN_CLEANER, ScreenCleanerAbility
+	dbw NEUTRALIZATION, NeutralizationAbility
+	dbw SCREEN_REMOVAL, ScreenRemovalAbility
 	; fallthrough
 StatusHealAbilities:
 ; Status immunity abilities that autoproc if the user gets the status or the ability
 	dbw LIMBER, LimberAbility
 	dbw IMMUNITY, ImmunityAbility
-	dbw PASTEL_VEIL, PastelVeilAbility
-	dbw MAGMA_ARMOR, MagmaArmorAbility
+	dbw POISON_GUARD, PoisonGuardAbility
+	dbw FIRE_VEIL, FireVeilAbility
 	dbw WATER_VEIL, WaterVeilAbility
 	dbw INSOMNIA, InsomniaAbility
 	dbw VITAL_SPIRIT, VitalSpiritAbility
@@ -54,8 +54,8 @@ StatusHealAbilities:
 	dbw OBLIVIOUS, ObliviousAbility
 	dbw -1, -1
 
-CloudNineAbility:
-	ld hl, NotifyCloudNine
+HisoutenAbility:
+	ld hl, NotifyHisouten
 	jr NotificationAbilities
 PressureAbility:
 	ld hl, NotifyPressure
@@ -66,8 +66,8 @@ MoldBreakerAbility:
 UnnerveAbility:
 	ld hl, NotifyUnnerve
 	jr NotificationAbilities
-NeutralizingGasAbility:
-	ld hl, NotifyNeutralizingGas
+NeutralizationAbility:
+	ld hl, NotifyNeutralization
 NotificationAbilities:
 	push hl
 	call DisableAnimations
@@ -77,13 +77,13 @@ NotificationAbilities:
 	jmp EnableAnimations
 
 ImmunityAbility:
-PastelVeilAbility:
+PoisonGuardAbility:
 	ld a, 1 << PSN
 	jr HealStatusAbility
 WaterVeilAbility:
 	ld a, 1 << BRN
 	jr HealStatusAbility
-MagmaArmorAbility:
+FireVeilAbility:
 	ld a, 1 << FRZ
 	jr HealStatusAbility
 LimberAbility:
@@ -144,15 +144,15 @@ ObliviousAbility:
 TraceAbility:
 	call GetOpponentAbility
 	inc a
-	ret z ; Neutralizing Gas sentinel upon fainting
+	ret z ; Neutralization sentinel upon fainting
 	dec a
 	ret z
 	cp TRACE
 	jr z, .trace_failure
-	cp IMPOSTER
+	cp RECOLLECTOR
 	jr z, .trace_failure
 	; just in case
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	ret z
 	push af
 	ld b, a
@@ -308,8 +308,8 @@ DownloadAbility:
 	call EnableAnimations
 	farjp CheckMirrorHerb
 
-ImposterAbility:
-	; Disallowed on Neutralizing Gas (even in switch-out mode)
+RecollectorAbility:
+	; Disallowed on Neutralization (even in switch-out mode)
 	call GetOpponentAbility
 	inc a
 	ret z
@@ -324,7 +324,7 @@ AnticipationAbility:
 ; Anticipation considers special types (just Hidden Power is applicable here) as
 ; whatever type they are listed as (e.g. HP is Normal). It will also (as of 5gen)
 ; treat Counter/Mirror Coat (and Metal Burst) as attacking moves of their type.
-; It also ignores Pixilate and Galvanize.
+; It also ignores Purity and Galvanize.
 	ldh a, [hBattleTurn]
 	and a
 	ld hl, wEnemyMonMoves
@@ -393,7 +393,7 @@ AnticipationAbility:
 	call GetFixedMoveStruct
 	jmp SwitchTurn
 
-ForewarnAbility:
+AlertAbility:
 ; A note on moves with non-regular damage: Bulbapedia and Showdown has conflicting info on
 ; what power these moves actually have. I am using Showdown numbers here which assigns
 ; 160 to counter moves and 80 to everything else with nonstandard base power.
@@ -484,7 +484,7 @@ ForewarnAbility:
 	pop af
 	ld [wNamedObjectIndex], a
 	call GetMoveName
-	ld hl, ForewarnText
+	ld hl, AlertText
 	call StdBattleTextbox
 	jmp EnableAnimations
 
@@ -500,7 +500,7 @@ FriskAbility:
 	call StdBattleTextbox
 	jmp EnableAnimations
 
-ScreenCleanerAbility:
+ScreenRemovalAbility:
 	; Text order is player 1's screens fade, then player 2's.
 	; Preserves current battle turn (i.e. when mon is switched out via Roar)
 	ld a, [wPlayerScreens]
@@ -599,9 +599,9 @@ ResolveOpponentBerserk_CheckMultihit:
 	bit SUBSTATUS_IN_LOOP, [hl]
 	ret nz
 
-	; Check if user has Parental Bond
+	; Check if user has Troopers
 	call GetTrueUserAbility
-	cp PARENTAL_BOND
+	cp TROOPERS
 	ret z
 
 	; fallthrough
@@ -616,7 +616,7 @@ ResolveOpponentBerserk:
 	cp BERSERK
 	ret nz
 
-	farcall CheckSheerForceNegation
+	farcall CheckStrategicNegation
 	ret z
 
 	call SwitchTurn
@@ -638,15 +638,15 @@ RunFaintAbilities:
 	jmp SwitchTurn
 
 _RunFaintOpponentAbilities:
-	cp AFTERMATH
+	cp SURPRISE
 	ret nz
 	; fallthrough
-AftermathAbility:
+SurpriseAbility:
 	; Damp protects against this
 	call GetOpponentAbility
 	cp DAMP
 	ret z
-	; Only contact moves proc Aftermath
+	; Only contact moves proc Surprise
 	call CheckOpponentContactMove
 	ret c
 .is_contact
@@ -694,8 +694,8 @@ RunHitAbilities:
 	jmp z, JustifiedAbility
 	cp RATTLED
 	jmp z, RattledAbility
-	cp WEAK_ARMOR
-	jmp z, WeakArmorAbility
+	cp FRAGILITY
+	jmp z, FragilityAbility
 	ret
 
 CursedBodyAbility:
@@ -728,12 +728,12 @@ UserContactAbilities:
 	dbw -1, -1
 
 TargetContactAbilities:
-	dbw EFFECT_SPORE, EffectSporeAbility
+	dbw EFFECT_TRIAGE, EffectTriageAbility
 	dbw FLAME_BODY, FlameBodyAbility
-	dbw POISON_POINT, PoisonPointAbility
+	dbw SEEPING_TOXIN, SeepingToxinAbility
 	dbw STATIC, StaticAbility
 	dbw CUTE_CHARM, CuteCharmAbility
-	dbw TANGLING_HAIR, TanglingHairAbility
+	dbw TIME_COUNTER, TimeCounterAbility
 	dbw PERISH_BODY, PerishBodyAbility
 	dbw -1, -1
 
@@ -778,7 +778,7 @@ PerishBodyAbility:
 	call StdBattleTextbox
 	jmp EnableAnimations
 
-TanglingHairAbility:
+TimeCounterAbility:
 	call HasOpponentFainted
 	ret z
 
@@ -789,7 +789,7 @@ TanglingHairAbility:
 	call EnableAnimations
 	farjp CheckMirrorHerb
 
-EffectSporeAbility:
+EffectTriageAbility:
 	call CheckIfTargetIsNatureType
 	ret z
 	call GetOpponentAbility
@@ -801,7 +801,7 @@ EffectSporeAbility:
 	ret z
 	call BattleRandom
 	cp 1 + 33 percent
-	jr c, PoisonPointAbility
+	jr c, SeepingToxinAbility
 	cp 1 + 66 percent
 	jr c, StaticAbility
 
@@ -813,12 +813,12 @@ FlameBodyAbility:
 	ld c, 1 << BRN
 	jr AfflictStatusAbility
 PoisonTouchAbility:
-	; Poison Touch is the same as an opposing Poison Point, and since
+	; Poison Touch is the same as an opposing Seeping Toxin, and since
 	; abilities always run from the ability user's POV...
 	; Doesn't apply when opponent has a Substitute up...
 	ld b, 0
 	jr DoPoisonAbility
-PoisonPointAbility:
+SeepingToxinAbility:
 	ld b, 1
 	; fallthrough
 DoPoisonAbility:
@@ -979,11 +979,11 @@ NullificationAbilities:
 	dbw FLASH_FIRE, FlashFireAbility
 	dbw LIGHTNING_ROD, LightningRodAbility
 	dbw MOTOR_DRIVE, MotorDriveAbility
-	dbw SAP_SIPPER, SapSipperAbility
+	dbw SAP_ABSORB, SapAbsorbAbility
 	dbw VOLT_ABSORB, VoltAbsorbAbility
 	dbw WATER_ABSORB, WaterAbsorbAbility
 	dbw DAMP, CannotUseTextAbility
-	dbw ARMOR_TAIL, CannotUseTextAbility
+	dbw SKILL_CANCEL, CannotUseTextAbility
 	dbw -1, -1
 
 CannotUseTextAbility:
@@ -1042,7 +1042,7 @@ MoxieAbility:
 	farcall CheckAnyOtherAliveOpponentMons
 	ret z
 	; fallthrough
-SapSipperAbility:
+SapAbsorbAbility:
 AttackUpAbility:
 	ld b, ATTACK
 	jr StatUpAbility
@@ -1073,13 +1073,13 @@ StatUpAbility:
 	and a
 	jr z, .done
 
-; Lightning Rod, Motor Drive and Sap Sipper prints a "doesn't affect" message instead.
+; Lightning Rod, Motor Drive and Sap Absorb prints a "doesn't affect" message instead.
 	call GetTrueUserAbility
 	cp LIGHTNING_ROD
 	jr z, .print_immunity
 	cp MOTOR_DRIVE
 	jr z, .print_immunity
-	cp SAP_SIPPER
+	cp SAP_ABSORB
 	jr nz, .done
 .print_immunity
 	call DisableAnimations
@@ -1093,7 +1093,7 @@ StatUpAbility:
 	call EnableAnimations
 	farjp CheckMirrorHerb
 
-WeakArmorAbility:
+FragilityAbility:
 	; only physical moves activate this
 	ld a, b
 	and a ; cp PHYSICAL
@@ -1154,7 +1154,7 @@ ApplySpeedAbilities:
 	jr z, .clorophyll
 	cp SAND_RUSH
 	jr z, .sand_rush
-	cp SLUSH_RUSH
+	cp ICY_FEET
 	jr z, .slush_rush
 	cp QUICK_FEET
 	ret nz
@@ -1205,7 +1205,7 @@ UserAccuracyAbilities:
 	dbw -1, -1
 
 TargetAccuracyAbilities:
-	dbw TANGLED_FEET, TangledFeetAbility
+	dbw NEARSIGHTED, NearsightedAbility
 	dbw WONDER_SKIN, WonderSkinAbility
 	dbw SAND_VEIL, SandVeilAbility
 	dbw SNOW_CLOAK, SnowCloakAbility
@@ -1221,7 +1221,7 @@ HustleAccuracyAbility:
 	ln a, 4, 5 ; 4/5 = 80%
 	jmp ApplyPhysicalAttackDamageMod
 
-TangledFeetAbility:
+NearsightedAbility:
 ; Double evasion if confused
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
@@ -1329,18 +1329,18 @@ EndturnAbilityTableA:
 
 EndturnAbilityTableB:
 	; If Bad Dreams is implemented, remember to add CheckFaint in endturn.asm
-	dbw CUD_CHEW, CudChewAbility
+	dbw LINGER_POWER, LingerPowerAbility
 	dbw HARVEST, HarvestAbility
 	dbw MOODY, MoodyAbility
 	dbw PICKUP, PickupAbility
 	dbw SPEED_BOOST, SpeedBoostAbility
 	dbw -1, -1
 
-CudChewAbility:
+LingerPowerAbility:
 ; Berries are re-indexed from $01-$7f, with $01 being FIRST_BERRY
 ; if bit 7 is clear, run reconsumption routines, otherwise clear bit 7
 	assert NUM_BERRIES < $7f
-	ld a, BATTLE_VARS_CUD_CHEW_BERRY
+	ld a, BATTLE_VARS_LINGER_POWER_BERRY
 	call GetBattleVarAddr
 	and a
 	ret z
@@ -1609,12 +1609,12 @@ ApplyDamageAbilities_AfterTypeMatchup:
 	jmp AbilityJumptable
 
 OffensiveDamageAbilities_AfterTypeMatchup:
-	dbw TINTED_LENS, TintedLensAbility
+	dbw POWER_BOOST, PowerBoostAbility
 	dbw -1, -1
 
 DefensiveDamageAbilities_AfterTypeMatchup:
 	dbw SOLID_ROCK, EnemySolidRockAbility
-	dbw FILTER, EnemyFilterAbility
+	dbw FILTER, EnemyEnduranceAbility
 	dbw -1, -1
 
 ApplyDamageAbilities:
@@ -1627,35 +1627,35 @@ ApplyDamageAbilities:
 
 OffensiveDamageAbilities:
 	dbw TECHNICIAN, TechnicianAbility
-	dbw HUGE_POWER, HugePowerAbility
+	dbw RAW_POWER, RawPowerAbility
 	dbw HUSTLE, HustleAbility
 	dbw OVERGROW, OvergrowAbility
 	dbw BLAZE, BlazeAbility
 	dbw TORRENT, TorrentAbility
-	dbw SWARM, SwarmAbility
+	dbw PUREHEART, PureHeartAbility
 	dbw RIVALRY, RivalryAbility
-	dbw SHEER_FORCE, SheerForceAbility
+	dbw STRATEGIC, StrategicAbility
 	dbw ANALYTIC, AnalyticAbility
 	dbw SOLAR_POWER, SolarPowerAbility
 	dbw IRON_FIST, IronFistAbility
-	dbw TOUGH_CLAWS, ToughClawsAbility
-	dbw MEGA_LAUNCHER, MegaLauncherAbility
+	dbw SHARP_CLAWS, SharpClawsAbility
+	dbw SOUL_POWER, SoulPowerAbility
 	dbw SAND_FORCE, SandForceAbility
 	dbw RECKLESS, RecklessAbility
 	dbw GUTS, GutsAbility
-	dbw PIXILATE, PixilateAbility
+	dbw PURITY, PurityAbility
 	dbw GALVANIZE, GalvanizeAbility
-	dbw GORILLA_TACTICS, GorillaTacticsAbility
-	dbw STEELY_SPIRIT, SteelySpiritAbility
-	dbw SHARPNESS, SharpnessAbility
+	dbw COMBAT_LOCK, CombatLockAbility
+	dbw RAZOR_BLADE, RazorBladeAbility
+	dbw CLEAN_CUTTER, CleanCutterAbility
 	dbw -1, -1
 
 DefensiveDamageAbilities:
-	dbw MULTISCALE, EnemyMultiscaleAbility
+	dbw DECOY_GUARD, EnemyDecoyGuardAbility
 	dbw SPRING_CHARM, EnemySpringCharmAbility
-	dbw THICK_FAT, EnemyThickFatAbility
+	dbw ICE_WALL, EnemyIceWallAbility
 	dbw DRY_SKIN, EnemyDrySkinAbility
-	dbw FUR_COAT, EnemyFurCoatAbility
+	dbw ARMOR_LAYER, EnemyArmorLayerAbility
 	dbw -1, -1
 
 TechnicianAbility:
@@ -1665,14 +1665,14 @@ TechnicianAbility:
 	ln a, 3, 2 ; x1.5
 	jmp MultiplyAndDivide
 
-HugePowerAbility:
+RawPowerAbility:
 ; Doubles physical attack
 	ln a, 2, 1 ; x2
 	jmp ApplyPhysicalAttackDamageMod
 
 HustleAbility:
 ; 150% physical attack, 80% accuracy (done elsewhere)
-GorillaTacticsAbility:
+CombatLockAbility:
 ; 150% physical attack, locks into one move (done elsewhere)
 	ln a, 3, 2 ; x1.5
 	jmp ApplyPhysicalAttackDamageMod
@@ -1686,7 +1686,7 @@ BlazeAbility:
 TorrentAbility:
 	ld b, WATER
 	jr PinchAbility
-SwarmAbility:
+PureHeartAbility:
 	ld b, BUG
 PinchAbility:
 ; 150% damage if the user is in a pinch (1/3HP or less) for given type
@@ -1696,7 +1696,7 @@ PinchAbility:
 	jr z, TypeDependentAbility
 	ret
 
-SteelySpiritAbility:
+RazorBladeAbility:
 	ld b, STEEL
 TypeDependentAbility:
 ; 150% damage if move type matches given type in b
@@ -1717,7 +1717,7 @@ RivalryAbility:
 .apply_damage_mod
 	jmp MultiplyAndDivide
 
-SheerForceAbility:
+StrategicAbility:
 ; 130% damage if a secondary effect is suppressed
 	ld a, [wEffectFailed]
 	and a
@@ -1738,7 +1738,7 @@ AnalyticAbility:
 	ln a, 13, 10 ; x1.3
 	jmp MultiplyAndDivide
 
-TintedLensAbility:
+PowerBoostAbility:
 ; Doubles damage for not very effective moves (x0.5/x0.25)
 	ld a, [wTypeModifier]
 	cp $10
@@ -1754,13 +1754,13 @@ SolarPowerAbility:
 	ln a, 3, 2 ; x1.5
 	jmp ApplySpecialAttackDamageMod
 
-ToughClawsAbility:
+SharpClawsAbility:
 	call CheckContactMove
 	ret c
 	ln a, 13, 10 ; x1.3
 	jmp MultiplyAndDivide
 
-MegaLauncherAbility:
+SoulPowerAbility:
 	ld hl, LauncherMoves
 	ln b, 3, 2 ; x1.5
 	jr MoveBoostAbility
@@ -1784,7 +1784,7 @@ IsPunchingMove:
 
 INCLUDE "data/moves/punching_moves.asm"
 
-SharpnessAbility:
+CleanCutterAbility:
 ; 150% damage for slicing moves
 	ld hl, SlicingMoves
 	ln b, 3, 2 ; x1.5
@@ -1851,7 +1851,7 @@ GutsAbility:
 	ln a, 3, 2 ; x1.5
 	jmp ApplyPhysicalAttackDamageMod
 
-PixilateAbility:
+PurityAbility:
 	ld b, HEART
 	jr AteAbilities
 GalvanizeAbility:
@@ -1872,7 +1872,7 @@ AteAbilities:
 	ln a, 6, 5 ; x1.2
 	jmp MultiplyAndDivide
 
-EnemyMultiscaleAbility:
+EnemyDecoyGuardAbility:
 ; 50% damage if user is at full HP
 	farcall CheckOpponentFullHP
 	ret nz
@@ -1889,7 +1889,7 @@ EnemySpringCharmAbility:
 	jmp ApplyPhysicalDefenseDamageMod
 
 EnemySolidRockAbility:
-EnemyFilterAbility:
+EnemyEnduranceAbility:
 ; 75% damage for super effective moves
 	ld a, [wTypeModifier]
 	cp $11
@@ -1897,7 +1897,7 @@ EnemyFilterAbility:
 	ln a, 3, 4 ; x0.75
 	jmp MultiplyAndDivide
 
-EnemyThickFatAbility:
+EnemyIceWallAbility:
 ; 50% damage for Fire and Ice-type moves
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVar
@@ -1920,7 +1920,7 @@ EnemyDrySkinAbility:
 	ln a, 5, 4 ; x1.25
 	jmp MultiplyAndDivide
 
-EnemyFurCoatAbility:
+EnemyArmorLayerAbility:
 ; Doubles physical Defense
 	ln a, 1, 2 ; 1/2 = 50%
 	jmp ApplyPhysicalDefenseDamageMod

@@ -12,7 +12,7 @@ endc
 	db NO_ITEM, PECHA_BERRY ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CELIS, GLUTTONY, HUSTLE, THICK_FAT
+	abilities_for CELIS, GLUTTONY, HUSTLE, ICE_WALL
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

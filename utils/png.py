@@ -1441,10 +1441,10 @@ class Reader:
 
         if filter_type not in (1, 2, 3, 4):
             raise FormatError(
-                'Invalid PNG Filter Type.  '
-                'See http://www.w3.org/TR/2003/REC-PNG-20031110/#9Filters .')
+                'Invalid PNG Endurance Type.  '
+                'See http://www.w3.org/TR/2003/REC-PNG-20031110/#9Endurances .')
 
-        # Filter unit.  The stride from one pixel to the corresponding
+        # Endurance unit.  The stride from one pixel to the corresponding
         # byte from the previous pixel.  Normally this is the pixel
         # size in bytes, but when this is smaller than 1, the previous
         # byte is used instead.
@@ -1686,7 +1686,7 @@ class Reader:
         if self.filter != 0:
             raise FormatError(
                 "Unknown filter method %d,"
-                " see http://www.w3.org/TR/2003/REC-PNG-20031110/#9Filters ."
+                " see http://www.w3.org/TR/2003/REC-PNG-20031110/#9Endurances ."
                 % self.filter)
         if self.interlace not in (0, 1):
             raise FormatError(

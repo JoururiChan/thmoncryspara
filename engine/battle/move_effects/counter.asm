@@ -26,7 +26,7 @@ BattleCommand_counter:
 	or [hl]
 	ret z
 
-	; Don't double damage twice for Parental Bond
+	; Don't double damage twice for Troopers
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
 	bit SUBSTATUS_IN_ABILITY, a

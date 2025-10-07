@@ -7,7 +7,7 @@
 	db NO_ITEM, METAL_COAT ; held items
 	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for CKANAKO, SAND_RUSH, AFTERMATH, SAND_FORCE
+	abilities_for CKANAKO, SAND_RUSH, SURPRISE, SAND_FORCE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MINERAL, EGG_GROUND ; egg groups
 

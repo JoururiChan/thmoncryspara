@@ -3,7 +3,7 @@ BattleCommand_thief:
 	call CheckSubstituteOpp
 	ret nz
 
-	; Pickpocket uses this too
+	; Swipe uses this too
 	call CanStealItem
 	jr z, .ok
 	ret nc
@@ -51,7 +51,7 @@ CheckCollector:
 	cp COLLECTOR
 	jr nz, .no_sticky_hold
 
-	; Don't display anything if we're in Pickpocket
+	; Don't display anything if we're in Swipe
 	ld a, [wAnimationsDisabled]
 	and a
 	ret nz
@@ -72,7 +72,7 @@ CanStealItem:
 ; Returns z if we can and put item into d, target item addr into bc,
 ; user item addr into hl. Returns nz if we can't, and c if we can't
 ; because of an ability.
-	; Maybe Substitute/Sheer Force prevents the steal
+	; Maybe Substitute/Strategic prevents the steal
 	ld a, [wEffectFailed]
 	and a
 	ret nz

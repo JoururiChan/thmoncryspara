@@ -7,7 +7,7 @@
 	db GRIP_CLAW, QUICK_CLAW ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for IKU, INNER_FOCUS, KEEN_EYE, PICKPOCKET
+	abilities_for IKU, INNER_FOCUS, KEEN_EYE, SWIPE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

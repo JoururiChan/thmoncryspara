@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for RIN, SHADOW_TAG, ILLUMINATE, MAGMA_ARMOR
+	abilities_for RIN, CORNER_GAP, ROLLCALL, FIRE_VEIL
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
 

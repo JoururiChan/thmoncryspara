@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F75, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for AICHIRIN, THICK_FAT, HUGE_POWER, SAP_SIPPER
+	abilities_for AICHIRIN, ICE_WALL, RAW_POWER, SAP_ABSORB
 	db GROWTH_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

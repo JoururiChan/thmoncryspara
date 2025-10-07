@@ -7,7 +7,7 @@
 	db RAWST_BERRY, NEVERMELTICE ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for DSTAR, OBLIVIOUS, SNOW_CLOAK, THICK_FAT
+	abilities_for DSTAR, OBLIVIOUS, SNOW_CLOAK, ICE_WALL
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

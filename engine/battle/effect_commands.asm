@@ -1177,7 +1177,7 @@ BattleCommand_critical:
 	call GetOpponentAbilityAfterMoldBreaker
 	cp BATTLE_ARMOR
 	ret z
-	cp SHELL_ARMOR
+	cp GUARD_ARMOR
 	ret z
 	call GetFutureSightUser
 	ld c, 0
@@ -1448,7 +1448,7 @@ BattleCommand_stab:
 	ldh [hMultiplicand + 2], a
 	farcall Multiply
 
-	; Parental Bond
+	; Troopers
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
 	bit SUBSTATUS_IN_ABILITY, a
@@ -1840,7 +1840,7 @@ endc
 	ret
 
 BattleCommand_checkhit:
-	; Skip accuracy checks for Magic Bounce/Parental Bond 2nd hit
+	; Skip accuracy checks for Magic Bounce/Troopers 2nd hit
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
 	bit SUBSTATUS_IN_ABILITY, a
@@ -1945,7 +1945,7 @@ BattleCommand_checkhit:
 	call GetTrueUserAbility
 	cp KEEN_EYE
 	jr z, .avoid_evasion_boost
-	cp ILLUMINATE
+	cp ROLLCALL
 	jr z, .avoid_evasion_boost
 	cp MINDS_EYE
 	jr nz, .check_opponent_unaware
@@ -2225,9 +2225,9 @@ BattleCommand_checkpriority:
 	farcall GetMovePriority
 	cp $81
 	jr c, .check_prankster
-	; Armor Tail blocks moves with priority > 0 (so does not block moves like Prankster Roar)
+	; Skill Cancel blocks moves with priority > 0 (so does not block moves like Prankster Roar)
 	call GetOpponentAbilityAfterMoldBreaker
-	cp ARMOR_TAIL
+	cp SKILL_CANCEL
 	ld b, ATKFAIL_ABILITY
 	jr z, .attack_fails
 	; Dark-type are immune to (most) Prankster-boosted moves that could affect it
@@ -2267,7 +2267,7 @@ BattleCommand_checkpriority:
 	jmp BattleCommand_failuretext
 
 BattleCommand_effectchance:
-; Doesn't work against Substitute or Shield Dust
+; Doesn't work against Substitute or Monochannel
 	push bc
 	push hl
 	xor a
@@ -2276,7 +2276,7 @@ BattleCommand_effectchance:
 	jr nz, EffectChanceFailed
 
 	call GetOpponentAbilityAfterMoldBreaker
-	cp SHIELD_DUST
+	cp MONOCHANNEL
 	jr z, EffectChanceFailed
 	call GetOpponentItemAfterUnnerve
 	ld a, b
@@ -2285,7 +2285,7 @@ BattleCommand_effectchance:
 	jr _CheckEffectChance
 
 BattleCommand_selfeffectchance:
-; Works even if opponent has Substitute or Shield Dust up
+; Works even if opponent has Substitute or Monochannel up
 	push bc
 	push hl
 	xor a
@@ -2302,7 +2302,7 @@ _CheckEffectChance:
 	ld a, [hl]
 	ld b, a
 	call GetTrueUserAbility
-	cp SHEER_FORCE
+	cp STRATEGIC
 	jr z, EffectChanceFailed
 	cp SERENE_GRACE
 	jr nz, .skip_serene_grace
@@ -2349,7 +2349,7 @@ BattleCommand_lowersub:
 	jmp BattleCommand_movedelay
 
 BattleCommand_moveanim:
-	; Check for Parental Bond hit
+	; Check for Troopers hit
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
 	bit SUBSTATUS_IN_ABILITY, a
@@ -2901,7 +2901,7 @@ BattleCommand_startloop:
 	ret
 
 BattleCommand_supereffectivetext:
-	; Only print the message once for Parental Bond
+	; Only print the message once for Troopers
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
 	bit SUBSTATUS_IN_ABILITY, a
@@ -3001,14 +3001,14 @@ BattleCommand_supereffectivetext:
 	ld [wAlreadyExecuted], a
 	jmp SwitchTurn
 
-CheckSheerForceNegation:
-; Check if a secondary effect was suppressed due to Sheer Force.
+CheckStrategicNegation:
+; Check if a secondary effect was suppressed due to Strategic.
 ; Most likely a bug introduced in Gen V, it is an established
-; mechanic at this point (VII) that if Sheer Force negates the
+; mechanic at this point (VII) that if Strategic negates the
 ; secondary effect of a move, various side effects don't trigger.
 ; Returns z if an effect is negated.
 	call GetTrueUserAbility
-	cp SHEER_FORCE
+	cp STRATEGIC
 	ret nz
 	ld a, [wEffectFailed]
 	and a
@@ -3042,7 +3042,7 @@ ConsumeUserItem::
 	pop af
 	ld [hl], a
 	pop hl
-	call SetCudChewBerry
+	call SetLingerPowerBerry
 
 _ConsumeUserItem::
 	xor a
@@ -3100,16 +3100,16 @@ GetConsumedItemVars::
 .got_item_pointers
 	jmp GetPartyLocation
 
-SetCudChewBerry::
+SetLingerPowerBerry::
 ; Uses item in wCurItem to set user's cud chew Berry, if applicable
 	call GetTrueUserAbility
-	cp CUD_CHEW
+	cp LINGER_POWER
 	ret nz
 	farcall CheckItemPocket
 	cp BERRIES
 	ret nz
 	push hl
-	ld a, BATTLE_VARS_CUD_CHEW_BERRY
+	ld a, BATTLE_VARS_LINGER_POWER_BERRY
 	call GetBattleVarAddr
 	ld a, [wCurItem]
 	add $80 - FIRST_BERRY + 1 ; 1-index berries from $01-$7f, with bit 7 set as the timer
@@ -3118,7 +3118,7 @@ SetCudChewBerry::
 	ret
 
 BattleCommand_postfainteffects:
-; Effects that run after faint by an attack (Destiny Bond, Moxie, Aftermath, etc)
+; Effects that run after faint by an attack (Destiny Bond, Moxie, Surprise, etc)
 	call HasOpponentFainted
 	ret nz
 
@@ -3300,7 +3300,7 @@ BattleCommand_posthiteffects:
 
 .rocky_helmet_done
 	call GetTrueUserAbility
-	cp STENCH
+	cp DISTANCE
 	ld c, 10
 	jr z, .do_flinch_up
 	call GetUserItem
@@ -3324,7 +3324,7 @@ BattleCommand_posthiteffects:
 	ret z
 
 	call GetTrueUserAbility
-	cp PARENTAL_BOND
+	cp TROOPERS
 	ret nz
 
 	; Multi-hit attacks have their own multihit code
@@ -3350,7 +3350,7 @@ BattleCommand_posthiteffects:
 	call HasOpponentFainted
 	ret z
 	call GetOpponentAbilityAfterMoldBreaker
-	cp SHIELD_DUST
+	cp MONOCHANNEL
 	ret z
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
@@ -3376,9 +3376,9 @@ BattleCommand_posthiteffects:
 	ret
 
 CheckEndMoveEffects:
-; Effects handled at move end skipped by Sheer Force negation except for rampage
+; Effects handled at move end skipped by Strategic negation except for rampage
 	call HandleRampage
-	call CheckSheerForceNegation
+	call CheckStrategicNegation
 	ret z
 	call GetFutureSightUser
 	ret nz
@@ -3604,7 +3604,7 @@ EndMoveDamageChecks:
 	call .EndMoveUserItems
 	call .EndMoveOpponentItems
 
-	; Pickpocket
+	; Swipe
 	; Don't steal items if we're fainted
 	call HasOpponentFainted
 	ret z
@@ -3613,7 +3613,7 @@ EndMoveDamageChecks:
 	xor a
 	ld [wEffectFailed], a
 	call GetOpponentAbilityAfterMoldBreaker
-	cp PICKPOCKET
+	cp SWIPE
 	ret nz
 	call CheckContactMove
 	ret c
@@ -3838,7 +3838,7 @@ BattleCommand_damagestats:
 	call TrueUserPartyAttr
 .atk_ok
 	call GetTrueUserAbility
-	cp INFILTRATOR
+	cp GUARDPASS
 	jr z, .thickcluborlightball
 	ldh a, [hBattleTurn]
 	and a
@@ -3892,7 +3892,7 @@ BattleCommand_damagestats:
 	call TrueUserPartyAttr
 .sat_ok
 	call GetTrueUserAbility
-	cp INFILTRATOR
+	cp GUARDPASS
 	jr z, .lightball
 	ldh a, [hBattleTurn]
 	and a
@@ -4212,7 +4212,7 @@ BattleCommand_damagecalc:
 	pop de
 
 	; Ability boosts. Some are done elsewhere depending on needs.
-	; May have side effects (Pixilates changes move type here).
+	; May have side effects (Puritys changes move type here).
 	farcall ApplyDamageAbilities
 
 	; If we're burned (and don't have Guts), halve damage
@@ -4241,7 +4241,7 @@ BattleCommand_damagecalc:
 	bit SUBSTATUS_FLASH_FIRE, a
 	jr z, .no_flash_fire
 	call GetOpponentAbility
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	jr z, .no_flash_fire
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVar
@@ -4954,7 +4954,7 @@ CanStatusTarget:
 	cp VITAL_SPIRIT
 	ld e, INSOMNIA
 	jr z, .ability_replace
-	cp PASTEL_VEIL
+	cp POISON_GUARD
 	ld e, IMMUNITY
 	jr nz, .replace_done
 .ability_replace
@@ -5035,9 +5035,9 @@ BattleCommand_draintarget:
 	ld hl, SuckedHealthText
 	; fallthrough
 SapHealth:
-	; Don't do anything if HP is full unless opponent has Liquid Ooze
+	; Don't do anything if HP is full unless opponent has Misfortunate
 	call GetOpponentAbilityAfterMoldBreaker
-	cp LIQUID_OOZE
+	cp MISFORTUNATE
 	jr z, .continue
 	push hl
 	farcall CheckFullHP
@@ -5068,11 +5068,11 @@ SapHealth:
 .skip_draining_kiss
 	call GetHPAbsorption
 
-	; check for Liquid Ooze
+	; check for Misfortunate
 	push bc
 	call GetOpponentAbilityAfterMoldBreaker
 	pop bc
-	cp LIQUID_OOZE
+	cp MISFORTUNATE
 	jr z, .damage
 	farcall RestoreHP
 	pop hl
@@ -5093,7 +5093,7 @@ GetHPAbsorption:
 	jmp HalveBC
 
 HandleBigRoot:
-; Bonus +30% HP drain (or reduction if Liquid Ooze)
+; Bonus +30% HP drain (or reduction if Misfortunate)
 	push bc
 	predef GetUserItemAfterUnnerve
 	ld a, b
@@ -5199,7 +5199,7 @@ BattleCommand_freezetarget:
 	cp HELD_PREVENT_FREEZE
 	ret z
 	call GetOpponentAbilityAfterMoldBreaker
-	cp MAGMA_ARMOR
+	cp FIRE_VEIL
 	ret z
 	call IsLeafGuardActive
 	ret z
@@ -5584,11 +5584,11 @@ CheckIfTrappedByAbility:
 	call CheckIfUserIsGhostType
 	jr z, .not_trapped
 	call GetOpponentAbility
-	cp MAGNET_PULL
+	cp ELECTRO_WAVE
 	jr z, .has_magnet_pull
 	cp ARENA_TRAP
 	jr z, .has_arena_trap
-	cp SHADOW_TAG
+	cp CORNER_GAP
 	ret
 .has_magnet_pull
 	; Only works on Steel types
@@ -5936,7 +5936,7 @@ BattleCommand_recoil:
 	; For all other moves, potentially disable
 	; recoil based on ability
 	call GetTrueUserAbility
-	cp ROCK_HEAD
+	cp HARD_HEAD
 	ret z
 	cp MAGIC_GUARD
 	ret z
@@ -6269,7 +6269,7 @@ PrintParalyze:
 CheckSubstituteOpp:
 ; returns z when not behind a sub (or if overridden by Infiltrator or sound)
 	call GetTrueUserAbility
-	cp INFILTRATOR
+	cp GUARDPASS
 	ret z
 	call GetFutureSightUser
 	jr c, .not_future_sight
@@ -6518,7 +6518,7 @@ BattleCommand_doubleminimizedamage:
 
 _GetTrueUserAbility::
 ; Returns current user's ability, or 0 (no ability) for external future sight user
-; Also returns 0 (no ability) if opponent has Neutralizing Gas and user doesn't
+; Also returns 0 (no ability) if opponent has Neutralization and user doesn't
 	call GetFutureSightUser
 	jr nz, .external
 
@@ -6529,7 +6529,7 @@ _GetTrueUserAbility::
 	call GetOpponentAbility
 	cp b
 	jr z, .same_ability
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	ld a, b
 	pop bc
 	ret nz

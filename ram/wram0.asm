@@ -502,8 +502,8 @@ wEnemySelectedMove:: db
 wPlayerMetronomeCount:: db
 wEnemyMetronomeCount:: db
 
-wPlayerCudChewBerry:: db
-wEnemyCudChewBerry:: db
+wPlayerLingerPowerBerry:: db
+wEnemyLingerPowerBerry:: db
 
 wPartyParticipants:: ds PARTY_LENGTH
 

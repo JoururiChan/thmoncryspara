@@ -168,7 +168,7 @@ DoEggStep::
 	and a
 	ret z
 
-	; Check if Flame Body/Magma Armor applies
+	; Check if Flame Body/Fire Veil applies
 	ld e, a
 	ld hl, wPartyMon1IsEgg
 	push hl
@@ -190,7 +190,7 @@ DoEggStep::
 	ld c, 2
 	cp FLAME_BODY
 	jr z, .got_decrement
-	cp MAGMA_ARMOR
+	cp FIRE_VEIL
 	jr z, .got_decrement
 .next_ability
 	call .NextPartyMon

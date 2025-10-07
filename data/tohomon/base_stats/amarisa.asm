@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F87_5, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for AMARISA, SPEED_BOOST, SPEED_BOOST, BLAZE
+	abilities_for AMARISA, COLLECTOR, POWER_BOOST, SWIPE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_INDETERMINATE, EGG_MINERAL ; egg groups
 

@@ -98,16 +98,16 @@ FarChangeStat:
 	jr z, .ability_immune
 	cp MAGIC_BARRIER
 	jr z, .ability_immune
-	cp HYPER_CUTTER
+	cp HI_STRENGTH
 	ld c, ATTACK
 	jr z, .ability_check
-	cp BIG_PECKS
+	cp DOME_BODY
 	ld c, DEFENSE
 	jr z, .ability_check
 	cp KEEN_EYE
 	ld c, ACCURACY
 	jr z, .ability_check
-	cp ILLUMINATE
+	cp ROLLCALL
 	jr z, .ability_check
 	cp MINDS_EYE
 	jr nz, .check_item

@@ -583,7 +583,7 @@ EnemyCanFlee:
 	dec a
 	ret nz
 
-	call CheckNeutralizingGas
+	call CheckNeutralization
 	jr nz, .no_gas
 	ld a, [wEnemyAbility]
 	cp RUN_AWAY
@@ -916,7 +916,7 @@ ForceDeferredSwitch:
 	; Regenerator, Natural Cure, suppress Neutralizing Gas
 	push hl
 	farcall RunSwitchAbilities
-	call SuppressUserNeutralizingGas
+	call SuppressUserNeutralization
 	call UpdateUserInParty
 	pop hl
 
@@ -1152,16 +1152,16 @@ SendInUserPkmn:
 	call GetTurnsTaken
 	ld [hl], 0
 
-	; Reset Disable, Encore, and Cud Chew statuses
+	; Reset Disable, Encore, and Linger Power statuses
 	ldh a, [hBattleTurn]
 	and a
 	ld hl, wPlayerDisableCount
 	ld de, wPlayerEncoreCount
-	ld bc, wPlayerCudChewBerry
+	ld bc, wPlayerLingerPowerBerry
 	jr z, .got_encore_and_disable
 	ld hl, wEnemyDisableCount
 	ld de, wEnemyEncoreCount
-	ld bc, wEnemyCudChewBerry
+	ld bc, wEnemyLingerPowerBerry
 .got_encore_and_disable
 	xor a
 	ld [hl], a
@@ -1622,7 +1622,7 @@ StealLeppaBerry:
 	call GetNonfullPPMove
 	ret z
 	push bc
-	farcall SetCudChewBerry
+	farcall SetLingerPowerBerry
 	farcall ConsumeStolenOpponentItem
 	pop bc
 LeppaRestorePP:
@@ -2095,20 +2095,20 @@ FaintUserTohomon:
 	call StdBattleTextbox
 	call LoadTileMapToTempTileMap
 
-SuppressUserNeutralizingGas:
-; Use -1 as sentinel, not 0. This is because Recollect (via Imposter) should
+SuppressUserNeutralization:
+; Use -1 as sentinel, not 0. This is because Recollect (via Recollector) should
 ; regain Neutralizing Gas in case it procs.
 	ld a, BATTLE_VARS_ABILITY
 	call GetBattleVarAddr
 	ld a, [hl]
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	ret nz
 	ld [hl], -1
 
 	; Unless opponent also has Neutralizing Gas or Unnerve, (re-)run its
 	; entry abilities. Yes, this means that it might run more than once.
 	call GetOpponentAbility
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	ret z
 	cp UNNERVE
 	ret z
@@ -3159,10 +3159,10 @@ RunBothEntryAbilities:
 ; just matter for weather abilities.
 	; Only show Neutralizing Gas message once.
 	call GetTrueUserAbility
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	jr nz, .no_double_gas
 	call GetOpponentAbility
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	jr nz, .no_double_gas
 	ldh a, [hBattleTurn]
 	push af
@@ -3411,7 +3411,7 @@ StealStatBoostBerry:
 DoStealStatBoostBerry:
 	call _HeldStatBoostBerry
 	ret nz
-	farcall SetCudChewBerry
+	farcall SetLingerPowerBerry
 	farjp ConsumeStolenOpponentItem
 
 QuarterPinchOrGluttony::
@@ -3529,7 +3529,7 @@ StealBattleItem:
 	call GetCurItemName
 	ld hl, RecoveredUsingText
 	call StdBattleTextbox
-	farcall SetCudChewBerry
+	farcall SetLingerPowerBerry
 	farjp ConsumeStolenOpponentItem
 
 HandleHPHealingItem:
@@ -4692,7 +4692,7 @@ CheckRunSpeed:
 	call HasPlayerFainted
 	pop hl
 	jr z, .no_flee_ability
-	call CheckNeutralizingGas
+	call CheckNeutralization
 	jr z, .no_flee_ability
 	ld a, [wPlayerAbility]
 	cp RUN_AWAY
@@ -5639,7 +5639,7 @@ CheckUsableMove:
 .CheckChoiceAbility:
 	ld b, 6
 	call GetTrueUserAbility
-	cp GORILLA_TACTICS
+	cp COMBAT_LOCK
 	ret nz
 	jr .CheckEncoreVar
 

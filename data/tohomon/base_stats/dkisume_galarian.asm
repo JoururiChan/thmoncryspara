@@ -11,7 +11,7 @@ endc
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F75, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for DKISUME, WEAK_ARMOR, WEAK_ARMOR, CURSED_BODY
+	abilities_for DKISUME, FRAGILITY, FRAGILITY, CURSED_BODY
 	db GROWTH_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 

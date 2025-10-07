@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for MEDICINE, POISON_TOUCH, NEUTRALIZING_GAS, OVERGROW
+	abilities_for MEDICINE, POISON_TOUCH, NEUTRALIZATION, OVERGROW
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_HUMANSHAPE, EGG_PLANT ; egg groups
 

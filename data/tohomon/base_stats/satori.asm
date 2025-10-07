@@ -7,7 +7,7 @@
 	db NO_ITEM, KEE_BERRY ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for SATORI, IMPOSTER, FRISK, FOREWARN
+	abilities_for SATORI, RECOLLECTOR, FRISK, ALERT
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_MONSTER ; egg groups
 

@@ -1556,7 +1556,7 @@ BattleText_IntimidateResisted:
 	line "Intimidate!"
 	prompt
 
-NotifyCloudNine:
+NotifyHisouten:
 	text "The weather was"
 	line "suppressed!"
 	prompt
@@ -1578,7 +1578,7 @@ NotifyUnnerve:
 	cont "Berries!"
 	prompt
 
-NotifyNeutralizingGas:
+NotifyNeutralization:
 	text "Neutralizing gas"
 	line "filled the area!"
 	prompt
@@ -1635,7 +1635,7 @@ ShudderedText:
 	line "shuddered!"
 	prompt
 
-ForewarnText:
+AlertText:
 	text "<TARGET>"
 	line "has "
 	text_ram wStringBuffer1

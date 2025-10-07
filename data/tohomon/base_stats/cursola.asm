@@ -11,7 +11,7 @@ endc
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F75, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CKYOUKO, WEAK_ARMOR, WEAK_ARMOR, PERISH_BODY
+	abilities_for CKYOUKO, FRAGILITY, FRAGILITY, PERISH_BODY
 	db GROWTH_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 

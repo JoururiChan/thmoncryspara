@@ -7,7 +7,7 @@
 	db NO_ITEM, GRIP_CLAW ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for ESARIEL, SNOW_CLOAK, SNOW_CLOAK, SLUSH_RUSH
+	abilities_for ESARIEL, SNOW_CLOAK, SNOW_CLOAK, ICY_FEET
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

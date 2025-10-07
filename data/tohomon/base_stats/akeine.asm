@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for AKEINE, ROCK_HEAD, TRACE, GUTS
+	abilities_for AKEINE, HARD_HEAD, TRACE, GUTS
 	db GROWTH_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_MONSTER ; egg groups
 

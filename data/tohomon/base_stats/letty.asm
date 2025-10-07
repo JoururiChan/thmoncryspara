@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio
 
-	abilities_for LETTY, FUR_COAT, THICK_FAT, SNOW_WARNING
+	abilities_for LETTY, ARMOR_LAYER, ICE_WALL, SNOW_WARNING
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_INDETERMINATE, EGG_WATER_2 ; egg groups
 

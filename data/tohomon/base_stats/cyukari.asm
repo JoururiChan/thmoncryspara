@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, LUM_BERRY ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for CYUKARI, MEGA_LAUNCHER, ARENA_TRAP, PARENTAL_BOND
+	abilities_for CYUKARI, SOUL_POWER, ARENA_TRAP, TROOPERS
 	db GROWTH_SLOW ; growth rate
 	dn EGG_HUMANSHAPE, EGG_INDETERMINATE ; egg groups
 

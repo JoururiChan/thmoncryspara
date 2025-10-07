@@ -1,7 +1,7 @@
 AbilityDescriptions:
 	table_width 2
 	dw NoAbilityDescription
-	dw StenchDescription
+	dw DistanceDescription
 	dw DrizzleDescription
 	dw SpeedBoostDescription
 	dw BattleArmorDescription
@@ -13,18 +13,18 @@ AbilityDescriptions:
 	dw VoltAbsorbDescription
 	dw WaterAbsorbDescription
 	dw ObliviousDescription
-	dw CloudNineDescription
+	dw HisoutenDescription
 	dw ConcentrateDescription
 	dw InsomniaDescription
 	dw ImmunityDescription
 	dw FlashFireDescription
-	dw ShieldDustDescription
+	dw MonochannelDescription
 	dw OwnTempoDescription
 	dw GateKeeperDescription
 	dw IntimidateDescription
-	dw ShadowTagDescription
+	dw CornerGapDescription
 	dw LevitateDescription
-	dw EffectSporeDescription
+	dw EffectTriageDescription
 	dw SynchronizeDescription
 	dw HakureiMikoDescription
 	dw NaturalCureDescription
@@ -32,24 +32,24 @@ AbilityDescriptions:
 	dw SereneGraceDescription
 	dw SwiftSwimDescription
 	dw ChlorophyllDescription
-	dw IlluminateDescription
+	dw RollcallDescription
 	dw TraceDescription
-	dw HugePowerDescription
-	dw PoisonPointDescription
+	dw RawPowerDescription
+	dw SeepingToxinDescription
 	dw InnerFocusDescription
-	dw MagmaArmorDescription
+	dw FireVeilDescription
 	dw WaterVeilDescription
-	dw MagnetPullDescription
+	dw ElectroWaveDescription
 	dw SoundproofDescription
 	dw RainDishDescription
 	dw SandStreamDescription
 	dw PressureDescription
-	dw ThickFatDescription
+	dw IceWallDescription
 	dw EarlyBirdDescription
 	dw FlameBodyDescription
 	dw RunAwayDescription
 	dw KeenEyeDescription
-	dw HyperCutterDescription
+	dw HiStrengthDescription
 	dw PickupDescription
 	dw HustleDescription
 	dw CuteCharmDescription
@@ -57,18 +57,18 @@ AbilityDescriptions:
 	dw ShedSkinDescription
 	dw GutsDescription
 	dw SpringCharmDescription
-	dw LiquidOozeDescription
+	dw MisfortunateDescription
 	dw OvergrowDescription
 	dw BlazeDescription
 	dw TorrentDescription
-	dw SwarmDescription
-	dw RockHeadDescription
+	dw PureHeartDescription
+	dw HardHeadDescription
 	dw DroughtDescription
 	dw ArenaTrapDescription
 	dw VitalSpiritDescription
 	dw MagicBarrierDescription
-	dw ShellArmorDescription
-	dw TangledFeetDescription
+	dw GuardArmorDescription
+	dw NearsightedDescription
 	dw MotorDriveDescription
 	dw RivalryDescription
 	dw SteadfastDescription
@@ -92,12 +92,12 @@ AbilityDescriptions:
 	dw LeafGuardDescription
 	dw MoldBreakerDescription
 	dw SuperLuckDescription
-	dw AftermathDescription
+	dw SurpriseDescription
 	dw AnticipationDescription
-	dw ForewarnDescription
+	dw AlertDescription
 	dw UnawareDescription
-	dw TintedLensDescription
-	dw FilterDescription
+	dw PowerBoostDescription
+	dw EnduranceDescription
 	dw ScrappyDescription
 	dw IceBodyDescription
 	dw SolidRockDescription
@@ -105,55 +105,55 @@ AbilityDescriptions:
 	dw HoneyGatherDescription
 	dw FriskDescription
 	dw RecklessDescription
-	dw PickpocketDescription
-	dw SheerForceDescription
+	dw SwipeDescription
+	dw StrategicDescription
 	dw ContraryDescription
 	dw UnnerveDescription
 	dw DefiantDescription
 	dw CursedBodyDescription
-	dw WeakArmorDescription
+	dw FragilityDescription
 	dw LightMetalDescription
-	dw MultiscaleDescription
+	dw DecoyGuardDescription
 	dw HarvestDescription
 	dw MoodyDescription
 	dw OvercoatDescription
 	dw PoisonTouchDescription
 	dw RegeneratorDescription
-	dw BigPecksDescription
+	dw DomeBodyDescription
 	dw SandRushDescription
 	dw WonderSkinDescription
 	dw AnalyticDescription
-	dw ImposterDescription
-	dw InfiltratorDescription
+	dw RecollectorDescription
+	dw GuardPassDescription
 	dw MoxieDescription
 	dw JustifiedDescription
 	dw RattledDescription
 	dw MagicBounceDescription
-	dw SapSipperDescription
+	dw SapAbsorbDescription
 	dw PranksterDescription
 	dw SandForceDescription
-	dw FurCoatDescription
+	dw ArmorLayerDescription
 	dw BulletproofDescription
 	dw CompetitiveDescription
-	dw MegaLauncherDescription
-	dw ToughClawsDescription
-	dw PixilateDescription
-	dw ParentalBondDescription
+	dw SoulPowerDescription
+	dw SharpClawsDescription
+	dw PurityDescription
+	dw TroopersDescription
 	dw BerserkDescription
-	dw SlushRushDescription
+	dw IcyFeetDescription
 	dw GalvanizeDescription
 	dw CorrosionDescription
-	dw TanglingHairDescription
-	dw GorillaTacticsDescription
-	dw NeutralizingGasDescription
-	dw PastelVeilDescription
+	dw TimeCounterDescription
+	dw CombatLockDescription
+	dw NeutralizationDescription
+	dw PoisonGuardDescription
 	dw QuickDrawDescription
-	dw SteelySpiritDescription
+	dw RazorBladeDescription
 	dw PerishBodyDescription
-	dw ScreenCleanerDescription
-	dw CudChewDescription
-	dw SharpnessDescription
-	dw ArmorTailDescription
+	dw ScreenRemovalDescription
+	dw LingerPowerDescription
+	dw CleanCutterDescription
+	dw SkillCancelDescription
 	dw MindsEyeDescription
 	assert_table_length NUM_ABILITIES
 
@@ -162,7 +162,7 @@ NoAbilityDescription:
 	next1 "disabled."
 	done
 
-StenchDescription:
+DistanceDescription:
 	text  "May cause the foe"
 	next1 "to flinch."
 	done
@@ -178,7 +178,7 @@ SpeedBoostDescription:
 	done
 
 BattleArmorDescription:
-ShellArmorDescription:
+GuardArmorDescription:
 	text  "Protects from"
 	next1 "critical hits."
 	done
@@ -223,7 +223,7 @@ ObliviousDescription:
 	next1 "being infatuated."
 	done
 
-CloudNineDescription:
+HisoutenDescription:
 	text  "Eliminates effects"
 	next1 "of weather."
 	done
@@ -240,7 +240,7 @@ VitalSpiritDescription:
 	done
 
 ImmunityDescription:
-PastelVeilDescription:
+PoisonGuardDescription:
 	text  "Prevents it from"
 	next1 "getting poisoned."
 	done
@@ -250,7 +250,7 @@ FlashFireDescription:
 	next1 "if hit by one."
 	done
 
-ShieldDustDescription:
+MonochannelDescription:
 	text  "Blocks additional"
 	next1 "attack effects."
 	done
@@ -270,7 +270,7 @@ IntimidateDescription:
 	next1 "Attack stat."
 	done
 
-ShadowTagDescription:
+CornerGapDescription:
 	text  "Prevents the foe"
 	next1 "from escaping."
 	done
@@ -280,7 +280,7 @@ LevitateDescription:
 	next1 "Earth-type moves."
 	done
 
-EffectSporeDescription:
+EffectTriageDescription:
 	text  "Contact may cause"
 	next1 "Par, Psn, or Slp."
 	done
@@ -321,7 +321,7 @@ ChlorophyllDescription:
 	next1 "in sunshine."
 	done
 
-IlluminateDescription:
+RollcallDescription:
 	text  "Raises the rate"
 	next1 "of wild #mon."
 	done
@@ -331,12 +331,12 @@ TraceDescription:
 	next1 "Ability."
 	done
 
-HugePowerDescription:
+RawPowerDescription:
 	text  "Boosts its Attack"
 	next1 "stat."
 	done
 
-PoisonPointDescription:
+SeepingToxinDescription:
 	text  "Contact may poison"
 	next1 "the foe."
 	done
@@ -346,7 +346,7 @@ InnerFocusDescription:
 	next1 "flinching."
 	done
 
-MagmaArmorDescription:
+FireVeilDescription:
 	text  "Prevents it from"
 	next1 "becoming frozen."
 	done
@@ -356,7 +356,7 @@ WaterVeilDescription:
 	next1 "getting a burn."
 	done
 
-MagnetPullDescription:
+ElectroWaveDescription:
 	text  "Prevents escape by"
 	next1 "Steel-type foes."
 	done
@@ -381,7 +381,7 @@ PressureDescription:
 	next1 "PP usage."
 	done
 
-ThickFatDescription:
+IceWallDescription:
 	text  "Ups resistance to"
 	next1 "Fire and Ice."
 	done
@@ -406,7 +406,7 @@ KeenEyeDescription:
 	next1 "lowering accuracy."
 	done
 
-HyperCutterDescription:
+HiStrengthDescription:
 	text  "Prevents foes from"
 	next1 "lowering Attack."
 	done
@@ -446,7 +446,7 @@ SpringCharmDescription:
 	next1 "status problems."
 	done
 
-LiquidOozeDescription:
+MisfortunateDescription:
 	text  "Damages foes using"
 	next1 "draining moves."
 	done
@@ -466,12 +466,12 @@ TorrentDescription:
 	next1 "in a pinch."
 	done
 
-SwarmDescription:
+PureHeartDescription:
 	text  "Boosts Bug moves"
 	next1 "in a pinch."
 	done
 
-RockHeadDescription:
+HardHeadDescription:
 	text  "Protects it from"
 	next1 "recoil damage."
 	done
@@ -486,7 +486,7 @@ ArenaTrapDescription:
 	next1 "from fleeing."
 	done
 
-TangledFeetDescription:
+NearsightedDescription:
 	text  "Boosts evasion if"
 	next1 "it is confused."
 	done
@@ -606,7 +606,7 @@ SuperLuckDescription:
 	next1 "of critical hits."
 	done
 
-AftermathDescription:
+SurpriseDescription:
 	text  "Damages the foe on"
 	next1 "fainting."
 	done
@@ -616,7 +616,7 @@ AnticipationDescription:
 	next1 "dangerous moves."
 	done
 
-ForewarnDescription:
+AlertDescription:
 	text  "Determines the"
 	next1 "foe's moves."
 	done
@@ -626,12 +626,12 @@ UnawareDescription:
 	next1 "stat changes."
 	done
 
-TintedLensDescription:
+PowerBoostDescription:
 	text  "Powers up not very"
 	next1 "effective moves."
 	done
 
-FilterDescription:
+EnduranceDescription:
 SolidRockDescription:
 	text  "Reduces super"
 	next1 "effective damage."
@@ -671,12 +671,12 @@ RecklessDescription:
 	next1 "that recoil."
 	done
 
-PickpocketDescription:
+SwipeDescription:
 	text  "Steals foe's item"
 	next1 "when contacted."
 	done
 
-SheerForceDescription:
+StrategicDescription:
 	text  "Removes effects to"
 	next1 "increase damage."
 	done
@@ -701,7 +701,7 @@ CursedBodyDescription:
 	next1 "used on it."
 	done
 
-WeakArmorDescription:
+FragilityDescription:
 	text  "Physical attacks"
 	next1 "trade Def for Spe."
 	done
@@ -711,7 +711,7 @@ LightMetalDescription:
 	next1 "mon's cost."
 	done
 
-MultiscaleDescription:
+DecoyGuardDescription:
 	text  "Reduces damage"
 	next1 "when HP is full."
 	done
@@ -741,7 +741,7 @@ RegeneratorDescription:
 	next1 "withdrawn."
 	done
 
-BigPecksDescription:
+DomeBodyDescription:
 	text  "Prevents foes from"
 	next1 "lowering Defense."
 	done
@@ -761,12 +761,12 @@ AnalyticDescription:
 	next1 "when moving last."
 	done
 
-ImposterDescription:
+RecollectorDescription:
 	text  "Recollects itself"
 	next1 "into the foe."
 	done
 
-InfiltratorDescription:
+GuardPassDescription:
 	text  "Attacks bypass the"
 	next1 "foe's barriers."
 	done
@@ -791,7 +791,7 @@ MagicBounceDescription:
 	next1 "changing moves."
 	done
 
-SapSipperDescription:
+SapAbsorbDescription:
 	text  "Boosts Attack when"
 	next1 "hit by Nature."
 	done
@@ -806,7 +806,7 @@ SandForceDescription:
 	next1 "in a sandstorm."
 	done
 
-FurCoatDescription:
+ArmorLayerDescription:
 	text  "Halves damage from"
 	next1 "physical moves."
 	done
@@ -821,23 +821,23 @@ CompetitiveDescription:
 	next1 "stat reduction."
 	done
 
-MegaLauncherDescription:
+SoulPowerDescription:
 	text  "Powers up aura"
 	next1 "and pulse moves."
 	done
 
-ToughClawsDescription:
+SharpClawsDescription:
 	text  "Boosts moves that"
 	next1 "makes contact."
 	done
 
-PixilateDescription:
+PurityDescription:
 	text  "Illusion-type moves"
 	next1 "become Heart-type."
 	done
 
-ParentalBondDescription:
-	text  "Parent and child"
+TroopersDescription:
+	text  "User and minions"
 	next1 "attack together."
 	done
 
@@ -846,7 +846,7 @@ BerserkDescription:
 	next1 "damaged over half."
 	done
 
-SlushRushDescription:
+IcyFeetDescription:
 	text  "Boosts Speed in"
 	next1 "a hailstorm."
 	done
@@ -861,17 +861,17 @@ CorrosionDescription:
 	next1 "can be poisoned."
 	done
 
-TanglingHairDescription:
+TimeCounterDescription:
 	text  "Contact may lower"
 	next1 "the foe's Speed."
 	done
 
-GorillaTacticsDescription:
+CombatLockDescription:
 	text  "Boosts Attack, but"
 	next1 "allows one move."
 	done
 
-NeutralizingGasDescription:
+NeutralizationDescription:
 	text  "Suppresses all"
 	next1 "other Abilities."
 	done
@@ -881,7 +881,7 @@ QuickDrawDescription:
 	next1 "occasionally."
 	done
 
-SteelySpiritDescription:
+RazorBladeDescription:
 	text  "Boosts Steel-type"
 	next1 "moves."
 	done
@@ -891,22 +891,22 @@ PerishBodyDescription:
 	next1 "rish Song status."
 	done
 
-ScreenCleanerDescription:
+ScreenRemovalDescription:
 	text  "Removes screens"
 	next1 "when switched in."
 	done
 
-CudChewDescription:
+LingerPowerDescription:
 	text  "Eats a Berry again"
 	next1 "after first use."
 	done
 
-SharpnessDescription:
+CleanCutterDescription:
 	text  "Boosts power of"
 	next1 "slicing moves."
 	done
 
-ArmorTailDescription:
+SkillCancelDescription:
 	text  "Stops foes using"
 	next1 "priority moves."
 	done

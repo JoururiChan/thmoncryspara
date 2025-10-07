@@ -7,7 +7,7 @@
 	db PERSIM_BERRY, PERSIM_BERRY ; held items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for LILYWHITE, PASTEL_VEIL, SHIELD_DUST, OVERGROW
+	abilities_for LILYWHITE, POISON_GUARD, MONOCHANNEL, OVERGROW
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_PLANT ; egg groups
 

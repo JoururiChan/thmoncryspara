@@ -7,7 +7,7 @@
 	db NO_ITEM, CHESTO_BERRY ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for SHIZUHA, DROUGHT, EFFECT_SPORE, HONEY_GATHER
+	abilities_for SHIZUHA, DROUGHT, EFFECT_TRIAGE, HONEY_GATHER
 	db GROWTH_FAST ; growth rate
 	dn EGG_PLANT, EGG_GROUND ; egg groups
 

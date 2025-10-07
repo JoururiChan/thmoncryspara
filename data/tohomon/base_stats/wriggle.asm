@@ -7,7 +7,7 @@
 	db NO_ITEM, ORAN_BERRY ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for WRIGGLE, GALVANIZE, MEGA_LAUNCHER, SAP_SIPPER
+	abilities_for WRIGGLE, GALVANIZE, SOUL_POWER, SAP_ABSORB
 	db GROWTH_FAST ; growth rate
 	dn EGG_BUG, EGG_FLYING ; egg groups
 

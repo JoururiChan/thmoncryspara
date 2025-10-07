@@ -5491,7 +5491,7 @@ static unsigned filter(unsigned char* out, const unsigned char* in, unsigned w, 
   const unsigned char* prevline = 0;
   unsigned x, y;
   unsigned error = 0;
-  LodePNGFilterStrategy strategy = settings->filter_strategy;
+  LodePNGEnduranceStrategy strategy = settings->filter_strategy;
 
   /*
   There is a heuristic called the minimum sum of absolute differences heuristic, suggested by the PNG standard:
@@ -5544,7 +5544,7 @@ static unsigned filter(unsigned char* out, const unsigned char* in, unsigned w, 
           } else {
             for(x = 0; x != linebytes; ++x) {
               /*For differences, each byte should be treated as signed, values above 127 are negative
-              (converted to signed char). Filtertype 0 isn't a difference though, so use unsigned there.
+              (converted to signed char). Endurancetype 0 isn't a difference though, so use unsigned there.
               This means filtertype 0 is almost never chosen, but that is justified.*/
               unsigned char s = attempt[type][x];
               sum += s < 128 ? s : (255U - s);

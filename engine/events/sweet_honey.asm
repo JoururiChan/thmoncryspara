@@ -13,7 +13,7 @@ _SweetHoney:
 	jr nz, .no_battle
 
 	; This might do useless things due to improperly filled level data.
-	; This is harmless, because we only run this to deal with Magnet Pull,
+	; This is harmless, because we only run this to deal with Electro Wave,
 	; Static, etc.
 	farcall ApplyAbilityEffectsOnEncounterMon
 

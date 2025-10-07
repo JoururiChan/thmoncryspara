@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for CKAGUYA, FOREWARN, ANTICIPATION, MAGIC_GUARD
+	abilities_for CKAGUYA, ALERT, ANTICIPATION, MAGIC_GUARD
 	db GROWTH_SLOW ; growth rate
 	dn EGG_FAIRY, EGG_HUMANSHAPE ; egg groups
 

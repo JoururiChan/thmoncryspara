@@ -37,8 +37,8 @@ BattleCommand_skillswap:
 	res SUBSTATUS_UNBURDEN, [hl]
 	res SUBSTATUS_FLASH_FIRE, [hl]
 	xor a
-	ld [wPlayerCudChewBerry], a
-	ld [wEnemyCudChewBerry], a
+	ld [wPlayerLingerPowerBerry], a
+	ld [wEnemyLingerPowerBerry], a
 
 	; Don't use RunBothEntryAbilities, because
 	; Skill Swap always runs the user first
@@ -53,5 +53,5 @@ BattleCommand_skillswap:
 
 SkillSwapExcepts:
 	db NO_ABILITY
-	db NEUTRALIZING_GAS
+	db NEUTRALIZATION
 	db -1

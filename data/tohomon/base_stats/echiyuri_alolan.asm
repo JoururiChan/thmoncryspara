@@ -7,7 +7,7 @@
 	db NO_ITEM, AMULET_COIN ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for ECHIYURI, PICKUP, TOUGH_CLAWS, RATTLED
+	abilities_for ECHIYURI, PICKUP, SHARP_CLAWS, RATTLED
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

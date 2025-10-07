@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for CMOMIJI, STEELY_SPIRIT, BERSERK, TOUGH_CLAWS
+	abilities_for CMOMIJI, RAZOR_BLADE, BERSERK, SHARP_CLAWS
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_MONSTER ; egg groups
 

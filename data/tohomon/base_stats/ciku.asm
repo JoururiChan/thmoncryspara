@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for CIKU, STATIC, FOREWARN, GALVANIZE
+	abilities_for CIKU, STATIC, ALERT, GALVANIZE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_DRAGON, EGG_WATER_1 ; egg groups
 

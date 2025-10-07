@@ -7,7 +7,7 @@
 	db NO_ITEM, KEE_BERRY ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for ORANGE, HUGE_POWER, HUGE_POWER, IMMUNITY
+	abilities_for ORANGE, RAW_POWER, RAW_POWER, IMMUNITY
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_HUMANSHAPE ; egg groups
 

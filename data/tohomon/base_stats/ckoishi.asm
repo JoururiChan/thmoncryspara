@@ -7,7 +7,7 @@
 	db NO_ITEM, MOOMOO_MILK ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for CKOISHI, FOREWARN, KEEN_EYE, QUICK_DRAW
+	abilities_for CKOISHI, ALERT, KEEN_EYE, QUICK_DRAW
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_MONSTER ; egg groups
 

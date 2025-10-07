@@ -16,7 +16,7 @@ endc
 	db NO_ITEM, THICK_CLUB ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for MEILING, CURSED_BODY, LIGHTNING_ROD, ROCK_HEAD
+	abilities_for MEILING, CURSED_BODY, LIGHTNING_ROD, HARD_HEAD
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
 

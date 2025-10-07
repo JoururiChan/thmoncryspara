@@ -7,7 +7,7 @@
 	db NO_ITEM, MARANGABERRY ; held items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for CLUIZE, IMMUNITY, OWN_TEMPO, THICK_FAT
+	abilities_for CLUIZE, IMMUNITY, OWN_TEMPO, ICE_WALL
 	db GROWTH_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_FAIRY ; egg groups
 

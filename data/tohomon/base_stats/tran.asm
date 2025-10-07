@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, LEFTOVERS ; held items
 	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for TRAN, SPEED_BOOST, BATTLE_ARMOR, PARENTAL_BOND
+	abilities_for TRAN, SPEED_BOOST, BATTLE_ARMOR, TROOPERS
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 

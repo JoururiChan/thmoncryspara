@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for DDAICHAN, SOUNDPROOF, STATIC, AFTERMATH
+	abilities_for DDAICHAN, SOUNDPROOF, STATIC, SURPRISE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 

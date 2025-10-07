@@ -1419,7 +1419,7 @@ Counter:
 	usedmovetext
 	doturn
 	hastarget
-	checkhit ; needed for Parental Bond, it can't miss
+	checkhit ; needed for Troopers, it can't miss
 	counter
 	moveanim
 	failuretext

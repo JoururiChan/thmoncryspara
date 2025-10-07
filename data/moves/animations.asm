@@ -5072,7 +5072,7 @@ BattleAnim_DrainDrill:
 	anim_setobjpal PAL_BATTLE_OB_GREEN, PAL_BTLCUSTOM_PEACH
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_CHARGE
 	anim_sound 0, 0, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_HORN, 72, 80, $3
+	anim_obj ANIM_OBJ_HORN,   9, 0,  10, 0, $1
 	anim_wait 8
 .loop
 	anim_sound 6, 3, SFX_WATER_GUN
@@ -5085,7 +5085,7 @@ BattleAnim_DrainDrill:
 	anim_obj ANIM_OBJ_ABSORB, 136, 32, $4
 	anim_wait 3
 	anim_loop 6, .loop
-	anim_incobj  1
+	anim_incobj 1
 	anim_wait 32
 	anim_ret
 

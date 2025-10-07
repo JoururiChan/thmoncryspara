@@ -1,7 +1,7 @@
 AbilityNames:
 	table_width 2
 	dw NoAbility
-	dw Stench
+	dw Distance
 	dw Drizzle
 	dw SpeedBoost
 	dw BattleArmor
@@ -13,18 +13,18 @@ AbilityNames:
 	dw VoltAbsorb
 	dw WaterAbsorb
 	dw Oblivious
-	dw CloudNine
+	dw Hisouten
 	dw Concentrate
 	dw Insomnia
 	dw Immunity
 	dw FlashFire
-	dw ShieldDust
+	dw Monochannel
 	dw OwnTempo
 	dw GateKeeper
 	dw Intimidate
-	dw ShadowTag
+	dw CornerGap
 	dw Levitate
-	dw EffectSpore
+	dw EffectTriage
 	dw Synchronize
 	dw HakureiMiko
 	dw NaturalCure
@@ -32,24 +32,24 @@ AbilityNames:
 	dw SereneGrace
 	dw SwiftSwim
 	dw Chlorophyll
-	dw Illuminate
+	dw Rollcall
 	dw Trace
-	dw HugePower
-	dw PoisonPoint
+	dw RawPower
+	dw SeepingToxin
 	dw InnerFocus
-	dw MagmaArmor
+	dw FireVeil
 	dw WaterVeil
-	dw MagnetPull
+	dw ElectroWave
 	dw Soundproof
 	dw RainDish
 	dw SandStream
 	dw Pressure
-	dw ThickFat
+	dw IceWall
 	dw EarlyBird
 	dw FlameBody
 	dw RunAway
 	dw KeenEye
-	dw HyperCutter
+	dw HiStrength
 	dw Pickup
 	dw Hustle
 	dw CuteCharm
@@ -57,18 +57,18 @@ AbilityNames:
 	dw ShedSkin
 	dw Guts
 	dw SpringCharm
-	dw LiquidOoze
+	dw Misfortunate
 	dw Overgrow
 	dw Blaze
 	dw Torrent
-	dw Swarm
-	dw RockHead
+	dw PureHeart
+	dw HardHead
 	dw Drought
 	dw ArenaTrap
 	dw VitalSpirit
 	dw MagicBarrier
-	dw ShellArmor
-	dw TangledFeet
+	dw GuardArmor
+	dw Nearsighted
 	dw MotorDrive
 	dw Rivalry
 	dw Steadfast
@@ -92,12 +92,12 @@ AbilityNames:
 	dw LeafGuard
 	dw MoldBreaker
 	dw SuperLuck
-	dw Aftermath
+	dw Surprise
 	dw Anticipation
-	dw Forewarn
+	dw Alert
 	dw Unaware
-	dw TintedLens
-	dw Filter
+	dw PowerBoost
+	dw Endurance
 	dw Scrappy
 	dw IceBody
 	dw SolidRock
@@ -105,60 +105,60 @@ AbilityNames:
 	dw HoneyGather
 	dw Frisk
 	dw Reckless
-	dw Pickpocket
-	dw SheerForce
+	dw Swipe
+	dw Strategic
 	dw Contrary
 	dw Unnerve
 	dw Defiant
 	dw CursedBody
-	dw WeakArmor
+	dw Fragility
 	dw LightMetal
-	dw Multiscale
+	dw DecoyGuard
 	dw Harvest
 	dw Moody
 	dw Overcoat
 	dw PoisonTouch
 	dw Regenerator
-	dw BigPecks
+	dw DomeBody
 	dw SandRush
 	dw WonderSkin
 	dw Analytic
-	dw Imposter
-	dw Infiltrator
+	dw Recollector
+	dw GuardPass
 	dw Moxie
 	dw Justified
 	dw Rattled
 	dw MagicBounce
-	dw SapSipper
+	dw SapAbsorb
 	dw Prankster
 	dw SandForce
-	dw FurCoat
+	dw ArmorLayer
 	dw Bulletproof
 	dw Competitive
-	dw MegaLauncher
-	dw ToughClaws
-	dw Pixilate
-	dw ParentalBond
+	dw SoulPower
+	dw SharpClaws
+	dw Purity
+	dw Troopers
 	dw Berserk
-	dw SlushRush
+	dw IcyFeet
 	dw Galvanize
 	dw Corrosion
-	dw TanglingHair
-	dw GorillaTactics
-	dw NeutralizingGas
-	dw PastelVeil
+	dw TimeCounter
+	dw CombatLock
+	dw Neutralization
+	dw PoisonGuard
 	dw QuickDraw
-	dw SteelySpirit
+	dw RazorBlade
 	dw PerishBody
-	dw ScreenCleaner
-	dw CudChew
-	dw Sharpness
-	dw ArmorTail
+	dw ScreenRemoval
+	dw LingerPower
+	dw CleanCutter
+	dw SkillCancel
 	dw MindsEye
 	assert_table_length NUM_ABILITIES
 
 NoAbility:       rawchar "---@"
-Stench:          rawchar "Stench@"
+Distance:          rawchar "Distance@"
 Drizzle:         rawchar "Drizzle@"
 SpeedBoost:      rawchar "Speed Boost@"
 BattleArmor:     rawchar "Battle Armor@"
@@ -170,18 +170,18 @@ Static:          rawchar "Static@"
 VoltAbsorb:      rawchar "Volt Absorb@"
 WaterAbsorb:     rawchar "Water Absorb@"
 Oblivious:       rawchar "Oblivious@"
-CloudNine:       rawchar "Cloud Nine@"
+Hisouten:       rawchar "Hisouten@"
 Concentrate:    rawchar "Concentrate@"
 Insomnia:        rawchar "Insomnia@"
 Immunity:        rawchar "Immunity@"
 FlashFire:       rawchar "Flash Fire@"
-ShieldDust:      rawchar "Shield Dust@"
+Monochannel:      rawchar "Monochannel@"
 OwnTempo:        rawchar "Own Tempo@"
 GateKeeper:     rawchar "Gate Keeper@"
 Intimidate:      rawchar "Intimidate@"
-ShadowTag:       rawchar "Shadow Tag@"
+CornerGap:       rawchar "Corner Gap@"
 Levitate:        rawchar "Levitate@"
-EffectSpore:     rawchar "Effect Spore@"
+EffectTriage:     rawchar "Effect Triage@"
 Synchronize:     rawchar "Synchronize@"
 HakureiMiko:       rawchar "Hakurei Miko@"
 NaturalCure:     rawchar "Natural Cure@"
@@ -189,24 +189,24 @@ LightningRod:    rawchar "Lightning Rod@"
 SereneGrace:     rawchar "Serene Grace@"
 SwiftSwim:       rawchar "Swift Swim@"
 Chlorophyll:     rawchar "Chlorophyll@"
-Illuminate:      rawchar "Illuminate@"
+Rollcall:      rawchar "Rollcall@"
 Trace:           rawchar "Trace@"
-HugePower:       rawchar "Huge Power@"
-PoisonPoint:     rawchar "Poison Point@"
+RawPower:       rawchar "Raw Power@"
+SeepingToxin:     rawchar "Seeping Toxin@"
 InnerFocus:      rawchar "Inner Focus@"
-MagmaArmor:      rawchar "Magma Armor@"
+FireVeil:      rawchar "Fire Veil@"
 WaterVeil:       rawchar "Water Veil@"
-MagnetPull:      rawchar "Magnet Pull@"
+ElectroWave:      rawchar "Electro Wave@"
 Soundproof:      rawchar "Soundproof@"
 RainDish:        rawchar "Rain Dish@"
 SandStream:      rawchar "Sand Stream@"
 Pressure:        rawchar "Pressure@"
-ThickFat:        rawchar "Thick Fat@"
+IceWall:        rawchar "Ice Wall@"
 EarlyBird:       rawchar "Early Bird@"
 FlameBody:       rawchar "Flame Body@"
 RunAway:         rawchar "Run Away@"
 KeenEye:         rawchar "Keen Eye@"
-HyperCutter:     rawchar "Hyper Cutter@"
+HiStrength:     rawchar "Hi Strength@"
 Pickup:          rawchar "Pickup@"
 Hustle:          rawchar "Hustle@"
 CuteCharm:       rawchar "Cute Charm@"
@@ -214,18 +214,18 @@ Collector:      rawchar "Collector@"
 ShedSkin:        rawchar "Shed Skin@"
 Guts:            rawchar "Guts@"
 SpringCharm:     rawchar "Spring Charm@"
-LiquidOoze:      rawchar "Liquid Ooze@"
+Misfortunate:      rawchar "Misfortunate@"
 Overgrow:        rawchar "Overgrow@"
 Blaze:           rawchar "Blaze@"
 Torrent:         rawchar "Torrent@"
-Swarm:           rawchar "Swarm@"
-RockHead:        rawchar "Rock Head@"
+PureHeart:           rawchar "Pure Heart@"
+HardHead:        rawchar "Hard Head@"
 Drought:         rawchar "Drought@"
 ArenaTrap:       rawchar "Arena Trap@"
 VitalSpirit:     rawchar "Vital Spirit@"
 MagicBarrier:      rawchar "Magic Barrier@"
-ShellArmor:      rawchar "Shell Armor@"
-TangledFeet:     rawchar "Tangled Feet@"
+GuardArmor:      rawchar "Guard Armor@"
+Nearsighted:     rawchar "Nearsighted@"
 MotorDrive:      rawchar "Motor Drive@"
 Rivalry:         rawchar "Rivalry@"
 Steadfast:       rawchar "Steadfast@"
@@ -249,12 +249,12 @@ Technician:      rawchar "Technician@"
 LeafGuard:       rawchar "Leaf Guard@"
 MoldBreaker:     rawchar "Mold Breaker@"
 SuperLuck:       rawchar "Super Luck@"
-Aftermath:       rawchar "Aftermath@"
+Surprise:       rawchar "Surprise@"
 Anticipation:    rawchar "Anticipation@"
-Forewarn:        rawchar "Forewarn@"
+Alert:        rawchar "Alert@"
 Unaware:         rawchar "Unaware@"
-TintedLens:      rawchar "Tinted Lens@"
-Filter:          rawchar "Filter@"
+PowerBoost:      rawchar "Power Boost@"
+Endurance:          rawchar "Endurance@"
 Scrappy:         rawchar "Scrappy@"
 IceBody:         rawchar "Ice Body@"
 SolidRock:       rawchar "Solid Rock@"
@@ -262,53 +262,53 @@ SnowWarning:     rawchar "Snow Warning@"
 HoneyGather:     rawchar "Honey Gather@"
 Frisk:           rawchar "Frisk@"
 Reckless:        rawchar "Reckless@"
-Pickpocket:      rawchar "Pickpocket@"
-SheerForce:      rawchar "Sheer Force@"
+Swipe:      rawchar "Swipe@"
+Strategic:      rawchar "Strategic@"
 Contrary:        rawchar "Contrary@"
 Unnerve:         rawchar "Unnerve@"
 Defiant:         rawchar "Defiant@"
 CursedBody:      rawchar "Cursed Body@"
-WeakArmor:       rawchar "Weak Armor@"
+Fragility:       rawchar "Fragility@"
 LightMetal:      rawchar "Light Metal@"
-Multiscale:      rawchar "Multiscale@"
+DecoyGuard:      rawchar "Decoy Guard@"
 Harvest:         rawchar "Harvest@"
 Moody:           rawchar "Moody@"
 Overcoat:        rawchar "Overcoat@"
 PoisonTouch:     rawchar "Poison Touch@"
 Regenerator:     rawchar "Regenerator@"
-BigPecks:        rawchar "Big Pecks@"
+DomeBody:        rawchar "Dome Body@"
 SandRush:        rawchar "Sand Rush@"
 WonderSkin:      rawchar "Wonder Skin@"
 Analytic:        rawchar "Analytic@"
-Imposter:        rawchar "Imposter@"
-Infiltrator:     rawchar "Infiltrator@"
+Recollector:        rawchar "Recollector@"
+GuardPass:     rawchar "Guard Pass@"
 Moxie:           rawchar "Moxie@"
 Justified:       rawchar "Justified@"
 Rattled:         rawchar "Rattled@"
 MagicBounce:     rawchar "Magic Bounce@"
-SapSipper:       rawchar "Sap Sipper@"
+SapAbsorb:       rawchar "Sap Absorb@"
 Prankster:       rawchar "Prankster@"
 SandForce:       rawchar "Sand Force@"
-FurCoat:         rawchar "Fur Coat@"
+ArmorLayer:         rawchar "Armor Layer@"
 Bulletproof:     rawchar "Bulletproof@"
 Competitive:     rawchar "Competitive@"
-MegaLauncher:    rawchar "Mega Launcher@"
-ToughClaws:      rawchar "Tough Claws@"
-Pixilate:        rawchar "Pixilate@"
-ParentalBond:    rawchar "Parental Bond@"
+SoulPower:    rawchar "Soul Power@"
+SharpClaws:      rawchar "Sharp Claws@"
+Purity:        rawchar "Purity@"
+Troopers:    rawchar "Troopers@"
 Berserk:         rawchar "Berserk@"
-SlushRush:       rawchar "Slush Rush@"
+IcyFeet:       rawchar "Icy Feet@"
 Galvanize:       rawchar "Galvanize@"
 Corrosion:       rawchar "Corrosion@"
-TanglingHair:    rawchar "Tangling Hair@"
-GorillaTactics:  rawchar "Gorilla Tactics@"
-NeutralizingGas: rawchar "Neutralizing Gas@"
-PastelVeil:      rawchar "Pastel Veil@"
+TimeCounter:    rawchar "Time Counter@"
+CombatLock:  rawchar "Combat Lock@"
+Neutralization: rawchar "Neutralization@"
+PoisonGuard:      rawchar "Poison Guard@"
 QuickDraw:       rawchar "Quick Draw@"
-SteelySpirit:    rawchar "Steely Spirit@"
+RazorBlade:    rawchar "Razor Blade@"
 PerishBody:      rawchar "Perish Body@"
-ScreenCleaner:   rawchar "Screen Cleaner@"
-CudChew:         rawchar "Cud Chew@"
-Sharpness:       rawchar "Sharpness@"
-ArmorTail:       rawchar "Armor Tail@"
+ScreenRemoval:   rawchar "Screen Removal@"
+LingerPower:         rawchar "Linger Power@"
+CleanCutter:       rawchar "Clean Cutter@"
+SkillCancel:       rawchar "Skill Cancel@"
 MindsEye:        rawchar "Mind's Eye@"

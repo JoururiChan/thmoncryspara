@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for YOSHIKA, INTIMIDATE, FRISK, SAP_SIPPER
+	abilities_for YOSHIKA, INTIMIDATE, FRISK, SAP_ABSORB
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

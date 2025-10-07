@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for PARSEE, INSOMNIA, SHIELD_DUST, ARMOR_TAIL
+	abilities_for PARSEE, INSOMNIA, MONOCHANNEL, SKILL_CANCEL
 	db GROWTH_SLOW ; growth rate
 	dn EGG_HUMANSHAPE, EGG_GROUND ; egg groups
 

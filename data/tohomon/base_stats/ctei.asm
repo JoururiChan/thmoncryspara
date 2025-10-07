@@ -7,7 +7,7 @@
 	db NO_ITEM, BRIGHTPOWDER ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for CTEI, SUPER_LUCK, PIXILATE, PICKPOCKET
+	abilities_for CTEI, SUPER_LUCK, PURITY, SWIPE
 	db GROWTH_FAST ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
 

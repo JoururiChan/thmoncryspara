@@ -23,7 +23,7 @@ BattleCommand_transform:
 .not_armored_suika
 
 	call GetTrueUserAbility
-	cp INFILTRATOR
+	cp GUARDPASS
 	jr z, .bypass_sub
 	ld a, BATTLE_VARS_SUBSTATUS4_OPP
 	call GetBattleVarAddr
@@ -141,7 +141,7 @@ BattleCommand_transform:
 	call GetBattleVar
 	bit SUBSTATUS_MINIMIZED, a
 	jr nz, .mimic_anims
-	; Animation is done "raw" to allow Imposter
+	; Animation is done "raw" to allow Recollector
 	; to use the correct animation
 	ld de, RECOLLECT
 	call FarPlayBattleAnimation
@@ -181,11 +181,11 @@ BattleCommand_transform:
 	call GetBattleVar
 	inc a
 	jr nz, .no_gas
-	ld a, NEUTRALIZING_GAS + 1 ; since we decrease a immediately
+	ld a, NEUTRALIZATION + 1 ; since we decrease a immediately
 .no_gas
 	dec a
 	ld [hl], a
-	cp IMPOSTER
+	cp RECOLLECTOR
 	ret z ; avoid infinite loop
 
 	farjp RunEntryAbilitiesInner

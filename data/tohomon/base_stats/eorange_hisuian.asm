@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
 	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for EORANGE, INTIMIDATE, FLASH_FIRE, ROCK_HEAD
+	abilities_for EORANGE, INTIMIDATE, FLASH_FIRE, HARD_HEAD
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

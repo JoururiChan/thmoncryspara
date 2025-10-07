@@ -12,9 +12,9 @@ endc
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for TKOGASA, PRESSURE, PRESSURE, MULTISCALE
+	abilities_for TKOGASA, PRESSURE, PRESSURE, DECOY_GUARD
 else
-	abilities_for TKOGASA, PRESSURE, DRIZZLE, MULTISCALE
+	abilities_for TKOGASA, PRESSURE, DRIZZLE, DECOY_GUARD
 endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups

@@ -1,5 +1,5 @@
 DynamicPowerMoves::
-; used by Forewarn and for move power listing
+; used by Alert and for move power listing
 	db COUNTER
 	db GYRO_BALL
 	db LOW_KICK

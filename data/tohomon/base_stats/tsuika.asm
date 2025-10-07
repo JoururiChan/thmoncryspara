@@ -7,7 +7,7 @@
 	db NO_ITEM, DRAGON_SCALE ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for TSUIKA, NEUTRALIZING_GAS, BERSERK, MOXIE
+	abilities_for TSUIKA, NEUTRALIZATION, BERSERK, MOXIE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 

@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for SYAMAME, POISON_POINT, SAND_VEIL, INTIMIDATE
+	abilities_for SYAMAME, SEEPING_TOXIN, SAND_VEIL, INTIMIDATE
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_BUG ; egg groups
 

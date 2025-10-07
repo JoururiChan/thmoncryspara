@@ -7,7 +7,7 @@
 	db TINYMUSHROOM, BIG_MUSHROOM ; held items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for RIKAKO, INSOMNIA, INSOMNIA, INSOMNIA
+	abilities_for RIKAKO, ELECTRO_WAVE, ANALYTIC, STRATEGIC
 	db GROWTH_FAST ; growth rate
 	dn EGG_MINERAL, EGG_FLYING ; egg groups
 

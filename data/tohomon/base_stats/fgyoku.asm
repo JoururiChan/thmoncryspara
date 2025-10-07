@@ -7,7 +7,7 @@
 	db SHED_SHELL, SILVERPOWDER ; held items
 	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for FGYOKU, PRESSURE, PRESSURE, PRESSURE
+	abilities_for FGYOKU, INNER_FOCUS, GATE_KEEPER, MAGIC_BARRIER
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 

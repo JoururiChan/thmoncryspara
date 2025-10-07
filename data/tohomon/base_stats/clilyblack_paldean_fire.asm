@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F0, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CLILYBLACK, INTIMIDATE, ANGER_POINT, CUD_CHEW
+	abilities_for CLILYBLACK, INTIMIDATE, ANGER_POINT, LINGER_POWER
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

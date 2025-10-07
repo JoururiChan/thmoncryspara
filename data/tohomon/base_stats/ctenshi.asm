@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, SITRUS_BERRY ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for CTENSHI, GUTS, CLOUD_NINE, SAND_STREAM
+	abilities_for CTENSHI, GUTS, HISOUTEN, SAND_STREAM
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_HUMANSHAPE ; egg groups
 

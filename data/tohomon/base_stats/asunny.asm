@@ -12,9 +12,9 @@ endc
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for ASUNNY, SPEED_BOOST, TINTED_LENS, FRISK
+	abilities_for ASUNNY, SPEED_BOOST, POWER_BOOST, FRISK
 else
-	abilities_for ASUNNY, SPEED_BOOST, TINTED_LENS, LEVITATE
+	abilities_for ASUNNY, SPEED_BOOST, POWER_BOOST, LEVITATE
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups

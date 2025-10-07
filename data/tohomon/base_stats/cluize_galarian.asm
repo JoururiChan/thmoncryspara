@@ -7,7 +7,7 @@
 	db NO_ITEM, MARANGABERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CLUIZE, RUN_AWAY, PASTEL_VEIL, ANTICIPATION
+	abilities_for CLUIZE, RUN_AWAY, POISON_GUARD, ANTICIPATION
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for KOTOHIME, OWN_TEMPO, COLLECTOR, COLLECTOR
+	abilities_for KOTOHIME, KEEN_EYE, COLLECTOR, GUTS
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_FAIRY, EGG_GROUND ; egg groups
 

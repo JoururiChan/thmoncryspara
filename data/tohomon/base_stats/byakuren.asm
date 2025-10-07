@@ -7,7 +7,7 @@
 	db NO_ITEM, LEFTOVERS ; held items
 	dn GENDER_F12_5, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for BYAKUREN, PICKUP, THICK_FAT, GLUTTONY
+	abilities_for BYAKUREN, PICKUP, ICE_WALL, GLUTTONY
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

@@ -2570,7 +2570,7 @@ AI_Status:
 	lb de, FIRE, 0
 	jr .checkstatus
 .freeze
-	lb bc, MAGMA_ARMOR, HELD_PREVENT_FREEZE
+	lb bc, FIRE_VEIL, HELD_PREVENT_FREEZE
 	lb de, ICE, 0
 	jr .checkstatus
 .sleep

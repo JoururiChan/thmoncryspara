@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for ECHIYURI, BATTLE_ARMOR, TOUGH_CLAWS, STEELY_SPIRIT
+	abilities_for ECHIYURI, BATTLE_ARMOR, SHARP_CLAWS, RAZOR_BLADE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

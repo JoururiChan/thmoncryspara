@@ -515,13 +515,13 @@ ApplySpecialAttackDamageMod::
 GetOpponentAbility::
 	ld a, BATTLE_VARS_ABILITY_OPP
 	call GetBattleVar
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	ret z
 	push bc
 	ld b, a
 	ld a, BATTLE_VARS_ABILITY
 	call GetBattleVar
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	ld a, b
 	pop bc
 	ret nz
@@ -653,7 +653,7 @@ CheckIfHPIsZero::
 GetWeatherAfterOpponentUmbrella::
 	call StackCallOpponentTurn
 GetWeatherAfterUserUmbrella::
-	call GetWeatherAfterCloudNine
+	call GetWeatherAfterHisouten
 	cp WEATHER_HAIL
 	ret z
 	cp WEATHER_SANDSTORM
@@ -668,27 +668,27 @@ GetWeatherAfterUserUmbrella::
 	pop hl
 	pop bc
 	ret z
-GetWeatherAfterCloudNine::
+GetWeatherAfterHisouten::
 ; Returns 0 if a cloud nine user is on the field,
 ; [wBattleWeather] otherwise.
-	call CheckNeutralizingGas
+	call CheckNeutralization
 	jr z, .weather
 	ld a, [wPlayerAbility]
-	xor CLOUD_NINE
+	xor HISOUTEN
 	ret z
 	ld a, [wEnemyAbility]
-	xor CLOUD_NINE
+	xor HISOUTEN
 	ret z
 .weather
 	ld a, [wBattleWeather]
 	ret
 
-CheckNeutralizingGas::
+CheckNeutralization::
 	ld a, [wPlayerAbility]
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	ret z
 	ld a, [wEnemyAbility]
-	cp NEUTRALIZING_GAS
+	cp NEUTRALIZATION
 	ret
 
 CheckMoveSpeed::

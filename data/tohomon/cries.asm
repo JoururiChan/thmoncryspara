@@ -57,37 +57,40 @@ TohomonCries::
 	mon_cry CRY_EKOTOHIME,      $0dd,  $081 ; EKotohime
 	mon_cry CRY_EKOTOHIME,      $0aa,  $0c0 ; CKana
 	mon_cry CRY_KANA,   $022,  $17f ; Kana
-	mon_cry CRY_CMEIRA,    $077,  $090 ; EChiyuri
 	mon_cry CRY_CMEIRA,    $099,  $17f ; CYumemi
 	mon_cry CRY_YUMEMI,     $020,  $0e0 ; Yumemi
 	mon_cry CRY_YUMEMI,     $0ff,  $0c0 ; EYumemi
-	mon_cry CRY_EKONGARA,   $0dd,  $0e0 ; COrange
-	mon_cry CRY_EKONGARA,   $0af,  $0c0 ; Orange
-	mon_cry CRY_EORANGE,   $020,  $0c0 ; EOrange
-	mon_cry CRY_OGYOKU,      $000,  $100 ; CKurumi
-	mon_cry CRY_EMAGAN,      $0ff,  $17f ; Kurumi
-	mon_cry CRY_EMAGAN,      $077,  $0e0 ; Kurumi
-	mon_cry CRY_EMAGAN,      $000,  $17f ; CElly
-	mon_cry CRY_MGYOKU,     $0c0,  $081 ; Elly
-	mon_cry CRY_MGYOKU,     $0a8,  $140 ; EElly
+	mon_cry CRY_CAYA,   $061,  $091 ; Cleffa
+	mon_cry CRY_RIN,     $0a2,  $140 ; SShizuha
+	mon_cry CRY_CMEIRA,    $0cc,  $081 ; CMeira
+	mon_cry CRY_CMEIRA,    $0aa,  $0a0 ; Meira
+	mon_cry CRY_CMOMIJI,   $112,  $0e8 ; Kanako
+	mon_cry CRY_CMOMIJI,   $000,  $180 ; AKanako
+	mon_cry CRY_CSHIZUHA,      $093,  $0af ; CShizuha
+	mon_cry CRY_CSHIZUHA,     -$0c6,  $140 ; Shizuha
+	mon_cry CRY_CGYOKU,    $010,  $17f ; CLetty
+	mon_cry CRY_EKANA,       $002,  $0a0 ; Letty
 	mon_cry CRY_MGYOKU,     $098,  $17f ; CYuka
+	mon_cry CRY_TEIRIN,      $010,  $100 ; TEirin
+	mon_cry CRY_CKAGUYA,     $03b,  $038 ; CKaguya
+	mon_cry CRY_AMOKOU,    $27b,  $144 ; AHina
+	mon_cry CRY_MYSTIA,      $000,  $0de ; Mystia
+	mon_cry CRY_MYSTIA,     -$096,  $138 ; TMystia
+	mon_cry CRY_EMUGETSU,  $000,  $100 ; CLuize
+	mon_cry CRY_EMUGETSU,  $020,  $140 ; Luize
+	mon_cry CRY_CSHIZUHA,      $053,  $0af ; Iku
+	mon_cry CRY_AMOKOU,    $035,  $0e0 ; CIku
+	mon_cry CRY_CKONGARA,   $000,  $100 ; CKongara
+	mon_cry CRY_EKONGARA,   $000,  $100 ; EKongara
+	mon_cry CRY_EKANA,       $020,  $160 ; EKana
+	mon_cry CRY_EKANA,       $042,  $17f ; CRikako
+	mon_cry CRY_KANA,   $020,  $170 ; AYuyuko
+	mon_cry CRY_CRIKA,   $020,  $0c0 ; Sariel
+	mon_cry CRY_RIKAKO,     $044,  $0c0 ; Rikako
+	mon_cry CRY_RIKAKO,     $029,  $100 ; ARikako
 	mon_cry CRY_EORANGE,   $0ee,  $081 ; Yuka
 	mon_cry CRY_EORANGE,   $048,  $0e0 ; AYuka
 	mon_cry CRY_EORANGE,   $008,  $140 ; CMugetsu
-	mon_cry CRY_YUMEMI,     $055,  $081 ; Mugetsu
-	mon_cry CRY_EMUGETSU,  $044,  $0a0 ; EMugetsu
-	mon_cry CRY_EMUGETSU,  $066,  $14c ; CGengetsu
-	mon_cry CRY_RIKAKO,     $000,  $100 ; Gengetsu
-	mon_cry CRY_RIKAKO,     $0ee,  $17f ; EGengetsu
-	mon_cry CRY_EMEIRA,      $0f0,  $090 ; CSara
-	mon_cry CRY_EMEIRA,      $000,  $100 ; Sara
-	mon_cry CRY_ESARA,       $0e0,  $0c0 ; ESara
-	mon_cry CRY_EMUGETSU,  $000,  $100 ; CLuize
-	mon_cry CRY_EMUGETSU,  $020,  $140 ; Luize
-	mon_cry CRY_DLUIZE,    $000,  $100 ; DLuize
-	mon_cry CRY_EORANGE,   $000,  $100 ; CAlice
-	mon_cry CRY_MGYOKU,     $080,  $0e0 ; Alice
-	mon_cry CRY_MGYOKU,     $020,  $140 ; AAlice
 	mon_cry CRY_CMAI,  $0dd,  $081 ; CMai
 	mon_cry CRY_CCHIYURI,     $0bb,  $081 ; Mai
 	mon_cry CRY_CCHIYURI,     $099,  $0a0 ; EMai
@@ -155,7 +158,7 @@ TohomonCries::
 	mon_cry CRY_CREIMU,   $060,  $0c0 ; Yukari
 	mon_cry CRY_CREIMU,   $040,  $100 ; TYukari
 	mon_cry CRY_CREIMU,   $03c,  $140 ; CSuika
-	mon_cry CRY_EKANA,       $099,  $17f ; Suika
+	mon_cry CRY_SKOISHI,      $22e,  $120 ; Suika
 	mon_cry CRY_EKANA,       $0ee,  $17f ; TSuika
 	mon_cry CRY_CYOUMU,  -$010,  $0b0 ; CYoumu
 	mon_cry CRY_CYOUMU,  -$022,  $120 ; Youmu
@@ -235,7 +238,7 @@ TohomonCries::
 	mon_cry CRY_AMOKOU,    $8a9,  $180 ; Parsee
 	mon_cry CRY_CREISEN,   $039,  $140 ; DParsee
 	mon_cry CRY_CSANAE,   -$10a,  $100 ; CYuugi
-	mon_cry CRY_TENSHI,      $2fb,  $100 ; Yuugi
+	mon_cry CRY_CNAZRIN,   $000,  $1a0 ; Yuugi
 	mon_cry CRY_SENTRET,     $048,  $230 ; AYuugi
 	mon_cry CRY_CSATORI,     $000,  $1a0 ; CSatori
 	mon_cry CRY_CNITORI,   $073,  $240 ; Satori
@@ -295,7 +298,7 @@ TohomonCries::
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
-	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_STENSHI,    $000,  $180 ; Kasen
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	assert_table_length NUM_SPECIES

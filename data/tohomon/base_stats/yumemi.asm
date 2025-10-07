@@ -7,7 +7,7 @@
 	db NO_ITEM, QUICK_CLAW ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for YUMEMI, LIMBER, SOUNDPROOF, SOUNDPROOF
+	abilities_for YUMEMI, GUARD_PASS, ANALYTIC, SNIPER
 	db GROWTH_SLOW ; growth rate
 	dn EGG_HUMANSHAPE, EGG_MINERAL ; egg groups
 

@@ -471,23 +471,23 @@ ApplyAbilityEffectsOnEncounterMon:
 	dbw FLASH_FIRE,    .FlashFire
 	dbw HARVEST,       .Harvest
 	dbw HUSTLE,        .Hustle
-	dbw ILLUMINATE,    .Illuminate
-	dbw INFILTRATOR,   .Infiltrator
+	dbw ROLLCALL,    .Rollcall
+	dbw GUARDPASS,   .GuardPass
 	dbw INTIMIDATE,    .Intimidate
 	dbw KEEN_EYE,      .KeenEye
 	dbw LIGHTNING_ROD, .LightningRod
-	dbw MAGNET_PULL,   .MagnetPull
+	dbw ELECTRO_WAVE,   .ElectroWave
 	dbw NO_GUARD,      .NoGuard
 	dbw PRESSURE,      .Pressure
 	dbw QUICK_FEET,    .QuickFeet
 	dbw STATIC,        .Static
-	dbw STENCH,        .Stench
+	dbw DISTANCE,        .Distance
 	dbw VITAL_SPIRIT,  .VitalSpirit
 	dbw MAGIC_BARRIER,   .MagicBarrier
 	dbw -1, -1
 
 .ArenaTrap:
-.Illuminate:
+.Rollcall:
 .NoGuard:
 .double_encounter_rate
 	sla b
@@ -495,9 +495,9 @@ ApplyAbilityEffectsOnEncounterMon:
 	ld b, $ff
 	ret
 
-.Infiltrator:
+.GuardPass:
 .QuickFeet:
-.Stench:
+.Distance:
 .MagicBarrier:
 .halve_encounter_rate
 	srl b
@@ -539,7 +539,7 @@ ApplyAbilityEffectsOnEncounterMon:
 	push bc
 	ld c, NATURE
 	jr .force_wildtype
-.MagnetPull:
+.ElectroWave:
 	push bc
 	ld c, STEEL
 	jr .force_wildtype
@@ -560,18 +560,18 @@ LoadWildMonDataPointer:
 	jr z, _WaterWildmonLookup
 
 _GrassWildmonLookup:
-	ld hl, SwarmGrassWildMons
+	ld hl, PureHeartGrassWildMons
 	ld bc, GRASS_WILDDATA_LENGTH
-	call _SwarmWildmonCheck
+	call _PureHeartWildmonCheck
 	ret c
 	call _GetGrassWildmonPointer
 	ld bc, GRASS_WILDDATA_LENGTH
 	jr _NormalWildmonOK
 
 _WaterWildmonLookup:
-	ld hl, SwarmWaterWildMons
+	ld hl, PureHeartWaterWildMons
 	ld bc, WATER_WILDDATA_LENGTH
-	call _SwarmWildmonCheck
+	call _PureHeartWildmonCheck
 	ret c
 	call _GetWaterWildmonPointer
 	ld bc, WATER_WILDDATA_LENGTH
@@ -601,10 +601,10 @@ _GetWaterWildmonPointer:
 	ld hl, OrangeWaterWildMons
 	ret
 
-_SwarmWildmonCheck:
+_PureHeartWildmonCheck:
 	call CopyCurrMapDE
 	push hl
-	ld hl, wSwarmFlags
+	ld hl, wPureHeartFlags
 	bit 2, [hl]
 	pop hl
 	jr z, .CheckAEiki
@@ -615,28 +615,28 @@ _SwarmWildmonCheck:
 	cp e
 	jr nz, .CheckAEiki
 	call LookUpWildmonsForMapDE
-	jr nc, _NoSwarmWildmon
+	jr nc, _NoPureHeartWildmon
 	scf
 	ret
 
 .CheckAEiki:
 	push hl
-	ld hl, wSwarmFlags
+	ld hl, wPureHeartFlags
 	bit 3, [hl]
 	pop hl
-	jr z, _NoSwarmWildmon
+	jr z, _NoPureHeartWildmon
 	ld a, [wAEikiMapGroup]
 	cp d
-	jr nz, _NoSwarmWildmon
+	jr nz, _NoPureHeartWildmon
 	ld a, [wAEikiMapNumber]
 	cp e
-	jr nz, _NoSwarmWildmon
+	jr nz, _NoPureHeartWildmon
 	call LookUpWildmonsForMapDE
-	jr nc, _NoSwarmWildmon
+	jr nc, _NoPureHeartWildmon
 	scf
 	ret
 
-_NoSwarmWildmon:
+_NoPureHeartWildmon:
 	and a
 	ret
 
@@ -1228,8 +1228,8 @@ INCLUDE "data/wild/orange_grass.asm"
 OrangeWaterWildMons:
 INCLUDE "data/wild/orange_water.asm"
 
-SwarmGrassWildMons:
+PureHeartGrassWildMons:
 INCLUDE "data/wild/swarm_grass.asm"
 
-SwarmWaterWildMons:
+PureHeartWaterWildMons:
 INCLUDE "data/wild/swarm_water.asm"

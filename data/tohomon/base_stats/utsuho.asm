@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; items
 	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for UTSUHO, FLAME_BODY, FLASH_FIRE, BIG_PECKS
+	abilities_for UTSUHO, FLAME_BODY, FLASH_FIRE, DOME_BODY
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_FLYING, EGG_MONSTER ; egg groups
 

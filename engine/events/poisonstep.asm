@@ -86,7 +86,7 @@ DoPoisonStep::
 	pop hl
 	cp IMMUNITY
 	jr z, .heal_poison
-	cp PASTEL_VEIL
+	cp POISON_GUARD
 	jr z, .heal_poison
 	cp POISON_HEAL
 	ret z ; keep poison, but don't deal damage for it

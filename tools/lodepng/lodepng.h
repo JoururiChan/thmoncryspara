@@ -699,7 +699,7 @@ void lodepng_decoder_settings_init(LodePNGDecoderSettings* settings);
 
 #ifdef LODEPNG_COMPILE_ENCODER
 /*automatically use color type with less bits per pixel if losslessly possible. Default: AUTO*/
-typedef enum LodePNGFilterStrategy {
+typedef enum LodePNGEnduranceStrategy {
   /*every filter at zero*/
   LFS_ZERO = 0,
   /*every filter at 1, 2, 3 or 4 (paeth), unlike LFS_ZERO not a good choice, but for testing*/
@@ -719,7 +719,7 @@ typedef enum LodePNGFilterStrategy {
   LFS_BRUTE_FORCE,
   /*use predefined_filters buffer: you specify the filter type for each scanline*/
   LFS_PREDEFINED
-} LodePNGFilterStrategy;
+} LodePNGEnduranceStrategy;
 
 /*Gives characteristics about the integer RGBA colors of the image (count, alpha channel usage, bit depth, ...),
 which helps decide which color model to use for encoding.
@@ -762,7 +762,7 @@ typedef struct LodePNGEncoderSettings {
   unsigned filter_palette_zero;
   /*Which filter strategy to use when not using zeroes due to filter_palette_zero.
   Set filter_palette_zero to 0 to ensure always using your chosen strategy. Default: LFS_MINSUM*/
-  LodePNGFilterStrategy filter_strategy;
+  LodePNGEnduranceStrategy filter_strategy;
   /*used if filter_strategy is LFS_PREDEFINED. In that case, this must point to a buffer with
   the same length as the amount of scanlines in the image, and each value must <= 5. You
   have to cleanup this buffer, LodePNG will never free it. Don't forget that filter_palette_zero

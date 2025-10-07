@@ -259,8 +259,8 @@ HandleWeather:
 .ongoing
 	; the above needs actual [wBattleWeather] to be
 	; able to time it out, but otherwise check
-	; Cloud Nine
-	call GetWeatherAfterCloudNine
+	; Hisouten
+	call GetWeatherAfterHisouten
 	and a ; cp WEATHER_NONE
 	ret z
 
@@ -342,8 +342,8 @@ HandleWeather:
 	ret z
 	cp ICE_BODY
 	ret z
-if !DEF(FAITHFUL) ; Slush Rush is an exception in vanilla for some reason
-	cp SLUSH_RUSH
+if !DEF(FAITHFUL) ; Icy Feet an exception in vanilla for some reason
+	cp ICY_FEET
 	ret z
 endc
 
@@ -537,7 +537,7 @@ HandleLeechSeed:
 	ld a, $1
 	ldh [hBGMapMode], a
 	call GetOpponentAbility
-	cp LIQUID_OOZE
+	cp MISFORTUNATE
 	jr z, .hurt
 	farcall RestoreHP
 	jr .done

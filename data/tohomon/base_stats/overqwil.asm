@@ -7,7 +7,7 @@
 	db NO_ITEM, POISON_BARB ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for TOJIKO, POISON_POINT, SWIFT_SWIM, INTIMIDATE
+	abilities_for TOJIKO, SEEPING_TOXIN, SWIFT_SWIM, INTIMIDATE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
 

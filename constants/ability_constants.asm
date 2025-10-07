@@ -4,7 +4,7 @@
 ; - AbilityDescriptions (see data/abilities/descriptions.asm)
 	const_def
 	const NO_ABILITY
-	const STENCH
+	const DISTANCE
 	const DRIZZLE
 	const SPEED_BOOST
 	const BATTLE_ARMOR
@@ -16,18 +16,18 @@
 	const VOLT_ABSORB
 	const WATER_ABSORB
 	const OBLIVIOUS
-	const CLOUD_NINE
+	const HISOUTEN
 	const CONCENTRATE
 	const INSOMNIA
 	const IMMUNITY
 	const FLASH_FIRE
-	const SHIELD_DUST
+	const MONOCHANNEL
 	const OWN_TEMPO
 	const GATE_KEEPER
 	const INTIMIDATE
-	const SHADOW_TAG
+	const CORNER_GAP
 	const LEVITATE
-	const EFFECT_SPORE
+	const EFFECT_TRIAGE
 	const SYNCHRONIZE
 	const HAKUREI_MIKO
 	const NATURAL_CURE
@@ -35,24 +35,24 @@
 	const SERENE_GRACE
 	const SWIFT_SWIM
 	const CHLOROPHYLL
-	const ILLUMINATE
+	const ROLLCALL
 	const TRACE
-	const HUGE_POWER
-	const POISON_POINT
+	const RAW_POWER
+	const SEEPING_TOXIN
 	const INNER_FOCUS
-	const MAGMA_ARMOR
+	const FIRE_VEIL
 	const WATER_VEIL
-	const MAGNET_PULL
+	const ELECTRO_WAVE
 	const SOUNDPROOF
 	const RAIN_DISH
 	const SAND_STREAM
 	const PRESSURE
-	const THICK_FAT
+	const ICE_WALL
 	const EARLY_BIRD
 	const FLAME_BODY
 	const RUN_AWAY
 	const KEEN_EYE
-	const HYPER_CUTTER
+	const HI_STRENGTH
 	const PICKUP
 	const HUSTLE
 	const CUTE_CHARM
@@ -60,18 +60,18 @@
 	const SHED_SKIN
 	const GUTS
 	const SPRING_CHARM
-	const LIQUID_OOZE
+	const MISFORTUNATE
 	const OVERGROW
 	const BLAZE
 	const TORRENT
-	const SWARM
-	const ROCK_HEAD
+	const PUREHEART
+	const HARD_HEAD
 	const DROUGHT
 	const ARENA_TRAP
 	const VITAL_SPIRIT
 	const MAGIC_BARRIER
-	const SHELL_ARMOR
-	const TANGLED_FEET
+	const GUARD_ARMOR
+	const NEARSIGHTED
 	const MOTOR_DRIVE
 	const RIVALRY
 	const STEADFAST
@@ -95,11 +95,11 @@
 	const LEAF_GUARD
 	const MOLD_BREAKER
 	const SUPER_LUCK
-	const AFTERMATH
+	const SURPRISE
 	const ANTICIPATION
-	const FOREWARN
+	const ALERT
 	const UNAWARE
-	const TINTED_LENS
+	const POWER_BOOST
 	const FILTER
 	const SCRAPPY
 	const ICE_BODY
@@ -108,54 +108,54 @@
 	const HONEY_GATHER
 	const FRISK
 	const RECKLESS
-	const PICKPOCKET
-	const SHEER_FORCE
+	const SWIPE
+	const STRATEGIC
 	const CONTRARY
 	const UNNERVE
 	const DEFIANT
 	const CURSED_BODY
-	const WEAK_ARMOR
+	const FRAGILITY
 	const LIGHT_METAL
-	const MULTISCALE
+	const DECOY_GUARD
 	const HARVEST
 	const MOODY
 	const OVERCOAT
 	const POISON_TOUCH
 	const REGENERATOR
-	const BIG_PECKS
+	const DOME_BODY
 	const SAND_RUSH
 	const WONDER_SKIN
 	const ANALYTIC
-	const IMPOSTER
-	const INFILTRATOR
+	const RECOLLECTOR
+	const GUARDPASS
 	const MOXIE
 	const JUSTIFIED
 	const RATTLED
 	const MAGIC_BOUNCE
-	const SAP_SIPPER
+	const SAP_ABSORB
 	const PRANKSTER
 	const SAND_FORCE
-	const FUR_COAT
+	const ARMOR_LAYER
 	const BULLETPROOF
 	const COMPETITIVE
-	const MEGA_LAUNCHER
-	const TOUGH_CLAWS
-	const PIXILATE
-	const PARENTAL_BOND
+	const SOUL_POWER
+	const SHARP_CLAWS
+	const PURITY
+	const TROOPERS
 	const BERSERK
-	const SLUSH_RUSH
+	const ICY_FEET
 	const GALVANIZE
 	const CORROSION
-	const TANGLING_HAIR
-	const GORILLA_TACTICS
-	const NEUTRALIZING_GAS
-	const PASTEL_VEIL
+	const TIME_COUNTER
+	const COMBAT_LOCK
+	const NEUTRALIZATION
+	const POISON_GUARD
 	const QUICK_DRAW
-	const STEELY_SPIRIT
+	const RAZOR_BLADE
 	const PERISH_BODY
-	const SCREEN_CLEANER
-	const CUD_CHEW
-	const SHARPNESS
-	const ARMOR_TAIL
+	const SCREEN_REMOVAL
+	const LINGER_POWER
+	const CLEAN_CUTTER
+	const SKILL_CANCEL
 	const MINDS_EYE
 DEF NUM_ABILITIES EQU const_value

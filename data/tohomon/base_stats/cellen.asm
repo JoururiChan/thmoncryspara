@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
 	dn GENDER_F75, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for CELLEN, OWN_TEMPO, SPRING_CHARM, SPRING_CHARM
+	abilities_for CELLEN, ENDURANCE, SPRING_CHARM, VITAL_SPIRIT
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_HUMANSHAPE ; egg groups
 

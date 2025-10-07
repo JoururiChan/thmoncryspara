@@ -200,7 +200,7 @@ Route24RocketDisappearsText:
 Route24AdvancedTipsSignText:
 	text "Advanced Tips!"
 
-	para "The Sheer Force"
+	para "The Strategic"
 	line "Ability negates"
 
 	para "side effects of"

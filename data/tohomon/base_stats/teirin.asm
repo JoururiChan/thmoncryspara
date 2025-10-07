@@ -7,7 +7,7 @@
 	db NO_ITEM, MOON_STONE ; held items
 	dn GENDER_F75, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for TEIRIN, POISON_POINT, NATURAL_CURE, SHED_SKIN
+	abilities_for TEIRIN, SEEPING_TOXIN, NATURAL_CURE, SHED_SKIN
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_HUMANSHAPE ; egg groups
 
