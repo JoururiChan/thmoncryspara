@@ -7,7 +7,7 @@
 	db NO_ITEM, KINGS_ROCK ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for AALICE, MAGIC_BARRIER, MAGIC_BARRIER, MAGIC_BARRIER
+	abilities_for AALICE, KEEN_EYE, MOTOR_DRIVE, TROOPERS
 	db GROWTH_SLOW ; growth rate
 	dn EGG_FAIRY, EGG_MINERAL ; egg groups
 

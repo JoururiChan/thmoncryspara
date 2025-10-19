@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for CCIRNO, WATER_VEIL, SPEED_BOOST, GUTS
+	abilities_for CCIRNO, WATER_VEIL, ICY_FEET, GUTS
 	db GROWTH_FAST ; growth rate
 	dn EGG_MINERAL, EGG_WATER_3 ; egg groups
 

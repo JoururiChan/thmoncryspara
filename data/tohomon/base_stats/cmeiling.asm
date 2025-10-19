@@ -7,7 +7,7 @@
 	db NO_ITEM, THICK_CLUB ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for CMEILING, GATE_KEEPER, GATE_KEEPER, IRON_FIST
+	abilities_for CMEILING, COMBAT_LOCK, GATE_KEEPER, IRON_FIST
 	db GROWTH_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_DRAGON ; egg groups
 

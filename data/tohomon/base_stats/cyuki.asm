@@ -7,7 +7,7 @@
 	db NO_ITEM, RAWST_BERRY ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CYUKI, BLAZE, BLAZE, INTIMIDATE
+	abilities_for CYUKI, BLAZE, FLASH_FIRE, POWER_BOOST
 	db GROWTH_FAST ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 

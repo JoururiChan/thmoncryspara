@@ -1,13 +1,13 @@
 	db  100,  120,  35,  105,  89,  73 ; 490 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ICE, FLYING ; type
+	db ICE, WATER ; type
 	db 150 ; catch rate
 	db 200 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for SCIRNO, WATER_VEIL, SPEED_BOOST, GUTS
+	abilities_for SCIRNO, ICY_FEET, SNOW_WARNING, SNOW_CLOAK
 	db GROWTH_FAST ; growth rate
 	dn EGG_MINERAL, EGG_WATER_3 ; egg groups
 

@@ -7,7 +7,7 @@
 	db NO_ITEM, SPELL_TAG ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for SHINKI, SYNCHRONIZE, SCRAPPY, PRESSURE
+	abilities_for SHINKI, JUSTIFIED, MOXIE, DECOY_GUARD
 	db GROWTH_SLOW ; growth rate
 	dn EGG_FLYING, EGG_DRAGON ; egg groups
 
