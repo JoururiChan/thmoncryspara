@@ -4,10 +4,10 @@
 	db FAITH, NATURE ; type
 	db 100 ; catch rate
 	db 205 ; base exp
-	db NO_ITEM, NO_ITEM ; held items
+	db APICOT_BERRY, APICOT_BERRY ; held items
 	dn GENDER_F87_5, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for DSANAE, SERENE_GRACE, NATURAL_CURE, SUPER_LUCK
+	abilities_for DSANAE, SERENE_GRACE, NATURAL_CURE, NEUTRALIZATION
 	db GROWTH_FAST ; growth rate
 	dn EGG_WATER_1, EGG_FAIRY ; egg groups
 

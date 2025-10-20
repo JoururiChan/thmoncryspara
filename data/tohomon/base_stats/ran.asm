@@ -1,13 +1,13 @@
 	db  80, 60,  70,  115,  125, 90 ; 540 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db BEAST, ILLUSION ; type
+	db BEAST, REASON ; type
 	db 90 ; catch rate
 	db 202 ; base exp
 	db ALWAYS_ITEM_2, LEFTOVERS ; held items
 	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for RAN, SPEED_BOOST, BATTLE_ARMOR, TROOPERS
+	abilities_for RAN, MAGIC_GUARD, UNBURDEN, STEADFAST
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 

@@ -7,7 +7,7 @@
 	db NO_ITEM, SMOKE_BALL ; held items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for PATCHOULI, TRACE, ADAPTABILITY, BATTLE_ARMOR
+	abilities_for PATCHOULI, TRACE, ADAPTABILITY, COMPETITIVE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_INDETERMINATE, EGG_MINERAL ; egg groups
 

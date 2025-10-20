@@ -7,7 +7,7 @@
 	db PERSIM_BERRY, PERSIM_BERRY ; held items
 	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for CCHEN, RECKLESS, ANTICIPATION, TECHNICIAN
+	abilities_for CCHEN, RECKLESS, SURPRISE, DEFIANT
 	db GROWTH_FAST ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 

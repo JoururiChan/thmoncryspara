@@ -1,4 +1,4 @@
-	db  46,  205,  21, 125, 205, 21 ; 295 BST
+	db  30, 160,  25, 85, 155, 30 ; 485 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db DARK, FIRE ; type
@@ -7,7 +7,7 @@
 	db NO_ITEM, DRAGON_SCALE ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for AFLANDRE, HUSTLE, HUSTLE, RECKLESS
+	abilities_for AFLANDRE, UNAWARE, FRAGILITY, BERSERK
 	db GROWTH_FAST ; growth rate
 	dn EGG_MONSTER, EGG_FLYING ; egg groups
 

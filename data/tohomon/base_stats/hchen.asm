@@ -1,13 +1,13 @@
 	db  60,  100,  40, 85, 105, 65 ; 455 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db BEAST, ILLUSION ; type
+	db BEAST, WIND ; type
 	db 240 ; catch rate
 	db 155 ; base exp
 	db PERSIM_BERRY, PERSIM_BERRY ; held items
 	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for HCHEN, RECKLESS, ANTICIPATION, TECHNICIAN
+	abilities_for HCHEN, PRANKSTER, SURPRISE, QUICK_FEET
 	db GROWTH_FAST ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 

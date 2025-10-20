@@ -7,7 +7,7 @@
 	db NO_ITEM, LEEK ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CMAI, MAGIC_GUARD, ICE_BODY, PURIFY
+	abilities_for CMAI, MAGIC_GUARD, ICE_BODY, PURITY
 	db GROWTH_FAST ; growth rate
 	dn EGG_MINERAL, EGG_FAIRY ; egg groups
 

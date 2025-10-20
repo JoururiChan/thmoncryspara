@@ -1,13 +1,13 @@
 	db  110,  48,  25,  36,  168, 140 ; 490 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db REASON, ILLUSION ; type
+	db REASON, REASON ; type
 	db 110 ; catch rate
 	db 242 ; base exp
 	db NO_ITEM, SMOKE_BALL ; held items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for TPATCHOULI, TRACE, ADAPTABILITY, BATTLE_ARMOR
+	abilities_for TPATCHOULI, DRIZZLE, DROUGHT, ADAPTABILITY
 	db GROWTH_SLOW ; growth rate
 	dn EGG_INDETERMINATE, EGG_MINERAL ; egg groups
 

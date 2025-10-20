@@ -4,10 +4,10 @@
 	db BEAST, FIRE ; type
 	db 50 ; catch rate
 	db 203 ; base exp
-	db NO_ITEM, DRAGON_SCALE ; held items
+	db NO_ITEM, BINDING_BAND ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for SUIKA, NEUTRALIZATION, BERSERK, MOXIE
+	abilities_for SUIKA, HI_STRENGTH, BERSERK, MOXIE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 
