@@ -975,9 +975,9 @@ PlacePartyMonGender:
 	call GetGender
 	ld a, " "
 	jr c, .got_gender
-	ld a, "<MALE>"
+	ld a, "<YANG>"
 	jr nz, .got_gender
-	inc a ; "<FEMALE>"
+	inc a ; "<YIN>"
 
 .got_gender
 	pop hl

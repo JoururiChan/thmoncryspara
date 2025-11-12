@@ -70,7 +70,7 @@ OddEggs:
 	assert_table_length NUM_ODD_EGGS
 
 MystriEgg:
-	dp TEIRIN, FEMALE | IS_EGG_MASK | PLAIN_FORM
+	dp TEIRIN, YIN | IS_EGG_MASK | PLAIN_FORM
 	db GROWL, CHARM, MOONBLAST, AEROBLAST
 	db $FF, $FF, $FF ; DVs
 	db SHINY_MASK | HIDDEN_ABILITY | QUIRKY ; Personality

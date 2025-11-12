@@ -95,11 +95,11 @@ MACRO dp ; db species, extspecies | form
 ENDM
 
 MACRO genders
-; eight arguments, all MALE or FEMALE
+; eight arguments, all MALE or YIN
 	def x = 0
 	def y = 1
 	for i, 1, _NARG + 1
-		if !STRCMP("\<i>", "FEMALE")
+		if !STRCMP("\<i>", "YIN")
 			def x |= y
 		endc
 		def y <<= 1

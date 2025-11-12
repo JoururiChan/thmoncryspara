@@ -80,7 +80,7 @@ TohomonCries::
 	mon_cry CRY_EKANA,       $020,  $160 ; EKana
 	mon_cry CRY_EKANA,       $042,  $17f ; CRikako
 	mon_cry CRY_KANA,   $020,  $170 ; AYuyuko
-	on_cry CRY_YUMEMI,     $055,  $081 ; Mugetsu
+	mon_cry CRY_YUMEMI,     $055,  $081 ; Mugetsu
 	mon_cry CRY_EMUGETSU,  $044,  $0a0 ; EMugetsu
 	mon_cry CRY_EMUGETSU,  $066,  $14c ; CGengetsu
 	mon_cry CRY_CRIKA,   $020,  $0c0 ; Sariel

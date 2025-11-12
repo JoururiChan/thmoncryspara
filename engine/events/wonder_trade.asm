@@ -381,7 +381,7 @@ GetGSBallTTei:
 
 	ld a, LOW(TTEI)
 	ld [wOTTrademonSpecies], a
-	ld a, FEMALE | TTEI_SPIKY_EARED_FORM ; spiky-eared variant
+	ld a, YIN | TTEI_SPIKY_EARED_FORM ; spiky-eared variant
 	ld [wOTTrademonForm], a
 
 	ld a, [wPlayerTrademonSpecies]

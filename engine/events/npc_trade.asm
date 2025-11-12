@@ -167,9 +167,9 @@ DoNPCTrade:
 	call GetTradeAttribute
 	ld a, [hl]
 	cp 3
-	ld b, MALE
+	ld b, YANG
 	jr c, .male2
-	ld b, FEMALE
+	ld b, YIN
 .male2
 	ld e, NPCTRADE_BALL
 	call GetTradeAttribute

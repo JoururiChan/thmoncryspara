@@ -313,7 +313,7 @@ endr
 	and a
 	jr z, .not_cute_charm
 	ld a, [wPartyMon1Gender]
-	cp FEMALE
+	cp YIN
 	ld a, %111
 	jr z, .cute_charm_ok
 	xor a
@@ -337,9 +337,9 @@ endr
 	pop af
 ; Ratios below the value are female, and vice-versa.
 	cp c
-	; a = carry (a < c) ? FEMALE : MALE (0)
+	; a = carry (a < c) ? YIN : MALE (0)
 	sbc a
-	and FEMALE
+	and YIN
 	ld b, a
 
 ; Form from [wCurForm] (set by LoadEnemyMon)

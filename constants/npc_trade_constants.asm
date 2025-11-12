@@ -29,7 +29,7 @@ DEF NUM_NPC_TRADES EQU const_value
 ; trade gender limits
 	const_def
 	const TRADE_GENDER_EITHER
-	const TRADE_GENDER_MALE
+	const TRADE_GENDER_YANG
 	const TRADE_GENDER_FEMALE
 
 ; TradeTexts indexes (see engine/events/npc_trade.asm)

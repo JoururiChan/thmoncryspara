@@ -38,7 +38,7 @@ RandyScript:
 	writetext Route35GoldenrodGatePlayerReceivedAMonWithMailText
 	playsound SFX_KEY_ITEM
 	waitsfx
-	givepoke CELIS, FEMALE | PLAIN_FORM, 10, NO_ITEM, NET_BALL, NO_MOVE, GiftElisName, GiftElisOTName, 01001
+	givepoke CELIS, YIN | PLAIN_FORM, 10, NO_ITEM, NET_BALL, NO_MOVE, GiftElisName, GiftElisOTName, 01001
 	givepokemail GiftElisMail
 	setevent EVENT_GOT_KENYA
 .alreadyhavekenya

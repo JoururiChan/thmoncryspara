@@ -1015,9 +1015,9 @@ DayCare_GenerateEgg:
 	ld a, 8
 	call RandomRange
 	cp c
-	; a = carry (rnd(0..7) < c) ? FEMALE : MALE (0)
+	; a = carry (rnd(0..7) < c) ? YIN : MALE (0)
 	sbc a
-	and FEMALE
+	and YIN
 	ld hl, wTempMonGender
 	or [hl]
 	ld [hl], a

@@ -3923,9 +3923,9 @@ endr
 	farcall GetGender
 	ld a, " "
 	jr c, .got_gender_char
-	ld a, "<MALE>"
+	ld a, "<YANG>"
 	jr nz, .got_gender_char
-	inc a ; "<FEMALE>"
+	inc a ; "<YIN>"
 
 .got_gender_char
 	hlcoord 18, 8
@@ -4003,9 +4003,9 @@ endr
 	farcall GetGender
 	ld a, " "
 	jr c, .got_gender
-	ld a, "<MALE>"
+	ld a, "<YANG>"
 	jr nz, .got_gender
-	inc a ; "<FEMALE>"
+	inc a ; "<YIN>"
 
 .got_gender
 	hlcoord 8, 1

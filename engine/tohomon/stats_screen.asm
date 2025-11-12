@@ -284,9 +284,9 @@ StatsScreen_InitUpperHalf:
 	farcall GetGender
 	pop hl
 	ret c
-	ld a, "<MALE>"
+	ld a, "<YANG>"
 	jr nz, .got_gender
-	inc a ; "<FEMALE>"
+	inc a ; "<YIN>"
 .got_gender
 	ld [hl], a
 	ret
