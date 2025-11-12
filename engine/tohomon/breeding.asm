@@ -330,10 +330,10 @@ HatchEggs:
 	pop bc
 
 	; If we hatched a TEirin, set the relevant Prof Elm event flag.
-	ld de, CKONGARA
+	ld de, CFLANDRE
 	call CompareSpeciesWithDE
 	jr nz, .notteirin
-	eventflagset EVENT_CKONGARA_HATCHED
+	eventflagset EVENT_CFLANDRE_HATCHED
 
 .notteirin
 	call GetPartyTohomonName
