@@ -236,7 +236,7 @@ EvolutionMoves::
 	db ENERGY_LIGHT ; AMURASA
 	db NO_MOVE      ; CSHOU
 	db NO_MOVE      ; SHOU
-	db NO_MOVE      ; ASHOU_
+	db NO_MOVE      ; ASHOU
 	db NO_MOVE      ; CBYAKUREN
 	db NO_MOVE      ; BYAKUREN
 	db NO_MOVE      ; TBYAKUREN

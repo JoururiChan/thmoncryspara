@@ -243,7 +243,7 @@ TohomonBodyData:
 	body_data   9,   44, HEAD,         PURPLE ; AMURASA
 	body_data   9,  273, WINGS,        BLACK  ; CSHOU
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; SHOU
-	body_data   6,  130, BIPEDAL,      PINK   ; ASHOU_
+	body_data   6,  130, BIPEDAL,      PINK   ; ASHOU
 	body_data   6,  244, BIPEDAL,      PINK   ; CBYAKUREN
 	body_data   6, 1050, BIPEDAL,      BLACK  ; BYAKUREN
 	body_data  10,  650, WINGS,        BLUE   ; TBYAKUREN

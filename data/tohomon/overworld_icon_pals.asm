@@ -240,7 +240,7 @@ OverworldMonIconColors::
 	iconpal PURPLE, BROWN ; AMURASA
 	iconpal BLUE, PURPLE ; CSHOU
 	iconpal GREEN, RED ; SHOU
-	iconpal BLUE, GREEN ; ASHOU_
+	iconpal BLUE, GREEN ; ASHOU
 	iconpal RED, PINK ; CBYAKUREN
 	iconpal TEAL, BLUE ; BYAKUREN
 	iconpal BLUE, TEAL ; TBYAKUREN

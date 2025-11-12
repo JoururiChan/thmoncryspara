@@ -24,7 +24,7 @@ MultipleEvolutions:
 	multi_evo CMEILING
 	multi_evo CHEN
 	multi_evo TLYRICA
-	multi_evo ASHOU_
+	multi_evo ASHOU
 	multi_evo CTENSHI
 	multi_evo HSATORI
 	multi_evo CMOMIJI, CFUTO_TWO_SEGMENT_FORM, EVOLVE_CMOMIJI

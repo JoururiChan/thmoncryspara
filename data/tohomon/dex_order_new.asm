@@ -237,7 +237,7 @@ NewTohodexOrder:
 	dp AMURASA  ; 101
 	dp CSHOU  ; 102
 	dp SHOU     ; 103
-	dp ASHOU_   ; 104
+	dp ASHOU   ; 104
 	dp CBYAKUREN    ; 105
 	dp BYAKUREN   ; 106
 	dp TBYAKUREN    ; 107
