@@ -37,7 +37,7 @@ EvolutionMoves::
 	db NO_MOVE      ; CKANA
 	db NO_MOVE      ; KANA
 	db NO_MOVE  ; CRIKAKO
-	db NO_MOVE      ; RIKAKO
+	db HURRICANE      ; RIKAKO
 	db NO_MOVE      ; CCHIYURI
 	db NO_MOVE   ; CHIYURI
 	db NO_MOVE        ; CYUMEMI
@@ -54,7 +54,7 @@ EvolutionMoves::
 	db NO_MOVE     ; CMUGETSU
 	db NO_MOVE      ; MUGETSU
 	db NO_MOVE      ; CGENGETSU
-	db NO_MOVE      ; GENGETSU
+	db SHADOW_DANCE      ; GENGETSU
 	db NO_MOVE      ; CSARA
 	db NO_MOVE      ; SARA
 	db NO_MOVE      ; CLUIZE
@@ -241,7 +241,7 @@ EvolutionMoves::
 	db NO_MOVE      ; BYAKUREN
 	db NO_MOVE      ; TBYAKUREN
 	db NO_MOVE      ; CNUE
-	db FIVEELEMENTS   ; NUE
+	db NO_MOVE   ; NUE
 	db NO_MOVE      ; SNUE
 	db TOXIC_SPIKES      ; CHATATE
 	db NO_MOVE      ; HATATE

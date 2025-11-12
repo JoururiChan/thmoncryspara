@@ -109,5 +109,5 @@ CharcoalKilnFarfetchdScript:
 	end
 
 .Text:
-	text "Farfetch'd: Kwaa!"
+	text "CKagerou: Kaooo!"
 	done

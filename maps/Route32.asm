@@ -79,7 +79,7 @@ Route32CooltrainermPetrieScript:
 Route32CooltrainerMTrigger:
 	checkflag ENGINE_ZEPHYRBADGE
 	iffalse_jumptext Route32CooltrainerMText_VioletGym
-	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_CFLANDRE_EGG_FROM_ELMS_AIDE
 	iffalse_jumptext Route32CooltrainerMText_AideIsWaiting
 	checkevent EVENT_GOT_MIRACLE_SEED_FROM_ROUTE_32_LEADER
 	iftrue_jumptext .AfterText2

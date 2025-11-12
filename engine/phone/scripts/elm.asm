@@ -1,14 +1,14 @@
 ElmPhoneScript1:
 	readvar VAR_SPECIALPHONECALL
 	ifequalfwd SPECIALCALL_TOHORUS, .pokerus
-	checkevent EVENT_SHOWED_CKONGARA_TO_ELM
+	checkevent EVENT_SHOWED_CFLANDRE_TO_ELM
 	iftruefwd .discovery
-	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_CFLANDRE_EGG_FROM_ELMS_AIDE
 	iffalsefwd .next
-	checkevent EVENT_CKONGARA_HATCHED
+	checkevent EVENT_CFLANDRE_HATCHED
 	iftruefwd .egghatched
 .next
-	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_CFLANDRE_EGG_FROM_ELMS_AIDE
 	iftruefwd .eggunhatched
 	checkevent EVENT_ELMS_AIDE_IN_LAB
 	iftruefwd .assistant
@@ -43,7 +43,7 @@ ElmPhoneScript1:
 
 .egghatched
 	farwritetext ElmPhoneEggHatchedText
-	setevent EVENT_TOLD_ELM_ABOUT_CKONGARA_OVER_THE_PHONE
+	setevent EVENT_TOLD_ELM_ABOUT_CFLANDRE_OVER_THE_PHONE
 	sjumpfwd ElmEvolutionScript
 
 .discovery

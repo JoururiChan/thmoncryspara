@@ -795,5 +795,14 @@ ByakurenEggMoves:
 	db GUNK_SHOT
 	db $ff
 
+CNueEggMoves:	
+	db CHARM
+	db COUNTER
+	db CURSE
+	db DOUBLE_EDGE
+	db LICK
+	db GUNK_SHOT
+	db $ff
+
 NoEggMoves:
 	db $ff

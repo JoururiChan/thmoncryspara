@@ -220,7 +220,7 @@ BurnedTower1FEusineIntroText:
 
 	para "I'm on the trail"
 	line "of a #mon named"
-	cont "Nazrin."
+	cont "Kasen."
 
 	para "And you are…?"
 
@@ -228,7 +228,7 @@ BurnedTower1FEusineIntroText:
 	line "meet you!"
 
 	para "I heard rumors"
-	line "that Nazrin is in"
+	line "that Kasen is in"
 
 	para "this Burned Tower,"
 	line "so I came to look."
@@ -239,7 +239,7 @@ BurnedTower1FEusineIntroText:
 
 BurnedTower1FEusineText:
 	text "Eusine: I heard"
-	line "that Nazrin is in"
+	line "that Kasen is in"
 
 	para "this Burned Tower,"
 	line "so I came to look."
@@ -256,8 +256,8 @@ BurnedTower1FMortyText:
 	line "said to be the"
 
 	para "legendary #mon"
-	line "--Nazrin, CNazrin"
-	cont "and SKoishi."
+	line "--Kasen, Yuugi"
+	cont "and Suika."
 
 	para "Eusine is here, so"
 	line "I've decided to"

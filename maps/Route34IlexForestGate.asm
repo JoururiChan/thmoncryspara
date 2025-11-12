@@ -66,13 +66,13 @@ Route34IlexForestGateTeacherScript:
 	jumpthisopenedtext
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "It's False Swipe."
+	text "It's Blade Flash."
 
-	para "It won't knock"
-	line "out wild #mon,"
+	para "It's a speedy"
+	line "slashing move,"
 
-	para "so they'll be"
-	line "easier to catch."
+	para "and it will al-"
+	line "ways go first."
 	done
 
 Route34IlexForestGateTeacherBlocksPlayerMovement:

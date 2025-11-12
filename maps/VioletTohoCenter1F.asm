@@ -53,11 +53,11 @@ VioletTohoCenter1FElmsAideScript:
 .AskTakeEgg:
 	yesorno
 	iffalsefwd .RefusedEgg
-	giveegg CKONGARA
+	giveegg CFLANDRE
 	iffalse_jumpopenedtext .PartyAndBoxFull
-	setevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
+	setevent EVENT_GOT_CFLANDRE_EGG_FROM_ELMS_AIDE
 	clearevent EVENT_ELMS_AIDE_IN_LAB
-	clearevent EVENT_CKONGARA_HATCHED
+	clearevent EVENT_CFLANDRE_HATCHED
 	setmapscene ROUTE_32, $1
 	writetext .GoodbyeText
 	waitbutton

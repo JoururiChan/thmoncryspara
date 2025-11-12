@@ -997,19 +997,19 @@ DKisumeMiniMask:: INCBIN "gfx/minis/cchen_mask.1bpp.lz"
 DKisumeIcon::     INCBIN "gfx/icons/cchen.2bpp.lz"
 
 SECTION "CYamame Mini Icon", ROMX
-CYamameMini::     INCBIN "gfx/minis/cyamame.2bpp.lz"
-CYamameMiniMask:: INCBIN "gfx/minis/cyamame_mask.1bpp.lz"
-CYamameIcon::     INCBIN "gfx/icons/cyamame.2bpp.lz"
+CYamameMini::     INCBIN "gfx/minis/cwriggle.2bpp.lz"
+CYamameMiniMask:: INCBIN "gfx/minis/cwriggle_mask.1bpp.lz"
+CYamameIcon::     INCBIN "gfx/icons/cwriggle.2bpp.lz"
 
 SECTION "Yamame Mini Icon", ROMX
-YamameMini::     INCBIN "gfx/minis/yamame.2bpp.lz"
-YamameMiniMask:: INCBIN "gfx/minis/yamame_mask.1bpp.lz"
-YamameIcon::     INCBIN "gfx/icons/yamame.2bpp.lz"
+YamameMini::     INCBIN "gfx/minis/cwriggle.2bpp.lz"
+YamameMiniMask:: INCBIN "gfx/minis/cwriggle_mask.1bpp.lz"
+YamameIcon::     INCBIN "gfx/icons/cwriggle.2bpp.lz"
 
 SECTION "SYamame Mini Icon", ROMX
-SYamameMini::     INCBIN "gfx/minis/syamame.2bpp.lz"
-SYamameMiniMask:: INCBIN "gfx/minis/syamame_mask.1bpp.lz"
-SYamameIcon::     INCBIN "gfx/icons/syamame.2bpp.lz"
+SYamameMini::     INCBIN "gfx/minis/cwriggle.2bpp.lz"
+SYamameMiniMask:: INCBIN "gfx/minis/cwriggle_mask.1bpp.lz"
+SYamameIcon::     INCBIN "gfx/icons/cwriggle.2bpp.lz"
 
 SECTION "CParsee Mini Icon", ROMX
 CParseeMini::     INCBIN "gfx/minis/ckaguya.2bpp.lz"

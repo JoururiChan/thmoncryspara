@@ -1580,7 +1580,7 @@ AMokouTohodexEntry::
 
 SECTION "CAyaTohodexEntry", ROMX
 CAyaTohodexEntry::
-	db "Crow@"
+	db "Bird@"
 	db   "It is often seen"
 	next "with a flock of C-"
 	next "Aya. It is known"
@@ -1840,47 +1840,47 @@ MomijiTohodexEntry::
 
 SECTION "CKanakoTohodexEntry", ROMX
 CKanakoTohodexEntry::
-	db "@"
-	db   "The many small"
-	next "metal particles"
-	next "that cover this"
-	page "#mon's body"
-	next "reflect bright"
-	next "light well.@"
+	db "Faith@"
+	db   "It is very skilled"
+	next "at crafting sche-"
+	next "mes, which it does"
+	page "more for it's own"
+	next "benefit rather t-"
+	next "han any malice.@"
 
 SECTION "KanakoTohodexEntry", ROMX
 KanakoTohodexEntry::
-	db "Fairy@"
-	db   "In truth, it is a"
-	next "cowardly #mon."
-	next "It growls eagerly"
-	page "in order to hide"
-	next "its fear from its"
-	next "opponent.@"
+	db "Goddess@"
+	db   "It and Suwako"
+	next "#mon have be-"
+	next "gun to coexist w-"
+	page "ith each other e-"
+	next "arly on due to a"
+	next "power struggle.@"
 
 SECTION "AKanakoTohodexEntry", ROMX
 AKanakoTohodexEntry::
-	db "Fairy@"
-	db   "It can make most"
-	next "any #mon run"
-	next "away simply by"
-	page "opening its mouth"
-	next "wide to reveal its"
-	next "big fangs.@"
+	db "Goddess@"
+	db   "Kanako and Suwako"
+	next "#mon are equal"
+	next "in power, so who-"
+	page "ever wins over the"
+	next "other wins due to"
+	next "sheer chance.@"
 
 SECTION "CSuwakoTohodexEntry", ROMX
 CSuwakoTohodexEntry::
-	db "Balloon@"
-	db   "When faced with a"
-	next "larger opponent,"
-	next "it swallows as"
-	page "much water as it"
-	next "can to match the"
-	next "opponent's size.@"
+	db "Faith@"
+	db   "Much more cheerful"
+	next "and energetic than"
+	next "Kanako #mon."
+	page "Alongside it's high"
+	next "energy, it is also"
+	next "full of power.@"
 
 SECTION "SuwakoTohodexEntry", ROMX
 SuwakoTohodexEntry::
-	db "Scissors@"
+	db "Goddess@"
 	db   "This #mon's"
 	next "pincers, which"
 	next "contain steel, can"
@@ -1890,7 +1890,7 @@ SuwakoTohodexEntry::
 
 SECTION "DSuwakoTohodexEntry", ROMX
 DSuwakoTohodexEntry::
-	db "Mold@"
+	db "Goddess@"
 	db   "The fluid secreted"
 	next "by its toes carves"
 	next "holes in rocks for"
@@ -1900,7 +1900,7 @@ DSuwakoTohodexEntry::
 
 SECTION "CIkuTohodexEntry", ROMX
 CIkuTohodexEntry::
-	db "Single Horn@"
+	db "Messenger@"
 	db   "With its Herculean"
 	next "powers, it can"
 	next "easily throw arou-"
@@ -1910,7 +1910,7 @@ CIkuTohodexEntry::
 
 SECTION "IkuTohodexEntry", ROMX
 IkuTohodexEntry::
-	db "Sharp Claw@"
+	db "Messenger@"
 	db   "This cunning"
 	next "#mon hides"
 	next "under the cover"
@@ -1920,7 +1920,7 @@ IkuTohodexEntry::
 
 SECTION "AIkuTohodexEntry", ROMX
 AIkuTohodexEntry::
-	db "Little Bear@"
+	db "Dragon@"
 	db   "It always licks"
 	next "honey. Its palm"
 	next "tastes sweet"
@@ -1930,7 +1930,7 @@ AIkuTohodexEntry::
 
 SECTION "CTenshiTohodexEntry", ROMX
 CTenshiTohodexEntry::
-	db "Hibernator@"
+	db "Keystone@"
 	db   "Although it has a"
 	next "large body, it is"
 	next "quite skilled at"
@@ -1940,7 +1940,7 @@ CTenshiTohodexEntry::
 
 SECTION "TenshiTohodexEntry", ROMX
 TenshiTohodexEntry::
-	db "Lava@"
+	db "Earthquake@"
 	db   "These group"
 	next "together in areas"
 	next "that are hotter"
@@ -1950,7 +1950,7 @@ TenshiTohodexEntry::
 
 SECTION "STenshiTohodexEntry", ROMX
 STenshiTohodexEntry::
-	db "Lava@"
+	db "Weather@"
 	db   "Its body is as hot"
 	next "as lava and is"
 	next "always billowing."
@@ -1960,7 +1960,7 @@ STenshiTohodexEntry::
 
 SECTION "CKisumeTohodexEntry", ROMX
 CKisumeTohodexEntry::
-	db "Pig@"
+	db "Bucket@"
 	db   "It uses the tip of"
 	next "its nose to dig"
 	next "for food. Its nose"
@@ -1970,7 +1970,7 @@ CKisumeTohodexEntry::
 
 SECTION "KisumeTohodexEntry", ROMX
 KisumeTohodexEntry::
-	db "Swine@"
+	db "Well Dropper@"
 	db   "Although its legs"
 	next "are short, its"
 	next "rugged hooves"
@@ -1980,7 +1980,7 @@ KisumeTohodexEntry::
 
 SECTION "DKisumeTohodexEntry", ROMX
 DKisumeTohodexEntry::
-	db "Coral@"
+	db "Well Dropper@"
 	db   "The points on its"
 	next "head absorb"
 	next "nutrients from"
@@ -1990,7 +1990,7 @@ DKisumeTohodexEntry::
 
 SECTION "CYamameTohodexEntry", ROMX
 CYamameTohodexEntry::
-	db "Jet@"
+	db "Spider@"
 	db   "To escape from an"
 	next "attacker, it may"
 	next "shoot water out of"
@@ -2000,7 +2000,7 @@ CYamameTohodexEntry::
 
 SECTION "YamameTohodexEntry", ROMX
 YamameTohodexEntry::
-	db "Jet@"
+	db "Bug@"
 	db   "Its instinct is to"
 	next "bury itself in"
 	next "holes. It often"
@@ -2010,7 +2010,7 @@ YamameTohodexEntry::
 
 SECTION "SYamameTohodexEntry", ROMX
 SYamameTohodexEntry::
-	db "Delivery@"
+	db "Bug@"
 	db   "It always carries"
 	next "its food with it,"
 	next "wherever it goes."
@@ -2020,7 +2020,7 @@ SYamameTohodexEntry::
 
 SECTION "CParseeTohodexEntry", ROMX
 CParseeTohodexEntry::
-	db "Kite@"
+	db "Bridge@"
 	db   "It swims along"
 	next "freely, eating"
 	next "things that swim"
@@ -2030,7 +2030,7 @@ CParseeTohodexEntry::
 
 SECTION "ParseeTohodexEntry", ROMX
 ParseeTohodexEntry::
-	db "Armor Bird@"
+	db "Bridge@"
 	db   "The feathers that"
 	next "it sheds are very"
 	next "sharp. It is said"
@@ -2040,7 +2040,7 @@ ParseeTohodexEntry::
 
 SECTION "DParseeTohodexEntry", ROMX
 DParseeTohodexEntry::
-	db "Dark@"
+	db "Jealousy@"
 	db   "Around dawn, its"
 	next "ominous howl"
 	next "echoes through the"
@@ -2050,7 +2050,7 @@ DParseeTohodexEntry::
 
 SECTION "CYuugiTohodexEntry", ROMX
 CYuugiTohodexEntry::
-	db "Dark@"
+	db "Oni@"
 	db   "The pungent-"
 	next "smelling flame"
 	next "that shoots from"
@@ -2060,7 +2060,7 @@ CYuugiTohodexEntry::
 
 SECTION "YuugiTohodexEntry", ROMX
 YuugiTohodexEntry::
-	db "Dragon@"
+	db "Oni@"
 	db   "It stores energy"
 	next "by sleeping at"
 	next "underwater depths"
@@ -2070,7 +2070,7 @@ YuugiTohodexEntry::
 
 SECTION "AYuugiTohodexEntry", ROMX
 AYuugiTohodexEntry::
-	db "Long Nose@"
+	db "Muscle@"
 	db   "During the desert-"
 	next "ed morning hours,"
 	next "it comes ashore"
@@ -2080,7 +2080,7 @@ AYuugiTohodexEntry::
 
 SECTION "CSatoriTohodexEntry", ROMX
 CSatoriTohodexEntry::
-	db "Armor@"
+	db "Third Eye@"
 	db   "Because this"
 	next "#mon's skin is"
 	next "so tough, a normal"
@@ -2090,7 +2090,7 @@ CSatoriTohodexEntry::
 
 SECTION "SatoriTohodexEntry", ROMX
 SatoriTohodexEntry::
-	db "Virtual@"
+	db "Copycat@"
 	db   "This man-made"
 	next "#mon evolved"
 	next "from the latest"
@@ -2100,7 +2100,7 @@ SatoriTohodexEntry::
 
 SECTION "HSatoriTohodexEntry", ROMX
 HSatoriTohodexEntry::
-	db "Big Horn@"
+	db "Copycat@"
 	db   "The round balls"
 	next "found on the"
 	next "fallen antlers can"
@@ -2110,7 +2110,7 @@ HSatoriTohodexEntry::
 
 SECTION "CRinTohodexEntry", ROMX
 CRinTohodexEntry::
-	db "Painter@"
+	db "Cat@"
 	db   "The color of the"
 	next "mysterious fluid"
 	next "secreted from its"
@@ -2120,7 +2120,7 @@ CRinTohodexEntry::
 
 SECTION "RinTohodexEntry", ROMX
 RinTohodexEntry::
-	db "Scuffle@"
+	db "Cat@"
 	db   "To brush up on its"
 	next "fighting skills,"
 	next "it will challenge"
@@ -2130,7 +2130,7 @@ RinTohodexEntry::
 
 SECTION "HRinTohodexEntry", ROMX
 HRinTohodexEntry::
-	db "Handstand@"
+	db "Hardworker@"
 	db   "After doing a"
 	next "handstand to"
 	next "throw off the"
@@ -2140,7 +2140,7 @@ HRinTohodexEntry::
 
 SECTION "CUtsuhoTohodexEntry", ROMX
 CUtsuhoTohodexEntry::
-	db "Kiss@"
+	db "Bird@"
 	db   "The sensitivity of"
 	next "its lips develops"
 	next "most quickly."
@@ -2150,7 +2150,7 @@ CUtsuhoTohodexEntry::
 
 SECTION "UtsuhoTohodexEntry", ROMX
 UtsuhoTohodexEntry::
-	db "Electric@"
+	db "Raven@"
 	db   "It loves violent"
 	next "thunder. The space"
 	next "between its horns"
@@ -2160,7 +2160,7 @@ UtsuhoTohodexEntry::
 
 SECTION "AUtsuhoTohodexEntry", ROMX
 AUtsuhoTohodexEntry::
-	db "Live Coal@"
+	db "Hell Raven@"
 	db   "It naturally spits"
 	next "an 1100-degree"
 	next "flame. It is said"
@@ -2170,7 +2170,7 @@ AUtsuhoTohodexEntry::
 
 SECTION "CKoishiTohodexEntry", ROMX
 CKoishiTohodexEntry::
-	db "Milk Cow@"
+	db "Third Eye@"
 	db   "In order to milk a"
 	next "CKoishi, one must"
 	next "have a knack for"
@@ -2180,7 +2180,7 @@ CKoishiTohodexEntry::
 
 SECTION "KoishiTohodexEntry", ROMX
 KoishiTohodexEntry::
-	db "Happiness@"
+	db "Carefree@"
 	db   "Biting into one"
 	next "of the delicious"
 	next "eggs that Koishi"
@@ -2190,7 +2190,7 @@ KoishiTohodexEntry::
 
 SECTION "SKoishiTohodexEntry", ROMX
 SKoishiTohodexEntry::
-	db "Thunder@"
+	db "Subconscious@"
 	db   "This rough #mon"
 	next "stores energy"
 	next "inside its body,"
@@ -2380,7 +2380,7 @@ TByakurenTohodexEntry::
 
 SECTION "CNueTohodexEntry", ROMX
 CNueTohodexEntry::
-	db "Sharp Claw@"
+	db "Shapeshift@"
 	db   "It lives in snowy"
 	next "regions. It carves"
 	next "patterns in trees"
@@ -2390,7 +2390,7 @@ CNueTohodexEntry::
 
 SECTION "NueTohodexEntry", ROMX
 NueTohodexEntry::
-	db "Magnet Area@"
+	db "Mystery@"
 	db   "It evolved from"
 	next "exposure to a"
 	next "special magnetic"
@@ -2400,7 +2400,7 @@ NueTohodexEntry::
 
 SECTION "SNueTohodexEntry", ROMX
 SNueTohodexEntry::
-	db "Licking@"
+	db "Mystery@"
 	db   "The long tongue is"
 	next "always soggy with"
 	next "slobber. The"

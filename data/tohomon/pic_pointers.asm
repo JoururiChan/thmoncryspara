@@ -181,7 +181,7 @@ TohomonPicPointers::
 	pics Minoriko
 	pics HMinoriko
 	pics CHina
-	pics CNueA
+	pics Hina
 	pics AHina
 	pics CNitori
 	pics Nitori
@@ -244,7 +244,7 @@ TohomonPicPointers::
 	pics CByakuren
 	pics Byakuren
 	pics TByakuren
-	pics Hina
+	pics CNueA
 	pics Nue
 	pics SNue
 	pics CHatate

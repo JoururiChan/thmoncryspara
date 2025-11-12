@@ -42,8 +42,8 @@ AzaleaTown_MapScriptHeader:
 	object_event 18,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, CKOMACHI, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
 	object_event 30,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, CKOMACHI, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
 	object_event 15, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, CKOMACHI, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
-	tohomon_event 14, 12, CSHIZUHA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_WAKASAGI_WELL_WAKASAGIS
-	tohomon_event 14, 12, SHIZUHA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_AZALEA_TOWN_WAKASAGIS
+	tohomon_event 14, 12, CCIRNO, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_WAKASAGI_WELL_WAKASAGIS
+	tohomon_event 14, 12, CIRNO, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_AZALEA_TOWN_WAKASAGIS
 	fruittree_event  8,  2, FRUITTREE_AZALEA_TOWN, WHT_APRICORN, PAL_NPC_WHITE
 
 	object_const_def
@@ -337,26 +337,26 @@ AzaleaTownTeacherScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "He has changed,"
-	line "but he'll always be"
+	text "She has changed,"
+	line "but she'll always be"
 
-	para "my little Wooster"
+	para "my little Strength"
 	line "to me."
 	done
 
 .Text1:
 	text "It hasn't rained"
-	line "since the Slow-"
-	cont "poke vanished."
+	line "since the Waka-"
+	cont "sagi vanished."
 
-	para "My poor Wooster"
+	para "My poor Strength"
 	line "can't thrive in"
 	cont "this weather…"
 	done
 
 .Text3:
 	text "In a sudden down-"
-	line "pour, my Wooster"
+	line "pour, my Strength"
 	cont "evolved!"
 
 	para "Oh? You brought"
@@ -373,7 +373,8 @@ AzaleaTownTeacherScript:
 	done
 
 AzaleaTownWoosterText:
-	text "Wooster: Gugyoo…"
+	text "Strength: Vita-"
+	line "lity!"
 	done
 
 AzaleaTownYoungsterText:
@@ -419,7 +420,7 @@ AzaleaTownWakasagiScript:
 		done
 	pause 60
 	writethistext
-		text "…… ……Yawn?"
+		text "Lake!"
 		done
 	cry CKOMACHI
 	waitendtext

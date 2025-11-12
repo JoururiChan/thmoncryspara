@@ -244,9 +244,9 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; CBYAKUREN
 	iconpal TEAL, BLUE ; BYAKUREN
 	iconpal BLUE, TEAL ; TBYAKUREN
-	iconpal BLUE, RED ; CNUE
-	iconpal GRAY, BROWN ; NUE
-	iconpal PINK, BROWN ; SNUE
+	iconpal BLACK, RED ; CNUE
+	iconpal BLACK, RED ; NUE
+	iconpal BLACK, RED ; SNUE
 	iconpal GRAY, RED ; CHATATE
 	iconpal BLUE, GREEN ; HATATE
 	iconpal BROWN, RED ; THATATE

@@ -44,8 +44,8 @@ DEF SPECIALS_START EQU $52
 
 DEF BATTLEEXTRA_GFX_START EQU $5f
 
-	charmap "<MALE>",   $5f
-	charmap "<FEMALE>", $60
+	charmap "<YANG>",   $5f
+	charmap "<YIN>", $60
 	charmap "<STAR>",   $61
 	charmap "<BALL>",   $62
 

@@ -16,10 +16,10 @@ BurnedTowerB1F_MapScriptHeader:
 	def_object_events
 	tohomon_event  7,  3, SUIKA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
 	tohomon_event 12,  3, YUUGI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
-	tohomon_event 10,  4, NAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
+	tohomon_event 10,  4, KONGARA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
 	tohomon_event  7,  3, SUIKA, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
 	tohomon_event 12,  3, YUUGI, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
-	tohomon_event 10,  4, NAZRIN, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
+	tohomon_event 10,  4, KONGARA, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
 	object_event 10, 12, SPRITE_EUSINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurnedTowerB1FEusine, EVENT_EUSINE_IN_BURNED_TOWER
 	strengthboulder_event 17, 8
 	tmhmball_event 16,  4, TM_FLAME_CHARGE, EVENT_BURNED_TOWER_B1F_TM_FLAME_CHARGE
@@ -48,19 +48,19 @@ ReleaseTheBeasts:
 	pause 5
 	disappear BURNEDTOWERB1F_SKOISHI2
 	pause 15
-	cry SKOISHI
+	cry CNUE
 	appear BURNEDTOWERB1F_CNAZRIN1
 	turnobject PLAYER, UP
 	pause 5
 	disappear BURNEDTOWERB1F_CNAZRIN2
 	pause 15
-	cry CNAZRIN
+	cry NUE
 	appear BURNEDTOWERB1F_NAZRIN1
 	turnobject PLAYER, UP
 	pause 5
 	disappear BURNEDTOWERB1F_NAZRIN2
 	pause 15
-	cry NAZRIN
+	cry SNUE
 	pause 15
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, LEFT
@@ -81,7 +81,7 @@ ReleaseTheBeasts:
 	applymovement BURNEDTOWERB1F_NAZRIN1, BurnedTowerNazrinMovement2
 	turnobject PLAYER, UP
 	pause 20
-	cry NAZRIN
+	cry SNUE
 	pause 30
 	playsound SFX_WARP_FROM
 	applymovement BURNEDTOWERB1F_NAZRIN1, BurnedTowerNazrinMovement3

@@ -260,7 +260,7 @@
 	const AMURASA  ; 101
 	const CSHOU  ; 102
 	const SHOU     ; 103
-	const ASHOU_   ; 104
+	const ASHOU   ; 104
 	const CBYAKUREN    ; 105
 	const BYAKUREN   ; 106
 	const TBYAKUREN    ; 107
