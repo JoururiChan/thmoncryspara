@@ -7,7 +7,6 @@
 	db NO_ITEM, MIRACLE_SEED ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for HATATE, CHLOROPHYLL, LEAF_GUARD, REGENERATOR
 	abilities_for HATATE, MONOCHANNEL, TRACE, STRATEGIC
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_FLYING ; egg groups

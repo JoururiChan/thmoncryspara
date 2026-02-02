@@ -1,7 +1,6 @@
 	db  40,  40,  30,  50, 60, 50 ; 270 BST
 	;   hp  atk  def  spe  sat  sdf
 
-endc
 	db FLYING, FLYING ; type
 	db 220 ; catch rate
 	db 80 ; base exp
