@@ -7,7 +7,7 @@
 	db NO_ITEM, CHESTO_BERRY ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for SSHIZUHA, DROUGHT, EFFECT_TRIAGE, HARVEST
+	abilities_for SSHIZUHA, DAMP, EFFECT_TRIAGE, HARVEST
 	db GROWTH_FAST ; growth rate
 	dn EGG_PLANT, EGG_GROUND ; egg groups
 

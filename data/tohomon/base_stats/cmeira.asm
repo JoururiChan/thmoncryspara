@@ -1,13 +1,13 @@
-	db  25,  60,  40,  60,  45,  35 ; 323 BST
+	db  25,  50,  40,  50,  35,  35 ; 235 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db STEEL, DREAM ; type
 	db 235 ; catch rate
 	db 75 ; base exp
-	db LEPPA_BERRY, MOON_STONE ; held items
+	db ALWAYS_ITEM_2, LEPPA_BERRY ; held items
 	dn GENDER_F75, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CMEIRA, QUICK_FEET, RAZOR_BLADE, STEADFAST
+	abilities_for CMEIRA, QUICK_FEET, COMPETITIVE, STEADFAST
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_MINERAL ; egg groups
 

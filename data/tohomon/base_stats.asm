@@ -291,18 +291,18 @@ INCLUDE "data/tohomon/base_stats/dstar.asm"
 INCLUDE "data/tohomon/base_stats/cluna.asm"
 INCLUDE "data/tohomon/base_stats/luna.asm"
 INCLUDE "data/tohomon/base_stats/tluna.asm"
-INCLUDE "data/tohomon/base_stats/cursola.asm"
-INCLUDE "data/tohomon/base_stats/sirfetch_d.asm"
-INCLUDE "data/tohomon/base_stats/mr__rime.asm"
-INCLUDE "data/tohomon/base_stats/wyrdeer.asm"
-INCLUDE "data/tohomon/base_stats/kleavor.asm"
-INCLUDE "data/tohomon/base_stats/ursaluna_plain.asm"
-INCLUDE "data/tohomon/base_stats/sneasler.asm"
-INCLUDE "data/tohomon/base_stats/overqwil.asm"
-INCLUDE "data/tohomon/base_stats/placethm.asm"
-INCLUDE "data/tohomon/base_stats/farigiraf.asm"
-INCLUDE "data/tohomon/base_stats/clodsire.asm"
-INCLUDE "data/tohomon/base_stats/annihilape.asm"
+INCLUDE "data/tohomon/base_stats/ckyouko.asm"
+INCLUDE "data/tohomon/base_stats/kyouko.asm"
+INCLUDE "data/tohomon/base_stats/cyoshika.asm"
+INCLUDE "data/tohomon/base_stats/yoshika.asm"
+INCLUDE "data/tohomon/base_stats/cseiga.asm"
+INCLUDE "data/tohomon/base_stats/seiga.asm"
+INCLUDE "data/tohomon/base_stats/ctojiko.asm"
+INCLUDE "data/tohomon/base_stats/tojiko.asm"
+INCLUDE "data/tohomon/base_stats/cfuto.asm"
+INCLUDE "data/tohomon/base_stats/miko.asm"
+INCLUDE "data/tohomon/base_stats/futo.asm"
+INCLUDE "data/tohomon/base_stats/cmiko.asm"
 INCLUDE "data/tohomon/base_stats/cmamizou.asm"
 INCLUDE "data/tohomon/base_stats/mamizou.asm"
 INCLUDE "data/tohomon/base_stats/ckokoro.asm"
@@ -333,6 +333,6 @@ INCLUDE "data/tohomon/base_stats/slilyblack.asm" ; red
 
 INCLUDE "data/tohomon/base_stats/suika_armored.asm"
 
-INCLUDE "data/tohomon/base_stats/placethm.asm" ; three segment
+INCLUDE "data/tohomon/base_stats/cfuto.asm" ; three segment
 
 	assert_table_length NUM_EXT_TOHOMON

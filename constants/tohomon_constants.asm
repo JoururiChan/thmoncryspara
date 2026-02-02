@@ -406,7 +406,7 @@ DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 	ext_const_def 2
 	ext_const SUIKA_ARMORED_FORM ; 15d (2)
 
-; placethm
+; cfuto
 	ext_const_def 1, CFUTO_TWO_SEGMENT_FORM ;     (1)
 	ext_const CFUTO_THREE_SEGMENT_FORM      ; 15e (2)
 

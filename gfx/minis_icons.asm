@@ -1277,64 +1277,64 @@ TLunaMiniMask:: INCBIN "gfx/minis/tluna_mask.1bpp.lz"
 TLunaIcon::     INCBIN "gfx/icons/tluna.2bpp.lz"
 
 SECTION "CKyouko Mini Icon", ROMX
-CKyoukoMini::     INCBIN "gfx/minis/cursola.2bpp.lz"
-CKyoukoMiniMask:: INCBIN "gfx/minis/cursola_mask.1bpp.lz"
-CKyoukoIcon::     INCBIN "gfx/icons/cursola.2bpp.lz"
+CKyoukoMini::     INCBIN "gfx/minis/ckyouko.2bpp.lz"
+CKyoukoMiniMask:: INCBIN "gfx/minis/ckyouko_mask.1bpp.lz"
+CKyoukoIcon::     INCBIN "gfx/icons/ckyouko.2bpp.lz"
 
 SECTION "Kyouko Mini Icon", ROMX
-KyoukoMini::     INCBIN "gfx/minis/sirfetch_d.2bpp.lz"
-KyoukoMiniMask:: INCBIN "gfx/minis/sirfetch_d_mask.1bpp.lz"
-KyoukoIcon::     INCBIN "gfx/icons/sirfetch_d.2bpp.lz"
+KyoukoMini::     INCBIN "gfx/minis/kyouko.2bpp.lz"
+KyoukoMiniMask:: INCBIN "gfx/minis/kyouko_mask.1bpp.lz"
+KyoukoIcon::     INCBIN "gfx/icons/kyouko.2bpp.lz"
 
 SECTION "CYoshika Mini Icon", ROMX
-CYoshikaMini::     INCBIN "gfx/minis/mr__rime.2bpp.lz"
-CYoshikaMiniMask:: INCBIN "gfx/minis/mr__rime_mask.1bpp.lz"
-CYoshikaIcon::     INCBIN "gfx/icons/mr__rime.2bpp.lz"
+CYoshikaMini::     INCBIN "gfx/minis/cyoshika.2bpp.lz"
+CYoshikaMiniMask:: INCBIN "gfx/minis/cyoshika_mask.1bpp.lz"
+CYoshikaIcon::     INCBIN "gfx/icons/cyoshika.2bpp.lz"
 
 SECTION "Yoshika Mini Icon", ROMX
-YoshikaMini::     INCBIN "gfx/minis/wyrdeer.2bpp.lz"
-YoshikaMiniMask:: INCBIN "gfx/minis/wyrdeer_mask.1bpp.lz"
-YoshikaIcon::     INCBIN "gfx/icons/wyrdeer.2bpp.lz"
+YoshikaMini::     INCBIN "gfx/minis/yoshika.2bpp.lz"
+YoshikaMiniMask:: INCBIN "gfx/minis/yoshika_mask.1bpp.lz"
+YoshikaIcon::     INCBIN "gfx/icons/yoshika.2bpp.lz"
 
 SECTION "CSeiga Mini Icon", ROMX
-CSeigaMini::     INCBIN "gfx/minis/kleavor.2bpp.lz"
-CSeigaMiniMask:: INCBIN "gfx/minis/kleavor_mask.1bpp.lz"
-CSeigaIcon::     INCBIN "gfx/icons/kleavor.2bpp.lz"
+CSeigaMini::     INCBIN "gfx/minis/cseiga.2bpp.lz"
+CSeigaMiniMask:: INCBIN "gfx/minis/cseiga_mask.1bpp.lz"
+CSeigaIcon::     INCBIN "gfx/icons/cseiga.2bpp.lz"
 
 SECTION "Seiga Mini Icon", ROMX
-SeigaMini::     INCBIN "gfx/minis/ursaluna.2bpp.lz"
-SeigaMiniMask:: INCBIN "gfx/minis/ursaluna_mask.1bpp.lz"
-SeigaIcon::     INCBIN "gfx/icons/ursaluna.2bpp.lz"
+SeigaMini::     INCBIN "gfx/minis/seiga.2bpp.lz"
+SeigaMiniMask:: INCBIN "gfx/minis/seiga_mask.1bpp.lz"
+SeigaIcon::     INCBIN "gfx/icons/seiga.2bpp.lz"
 
 SECTION "CTojiko Mini Icon", ROMX
-CTojikoMini::     INCBIN "gfx/minis/sneasler.2bpp.lz"
-CTojikoMiniMask:: INCBIN "gfx/minis/sneasler_mask.1bpp.lz"
-CTojikoIcon::     INCBIN "gfx/icons/sneasler.2bpp.lz"
+CTojikoMini::     INCBIN "gfx/minis/ctojiko.2bpp.lz"
+CTojikoMiniMask:: INCBIN "gfx/minis/ctojiko_mask.1bpp.lz"
+CTojikoIcon::     INCBIN "gfx/icons/ctojiko.2bpp.lz"
 
 SECTION "Tojiko Mini Icon", ROMX
-TojikoMini::     INCBIN "gfx/minis/overqwil.2bpp.lz"
-TojikoMiniMask:: INCBIN "gfx/minis/overqwil_mask.1bpp.lz"
-TojikoIcon::     INCBIN "gfx/icons/overqwil.2bpp.lz"
+TojikoMini::     INCBIN "gfx/minis/tojiko.2bpp.lz"
+TojikoMiniMask:: INCBIN "gfx/minis/tojiko_mask.1bpp.lz"
+TojikoIcon::     INCBIN "gfx/icons/tojiko.2bpp.lz"
 
 SECTION "CFutoTwoSegment Mini Icon", ROMX
-CFutoTwoSegmentMini::     INCBIN "gfx/minis/placethm_two_segment.2bpp.lz"
-CFutoTwoSegmentMiniMask:: INCBIN "gfx/minis/placethm_two_segment_mask.1bpp.lz"
-CFutoTwoSegmentIcon::     INCBIN "gfx/icons/placethm_two_segment.2bpp.lz"
+CFutoTwoSegmentMini::     INCBIN "gfx/minis/cfuto_two_segment.2bpp.lz"
+CFutoTwoSegmentMiniMask:: INCBIN "gfx/minis/cfuto_two_segment_mask.1bpp.lz"
+CFutoTwoSegmentIcon::     INCBIN "gfx/icons/cfuto_two_segment.2bpp.lz"
 
 SECTION "Miko Mini Icon", ROMX
-MikoMini::     INCBIN "gfx/minis/farigiraf.2bpp.lz"
-MikoMiniMask:: INCBIN "gfx/minis/farigiraf_mask.1bpp.lz"
-MikoIcon::     INCBIN "gfx/icons/farigiraf.2bpp.lz"
+MikoMini::     INCBIN "gfx/minis/miko.2bpp.lz"
+MikoMiniMask:: INCBIN "gfx/minis/miko_mask.1bpp.lz"
+MikoIcon::     INCBIN "gfx/icons/miko.2bpp.lz"
 
 SECTION "Futo Mini Icon", ROMX
-FutoMini::     INCBIN "gfx/minis/clodsire.2bpp.lz"
-FutoMiniMask:: INCBIN "gfx/minis/clodsire_mask.1bpp.lz"
-FutoIcon::     INCBIN "gfx/icons/clodsire.2bpp.lz"
+FutoMini::     INCBIN "gfx/minis/futo.2bpp.lz"
+FutoMiniMask:: INCBIN "gfx/minis/futo_mask.1bpp.lz"
+FutoIcon::     INCBIN "gfx/icons/futo.2bpp.lz"
 
 SECTION "CMiko Mini Icon", ROMX
-CMikoMini::     INCBIN "gfx/minis/annihilape.2bpp.lz"
-CMikoMiniMask:: INCBIN "gfx/minis/annihilape_mask.1bpp.lz"
-CMikoIcon::     INCBIN "gfx/icons/annihilape.2bpp.lz"
+CMikoMini::     INCBIN "gfx/minis/cmiko.2bpp.lz"
+CMikoMiniMask:: INCBIN "gfx/minis/cmiko_mask.1bpp.lz"
+CMikoIcon::     INCBIN "gfx/icons/cmiko.2bpp.lz"
 
 SECTION "CMamizou Mini Icon", ROMX
 CMamizouMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
@@ -1592,9 +1592,9 @@ CNueQuestionMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 CNueQuestionIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CFutoThreeSegment Mini Icon", ROMX
-CFutoThreeSegmentMini::     INCBIN "gfx/minis/placethm_three_segment.2bpp.lz"
-CFutoThreeSegmentMiniMask:: INCBIN "gfx/minis/placethm_three_segment_mask.1bpp.lz"
-CFutoThreeSegmentIcon::     INCBIN "gfx/icons/placethm_three_segment.2bpp.lz"
+CFutoThreeSegmentMini::     INCBIN "gfx/minis/cfuto_three_segment.2bpp.lz"
+CFutoThreeSegmentMiniMask:: INCBIN "gfx/minis/cfuto_three_segment_mask.1bpp.lz"
+CFutoThreeSegmentIcon::     INCBIN "gfx/icons/cfuto_three_segment.2bpp.lz"
 
 SECTION "SuikaArmored Mini Icon", ROMX
 SuikaArmoredMini::     INCBIN "gfx/minis/suika_armored.2bpp.lz"

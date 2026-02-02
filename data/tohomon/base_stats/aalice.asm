@@ -1,7 +1,7 @@
 	db  85,  110,  65, 30,  145,  60 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db REASON, EARTH ; type
+	db REASON, ICE ; type
 	db 160 ; catch rate
 	db 230 ; base exp
 	db NO_ITEM, KINGS_ROCK ; held items

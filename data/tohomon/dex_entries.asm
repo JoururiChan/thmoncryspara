@@ -11,7 +11,7 @@ CReimuTohodexEntry::
 SECTION "ReimuTohodexEntry", ROMX
 ReimuTohodexEntry::
 	db "Miko@"
-	db   "It's become superb"
+	db   "It's become great"
 	next "at it's usage of"
 	next "power, but the God"
 	page "continues it's an-"
@@ -96,7 +96,7 @@ CGyokuTohodexEntry::
 	next "#mon, though"
 	page "it's best when"
 	next "paired with a"
-	next "CReimu.@"
+	next "C-Reimu.@"
 
 SECTION "MGyokuTohodexEntry", ROMX
 MGyokuTohodexEntry::
@@ -156,7 +156,7 @@ CMimaTohodexEntry::
 	next "Marisa #mon,"
 	page "some CMima even"
 	next "able to command"
-	next "AMarisa.@"
+	next "A-Marisa.@"
 
 SECTION "MimaTohodexEntry", ROMX
 MimaTohodexEntry::
@@ -206,24 +206,24 @@ KikuriTohodexEntry::
 	next "ved in the past,"
 	page "and how it came to"
 	next "be sealed away"
-	next "into CKikuri.@"
+	next "into C-Kikuri.@"
 
 SECTION "CSarielTohodexEntry", ROMX
 CSarielTohodexEntry::
 	db "Angel@"
 	db   "They are the low-"
-	next "est class underlings"
-	next "of leading ESariel."
-	page "Their past is not"
-	next "as angelic as they"
-	next "look.@"
+	next "est class troops"
+	next "of E-Sariel. As"
+	page "for their past,"
+	next "it as angelic as"
+	next "it seems.@"
 
 SECTION "SarielTohodexEntry", ROMX
 SarielTohodexEntry::
 	db "Angel@"
-	db   "The original Sariel"
-	next "was a human warrior"
-	next "who befell to Team"
+	db   "The first Sariel"
+	next "was a warrior who"
+	next "who fell to Team"
 	page "Rocket protecting"
 	next "the entirety of"
 	next "all #mon.@"
@@ -242,70 +242,70 @@ SECTION "KongaraTohodexEntry", ROMX
 KongaraTohodexEntry::
 	db "Yaksha@"
 	db   "Cold-blooded at"
-	next "heart, it is ru-"
-	next "thless when it comes"
-	page "to driving away an-"
+	next "heart, it is very"
+	next "vile in terms of"
+	page "driving away an-"
 	next "yone that invades"
 	next "it's territory.@"
 
 SECTION "CRikaTohodexEntry", ROMX
 CRikaTohodexEntry::
 	db "Turret@"
-	db   "Even these #mon are"
+	db   "Even they are"
 	next "creations of Rika"
-	next "#mon. It's mind is"
-	page "completely indepen-"
-	next "dent from the ones"
-	next "that made them.@"
+	next "#mon. It has an"
+	page "independent mind,"
+	next "separate from the"
+	next "creators.@"
 
 SECTION "RikaTohodexEntry", ROMX
 RikaTohodexEntry::
 	db "Engineer@"
 	db   "It is capable of"
-	next "crafting many mech-"
-	next "anical creations,"
-	page "and even became"
-	next "able to make organ-"
-	next "ic creations.@"
+	next "crafting many m-"
+	next "echanical things"
+	page "and even got to"
+	next "create organic"
+	next "beings as well.@"
 
 SECTION "ARikaTohodexEntry", ROMX
 ARikaTohodexEntry::
 	db "Hakutaku@"
-	db   "The hidden form of"
-	next "Rika #mon. Just like"
-	next "Keine #mon, CRika"
-	page "evolve to these if"
-	next "they are exposed"
-	next "to a Moon Stone.@"
+	db   "This is the"
+	next "hidden form of"
+	next "Rika #mon."
+	page "They communicate"
+	next "with A-Keine,"
+	next "almost easily.@"
 
 SECTION "CMeiraTohodexEntry", ROMX
 CMeiraTohodexEntry::
 	db "Battle@"
 	db   "It has a heavy"
-	next "rivalry with Reimu"
-	next "#mon. It desires to"
-	page "harness their power"
-	next "for it's own selfish"
-	next "desires.@"
+	next "rivalry with Rei-"
+	next "mu #mon. It"
+	page "wants to harness"
+	next "their power for"
+	next "selfish desires.@"
 
 SECTION "MeiraTohodexEntry", ROMX
 MeiraTohodexEntry::
 	db "Samurai@"
-	db   "A persevering war-"
-	next "rior who wants to"
-	next "become more and more"
-	page "powerful. The intent-"
-	next "ions are not the"
-	next "purest.@"
+	db   "A persevering wa-"
+	next "rrior. It wants"
+	next "an endless supply"
+	page "of power, albeit"
+	next "this is for im-"
+	next "pure intentions.@"
 
 SECTION "CEllenTohodexEntry", ROMX
 CEllenTohodexEntry::
 	db "Youthful@"
 	db   "These #mon are"
-	next "known to never look"
+	next "known to not get"
 	next "old. As a result,"
-	page "their stamina runs"
-	next "essentially as"
+	page "their stamina can"
+	next "be said to be"
 	next "limitless.@"
 
 SECTION "EllenTohodexEntry", ROMX

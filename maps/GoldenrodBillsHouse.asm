@@ -43,8 +43,8 @@ BillsGrandpa:
 	iftrue .ShowedCSara
 	checkevent EVENT_SHOWED_CCHIYURI_TO_BILLS_GRANDPA
 	iftrue .ShowedCChiyuri
-	checkevent EVENT_SHOWED_CYUKA_TO_BILLS_GRANDPA
-	iftrue .ShowedCYuka
+	checkevent EVENT_SHOWED_CWRIGGLE_TO_BILLS_GRANDPA
+	iftrue .ShowedCWriggle
 	checkevent EVENT_SHOWED_CGYOKU_TO_BILLS_GRANDPA
 	iftrue .ShowedCGyoku
 	writetext BillsGrandpaCGyokuText
@@ -61,7 +61,7 @@ BillsGrandpa:
 	sjumpfwd .ShowedCGyoku
 
 .GotEverstone:
-	writetext BillsGrandpaCYukaText
+	writetext BillsGrandpaCWriggleText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -69,10 +69,10 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CYUKA, .WrongTohomon
+	ifnotequal CWRIGGLE, .WrongTohomon
 	scall .CorrectTohomon
-	setevent EVENT_SHOWED_CYUKA_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedCYuka
+	setevent EVENT_SHOWED_CWRIGGLE_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCWriggle
 
 .GotLeafStone:
 	writetext BillsGrandpaCChiyuriText
@@ -182,7 +182,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedCYuka:
+.ShowedCWriggle:
 	checkevent EVENT_GOT_LEAF_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotLeafStone
 	scall .ReceiveItem
@@ -388,9 +388,9 @@ BillsGrandpaCGyokuText:
 	text "My grandson Bill"
 	line "told me about a"
 
-	para "short, pink canine"
-	line "#mon with blue"
-	cont "polka dots."
+	para "three-figure"
+	line "#mon with one"
+	cont "being an orb."
 	done
 
 BillsGrandpaCKikuriText:
@@ -438,12 +438,13 @@ BillsGrandpaCReisenText:
 	line "singing voice."
 	done
 
-BillsGrandpaCYukaText:
+BillsGrandpaCWriggleText:
 	text "My grandson Bill"
-	line "mentioned a green"
+	line "mentioned an in-"
 
-	para "#mon that walks"
-	line "on its roots."
+	para "sect #mon" 
+	line "that emits light"
+	cont "like a firefly."
 	done
 
 BillsGrandpaCChiyuriText:

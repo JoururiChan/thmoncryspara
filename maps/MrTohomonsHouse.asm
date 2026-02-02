@@ -63,7 +63,7 @@ MrTohomonsHouse_MrTohomonScript:
 	opentext
 	checkkeyitem RED_SCALE
 	iftruefwd .RedScale
-	checkitem ODD_SOUVENIR
+	checkitem ABILITYPATCH
 	iftrue_jumpopenedtext MrTohomonText_OddSouvenir
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue_jumpopenedtext MrTohomonText_AlwaysNewDiscoveries

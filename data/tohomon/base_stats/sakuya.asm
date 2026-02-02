@@ -1,7 +1,7 @@
 	db  50, 120, 80, 125, 70, 50 ; 505 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db STEEL, WIND ; type
+	db STEEL, ICE ; type
 	db 100 ; catch rate
 	db 190 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

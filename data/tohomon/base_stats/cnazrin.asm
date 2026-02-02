@@ -1,17 +1,13 @@
 	db 115, 115,  85, 100,  90,  75 ; 580 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, FIRE ; type
-	db 3 ; catch rate
+	db BEAST, HEART ; type
+	db 235 ; catch rate
 	db 217 ; base exp
 	db ALWAYS_ITEM_2, CHARCOAL ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for CNAZRIN, PRESSURE, PRESSURE, INNER_FOCUS
-else
 	abilities_for CNAZRIN, PRESSURE, INNER_FOCUS, FLASH_FIRE
-endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

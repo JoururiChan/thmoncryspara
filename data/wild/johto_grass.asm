@@ -1375,26 +1375,26 @@
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 3, CMERLIN
-	wildmon 3, CMERLIN
+	wildmon 3, CAYA
+	wildmon 3, CAYA
 	wildmon 4, CREIMU
-	wildmon 4, CREIMU
+	wildmon 4, CYAMAME
 	wildmon 3, CCHEN
 	wildmon 4, CCHEN
 	wildmon 4, CYAMAME
 	; day
-	wildmon 3, CLYRICA
-	wildmon 3, CLYRICA
+	wildmon 3, CAYA
+	wildmon 3, CAYA
 	wildmon 4, CREIMU
-	wildmon 4, CREIMU
+	wildmon 4, CYAMAME
 	wildmon 3, CCHEN
 	wildmon 4, CCHEN
 	wildmon 4, CYAMAME
 	; nite
-	wildmon 3, CLUNASA
-	wildmon 3, CLUNASA
+	wildmon 3, CMYSTIA
+	wildmon 3, CMYSTIA
 	wildmon 4, CREIMU
-	wildmon 4, CREIMU
+	wildmon 4, CCHEN
 	wildmon 3, CCHEN
 	wildmon 4, CYAMAME
 	wildmon 4, CYUKARI
@@ -1817,9 +1817,9 @@
 	wildmon LEVEL_FROM_BADGES - 3, CKANA
 	wildmon LEVEL_FROM_BADGES - 3, CELIS
 	wildmon LEVEL_FROM_BADGES - 4, CMYSTIA
-	wildmon LEVEL_FROM_BADGES - 1, CMYSTIA
+	wildmon LEVEL_FROM_BADGES - 1, CKAGUYA
 	end_grass_wildmons
-
+ 
 	def_grass_wildmons ROUTE_48
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -1845,7 +1845,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, MEIRA
 	wildmon LEVEL_FROM_BADGES - 3, CMYSTIA
 	wildmon LEVEL_FROM_BADGES - 4, CNITORI
-	wildmon LEVEL_FROM_BADGES - 4, CNITORI
+	wildmon LEVEL_FROM_BADGES - 4, CKAGUYA
 	end_grass_wildmons
 
 	def_grass_wildmons CLIFF_CAVE

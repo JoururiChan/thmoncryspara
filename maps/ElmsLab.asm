@@ -141,14 +141,14 @@ ProfElmScript:
 	iftrue ElmGiveTicketScript
 ElmCheckMasterBall:
 	checkevent EVENT_GOT_MASTER_BALL_FROM_ELM
-	iftruefwd ElmCheckOddSouvenir
+	iftruefwd ElmCheckAbilityPatch
 	checkflag ENGINE_RISINGBADGE
 	iftrue ElmGiveMasterBallScript
-ElmCheckOddSouvenir:
-	checkevent EVENT_GOT_ODD_SOUVENIR_FROM_ELM
+ElmCheckAbilityPatch:
+	checkevent EVENT_GOT_ABILITYPATCH_FROM_ELM
 	iftrue ElmCheckBattleScript
 	checkevent EVENT_SHOWED_CFLANDRE_TO_ELM
-	iftrue ElmGiveOddSouvenirScript
+	iftrue ElmGiveAbilityPatchScript
 	checkevent EVENT_TOLD_ELM_ABOUT_CFLANDRE_OVER_THE_PHONE
 	iffalsefwd ElmCheckTEirinEgg
 	setmonval CFLANDRE
@@ -395,13 +395,13 @@ ShowElmTEirinScript:
 	promptbutton
 	writetext ShowElmTEirinText3
 	promptbutton
-ElmGiveOddSouvenirScript:
-	writetext ElmGiveOddSouvenirText1
+ElmGiveAbilityPatchScript:
+	writetext ElmGiveAbilityPatchText1
 	promptbutton
-	verbosegiveitem ODD_SOUVENIR
+	verbosegiveitem ABILITYPATCH
 	iffalse_endtext
-	setevent EVENT_GOT_ODD_SOUVENIR_FROM_ELM
-	writetext ElmGiveOddSouvenirText2
+	setevent EVENT_GOT_ABILITYPATCH_FROM_ELM
+	writetext ElmGiveAbilityPatchText2
 	waitbutton
 	checkevent EVENT_BATTLED_PROF_ELM
 	iffalsefwd ElmAlsoBattleScript
@@ -1023,19 +1023,19 @@ LabWhereGoingText:
 TakeCAliceText:
 	text "Elm: You'll take"
 	line "CAlice, the"
-	cont "Miko #mon?"
+	cont "Puppeteer #mon?"
 	done
 
 TakeCReisenText:
 	text "Elm: Do you want"
 	line "CReisen, the"
-	cont "Witch #mon?"
+	cont "Rabbit #mon?"
 	done
 
 TakeCSanaeText:
 	text "Elm: So, you like"
 	line "CSanae, the"
-	cont "Maid #mon?"
+	cont "Miko #mon?"
 	done
 
 DidntChooseStarterText:
@@ -1270,7 +1270,7 @@ ShowElmTEirinText3:
 	cont "to be done."
 	done
 
-ElmGiveOddSouvenirText1:
+ElmGiveAbilityPatchText1:
 	text "Thanks, <PLAYER>!"
 	line "You're helping"
 
@@ -1282,7 +1282,7 @@ ElmGiveOddSouvenirText1:
 	cont "our appreciation."
 	done
 
-ElmGiveOddSouvenirText2:
+ElmGiveAbilityPatchText2:
 	text "That's an oddity"
 	line "I was given by"
 	cont "Mr. #mon."

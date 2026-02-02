@@ -1,7 +1,7 @@
 	db  88,  31,  75,  54, 115,  90 ; 320 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, REASON ; type
+	db ICE, REASON ; type
 	db 90 ; catch rate
 	db 130 ; base exp
 	db NO_ITEM, QUICK_CLAW ; held items

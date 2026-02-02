@@ -1,8 +1,8 @@
 	db 100,  75, 115,  85,  90, 115 ; 580 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, WATER ; type
-	db 3 ; catch rate
+	db BEAST, HEART ; type
+	db 233 ; catch rate
 	db 215 ; base exp
 	db ALWAYS_ITEM_2, MYSTIC_WATER ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch

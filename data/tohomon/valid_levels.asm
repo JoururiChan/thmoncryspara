@@ -171,44 +171,44 @@ ValidTohomonLevels: ; for Wonder Trade
 	db   1,  39 ; CEiki
 	db  40, 100 ; Eiki
 	db   40, 100 ; AEiki
-	db   1,  19 ; CShizuha
-	db  20, 100 ; Shizuha
-	db  20, 100 ; SShizuha
-	db  20, 100 ; CMinoriko
-	db   1,  39 ; Minoriko
-	db  37, 100 ; HMinoriko
-	db   1,  39 ; CHina
-	db 255, 255 ; Hina
-	db   1, 100 ; AHina
+	db   1,  24 ; CShizuha
+	db  25, 100 ; Shizuha
+	db  25, 100 ; SShizuha
+	db   1, 24 ; CMinoriko
+	db  25, 100 ; Minoriko
+	db  25, 100 ; HMinoriko
+	db   1,  31 ; CHina
+	db  32, 100 ; Hina
+	db  32, 100 ; AHina
 	db   1,  31 ; CNitori
-	db   1,  30 ; Nitori
-	db  31, 100 ; ANitori
-	db   1,  31 ; CMomiji
-	db   1,  19 ; Momiji
-	db  20, 100 ; CKanako
-	db   1,  22 ; Kanako
-	db  23, 100 ; AKanako
-	db   1,  32 ; CSuwako
-	db  20, 100 ; Suwako
-	db   1, 100 ; DSuwako
-	db  10, 100 ; CIku
-	db   1,  39 ; Iku
-	db   1,  29 ; AIku
-	db  30,  49 ; CTenshi
-	db   1,  37 ; Tenshi
-	db  38, 100 ; STenshi
-	db   1,  32 ; CKisume
-	db  33,  44 ; Kisume
-	db   1, 100 ; DKisume
+	db  32, 100 ; Nitori
+	db  32, 100 ; ANitori
+	db   1,  27 ; CMomiji
+	db  28, 100 ; Momiji
+	db  1,  39 ; CKanako
+	db  40, 100 ; Kanako
+	db  40, 100 ; AKanako
+	db   1,  39 ; CSuwako
+	db  40, 100 ; Suwako
+	db  40, 100 ; DSuwako
+	db   1,  35 ; CIku
+	db  36,  100 ; Iku
+	db  36,  100 ; AIku
+	db   1,  39 ; CTenshi
+	db  40,  100 ; Tenshi
+	db  40, 100 ; STenshi
+	db   1,  22 ; CKisume
+	db  23, 100 ; Kisume
+	db  23, 100 ; DKisume
 	db   1,  24 ; CYamame
 	db  25, 100 ; Yamame
-	db   1, 100 ; SYamame
-	db   1, 100 ; CParsee
-	db  10, 100 ; Parsee
-	db   1,  23 ; DParsee
-	db  24, 100 ; CYuugi
-	db  55, 100 ; Yuugi
-	db   1,  24 ; AYuugi
+	db  25, 100 ; SYamame
+	db   1, 29 ; CParsee
+	db   30, 100 ; Parsee
+	db   30, 100 ; DParsee
+	db  1, 35 ; CYuugi
+	db  36, 100 ; Yuugi
+	db   36, 100 ; AYuugi
 	db  25, 100 ; CSatori
 	db  20,  39 ; Satori
 	db   1,  29 ; HSatori
