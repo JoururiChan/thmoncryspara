@@ -4762,7 +4762,7 @@ HatateEvosAttacks:
 	db 47, LIGHT_SCREEN
 	db 51, AIR_SLASH
 	db 55, ZAP_CANNON
-	db 59, PSYCHIC
+	db 59, MANA_BURST
 	db 62, AURA_SPHERE
 	db -1 ; no more level-up moves
 
@@ -4784,7 +4784,7 @@ THatateEvosAttacks:
 	db 47, LIGHT_SCREEN
 	db 51, AIR_SLASH
 	db 55, ZAP_CANNON
-	db 59, PSYCHIC
+	db 59, MANA_BURST
 	db 62, SHADOW_HIT
 	db -1 ; no more level-up moves
 
@@ -4816,7 +4816,7 @@ SunnyEvosAttacks:
 	db 33, SUNNY_DAY
 	db 36, FIRE_LAUNCH
 	db 39, FLAME_SHOOT
-	db 42, TAKE_DOWN
+	db 42, HEADBUTT
 	db 45, BARRIER
 	db 48, CONVERSION
 	db 51, FLARE_OUT
