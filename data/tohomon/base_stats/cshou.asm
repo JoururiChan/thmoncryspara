@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db DARK, FLYING ; type
+	db BEAST, BEAST ; type
 	db 30 ; catch rate
 	db 187 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

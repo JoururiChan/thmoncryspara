@@ -1,7 +1,7 @@
 	db 135,  85,  45,   5,  40,  85 ; 395 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ILLUSION, ILLUSION ; type
+	db REASON, DREAM ; type
 	db 50 ; catch rate
 	db 94 ; base exp
 	db NO_ITEM, LEFTOVERS ; held items

@@ -1,7 +1,7 @@
 	db  44,  63,  40,  66, 72, 73 ; 318 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FAITH, FAITH ; type
+	db GHOST, FAITH ; type
 	db 100 ; catch rate
 	db 110 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

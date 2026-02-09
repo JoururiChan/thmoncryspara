@@ -1,7 +1,7 @@
 	db  50,  20,  40,  20,  20,  40 ; 190 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ILLUSION, HEART ; type
+	db DREAM, FAITH ; type
 	db 150 ; catch rate
 	db 33 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

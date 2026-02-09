@@ -1,7 +1,7 @@
 	db 110, 130,  80,  80,  70,  60 ; 530 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ICE, EARTH ; type
+	db WATER, ICE ; type
 	db 50 ; catch rate
 	db 207 ; base exp
 	db RAWST_BERRY, NEVERMELTICE ; held items

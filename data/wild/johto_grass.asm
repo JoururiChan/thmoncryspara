@@ -426,25 +426,25 @@
 	wildmon 10, CNUE
 	wildmon 5, CNUE
 	wildmon 5, CNUE
-	wildmon 10, CSATORI
-	wildmon 10, CSATORI
-	wildmon 10, CSATORI
+	wildmon 10, CKOGASA
+	wildmon 5, CKOGASA
+	wildmon 5, CKOGASA
 	wildmon 10, CNUE
 	; day
 	wildmon 10, CNUE
 	wildmon 5, CNUE
 	wildmon 5, CNUE
-	wildmon 10, CSATORI
-	wildmon 10, CSATORI
-	wildmon 10, CSATORI
+	wildmon 10, CKOGASA
+	wildmon 5, CKOGASA
+	wildmon 5, CKOGASA
 	wildmon 15, CNUE
 	; nite
 	wildmon 10, CNUE
 	wildmon 10, CNUE
 	wildmon 10, CNUE
 	wildmon 10, CKOISHI
-	wildmon 10, CKOISHI
-	wildmon 10, CKOISHI
+	wildmon 5, CKOGASA
+	wildmon 5, CKOGASA
 	wildmon 15, CNUE
 	end_grass_wildmons
 
@@ -1379,16 +1379,16 @@
 	wildmon 3, CAYA
 	wildmon 4, CREIMU
 	wildmon 4, CYAMAME
-	wildmon 3, CCHEN
-	wildmon 4, CCHEN
+	wildmon 3, CNAZRIN
+	wildmon 4, CNAZRIN
 	wildmon 4, CYAMAME
 	; day
 	wildmon 3, CAYA
 	wildmon 3, CAYA
 	wildmon 4, CREIMU
 	wildmon 4, CYAMAME
-	wildmon 3, CCHEN
-	wildmon 4, CCHEN
+	wildmon 3, CNAZRIN
+	wildmon 4, CNAZRIN
 	wildmon 4, CYAMAME
 	; nite
 	wildmon 3, CMYSTIA
@@ -1403,16 +1403,16 @@
 	def_grass_wildmons ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 4, CCHEN
-	wildmon 4, CCHEN
+	wildmon 4, CNAZRIN
+	wildmon 4, CNAZRIN
 	wildmon 5, CLILYWHITE
 	wildmon 5, CLILYWHITE
 	wildmon 4, CTEI
 	wildmon 5, CTEI
 	wildmon 5, CALICE
 	; day
-	wildmon 4, CCHEN
-	wildmon 4, CCHEN
+	wildmon 4, CNAZRIN
+	wildmon 4, CNAZRIN
 	wildmon 5, CLILYWHITE
 	wildmon 5, CLILYWHITE
 	wildmon 4, CTEI

@@ -1,7 +1,7 @@
 	db 106, 130,  90,  90, 110, 154 ; 680 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, FLYING ; type
+	db DREAM, FAITH ; type
 	db 3 ; catch rate
 	db 220 ; base exp
 	db ALWAYS_ITEM_2, SACRED_ASH ; held items

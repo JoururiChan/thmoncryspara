@@ -1,11 +1,7 @@
 	db 100, 100, 100, 100, 100, 100 ; 600 BST
 	;   hp  atk  def  spe  sat  sdf
 
-if DEF(FAITHFUL)
-	db REASON, NATURE ; type
-else
-	db NATURE, HEART ; type
-endc
+	db DREAM, FAITH ; type
 	db 45 ; catch rate
 	db 64 ; base exp
 	db ALWAYS_ITEM_2, LUM_BERRY ; held items

@@ -1,11 +1,7 @@
 	db  86,  76,  86,  95, 116,  56 ; 515 BST
 	;   hp  atk  def  spe  sat  sdf
 
-if DEF(FAITHFUL)
-	db BUG, FLYING ; type
-else
-	db BUG, FAITH ; type
-endc
+	db FIRE, HEART ; type
 	db 30 ; catch rate
 	db 198 ; base exp
 	db NO_ITEM, WIDE_LENS ; held items

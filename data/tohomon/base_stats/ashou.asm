@@ -1,7 +1,7 @@
 	db  20,  25,  45,  60,  70,  90 ; 310 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db REASON, HEART ; type
+	db BEAST, FAITH ; type
 	db 145 ; catch rate
 	db 78 ; base exp
 	db NO_ITEM, LEPPA_BERRY ; held items

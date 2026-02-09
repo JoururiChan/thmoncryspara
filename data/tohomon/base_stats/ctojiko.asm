@@ -1,7 +1,7 @@
 	db  80, 130,  60, 120,  40,  80 ; 510 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db MIASMA, DREAM ; type
+	db GHOST, WIND ; type
 	db 45 ; catch rate
 	db 199 ; base exp
 	db GRIP_CLAW, QUICK_CLAW ; held items

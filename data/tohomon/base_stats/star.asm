@@ -1,7 +1,7 @@
 	db  65,  60, 110,  65, 130,  95 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ICE, ICE ; type
+	db WATER, ICE ; type
 	db 45 ; catch rate
 	db 196 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

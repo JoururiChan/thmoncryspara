@@ -1,7 +1,7 @@
 	db  45,  20,  50,  50,  60, 120 ; 345 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, FLYING ; type
+	db REASON, DREAM ; type
 	db 25 ; catch rate
 	db 108 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

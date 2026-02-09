@@ -1,11 +1,7 @@
 	db 125, 100,  80,  55,  85,  75 ; 520 BST
 	;   hp  atk  def  spe  sat  sdf
 
-if DEF(FAITHFUL)
-	db ILLUSION, ILLUSION ; type
-else
-	db ILLUSION, FAITH ; type
-endc
+	db FAITH, FAITH ; type
 	db 45 ; catch rate
 	db 115 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

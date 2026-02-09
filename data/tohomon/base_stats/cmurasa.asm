@@ -1,7 +1,7 @@
 	db  95,  23,  48,  23,  23,  48 ; 260 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db REASON, REASON ; type
+	db WATER, GHOST ; type
 	db 125 ; catch rate
 	db 44 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

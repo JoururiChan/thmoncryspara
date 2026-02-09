@@ -6,11 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-if DEF(FAITHFUL)
 	db FIRE, FIRE ; type
-else
-	db FIRE, DREAM ; type
-endc
 	db 30 ; catch rate
 	db 199 ; base exp
 	db ASPEAR_BERRY, LILYWHITEIZER ; held items

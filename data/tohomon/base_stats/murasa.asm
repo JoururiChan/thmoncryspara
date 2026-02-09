@@ -1,7 +1,7 @@
 	db  75, 100,  66, 115,  60,  66 ; 482 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ILLUSION, ILLUSION ; type
+	db WATER, GHOST ; type
 	db 45 ; catch rate
 	db 186 ; base exp
 	db ALWAYS_ITEM_2, SITRUS_BERRY ; held items

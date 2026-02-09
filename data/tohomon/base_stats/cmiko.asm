@@ -1,7 +1,7 @@
 	db 110, 115,  80,  90,  50,  90 ; 535 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DREAM, GHOST ; type
+	db FAITH, REASON ; type
 	db 45 ; catch rate
 	db 189 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

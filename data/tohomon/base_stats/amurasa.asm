@@ -6,11 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-if DEF(FAITHFUL)
-	db GHOST, GHOST ; type
-else
-	db GHOST, HEART ; type
-endc
+	db WATER, GHOST ; type
 	db 45 ; catch rate
 	db 187 ; base exp
 	db NO_ITEM, SPELL_TAG ; held items

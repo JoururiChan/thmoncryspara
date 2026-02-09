@@ -6,11 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-if DEF(FAITHFUL)
-	db ILLUSION, REASON ; type
-else
-	db REASON, DARK ; type
-endc
+	db FAITH, REASON ; type
 	db 45 ; catch rate
 	db 189 ; base exp
 	db NO_ITEM, PERSIM_BERRY ; held items

@@ -1,7 +1,7 @@
 	db 103, 105,  72,  65, 105,  75 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ILLUSION, REASON ; type
+	db MIASMA, MIASMA ; type
 	db 25 ; catch rate
 	db 200 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

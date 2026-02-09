@@ -1,7 +1,7 @@
 	db  80,  85,  75,  70, 110, 100 ; 520 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ICE, REASON ; type
+	db MIASMA, MIASMA ; type
 	db 45 ; catch rate
 	db 207 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
