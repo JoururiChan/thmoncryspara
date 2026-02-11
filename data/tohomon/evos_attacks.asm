@@ -4315,6 +4315,7 @@ SKoishiEvosAttacks:
 
 CNazrinEvosAttacks:
 	evo_data EVOLVE_LEVEL, 23, NAZRIN
+	evo_data EVOLVE_ITEM, SHINY_STONE, HNAZRIN
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -4334,7 +4335,6 @@ NazrinEvosAttacks:
 	db 14, FOCUS_ENERGY
 	db 17, ENDURE
 	db 20, BITE
-	db 24, STAR_BLAST
 	db 27, BATON_PASS
 	db 31, TRICK
 	db 34, FURY_STRIKES
@@ -4370,7 +4370,8 @@ HNazrinEvosAttacks:
 	db -1 ; no more level-up moves
 
 CKogasaEvosAttacks:
-	evo_data EVOLVE_LEVEL, KOGASA, 26
+	evo_data EVOLVE_LEVEL, 26, KOGASA
+	evo_data EVOLVE_ITEM, WATER_STONE, TKOGASA
 	db -1 ; no more evolutions
 	db 1, LICK
 	db 1, DEFENSE_CURL
