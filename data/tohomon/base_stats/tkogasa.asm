@@ -9,7 +9,7 @@
 
 	abilities_for TKOGASA, SURPRISE, RAIN_DISH, HYDRATION
 	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_HUMANSHAPE, EGG_INDETERMINATE ; egg groups
+	dn EGG_EGG_WATER_3, EGG_INDETERMINATE ; egg groups
 
 	ev_yield 2 SDf, 1 SAt
 

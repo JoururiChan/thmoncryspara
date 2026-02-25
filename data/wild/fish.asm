@@ -38,11 +38,11 @@ ENDM
 .Shore_Old:
 	fishentry  70 percent + 1, CCHIYURI,   10
 	fishentry  85 percent + 1, CCHIYURI,   10
-	fishentry 100 percent,     CKOMACHI,     10
+	fishentry 100 percent,     CKOGASA,     10
 .Shore_Good:
 	fishentry  35 percent,     CCHIYURI,   20
-	fishentry  70 percent,     CKOMACHI,     20
-	fishentry  90 percent + 1, CKOMACHI,     20
+	fishentry  70 percent,     CKOGASA,     20
+	fishentry  90 percent + 1, CKOGASA,     20
 	fishentry 100 percent,     0,          20 ; dkisume morn/day, letty eve/night
 .Shore_Super:
 	fishentry  40 percent,     CDAICHAN,     40
@@ -70,14 +70,14 @@ ENDM
 .Well_Old:
 	fishentry  70 percent + 1, CKOMACHI,   10
 	fishentry  85 percent + 1, CKOMACHI,   10
-	fishentry 100 percent,     CNITORI,    10
+	fishentry 100 percent,     CMURASA,    10
 .Lake_Good:
 .River_Good:
 .Well_Good:
 	fishentry  35 percent,     CKOMACHI,   20
 	fishentry  70 percent,     CKOMACHI,    20
 	fishentry  90 percent + 1, CNITORI,    20
-	fishentry 100 percent,     CNITORI,    20
+	fishentry 100 percent,     CMURASA,    20
 .Lake_Super:
 .River_Super:
 	fishentry  40 percent,     AFLANDRE,    40
@@ -92,13 +92,13 @@ ENDM
 	fishentry 100 percent,     CLETTY,    40
 
 .Pond_Old:
-	fishentry  70 percent + 1, CCHIYURI,   10
-	fishentry  85 percent + 1, CCHIYURI,   10
+	fishentry  70 percent + 1, CKOGASA,   10
+	fishentry  85 percent + 1, CKOGASA,   10
 	fishentry 100 percent,     CKOMACHI,    10
 .Pond_Good:
-	fishentry  35 percent,     CKOMACHI,   20
+	fishentry  35 percent,     CKOGASA,   20
 	fishentry  70 percent,     CSUWAKO,    20
-	fishentry  90 percent + 1, CHINA,    20
+	fishentry  90 percent + 1, CSTAR,    20
 	fishentry 100 percent,     CNITORI,    20
 .Pond_Super:
 	fishentry  40 percent,     KURUMI,    40

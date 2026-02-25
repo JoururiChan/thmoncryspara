@@ -4428,6 +4428,8 @@ TKogasaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CIchirinEvosAttacks:
+	evo_data EVOLVE_LEVEL, 34, ICHIRIN
+	evo_data EVOLVE_ITEM, THUNDERSTONE, AICHIRIN
 	db -1 ; no more evolutions
 	db 1, MACH_PUNCH
 	db 1, LEER
@@ -4487,6 +4489,7 @@ AIchirinEvosAttacks:
 
 CMurasaEvosAttacks:
 	evo_data EVOLVE_LEVEL, 34, MURASA
+	evo_data EVOLVE_ITEM, WATER_STONE, AMURASA
 	db -1 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, SCRATCH
@@ -4545,6 +4548,8 @@ AMurasaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CShouEvosAttacks:
+	evo_data EVOLVE_LEVEL, 36, SHOU
+	evo_data EVOLVE_ITEM, THUNDERSTONE, ASHOU
 	db -1 ; no more evolutions
 	db 1, LICK
 	db 1, GROWL
@@ -4560,7 +4565,6 @@ CShouEvosAttacks:
 	db -1 ; no more level-up moves
 
 ShouEvosAttacks:
-	evo_data EVOLVE_MOVE, ROCK_BULLET, CMEDICINE
 	db -1 ; no more evolutions
 	db 1, LICK
 	db 1, GROWL
@@ -4607,7 +4611,8 @@ AShouEvosAttacks:
 	db -1 ; no more level-up moves
 
 CByakurenEvosAttacks:
-	evo_data EVOLVE_HOLDING, OVAL_STONE, TR_MORNDAY, CREMILIA
+	evo_data EVOLVE_LEVEL, 38, BYAKUREN
+	evo_data EVOLVE_ITEM, SHINY_STONE, TBYAKUREN
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
 	db 1, DISABLE
@@ -4623,7 +4628,6 @@ CByakurenEvosAttacks:
 	db -1 ; no more level-up moves
 
 ByakurenEvosAttacks:
-	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, CRAN
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
 	db 1, DISABLE
@@ -4732,6 +4736,8 @@ SNueEvosAttacks:
 	db -1 ; no more level-up moves
 
 CHatateEvosAttacks:
+ 	evo_data EVOLVE_LEVEL, 35, HATATE
+	evo_data EVOLVE_ITEM, MOON_STONE, THATATE
 	db -1 ; no more evolutions
 	db 1, FEATHER_JAB
 	db 1, FOCUS_ENERGY

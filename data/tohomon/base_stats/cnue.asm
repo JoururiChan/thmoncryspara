@@ -1,4 +1,4 @@
-	db  60, 25, 25, 60, 80, 65 ; 315 BST
+	db  80, 25, 25, 90, 90, 75 ; 395 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db MIASMA, FLYING ; type

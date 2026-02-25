@@ -12,10 +12,10 @@ ContestMons:
 	contest_mon 10, CLILYWHITE,      9, 18
 	contest_mon  5, CLILYBLACK, 12, 15
 	contest_mon  5, CLILYBLACK,   12, 15
-	contest_mon 10, CDAICHAN,    10, 16
-	contest_mon 10, CDAICHAN,      10, 17
-	contest_mon  5, CMAI,   12, 15
-	contest_mon  5, LILYWHITE,      13, 14
+	contest_mon 10, CSUNNY,    10, 16
+	contest_mon 10, CSTAR,      10, 16
+	contest_mon 10, CLUNA,     10, 16
+	contest_mon  5, CDAICHAN,      13, 14
 	contest_mon  5, DAICHAN,    13, 14
-	contest_mon  5, CIRNO,     13, 14
+	contest_mon  5, SUNNY,     13, 14
 ContestMonsEnd:

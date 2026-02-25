@@ -135,16 +135,16 @@
 
 	def_water_wildmons OLIVINE_PORT
 	db 2 percent ; encounter rate
-	wildmon 20, CPATCHOULI
-	wildmon 15, CPATCHOULI
-	wildmon 20, CPATCHOULI
+	wildmon 20, CCHIYURI
+	wildmon 15, CMURASA
+	wildmon 20, CMURASA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
 	wildmon 20, CSUWAKO
 	wildmon 15, CSUWAKO
-	wildmon 20, CEIRIN
+	wildmon 20, CPATCHOULI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_31
@@ -156,8 +156,8 @@
 
 	def_water_wildmons ROUTE_32
 	db 4 percent ; encounter rate
-	wildmon 15, CCIRNO
-	wildmon 20, CNITORI
+	wildmon 15, CKOGASA
+	wildmon 20, CKOGASA
 	wildmon 20, CCIRNO
 	end_water_wildmons
 
@@ -171,15 +171,15 @@
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
 	wildmon 20, CCHIYURI
-	wildmon 15, CCHIYURI
-	wildmon 20, CCHIYURI
+	wildmon 15, CKOGASA
+	wildmon 20, CKOGASA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_40
 	db 3 percent ; encounter rate
 	wildmon 20, CPATCHOULI
-	wildmon 20, CPATCHOULI
-	wildmon 20, CKOMACHI
+	wildmon 20, CSTAR
+	wildmon 20, CSTAR
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_41

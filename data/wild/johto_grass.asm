@@ -607,10 +607,10 @@
 	wildmon 8, CKOMACHI
 	wildmon 8, CGYOKU
 	; nite
-	wildmon 5, CCHIYURI
-	wildmon 6, CCHIYURI
-	wildmon 7, CNITORI
-	wildmon 6, CNITORI
+	wildmon 5, CKOGASA
+	wildmon 6, CKOGASA
+	wildmon 7, CMURASA
+	wildmon 6, CMURASA
 	wildmon 8, CSUWAKO
 	wildmon 8, CSUWAKO
 	wildmon 8, CGYOKU
@@ -1353,7 +1353,7 @@
 	wildmon 3, CCIRNO
 	wildmon 2, CLILYWHITE
 	wildmon 3, CDAICHAN
-	wildmon 3, CDAICHAN
+	wildmon 3, CSUNNY
 	; day
 	wildmon 2, CLILYWHITE
 	wildmon 2, CCIRNO
@@ -1361,7 +1361,7 @@
 	wildmon 3, CCIRNO
 	wildmon 2, CLILYWHITE
 	wildmon 3, CDAICHAN
-	wildmon 3, CDAICHAN
+	wildmon 3, CSTAR
 	; nite
 	wildmon 2, CLILYBLACK
 	wildmon 2, CKANA
@@ -1369,7 +1369,7 @@
 	wildmon 3, CLILYBLACK
 	wildmon 2, CDAICHAN
 	wildmon 3, CCIRNO
-	wildmon 3, CCIRNO
+	wildmon 3, CLUNA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1377,22 +1377,22 @@
 	; morn
 	wildmon 3, CAYA
 	wildmon 3, CAYA
-	wildmon 4, CREIMU
-	wildmon 4, CYAMAME
+	wildmon 4, CICHIRIN
+	wildmon 4, CICHIRIN
 	wildmon 3, CNAZRIN
 	wildmon 4, CNAZRIN
 	wildmon 4, CYAMAME
 	; day
 	wildmon 3, CAYA
 	wildmon 3, CAYA
-	wildmon 4, CREIMU
-	wildmon 4, CYAMAME
+	wildmon 4, CICHIRIN
+	wildmon 4, CICHIRIN
 	wildmon 3, CNAZRIN
 	wildmon 4, CNAZRIN
 	wildmon 4, CYAMAME
 	; nite
-	wildmon 3, CMYSTIA
-	wildmon 3, CMYSTIA
+	wildmon 3, CHATATE
+	wildmon 3, CHATATE
 	wildmon 4, CREIMU
 	wildmon 4, CCHEN
 	wildmon 3, CCHEN
@@ -1409,7 +1409,7 @@
 	wildmon 5, CLILYWHITE
 	wildmon 4, CTEI
 	wildmon 5, CTEI
-	wildmon 5, CALICE
+	wildmon 5, CBYAKUREN
 	; day
 	wildmon 4, CNAZRIN
 	wildmon 4, CNAZRIN
@@ -1417,7 +1417,7 @@
 	wildmon 5, CLILYWHITE
 	wildmon 4, CTEI
 	wildmon 5, CTEI
-	wildmon 5, CALICE
+	wildmon 5, CBYAKUREN
 	; nite
 	wildmon 4, CREMILIA
 	wildmon 4, CREISEN
@@ -1425,7 +1425,7 @@
 	wildmon 5, CLILYBLACK
 	wildmon 4, CREISEN
 	wildmon 5, CRUMIA
-	wildmon 5, CEIRIN
+	wildmon 5, CALICE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_32
@@ -1434,24 +1434,24 @@
 	wildmon 5, CSHIZUHA
 	wildmon 6, CMINORIKO
 	wildmon 8, CSHIZUHA
-	wildmon 7, CMEILING
-	wildmon 8, CMEILING
+	wildmon 7, CSUNNY
+	wildmon 8, CSUNNY
 	wildmon 7, CMINORIKO
 	wildmon 8, CRIKA
 	; day
 	wildmon 5, CSHIZUHA
 	wildmon 6, CMINORIKO
 	wildmon 8, CSHIZUHA
-	wildmon 7, CRAN
-	wildmon 8, CRAN
+	wildmon 7, CSTAR
+	wildmon 8, CSTAR
 	wildmon 7, CMINORIKO
 	wildmon 8, CRIKA
 	; nite
 	wildmon 5, CRAN
 	wildmon 8, CRAN
 	wildmon 8, CCHEN
-	wildmon 8, CCHEN
-	wildmon 7, CRUMIA
+	wildmon 8, CLUNA
+	wildmon 7, CLUNA
 	wildmon 7, CRUMIA
 	wildmon 7, CSAKUYA
 	end_grass_wildmons
@@ -1461,16 +1461,16 @@
 	; morn
 	wildmon 9, CELLEN
 	wildmon 9, CELLEN
-	wildmon 9, CSARA
-	wildmon 10, CSARA
+	wildmon 9, CSHOU
+	wildmon 10, CSHOU
 	wildmon 10, CTENSHI
 	wildmon 9, CTENSHI
 	wildmon 10, CYUKA
 	; day
 	wildmon 9, CELLEN
 	wildmon 9, CELLEN
-	wildmon 9, CSARA
-	wildmon 10, CSARA
+	wildmon 9, CSHOU
+	wildmon 10, CSHOU
 	wildmon 10, CMEIRA
 	wildmon 9, CMEIRA
 	wildmon 10, CYUKA
@@ -1479,8 +1479,8 @@
 	wildmon 9, CLUIZE
 	wildmon 9, CWRIGGLE
 	wildmon 10, CWRIGGLE
-	wildmon 10, CMYSTIA
-	wildmon 9, CMYSTIA
+	wildmon 10, CHATATE
+	wildmon 9, CHATATE
 	wildmon 10, CYUKA
 	end_grass_wildmons
 
@@ -1489,8 +1489,8 @@
 	; morn
 	wildmon 12, CTENSHI
 	wildmon 12, CTENSHI
-	wildmon 13, CSUWAKO
-	wildmon 10, CSUWAKO
+	wildmon 13, CBYAKUREN
+	wildmon 10, CBYAKUREN
 	wildmon 13, CKANAKO
 	wildmon 10, CSANAE
 	wildmon 13, CMEDICINE
@@ -1499,12 +1499,12 @@
 	wildmon 12, CMEDICINE
 	wildmon 13, CAYA
 	wildmon 10, CAYA
-	wildmon 13, CKANAKO
+	wildmon 13, CBYAKUREN
 	wildmon 10, CRAN
 	wildmon 12, CYUKI
 	; nite
 	wildmon 12, CREMILIA
-	wildmon 12, CMYSTIA
+	wildmon 12, CHATATE
 	wildmon 13, CKEINE
 	wildmon 10, CPARSEE
 	wildmon 13, CPARSEE
@@ -1547,7 +1547,7 @@
 	wildmon 5, CYAMAME
 	wildmon 6, CORANGE
 	wildmon 7, CORANGE
-	wildmon 6, CRIKA
+	wildmon 6, CICHIRIN
 	wildmon 7, CMEIRA
 	wildmon 7, CYUKI
 	; day
@@ -1555,7 +1555,7 @@
 	wildmon 7, CYAMAME
 	wildmon 6, CORANGE
 	wildmon 7, CORANGE
-	wildmon 6, CRIKA
+	wildmon 6, CICHIRIN
 	wildmon 7, CMEIRA
 	wildmon 7, CYUKI
 	; nite
