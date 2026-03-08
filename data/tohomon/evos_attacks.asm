@@ -201,13 +201,12 @@ CGyokuEvosAttacks:
 	db 1, PSYSHOT
 	db 1, FORESIGHT
 	db 8, PAPER_THROW
-	db 12, SONIC_BOOM
-	db 16, PROTECT
-	db 21, HAZE
-	db 24, LIFE_BALANCE
-	db 28, PSYBEAM
-	db 32, DUAL_SHOT
-	db 35, REFLECT
+	db 12, PROTECT
+	db 16, HAZE
+	db 21, LIFE_BALANCE
+	db 24, PSYBEAM
+	db 28, DUAL_SHOT
+	db 32, REFLECT
 	db 35, LIGHT_SCREEN
 	db 39, STAR_BLAST
 	db -1 ; no more level-up moves
@@ -217,13 +216,12 @@ MGyokuEvosAttacks:
 	db 1, PSYSHOT
 	db 1, FORESIGHT
 	db 8, PAPER_THROW
-	db 12, SONIC_BOOM
-	db 16, PROTECT
-	db 21, HAZE
-	db 24, LIFE_BALANCE
-	db 28, PSYBEAM
-	db 32, DUAL_SHOT
-	db 35, REFLECT
+	db 12, PROTECT
+	db 16, HAZE
+	db 21, LIFE_BALANCE
+	db 24, PSYBEAM
+	db 28, DUAL_SHOT
+	db 32, REFLECT
 	db 35, LIGHT_SCREEN
 	db 39, STAR_BLAST
 	db 43, SAND_BOMB
@@ -240,13 +238,12 @@ FGyokuEvosAttacks:
 	db 1, PSYSHOT
 	db 1, FORESIGHT
 	db 8, PAPER_THROW
-	db 12, SONIC_BOOM
-	db 16, PROTECT
-	db 21, HAZE
-	db 24, LIFE_BALANCE
-	db 28, PSYBEAM
-	db 32, DUAL_SHOT
-	db 35, REFLECT
+	db 12, PROTECT
+	db 16, HAZE
+	db 21, LIFE_BALANCE
+	db 24, PSYBEAM
+	db 28, DUAL_SHOT
+	db 32, REFLECT
 	db 35, LIGHT_SCREEN
 	db 39, STAR_BLAST
 	db 43, THUNDERBOLT
@@ -263,13 +260,12 @@ OGyokuEvosAttacks:
 	db 1, PSYSHOT
 	db 1, FORESIGHT
 	db 8, PAPER_THROW
-	db 12, SONIC_BOOM
-	db 16, PROTECT
-	db 21, HAZE
-	db 24, LIFE_BALANCE
-	db 28, PSYBEAM
-	db 32, DUAL_SHOT
-	db 35, REFLECT
+	db 12, PROTECT
+	db 16, HAZE
+	db 21, LIFE_BALANCE
+	db 24, PSYBEAM
+	db 28, DUAL_SHOT
+	db 32, REFLECT
 	db 35, LIGHT_SCREEN
 	db 39, STAR_BLAST
 	db 43, MANA_BURST
@@ -700,27 +696,27 @@ CRikakoEvosAttacks:
 	evo_data EVOLVE_LEVEL, 34, RIKAKO
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
-	db 5, SONIC_BOOM
-	db 9, JAMMING ; LGPE move
-	db 12, SUPERSONIC
-	db 16, PSYBEAM ; Fury Cutter → egg move
-	db 20, POISONPOWDER
-	db 23, VENOM_POOL
-	db 27, CALM_MIND
-	db 31, TELEPORT
+	db 5, JAMMING ; LGPE move
+	db 9, SUPERSONIC
+	db 12, PSYBEAM ; Fury Cutter → egg move
+	db 16, POISONPOWDER
+	db 20, VENOM_POOL
+	db 23, CALM_MIND
+	db 27, TELEPORT
+	db 31, SONIC_BOOM
 	db -1 ; no more level-up moves
 
 RikakoEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
-	db 5, SONIC_BOOM
-	db 9, JAMMING ; LGPE move
-	db 12, SUPERSONIC
-	db 16, PSYBEAM ; Fury Cutter → egg move
-	db 20, POISONPOWDER
-	db 23, VENOM_POOL
-	db 27, CALM_MIND
-	db 31, TELEPORT
+	db 5, JAMMING ; LGPE move
+	db 9, SUPERSONIC
+	db 12, PSYBEAM ; Fury Cutter → egg move
+	db 16, POISONPOWDER
+	db 20, VENOM_POOL
+	db 23, CALM_MIND
+	db 27, TELEPORT
+	db 31, SONIC_BOOM
 	db 34, MANA_BURST
 	db 37, FIRE_LAUNCH
 	db 40, AERIAL_ACE
@@ -935,6 +931,14 @@ YukaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, LEER
+	db 5, SPORE
+	db 9, PURSUIT
+	db 14, LEECH_SEED
+	db 17, RAZOR_LEAF
+	db 21, SLEEP_POWDER
+	db 25, ENERGY_LIGHT
+	db 29, NASTY_PLOT
+	db 33, BLACK_RIPPLE
 	db 39, GROWTH
 	db 42, ENERGY_LIGHT
 	db 45, THRASH
@@ -949,6 +953,14 @@ AYukaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, LEER
+	db 5, SPORE
+	db 9, PURSUIT
+	db 14, LEECH_SEED
+	db 17, RAZOR_LEAF
+	db 21, SLEEP_POWDER
+	db 25, ENERGY_LIGHT
+	db 29, NASTY_PLOT
+	db 33, BLACK_RIPPLE
 	db 39, GROWTH
 	db 42, ENERGY_LIGHT
 	db 45, VENOSHOCK
@@ -980,6 +992,16 @@ MugetsuEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, SWEET_KISS
+	db 5, DOUBLE_TEAM
+	db 9, HYPNOSIS
+	db 13, DUAL_SHOT
+	db 17, DISARM_VOICE
+	db 21, DRAINING_KISS
+	db 24, SING
+	db 28, LIGHT_SCREEN
+	db 32, LUSTER_HEART
+	db 36, BLACK_RIPPLE
+	db 39, VENOM_POOL
 	db 42, HAZE
 	db 45, CROSS_EYE
 	db 48, REST
@@ -994,12 +1016,12 @@ CGengetsuEvosAttacks:
 	db 1, GUST
 	db 1, TELEPORT
 	db 6, DUAL_SHOT
-	db 10, SONIC_BOOM
-	db 13, SLEEP_POWDER
-	db 17, SWEET_KISS
-	db 21, WING_ATTACK
-	db 25, BLACK_RIPPLE
-	db 29, HEALINGLIGHT
+	db 10, SLEEP_POWDER
+	db 13, SWEET_KISS
+	db 17, WING_ATTACK
+	db 21, BLACK_RIPPLE
+	db 25, HEALINGLIGHT
+	db 29, SONIC_BOOM
 	db 34, DREAM_EATER
 	db 39, HYPNOSIS
 	db -1 ; no more level-up moves
@@ -1008,6 +1030,15 @@ GengetsuEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, TELEPORT
+	db 6, DUAL_SHOT
+	db 10, SLEEP_POWDER
+	db 13, SWEET_KISS
+	db 17, WING_ATTACK
+	db 21, BLACK_RIPPLE
+	db 25, HEALINGLIGHT
+	db 29, SONIC_BOOM
+	db 34, DREAM_EATER
+	db 39, HYPNOSIS
 	db 42, NIGHT_SLASH
 	db 45, CHARM
 	db 48, ECHO_RAVE
@@ -1775,7 +1806,7 @@ CLettyEvosAttacks:
 	db 1, SING
 	db 7, ICE_SHARD
 	db 11, HAIL
-	db 15, SONIC_BOOM
+	db 15, NIGHT_SHADE
 	db 18, BARRIER
 	db 22, REFLECT
 	db -1 ; no more level-up moves
@@ -1786,7 +1817,7 @@ LettyEvosAttacks:
 	db 1, SING
 	db 7, ICE_SHARD
 	db 11, HAIL
-	db 15, SONIC_BOOM
+	db 15, NIGHT_SHADE
 	db 18, BARRIER
 	db 22, REFLECT
 	db 27, DRAIN_DRILL
@@ -1809,7 +1840,7 @@ DLettyEvosAttacks:
 	db 1, SING
 	db 7, ICE_SHARD
 	db 11, HAIL
-	db 15, SONIC_BOOM
+	db 15, NIGHT_SHADE
 	db 18, BARRIER
 	db 22, REFLECT
 	db 27, DRAIN_DRILL
@@ -2730,8 +2761,8 @@ CKeineEvosAttacks:
 	db 14, PAPER_THROW
 	db 18, PSYBEAM
 	db 21, BULK_UP
-	db 24, SONIC_BOOM
-	db 28, STAR_BLAST
+	db 24, STAR_BLAST
+	db 28, SONIC_BOOM
 	db 31, DISABLE
 	db -1 ; no more level-up moves
 
@@ -2744,8 +2775,8 @@ KeineEvosAttacks:
 	db 14, PAPER_THROW
 	db 18, PSYBEAM
 	db 21, BULK_UP
-	db 24, SONIC_BOOM
-	db 28, STAR_BLAST
+	db 24, STAR_BLAST
+	db 28, SONIC_BOOM
 	db 31, DISABLE
 	db 33, TRICK
 	db 36, MANA_BURST
@@ -2766,8 +2797,8 @@ AKeineEvosAttacks:
 	db 14, PAPER_THROW
 	db 18, PSYBEAM
 	db 21, BULK_UP
-	db 24, SONIC_BOOM
-	db 28, STAR_BLAST
+	db 24, STAR_BLAST
+	db 28, SONIC_BOOM
 	db 31, DISABLE
 	db 33, TRICK
 	db 36, MANA_BURST
@@ -3767,12 +3798,12 @@ CTenshiEvosAttacks:
 	db 1, ROCK_BULLET
 	db 1, FORESIGHT
 	db 6, FOCUS_ENERGY
-	db 10, SONIC_BOOM
-	db 14, DUAL_SHOT
+	db 10, DUAL_SHOT
+	db 14, SAND_BOMB
 	db 17, SPIKES
 	db 21, HONE_TOOLS
 	db 25, BULLDOZE
-	db 28, SAND_BOMB
+	db 28, SONIC_BOOM
 	db 31, AIR_SLASH
 	db 34, JAMMING
 	db 37, BARRIER
@@ -3783,12 +3814,12 @@ TenshiEvosAttacks:
 	db 1, ROCK_BULLET
 	db 1, FORESIGHT
 	db 6, FOCUS_ENERGY
-	db 10, SONIC_BOOM
-	db 14, DUAL_SHOT
+	db 10, DUAL_SHOT
+	db 14, SAND_BOMB
 	db 17, SPIKES
 	db 21, HONE_TOOLS
 	db 25, BULLDOZE
-	db 28, SAND_BOMB
+	db 28, SONIC_BOOM
 	db 31, AIR_SLASH
 	db 34, JAMMING
 	db 37, BARRIER
@@ -3807,12 +3838,12 @@ STenshiEvosAttacks:
 	db 1, ROCK_BULLET
 	db 1, FORESIGHT
 	db 6, FOCUS_ENERGY
-	db 10, SONIC_BOOM
-	db 14, DUAL_SHOT
+	db 10, DUAL_SHOT
+	db 14, SAND_BOMB
 	db 17, SPIKES
 	db 21, HONE_TOOLS
 	db 25, BULLDOZE
-	db 28, SAND_BOMB
+	db 28, SONIC_BOOM
 	db 31, AIR_SLASH
 	db 34, JAMMING
 	db 37, BARRIER

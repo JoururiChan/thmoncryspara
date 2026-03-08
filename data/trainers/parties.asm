@@ -1495,7 +1495,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db BITE, LICK, GLARE, GROWL
-	dbp 19 CMURASA
+	dbp 19, CMURASA
 		db NO_ITEM
 		ev_spread 104 Spe
 		db DISARM_VOICE, POISON_TEARS, CURSE, HAZE
@@ -1524,7 +1524,7 @@ Rival1Group:
 	dbp 19, CMURASA
 		db NO_ITEM
 		ev_spread 104 Spe
-		db DISARM_VOICE, POISON_TEARS, CURSE, HAZE
+		db NIGHT_SHADE, WATER_GUN, CONFUSE_RAY, LEER
 	dbp 20, CRIKA
 		db NO_ITEM
 		ev_spread 104 Spe
