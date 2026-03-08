@@ -2427,7 +2427,7 @@ BugCatcherGroup:
 	db "Don@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 3, CSTAR
+	dbp 3, CCIRNO
 	dbp 3, CLILYBLACK
 	db -1 ; end
 
