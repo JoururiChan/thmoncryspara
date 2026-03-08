@@ -4,7 +4,7 @@
 	db WATER, WATER ; type
 	db 255 ; catch rate
 	db 45 ; base exp
-	db ASPEAR_BERRY, LILYWHITEIZER ; held items
+	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for CSTAR, CONCENTRATE, ROLLCALL, DRIZZLE

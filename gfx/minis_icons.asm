@@ -1242,9 +1242,9 @@ ASunnyMiniMask:: INCBIN "gfx/minis/asunny_mask.1bpp.lz"
 ASunnyIcon::     INCBIN "gfx/icons/asunny.2bpp.lz"
 
 SECTION "CStar Mini Icon", ROMX
-CStarMini::     INCBIN "gfx/minis/cstar.2bpp.lz"
-CStarMiniMask:: INCBIN "gfx/minis/cstar_mask.1bpp.lz"
-CStarIcon::     INCBIN "gfx/icons/cstar.2bpp.lz"
+CStarMini::     INCBIN "gfx/minis/ccirno.2bpp.lz"
+CStarMiniMask:: INCBIN "gfx/minis/ccirno_mask.1bpp.lz"
+CStarIcon::     INCBIN "gfx/icons/ccirno.2bpp.lz"
 
 SECTION "Star Mini Icon", ROMX
 StarMini::     INCBIN "gfx/minis/star.2bpp.lz"
