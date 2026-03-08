@@ -243,10 +243,10 @@ WhitneyGroup:
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 90 HP
 		db STOMP, HEADBUTT, CHARM, HEAL_BELL
-	dbp 18, CREISEN, YIN
+	dbp 18, CNAZRIN, YIN
 		db NO_ITEM, ABILITY_2 | NAT_NEUTRAL
 		ev_spread 50 Def, 50 SDf
-		db CONFUSE_RAY, JAMMING, STAR_BLAST, PSYSHOT
+		db PAY_DAY, PURSUIT, ENDURE, FOCUS_ENERGY
 	dbp 21, CPARSEE, YIN
 		db LUM_BERRY, ABILITY_2 | NAT_NEUTRAL
 		ev_spread 60 SAt, 36 SDf
@@ -1436,7 +1436,7 @@ Rival1Group:
 	dbp 14, CLUIZE
 		db NO_ITEM
 		ev_spread 72 Spe
-	dbp 16, CPARSEE
+	dbp 16, CMURASA
 		db NO_ITEM
 		ev_spread 72 SAt
 	dbp 15, CRIKA
@@ -1454,10 +1454,10 @@ Rival1Group:
 	dbp 14, CLUIZE
 		db NO_ITEM
 		ev_spread 72 Spe
-	dbp 16, CRIKA
+	dbp 16, CMURASA
 		db NO_ITEM
 		ev_spread 72 SAt
-	dbp 15, CPARSEE
+	dbp 15, CRIKA
 		db NO_ITEM
 		ev_spread 72 HP
 	dbp 18, CALICE
@@ -1472,10 +1472,10 @@ Rival1Group:
 	dbp 14, CLUIZE
 		db NO_ITEM
 		ev_spread 72 Spe
-	dbp 16, CRIKA
+	dbp 16, CMURASA
 		db NO_ITEM
 		ev_spread 72 SAt
-	dbp 15, CPARSEE
+	dbp 15, CRIKA
 		db NO_ITEM
 		ev_spread 72 HP
 	dbp 18, CREISEN
@@ -1495,7 +1495,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db BITE, LICK, GLARE, GROWL
-	dbp 19, CPARSEE
+	dbp 19 CMURASA
 		db NO_ITEM
 		ev_spread 104 Spe
 		db DISARM_VOICE, POISON_TEARS, CURSE, HAZE
@@ -1521,7 +1521,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db BITE, LICK, GLARE, GROWL
-	dbp 19, CPARSEE
+	dbp 19, CMURASA
 		db NO_ITEM
 		ev_spread 104 Spe
 		db DISARM_VOICE, POISON_TEARS, CURSE, HAZE
@@ -1547,7 +1547,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db BITE, LICK, GLARE, GROWL
-	dbp 19, CPARSEE
+	dbp 19, CMURASA
 		db NO_ITEM
 		ev_spread 104 Spe
 		db DISARM_VOICE, POISON_TEARS, CURSE, HAZE
@@ -1565,19 +1565,19 @@ Rival1Group:
 	db "<RIVAL>@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
-	dbp 40, KOTOHIME
+	dbp 40, LUIZE
 		db NO_ITEM
 		ev_spread 116 Atk, 116 Spe
 		db LEECH_LIFE, BITE, CONFUSE_RAY, WING_ATTACK
-	dbp 39, AALICE
+	dbp 39, RUMIA
 		db NO_ITEM
 		ev_spread 116 SAt, 116 Spe
 		db FIVEELEMENTS, THUNDERBOLT, STAR_CANNON, THUNDER_WAVE
-	dbp 39, SHINKI
+	dbp 39, MURASA
 		db NO_ITEM
 		ev_spread 232 Spe
 		db LIFE_BALANCE, MEAN_LOOK, CONFUSE_RAY, SHADOW_BALL
-	dbp 41, IKU
+	dbp 41, RIKA
 		db NO_ITEM
 		ev_spread 232 Atk
 		db SLASH, ICE_PUNCH, HONE_TOOLS, FEINT_ATTACK
@@ -1915,10 +1915,10 @@ Lyra1Group:
 		db NO_ITEM, "@"
 		ev_spread 36 Atk, 36 Spe
 		db BLADE_THROW, THUNDER_WAVE, DUAL_SHOT, HONE_TOOLS ; default for level
-	dbp 17, CTEI
+	dbp 17, CSTAR
 		db NO_ITEM, "@"
 		ev_spread 72 SDf
-		db STOMP, ROCK_BULLET, CHARM, GROWL ; default for level
+		db DISARM_VOICE, WATER_GUN, CHEER, DEFENSE_CURL ; default for level
 	dbp 15, CMOKOU
 		db NO_ITEM, "@"
 		ev_spread 36 Atk, 36 HP
@@ -1936,7 +1936,7 @@ Lyra1Group:
 	dbp 16, CSAKUYA
 		db NO_ITEM, "@"
 		ev_spread 36 Atk, 36 Spe
-	dbp 17, CTEI
+	dbp 17, CSTAR
 		db NO_ITEM, "@"
 		ev_spread 72 SDf
 	dbp 15, CMOKOU
@@ -1954,7 +1954,7 @@ Lyra1Group:
 	dbp 16, CSAKUYA
 		db NO_ITEM, "@"
 		ev_spread 36 Atk, 36 Spe
-	dbp 17, CTEI
+	dbp 17, CSTAR
 		db NO_ITEM, "@"
 		ev_spread 72 SDf
 	dbp 15, CMOKOU
@@ -2333,7 +2333,7 @@ BugCatcherGroup:
 	; party
 	dbp 2, CCIRNO
 	dbp 2, CLILYWHITE
-	dbp 3, CLILYWHITE
+	dbp 3, CSUNNY
 	dbp 2, CDAICHAN
 	db -1 ; end
 
@@ -2342,7 +2342,7 @@ BugCatcherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 9, CLILYWHITE
-	dbp 9, CLILYWHITE
+	dbp 9, CSUNNY
 	dbp 10, CCIRNO
 	dbp 9, CDAICHAN
 	db -1 ; end
@@ -2353,7 +2353,7 @@ BugCatcherGroup:
 	; party
 	dbp 14, CDAICHAN
 	dbp 14, CLILYWHITE
-	dbp 15, CLILYWHITE
+	dbp 15, CSUNNY
 	dbp 14, CCIRNO
 	db -1 ; end
 
@@ -2396,14 +2396,14 @@ BugCatcherGroup:
 	db "Arnie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CLILYBLACK
+	dbp 20, CLUNA
 	db -1 ; end
 
 	; BUG_CATCHER
 	db "Arnie@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 28, ELLEN
+	dbp 28, LUNA
 		db DISABLE, SUPERSONIC, PSYSHOT, LEECH_LIFE
 	db -1 ; end
 
@@ -2427,7 +2427,7 @@ BugCatcherGroup:
 	db "Don@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 3, CCIRNO
+	dbp 3, CSTAR
 	dbp 3, CLILYBLACK
 	db -1 ; end
 
@@ -2435,16 +2435,16 @@ BugCatcherGroup:
 	db "Benny@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, CLILYBLACK
+	dbp 7, CSUNNY
 	dbp 10, CCIRNO
-	dbp 12, CCIRNO
+	dbp 12, CSTAR
 	db -1 ; end
 
 	; BUG_CATCHER
 	db "Al@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 13, CCIRNO
+	dbp 13, CSUNNY
 	dbp 13, CDAICHAN
 	db -1 ; end
 
@@ -2452,7 +2452,7 @@ BugCatcherGroup:
 	db "Josh@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 12, CLILYWHITE
+	dbp 12, CSTAR
 	dbp 12, CDAICHAN
 	db -1 ; end
 
@@ -2488,7 +2488,7 @@ CamperGroup:
 	db "Todd@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 14, CSARA
+	dbp 14, CKOGASA
 	db -1 ; end
 
 	; CAMPER
@@ -2544,7 +2544,7 @@ CamperGroup:
 	db "Ivan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 11, CTEI
+	dbp 11, CSUNNY
 	dbp 11, CYUKI
 	dbp 15, CTEI
 	db -1 ; end
@@ -2584,7 +2584,7 @@ CamperGroup:
 	db "Ted@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CRIN
+	dbp 18, CKISUME
 	db -1 ; end
 
 	; CAMPER
@@ -2951,16 +2951,16 @@ TwinsGroup:
 	db "Amy & Mimi@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 13, CLILYWHITE
-	dbp 13, CLILYBLACK
+	dbp 13, CSHOU
+	dbp 13, CNAZRIN
 	db -1 ; end
 
 	; TWINS
 	db "Amy & Mimi@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, CLILYBLACK
-	dbp 10, CLILYWHITE
+	dbp 13, CNAZRIN
+	dbp 13, CSHOU
 	db -1 ; end
 
 	; TWINS
@@ -3179,13 +3179,13 @@ FisherGroup:
 	db "Justin@"
 	db TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY
 	; party
-	dbp 5, CKISUME, YANG
+	dbp 5, CSTAR, YANG
 		db $87, $78, $77, ABILITY_1 | NAT_NEUTRAL
-	dbp 5, CKISUME, YANG 
+	dbp 5, CSTAR, YANG 
 		db $88, $B8, $8B, ABILITY_1 | NAT_NEUTRAL
-	dbp 15, CKISUME, YANG
+	dbp 15, CSTAR, YANG
 		db $A2, $AA, $2A, ABILITY_1 | NAT_NEUTRAL
-	dbp 5, CKISUME, YANG
+	dbp 5, CSTAR, YANG
 		db $39, $93, $99, ABILITY_1 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -3209,8 +3209,8 @@ FisherGroup:
 	db "Henry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, CSUWAKO
-	dbp 9, CKOMACHI
+	dbp 9, CKOGASA
+	dbp 9, CKISUME
 	db -1 ; end
 
 	; FISHER
@@ -3466,7 +3466,7 @@ BirdKeeperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 7, CAYA
-	dbp 8, CMYSTIA
+	dbp 8, CHATATE
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3493,7 +3493,7 @@ BirdKeeperGroup:
 	; party
 	dbp 16, CSHINKI
 	dbp 17, CRIKAKO
-	dbp 18, CREMILIA
+	dbp 18, CHATATE
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3543,7 +3543,7 @@ BirdKeeperGroup:
 	; party
 	dbp 7, CREIMU
 	dbp 8, CUTSUHO
-	dbp 10, CMYSTIA
+	dbp 10, CNUE
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3753,7 +3753,7 @@ HikerGroup:
 	db "Russell@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 6, CSARA
+	dbp 6, CICHIRIN
 	dbp 8, CYAMAME
 	dbp 10, CMEILING
 	db -1 ; end
@@ -3814,7 +3814,7 @@ HikerGroup:
 	db "Bailey@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 15, CSARA
+	dbp 15, CICHIRIN
 	dbp 15, CMEILING
 	dbp 15, CMOKOU
 	dbp 17, CMEIRA
@@ -4006,7 +4006,7 @@ GruntMGroup:
 	; party
 	dbp 8, CMEIRA
 	dbp 9, CRIKA
-	dbp 10, CKANAKO
+	dbp 10, CMURASA
 	db -1 ; end
 
 	; GRUNTM
@@ -4249,7 +4249,7 @@ GruntMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 10, CMIMA
-	dbp 10, CPARSEE
+	dbp 10, CLUNA
 	db -1 ; end
 
 	; GRUNTM
@@ -4278,8 +4278,8 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, CMEDICINE
-	dbp 12, CSATORI
+	dbp 10, CSUNNY
+	dbp 12, CSTAR
 	db -1 ; end
 
 	; GRUNTF
@@ -4360,7 +4360,7 @@ TohofanMGroup:
 	db "William@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 16, CFLANDRE
+	dbp 16, CNAZRIN
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4416,7 +4416,7 @@ TohofanMGroup:
 	; party
 	dbp 13, CKOISHI
 		db ORAN_BERRY
-	dbp 13, CCIRNO
+	dbp 13, CSHOU
 		db NO_ITEM
 	db -1 ; end
 
@@ -4476,7 +4476,7 @@ TohofanFGroup:
 	db "Beverly@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 16, CKISUME
+	dbp 16, CSUNNY
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4500,7 +4500,7 @@ TohofanFGroup:
 	db "Ruth@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 20, CKOISHI
+	dbp 20, CNAZRIN
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4669,7 +4669,7 @@ TohomaniacGroup:
 	db "Larry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 12, CEIKI
+	dbp 12, CBYAKUREN
 	db -1 ; end
 
 	; TOHOMANIAC
@@ -4721,7 +4721,7 @@ TohomaniacGroup:
 	db "Issac@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 15, CSANAE
+	dbp 15, CYUKARI
 	db -1 ; end
 
 	; TOHOMANIAC
@@ -4729,7 +4729,7 @@ TohomaniacGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 13, CYOUMU
-	dbp 13, CYUUGI
+	dbp 13, CICHIRIN
 	db -1 ; end
 
 	; TOHOMANIAC
@@ -4812,7 +4812,7 @@ SuperNerdGroup:
 	db "Stan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CSATORI
+	dbp 20, CBYAKUREN
 	db -1 ; end
 
 	; SUPER_NERD
@@ -4937,7 +4937,7 @@ SuperNerdGroup:
 	db "Rory@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 26, CYUUGI
+	dbp 26, CHATATE
 	db -1 ; end
 
 	; SUPER_NERD
@@ -4982,7 +4982,7 @@ LassGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 19, CALICE
-	dbp 19, CYUMEMI
+	dbp 19, CBYAKUREN
 	db -1 ; end
 
 	; LASS
@@ -5034,7 +5034,7 @@ endc
 	db "Cathy@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CKOISHI
+	dbp 18, CBYAKUREN
 	db -1 ; end
 
 	; LASS
@@ -5050,7 +5050,7 @@ endc
 	db "Krise@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 14, CSUIKA
+	dbp 14, CKOGASA
 	dbp 17, CSATORI
 	db -1 ; end
 
@@ -5218,7 +5218,7 @@ BeautyGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 9, CMEIRA
-	dbp 13, CRIN
+	dbp 13, CALICE
 	dbp 17, CKOMACHI
 	db -1 ; end
 
@@ -5253,8 +5253,8 @@ BeautyGroup:
 	db "Valencia@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CKISUME
-	dbp 18, CPARSEE
+	dbp 18, CICHIRIN
+	dbp 18, CBYAKUREN
 	dbp 18, CKAGUYA
 	db -1 ; end
 
@@ -5346,7 +5346,7 @@ BugManiacGroup:
 	db "Lou@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 19, CYAMAME
+	dbp 19, CSUNNY
 	db -1 ; end
 
 	; BUG_MANIAC
@@ -5533,7 +5533,7 @@ FirebreatherGroup:
 	; party
 	dbp 16, CYUKI
 	dbp 17, CMARISA
-	dbp 16, CMOKOU
+	dbp 16, CSUNNY
 	db -1 ; end
 
 	; FIREBREATHER
@@ -5771,7 +5771,7 @@ SchoolboyGroup:
 	db "Chad@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CALICE
+	dbp 20, CHATATE
 	db -1 ; end
 
 	; SCHOOLBOY
@@ -5779,7 +5779,7 @@ SchoolboyGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 20, CREMILIA
-	dbp 20, CALICE
+	dbp 20, CHATATE
 	db -1 ; end
 
 	; SCHOOLBOY
@@ -5787,15 +5787,15 @@ SchoolboyGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 27, CCHEN
-	dbp 31, CALICE
+	dbp 31, CHATATE
 	db -1 ; end
 
 	; SCHOOLBOY
 	db "Chad@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 30, CCHEN
-	dbp 34, AALICE
+	dbp 30, CHEN
+	dbp 34, CHATATE
 	db -1 ; end
 
 	; SCHOOLBOY
@@ -5987,8 +5987,8 @@ SchoolgirlGroup:
 	db "Imogen@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 13, CREIMU
-		db "Hakurei@"
+	dbp 13, CHATATE
+		db "Spirit@"
 	dbp 11, CMIMA
 		db "@"
 	db -1 ; end
@@ -6294,7 +6294,7 @@ MediumGroup:
 	db "Martha@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CKOMACHI
+	dbp 18, CKOGASA
 	dbp 20, CMIMA
 	dbp 20, CLUNASA
 	db -1 ; end
@@ -6343,7 +6343,7 @@ KimonoGirl2Group:
 	db "Sayo@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 20, CLETTY
+	dbp 20, CKOGASA
 		db LUM_BERRY
 	db -1 ; end
 
@@ -6355,7 +6355,7 @@ KimonoGirl3Group:
 	db "Zuki@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 20, CYUYUKO
+	dbp 20, CYOUMU
 		db LUM_BERRY
 	db -1 ; end
 
@@ -6391,7 +6391,7 @@ KimonoGirl6Group:
 	db "Mako@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp LEVEL_FROM_BADGES + 10, CSTAR
+	dbp LEVEL_FROM_BADGES + 10, LETTY
 		db LUM_BERRY
 	db -1 ; end
 
@@ -6403,7 +6403,7 @@ KimonoGirl7Group:
 	db "Ami@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp LEVEL_FROM_BADGES + 10, STAR
+	dbp LEVEL_FROM_BADGES + 10, KANA
 		db LUM_BERRY
 	db -1 ; end
 
@@ -6415,7 +6415,7 @@ KimonoGirl8Group:
 	db "Mina@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp LEVEL_FROM_BADGES + 10, LUNA
+	dbp LEVEL_FROM_BADGES + 10, LUIZE
 		db LUM_BERRY
 	db -1 ; end
 
@@ -6672,7 +6672,7 @@ GentlemanGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 18, CEIKI
-	dbp 18, CMYSTIA
+	dbp 18, CICHIRIN
 	db -1 ; end
 
 	; GENTLEMAN
@@ -6695,7 +6695,7 @@ GentlemanGroup:
 	db "Alfred@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 22, CMYSTIA
+	dbp 22, CSHOU
 	db -1 ; end
 
 	; GENTLEMAN
@@ -6873,7 +6873,7 @@ BakerGroup:
 	; party
 	dbp 18, CEIRIN
 	dbp 18, CMOKOU
-	dbp 18, CUTSUHO
+	dbp 18, CSUNNY
 	db -1 ; end
 
 	; BAKER
@@ -6912,9 +6912,9 @@ CowgirlGroup:
 	dbp LEVEL_FROM_BADGES + 5, CMEILING, YIN
 		db LEFTOVERS, FAKE_PERFECT_DVS, ABIL_CMEILING_IRON_FIST | NAT_ATK_UP_SATK_DOWN
 		db ROCK_BLAST, JUMP_KICK, BULK_UP, SAFEGUARD
-	dbp LEVEL_FROM_BADGES + 5, CAYA, YANG
-		db LEFTOVERS, FAKE_PERFECT_DVS, ABIL_CAYA_PRANKSTER | NAT_ATK_UP_SATK_DOWN
-		db SPARK, AERIAL_ACE, ENCORE, FORESIGHT
+	dbp LEVEL_FROM_BADGES + 5, CHATATE, YANG
+		db LEFTOVERS, FAKE_PERFECT_DVS, ABIL_CHATATE_MONOCHANNEL | NAT_ATK_UP_SATK_DOWN
+		db PSYBEAM, WING_ATTACK, ENCORE, FORESIGHT
 	db -1 ; end
 
 	; COWGIRL
@@ -6977,7 +6977,7 @@ SailorGroup:
 	db "Eugene@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, CKOMACHI
+	dbp 17, CSTAR
 	dbp 17, CCHIYURI
 	dbp 19, CKISUME
 	db -1 ; end
@@ -6986,14 +6986,14 @@ SailorGroup:
 	db "Terrell@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CPATCHOULI
+	dbp 20, CICHIRIN
 	db -1 ; end
 
 	; SAILOR
 	db "Kent@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CMEILING
+	dbp 18, CKOGASA
 	dbp 20, CMEILING
 	db -1 ; end
 
@@ -7044,7 +7044,7 @@ SailorGroup:
 	db "Harry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CKISUME
+	dbp 20, CMURASA
 	db -1 ; end
 
 	; SAILOR
@@ -7086,7 +7086,7 @@ SwimmerMGroup:
 	db "Simon@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CCIRNO
+	dbp 20, CMURASA
 	dbp 20, CKISUME
 	db -1 ; end
 
@@ -7104,7 +7104,7 @@ SwimmerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 21, CKISUME
-	dbp 19, CCIRNO
+	dbp 19, CSTAR
 	dbp 19, CCIRNO
 	db -1 ; end
 
@@ -7113,10 +7113,10 @@ SwimmerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 16, CCIRNO
-	dbp 17, CCHIYURI
+	dbp 17, CMURASA
 	dbp 16, CCHIYURI
 	dbp 19, CMAI
-	dbp 17, CCIRNO
+	dbp 17, CKOGASA
 	dbp 19, CKISUME
 	db -1 ; end
 
@@ -7148,7 +7148,7 @@ SwimmerMGroup:
 	; party
 	dbp 24, CKOMACHI
 	dbp 25, CKISUME
-	dbp 24, CKOMACHI
+	dbp 24, STAR
 	db -1 ; end
 
 	; SWIMMERM
@@ -7348,7 +7348,7 @@ SwimmerFGroup:
 	db "Elaine@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 21, CKISUME
+	dbp 21, CMURASA
 	db -1 ; end
 
 	; SWIMMERF
@@ -7380,15 +7380,15 @@ SwimmerFGroup:
 	db "Denise@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 22, CSUWAKO
+	dbp 22, CKOGASA
 	db -1 ; end
 
 	; SWIMMERF
 	db "Kara@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CKISUME
-	dbp 20, CKISUME
+	dbp 20, CSTAR
+	dbp 20, CSTAR
 	db -1 ; end
 
 	; SWIMMERF
@@ -7405,7 +7405,7 @@ SwimmerFGroup:
 	db "Mary@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CSUWAKO
+	dbp 20, CMURASA
 	db -1 ; end
 
 	; SWIMMERF
@@ -7618,7 +7618,7 @@ BurglarGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 36, CYUKA
-	dbp 34, MEDICINE
+	dbp 34, CMARISA
 	db -1 ; end
 
 	; BURGLAR
@@ -7785,7 +7785,7 @@ RocketScientistGroup:
 	; party
 	dbp 29, CYUMEMI
 	dbp 30, CRIKAKO
-	dbp 29, CRIKAKO
+	dbp 29, CHATATE
 	db -1 ; end
 
 	; SCIENTIST
@@ -7815,7 +7815,7 @@ BoarderGroup:
 	; party
 	dbp 33, CMAI
 	dbp 35, MAI
-	dbp 33, LETTY
+	dbp 33, CALICE
 	db -1 ; end
 
 	; BOARDER
@@ -7823,14 +7823,14 @@ BoarderGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 35, CMAI
-	dbp 35, CIRNO
+	dbp 35, STAR
 	db -1 ; end
 
 	; BOARDER
 	db "Douglas@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 33, CCIRNO
+	dbp 33, CYUMEMI
 	dbp 35, MAI
 	dbp 33, MAI
 	db -1 ; end
@@ -7856,7 +7856,7 @@ BoarderGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 36, CCIRNO
-	dbp 36, CMAI
+	dbp 36, STAR
 	dbp 38, LETTY
 	db -1 ; end
 
@@ -7885,7 +7885,7 @@ SkierGroup:
 	db "Clarissa@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 36, CIRNO
+	dbp 36, SAKUYA
 	db -1 ; end
 
 	; SKIER
@@ -7899,7 +7899,7 @@ SkierGroup:
 	db "Maria@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 39, LETTY
+	dbp 39, SAKUYA
 	db -1 ; end
 
 	; SKIER
@@ -7922,7 +7922,7 @@ BlackbeltGroup:
 	db "Kenji@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 39, AYUUGI
+	dbp 39, ICHIRIN
 	db -1 ; end
 
 ;	; unused
@@ -8004,7 +8004,7 @@ BlackbeltGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 23, CMEIRA
-	dbp 23, CORANGE
+	dbp 23, CICHIRIN
 	dbp 25, ORANGE
 	db -1 ; end
 
@@ -8068,8 +8068,8 @@ BattleGirlGroup:
 	db "Subaru@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 6, YUKA
-	dbp LEVEL_FROM_BADGES + 7, AYUKA
+	dbp LEVEL_FROM_BADGES + 6, MEILING
+	dbp LEVEL_FROM_BADGES + 7, MEILING
 	dbp LEVEL_FROM_BADGES + 8, ORANGE
 	db -1 ; end
 
@@ -8078,34 +8078,34 @@ BattleGirlGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp LEVEL_FROM_BADGES + 8, AMEILING
-	dbp LEVEL_FROM_BADGES + 8, CTENSHI
+	dbp LEVEL_FROM_BADGES + 8, ICHIRIN
 	db -1 ; end
 
 	; BATTLE_GIRL
 	db "Kagami@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 5, ORANGE
-	dbp LEVEL_FROM_BADGES + 5, AYUKA
-	dbp LEVEL_FROM_BADGES + 7, CTENSHI
+	dbp LEVEL_FROM_BADGES + 5, SARA
+	dbp LEVEL_FROM_BADGES + 5, MEIRA
+	dbp LEVEL_FROM_BADGES + 7, ICHIRIN
 	db -1 ; end
 
 	; BATTLE_GIRL
 	db "Nozomi@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 36, AYUKA
-	dbp 36, AYUKA
-	dbp 37, HRIN
+	dbp 36, ICHIRIN
+	dbp 36, MEILING
+	dbp 37, CBYAKUREN
 	db -1 ; end
 
 	; BATTLE_GIRL
 	db "Ronda@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 37, CKOAKUMA
-	dbp 39, CMUGETSU
-	dbp 38, CTENSHI
+	dbp 37, CMOKOU
+	dbp 39, ELLY
+	dbp 38, ICHIRIN
 	db -1 ; end
 
 	; BATTLE_GIRL
@@ -8283,11 +8283,11 @@ EngineerGroup:
 	db "Gustav@"
 	db TRAINERTYPE_PERSONALITY
 	; party
-	dbp LEVEL_FROM_BADGES + 1, CDAICHAN, YANG
-		db ABIL_CDAICHAN_SERENE_GRACE | NAT_NEUTRAL
-	dbp LEVEL_FROM_BADGES + 1, CDAICHAN, YANG
-		db ABIL_CDAICHAN_SERENE_GRACE | NAT_NEUTRAL
-	dbp LEVEL_FROM_BADGES + 3, CALICE, YANG
+	dbp LEVEL_FROM_BADGES + 1, CSHOU, YANG
+		db ABILITY_1 | NAT_NEUTRAL
+	dbp LEVEL_FROM_BADGES + 1, CSHOU, YANG
+		db ABILITY_1 | NAT_NEUTRAL
+	dbp LEVEL_FROM_BADGES + 3, CLUNA, YANG
 		db ABILITY_2 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -8295,11 +8295,11 @@ EngineerGroup:
 	db "Nicolas@"
 	db TRAINERTYPE_PERSONALITY
 	; party
-	dbp LEVEL_FROM_BADGES + 1, CDAICHAN, YANG
-		db ABIL_CDAICHAN_SERENE_GRACE | NAT_NEUTRAL
-	dbp LEVEL_FROM_BADGES + 1, CDAICHAN, YANG
-		db ABIL_CDAICHAN_SERENE_GRACE | NAT_NEUTRAL
-	dbp LEVEL_FROM_BADGES + 3, CALICE, YANG
+	dbp LEVEL_FROM_BADGES + 1, CLUNA, YANG
+		db ABILITY_1 | NAT_NEUTRAL
+	dbp LEVEL_FROM_BADGES + 1, CLUNA, YANG
+		db ABILITY_1 | NAT_NEUTRAL
+	dbp LEVEL_FROM_BADGES + 3, CSANAE, YANG
 		db ABILITY_2 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -8907,11 +8907,11 @@ CooltrainerMGroup:
 	db "Gaven@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 39, CGENGETSU
+	dbp 39, CTENSHI
 		db FANG_SHOT, TOXIC, POISON_TEARS, RAZOR_LEAF
-	dbp 39, DAICHAN
+	dbp 39, IKU
 		db BUBBLE_BEAM, STOMP, DIG, PROTECT
-	dbp 39, SMERLIN
+	dbp 39, MAGAN
 		db POISON_GAS, QUICK_ATTACK, BITE, FIRE_SPIN
 	db -1 ; end
 
@@ -8947,20 +8947,21 @@ CooltrainerMGroup:
 	db TRAINERTYPE_MOVES
 	; party
 	dbp 26, CMARISA
-		db EMBER, SMOKESCREEN, FIRE_LAUNCH, SCARY_FACE
+		db EMBER, THIEF, SPORE, GROWL
 	dbp 26, CSAKUYA
-		db DEFENSE_CURL, WATER_GUN, BITE, CURSE
+		db BLADE_THROW, DUAL_SHOT, HONE_TOOLS, THUNDER_WAVE
 	dbp 26, CREIMU
-		db LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
+		db PAPER_THROW, MACH_PUNCH, REFLECT, FORESIGHT
 	db -1 ; end
 
 	; COOLTRAINERM
 	db "Aaron@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 28, REIMU
-	dbp 28, MARISA
-	dbp 28, SAKUYA
+	dbp 28, CYOUMU
+	dbp 28, CREISEN
+	dbp 28, CSANAE
+	dbp 28, ALICE
 	db -1 ; end
 
 	; COOLTRAINERM
@@ -8968,15 +8969,15 @@ CooltrainerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 36, CFLANDRE
-	dbp 37, FLANDRE
-	dbp 38, AEIKI
+	dbp 37, CSARIEL
+	dbp 38, RAN
 	db -1 ; end
 
 	; COOLTRAINERM
 	db "Mike@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 38, TYUKARI
+	dbp 38, TRAN
 	db -1 ; end
 
 	; COOLTRAINERM
@@ -9005,9 +9006,9 @@ CooltrainerMGroup:
 	db "Andy@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, CREIMU
-	dbp 10, CMARISA
-	dbp 10, CSAKUYA
+	dbp 10, CUTSUHO
+	dbp 10, CYUKA
+	dbp 10, CYUYUKO
 	db -1 ; end
 
 	; COOLTRAINERM
@@ -9267,18 +9268,18 @@ endc
 	db "Gwen@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 26, TLYRICA
-	dbp 22, SMERLIN
+	dbp 26, CLUIZE
+	dbp 22, CLYRICA
+	dbp 22, CLUNASA
 	dbp 22, CMERLIN
-	dbp 22, MERLIN
 	db -1 ; end
 
 	; COOLTRAINERF
 	db "Lois@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 29, KOMACHI
-	dbp 29, CELLEN
+	dbp 29, CREIMU
+	dbp 29, CSANAE
 	db -1 ; end
 
 	; COOLTRAINERF
@@ -9304,16 +9305,16 @@ endc
 	db "Kate@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 26, YUMEKO
-	dbp 28, YUMEKO
+	dbp 26, CMURASA
+	dbp 28, CKOGASA
 	db -1 ; end
 
 	; COOLTRAINERF
 	db "Irene@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 22, AFLANDRE
-	dbp 24, CLETTY
+	dbp 22, CKOMACHI
+	dbp 24, CNITORI
 	db -1 ; end
 
 	; COOLTRAINERF
@@ -9368,7 +9369,7 @@ endc
 	db "Emma@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 28, KURUMI
+	dbp 28, LETTY
 	db -1 ; end
 
 	; COOLTRAINERF
@@ -9385,8 +9386,8 @@ endc
 	db "Jenn@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 24, LETTY
-	dbp 26, DLETTY
+	dbp 24, CSTAR
+	dbp 26, STAR
 	db -1 ; end
 
 	; COOLTRAINERF
@@ -9821,7 +9822,7 @@ ProtonGroup:
 		ev_spread 32 Spe
 	dbp 12, CMIMA
 		ev_spread 32 Spe
-	dbp 14, CMAGAN
+	dbp 14, CMURASA
 		ev_spread 32 Spe
 	db -1 ; end
 
@@ -10122,7 +10123,7 @@ KarateKingGroup:
 	db "Kiyo@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
-	dbp LEVEL_FROM_BADGES + 11, AMEILING
+	dbp LEVEL_FROM_BADGES + 11, MEILING
 		db BLACK_BELT
 		db BULK_UP, FOCUS_ENERGY, JUMP_KICK, FORESIGHT
 	dbp LEVEL_FROM_BADGES + 11, CKOAKUMA
@@ -10191,15 +10192,15 @@ JessieJamesGroup:
 	db TRAINERTYPE_PERSONALITY
 	; party
 	; TODO: movesets, etc
-	dbp 26, CPATCHOULI, YANG
+	dbp 26, CYUKA, YANG
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 26, KIKURI, YIN | KIKURI_KANTO_FORM
+	dbp 26, CMARISA, YIN | KIKURI_KANTO_FORM
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 24, CGENGETSU, YIN
+	dbp 24, CMURASA, YIN
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 24, AHINA, YANG
+	dbp 24, CMAGAN, YANG
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 28, CHIYURI, YANG
+	dbp 28, CCHIYURI, YANG
 		db ABILITY_1 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -10495,15 +10496,15 @@ CherylGroup:
 	db TRAINERTYPE_EVS
 	; party
 	; TODO: movesets, etc
-	dbp LEVEL_FROM_BADGES + 8, CREMILIA
+	dbp LEVEL_FROM_BADGES + 8, TEI
 		ev_spread 136 HP ; maybe 252 since these are "stat trainers"?
-	dbp LEVEL_FROM_BADGES + 7, KONGARA
+	dbp LEVEL_FROM_BADGES + 7, CYUKARI
 		ev_spread 136 HP
-	dbp LEVEL_FROM_BADGES + 4, MEIRA
+	dbp LEVEL_FROM_BADGES + 4, HINA
 		ev_spread 136 HP
-	dbp LEVEL_FROM_BADGES + 6, SAYA
+	dbp LEVEL_FROM_BADGES + 6, MEDICINE
 		ev_spread 136 HP
-	dbp LEVEL_FROM_BADGES + 5, AHINA
+	dbp LEVEL_FROM_BADGES + 5, CIKU
 		ev_spread 136 HP
 	db -1 ; end
 
@@ -11252,22 +11253,22 @@ WalkerGroup:
 	db "Walker@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
-	dbp LEVEL_FROM_BADGES + 5, CMYSTIA
+	dbp LEVEL_FROM_BADGES + 5, TMYSTIA
 		db NO_ITEM
 		ev_spread 184 Spe
-		db AERIAL_ACE, NIGHT_SHADE, REFLECT, EXTRASENSORY
-	dbp LEVEL_FROM_BADGES + 6, ELIS
+		db SCREECH, BLACK_RIPPLE, WING_ATTACK, JAMMING
+	dbp LEVEL_FROM_BADGES + 6, REIMU
 		db NO_ITEM
 		ev_spread 184 SAt
-		db POISON_GAS, AURA_WAVE, SWIFT, AIR_SLASH
-	dbp LEVEL_FROM_BADGES + 5, AYUYUKO
+		db PIN_BARRAGE, AERIAL_ACE, HEALINGLIGHT, REFLECT
+	dbp LEVEL_FROM_BADGES + 5, CHATATE
 		db NO_ITEM
 		ev_spread 184 Atk
-		db WING_ATTACK, SUPERSONIC, BITE, ANCIENTPOWER
-	dbp LEVEL_FROM_BADGES + 8, PARSEE
+		db PSYCHO_CUT, WING_ATTACK, ENCORE, FORESIGHT
+	dbp LEVEL_FROM_BADGES + 8, KURUMI
 		db SITRUS_BERRY
 		ev_spread 184 HP
-		db METAL_CLAW, FURY_STRIKES, ARM_THRUST, SWIFT
+		db DREAM_EATER, HYPNOSIS, WING_ATTACK, ROAR
 	db -1 ; end
 
 	; WALKER
@@ -11396,10 +11397,10 @@ ReiGroup:
 	dbp LEVEL_FROM_BADGES + 3, CSANAE
 		db NO_ITEM
 		ev_spread 120 Spe
-	dbp LEVEL_FROM_BADGES + 2, CGYOKU
+	dbp LEVEL_FROM_BADGES + 2, CKAGUYA
 		db NO_ITEM
 		ev_spread 120 Spe
-	dbp LEVEL_FROM_BADGES + 4, FGYOKU
+	dbp LEVEL_FROM_BADGES + 4, ICHIRIN
 		db SITRUS_BERRY
 		ev_spread 120 Spe
 	db -1 ; end
