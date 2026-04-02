@@ -1838,6 +1838,16 @@ MomijiTohodexEntry::
 	next "it's fangs as a"
 	next "battle method.@"
 
+	SECTION "AMomijiTohodexEntry", ROMX
+AMomijiTohodexEntry::
+	db "FangScorpio@"
+	db   "Its flight is"
+	next "soundless. It uses"
+	next "its lengthy tail"
+	page "to carry off its"
+	next "prey… Then its"
+	next "fangs do the rest.@"
+
 SECTION "CKanakoTohodexEntry", ROMX
 CKanakoTohodexEntry::
 	db "Faith@"
@@ -2487,16 +2497,6 @@ StarTohodexEntry::
 	page "the temperature of"
 	next "the surrounding"
 	next "atmosphere.@"
-
-SECTION "AMomijiTohodexEntry", ROMX
-AMomijiTohodexEntry::
-	db "FangScorpio@"
-	db   "Its flight is"
-	next "soundless. It uses"
-	next "its lengthy tail"
-	page "to carry off its"
-	next "prey… Then its"
-	next "fangs do the rest.@"
 
 SECTION "DStarTohodexEntry", ROMX
 DStarTohodexEntry::

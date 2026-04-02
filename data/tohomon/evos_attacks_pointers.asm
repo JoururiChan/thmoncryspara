@@ -188,6 +188,7 @@ EvosAttacksPointers::
 	dw ANitoriEvosAttacks
 	dw CMomijiEvosAttacks
 	dw MomijiEvosAttacks
+	dw AMomijiEvosAttacks
 	dw CKanakoEvosAttacks
 	dw KanakoEvosAttacks
 	dw AKanakoEvosAttacks
@@ -255,7 +256,6 @@ EvosAttacksPointers::
 	dw ASunnyEvosAttacks
 	dw CStarEvosAttacks
 	dw StarEvosAttacks
-	dw AMomijiEvosAttacks
 	dw DStarEvosAttacks
 	dw CLunaEvosAttacks
 	dw LunaEvosAttacks

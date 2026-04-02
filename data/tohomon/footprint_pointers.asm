@@ -184,6 +184,7 @@ FootprintPointers::
 	dw ANitoriFootprint
 	dw CMomijiFootprint
 	dw MomijiFootprint
+	dw AMomijiFootprint
 	dw CKanakoFootprint
 	dw KanakoFootprint
 	dw AKanakoFootprint
@@ -251,7 +252,6 @@ FootprintPointers::
 	dw ASunnyFootprint
 	dw CStarFootprint
 	dw StarFootprint
-	dw AMomijiFootprint
 	dw DStarFootprint
 	dw CLunaFootprint
 	dw LunaFootprint

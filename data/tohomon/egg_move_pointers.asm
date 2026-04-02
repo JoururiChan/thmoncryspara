@@ -184,6 +184,7 @@ EggMovePointers::
 	dw CNitoriEggMoves             ; ANitori
 	dw CMomijiEggMoves      ; CMomiji
 	dw CMomijiEggMoves         ; Momiji
+	dw CMomijiEggMoves             ; AMomiji
 	dw CKanakoEggMoves             ; CKanako
 	dw CKanakoEggMoves       ; Kanako
 	dw CKanakoEggMoves             ; AKanako
@@ -251,7 +252,6 @@ EggMovePointers::
 	dw NoEggMoves             ; ASunny
 	dw NoEggMoves             ; CStar
 	dw NoEggMoves             ; Star
-	dw CMomijiEggMoves             ; AMomiji
 	dw NoEggMoves             ; DStar
 	dw NoEggMoves             ; CLuna
 	dw NoEggMoves             ; Luna

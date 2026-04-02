@@ -26,6 +26,7 @@ YukariFootprint::
 CFutoFootprint::
 ChiyuriFootprint::
 CMomijiFootprint::
+AMomijiFootprint::
 CKikuriFootprint::
 CCirnoFootprint::
 CirnoFootprint::
@@ -256,7 +257,6 @@ THatateFootprint::
 CSunnyFootprint::
 SunnyFootprint::
 ASunnyFootprint::
-AMomijiFootprint::
 DStarFootprint::
 LunaFootprint::
 TLunaFootprint::

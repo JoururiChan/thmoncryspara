@@ -188,6 +188,7 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; ANITORI
 	iconpal GRAY, RED ; CMOMIJI
 	iconpal GRAY, RED ; MOMIJI
+	iconpal GRAY, RED ; AMOMIJI
 	iconpal PURPLE, RED ; CKANAKO
 	iconpal PURPLE, RED ; KANAKO
 	iconpal PURPLE, RED ; AKANAKO
@@ -255,7 +256,6 @@ OverworldMonIconColors::
 	iconpal RED, BLUE ; ASUNNY
 	iconpal GREEN, BROWN ; CSTAR
 	iconpal AZURE, BLUE ; STAR
-	iconpal GRAY, RED ; AMOMIJI
 	iconpal BROWN, GREEN ; DSTAR
 	iconpal BLUE, PURPLE ; CLUNA
 	iconpal PINK, AZURE ; LUNA

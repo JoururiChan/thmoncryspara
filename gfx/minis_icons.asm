@@ -921,6 +921,11 @@ MomijiMini::     INCBIN "gfx/minis/cran.2bpp.lz"
 MomijiMiniMask:: INCBIN "gfx/minis/cran_mask.1bpp.lz"
 MomijiIcon::     INCBIN "gfx/icons/cran.2bpp.lz"
 
+SECTION "AMomiji Mini Icon", ROMX
+AMomijiMini::     INCBIN "gfx/minis/cran.2bpp.lz"
+AMomijiMiniMask:: INCBIN "gfx/minis/cran_mask.1bpp.lz"
+AMomijiIcon::     INCBIN "gfx/icons/cran.2bpp.lz"
+
 SECTION "CKanako Mini Icon", ROMX
 CKanakoMini::     INCBIN "gfx/minis/ciku.2bpp.lz"
 CKanakoMiniMask:: INCBIN "gfx/minis/ciku_mask.1bpp.lz"
@@ -1250,11 +1255,6 @@ SECTION "Star Mini Icon", ROMX
 StarMini::     INCBIN "gfx/minis/star.2bpp.lz"
 StarMiniMask:: INCBIN "gfx/minis/star_mask.1bpp.lz"
 StarIcon::     INCBIN "gfx/icons/star.2bpp.lz"
-
-SECTION "AMomiji Mini Icon", ROMX
-AMomijiMini::     INCBIN "gfx/minis/cran.2bpp.lz"
-AMomijiMiniMask:: INCBIN "gfx/minis/cran_mask.1bpp.lz"
-AMomijiIcon::     INCBIN "gfx/icons/cran.2bpp.lz"
 
 SECTION "DStar Mini Icon", ROMX
 DStarMini::     INCBIN "gfx/minis/dstar.2bpp.lz"

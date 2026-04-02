@@ -185,6 +185,7 @@ TohodexDataPointerTable:
 	dba ANitoriTohodexEntry
 	dba CMomijiTohodexEntry
 	dba MomijiTohodexEntry
+	dba AMomijiTohodexEntry
 	dba CKanakoTohodexEntry
 	dba KanakoTohodexEntry
 	dba AKanakoTohodexEntry
@@ -252,7 +253,6 @@ TohodexDataPointerTable:
 	dba ASunnyTohodexEntry
 	dba CStarTohodexEntry
 	dba StarTohodexEntry
-	dba AMomijiTohodexEntry
 	dba DStarTohodexEntry
 	dba CLunaTohodexEntry
 	dba LunaTohodexEntry

@@ -191,6 +191,7 @@ TohomonBodyData:
 	body_data  32,  280, BIPEDAL,         BLUE ; ANITORI
 	body_data  28,  110, BIPEDAL_TAIL,   GRAY ; CMOMIJI
 	body_data  28,  170, BIPEDAL_TAIL,        GRAY ; MOMIJI
+	body_data  28,  280, BIPEDAL_TAIL,   GRAY ; AMOMIJI
 	body_data  40, 250, HEAD_BASE,   PURPLE   ; CKANAKO
 	body_data  40,  400, HEAD_BASE,      PURPLE   ; KANAKO
 	body_data  40,  480, HEAD_BASE, PURPLE ; AKANAKO
@@ -258,7 +259,6 @@ TohomonBodyData:
 	body_data  19,  515, MULTIWINGS,   GREEN  ; ASUNNY
 	body_data  10,  255, QUADRUPED,    GREEN  ; CSTAR
 	body_data   8,  259, QUADRUPED,    BLUE   ; STAR
-	body_data  28,  280, BIPEDAL_TAIL,   GRAY ; AMOMIJI
 	body_data  25, 2910, QUADRUPED,    BROWN  ; DSTAR
 	body_data   9,  340, HEAD_ARMS,    RED    ; CLUNA
 	body_data  10,  235, QUADRUPED,    PINK   ; LUNA

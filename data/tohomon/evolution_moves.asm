@@ -184,6 +184,7 @@ EvolutionMoves::
 	db NO_MOVE ; ANITORI
 	db NO_MOVE      ; CMOMIJI
 	db NO_MOVE      ; MOMIJI
+	db NO_MOVE      ; AMOMIJI
 	db NO_MOVE    ; CKANAKO
 	db NO_MOVE      ; KANAKO
 	db NO_MOVE      ; AKANAKO
@@ -223,8 +224,8 @@ EvolutionMoves::
 	db NO_MOVE      ; CNAZRIN
 	db NO_MOVE      ; NAZRIN
 	db NO_MOVE      ; HNAZRIN
-	db DEFENSE_CURL ; CKOGASA
-	db STOMP        ; KOGASA
+	db NO_MOVE ; CKOGASA
+	db NO_MOVE        ; KOGASA
 	db NO_MOVE      ; TKOGASA
 	db NO_MOVE      ; CICHIRIN
 	db NO_MOVE      ; ICHIRIN
@@ -233,7 +234,7 @@ EvolutionMoves::
 	db NO_MOVE      ; MURASA
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
-	db ENERGY_LIGHT ; AMURASA
+	db NO_MOVE ; AMURASA
 	db NO_MOVE      ; CSHOU
 	db NO_MOVE      ; SHOU
 	db NO_MOVE      ; ASHOU
@@ -243,19 +244,18 @@ EvolutionMoves::
 	db NO_MOVE      ; CNUE
 	db NO_MOVE   ; NUE
 	db NO_MOVE      ; SNUE
-	db TOXIC_SPIKES      ; CHATATE
+	db NO_MOVE      ; CHATATE
 	db NO_MOVE      ; HATATE
-	db COLOR_FIST ; THATATE
-	db STAR_CANNON ; CSUNNY
-	db DISARM_VOICE ; SUNNY
-	db PSYCHO_CUT ; ASUNNY
-	db RAZOR_LEAF   ; CSTAR
-	db ICY_WIND     ; STAR
-	db NO_MOVE      ; AMOMIJI
+	db NO_MOVE ; THATATE
+	db NO_MOVE ; CSUNNY
+	db NO_MOVE ; SUNNY
+	db NO_MOVE ; ASUNNY
+	db NO_MOVE ; CSTAR
+	db NO_MOVE     ; STAR
 	db NO_MOVE      ; DSTAR
-	db NASTY_PLOT   ; CLUNA
-	db DISARM_VOICE ; LUNA
-	db IRON_HEAD    ; TLUNA
+	db NO_MOVE  ; CLUNA
+	db NO_MOVE ; LUNA
+	db NO_MOVE    ; TLUNA
 	db NO_MOVE      ; CKYOUKO
 	db COUNTER      ; KYOUKO
 	db NO_MOVE      ; CYOSHIKA

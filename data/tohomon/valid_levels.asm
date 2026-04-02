@@ -185,6 +185,7 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  32, 100 ; ANitori
 	db   1,  27 ; CMomiji
 	db  28, 100 ; Momiji
+	db  28, 100 ; AMomiji
 	db  1,  39 ; CKanako
 	db  40, 100 ; Kanako
 	db  40, 100 ; AKanako
@@ -252,7 +253,6 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  40, 100 ; ASunny
 	db  20, 100 ; CStar
 	db  20, 100 ; Star
-	db  20, 100 ; AMomiji
 	db  45, 100 ; DStar
 	db  40, 100 ; CLuna
 	db  20, 100 ; Luna

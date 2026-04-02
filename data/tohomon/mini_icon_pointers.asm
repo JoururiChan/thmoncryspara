@@ -188,6 +188,7 @@ MiniIconPointers:
 	mini_icon ANitori
 	mini_icon CMomiji
 	mini_icon Momiji
+	mini_icon AMomiji
 	mini_icon CKanako
 	mini_icon Kanako
 	mini_icon AKanako
@@ -255,7 +256,6 @@ MiniIconPointers:
 	mini_icon ASunny
 	mini_icon CStar
 	mini_icon Star
-	mini_icon AMomiji
 	mini_icon DStar
 	mini_icon CLuna
 	mini_icon Luna

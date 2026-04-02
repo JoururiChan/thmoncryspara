@@ -184,6 +184,7 @@ AnimationPointers:
 	dw ANitoriAnimation
 	dw CMomijiAnimation
 	dw MomijiAnimation
+	dw AMomijiAnimation
 	dw CKanakoAnimation
 	dw KanakoAnimation
 	dw AKanakoAnimation
@@ -251,7 +252,6 @@ AnimationPointers:
 	dw ASunnyAnimation
 	dw CStarAnimation
 	dw StarAnimation
-	dw AMomijiAnimation
 	dw DStarAnimation
 	dw CLunaAnimation
 	dw LunaAnimation

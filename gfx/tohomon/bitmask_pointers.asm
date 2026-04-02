@@ -184,6 +184,7 @@ BitmasksPointers:
 	dw ANitoriBitmasks
 	dw CMomijiBitmasks
 	dw MomijiBitmasks
+	dw AMomijiBitmasks
 	dw CKanakoBitmasks
 	dw KanakoBitmasks
 	dw AKanakoBitmasks
@@ -251,7 +252,6 @@ BitmasksPointers:
 	dw ASunnyBitmasks
 	dw CStarBitmasks
 	dw StarBitmasks
-	dw AMomijiBitmasks
 	dw DStarBitmasks
 	dw CLunaBitmasks
 	dw LunaBitmasks

@@ -208,6 +208,7 @@
 	const ANITORI ; cd
 	const CMOMIJI  ; ce
 	const MOMIJI     ; cf
+	const AMOMIJI    ; 113
 	const CKANAKO    ; d0
 	const KANAKO   ; d1
 	const AKANAKO   ; d2
@@ -275,7 +276,6 @@
 	const ASUNNY    ; 110
 	const CSTAR    ; 111
 	const STAR    ; 112
-	const AMOMIJI    ; 113
 	const DSTAR  ; 114
 	const CLUNA  ; 115
 	const LUNA    ; 116

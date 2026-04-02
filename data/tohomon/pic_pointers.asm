@@ -188,6 +188,7 @@ TohomonPicPointers::
 	pics ANitori
 	pics CMomiji
 	pics Momiji
+	pics AMomiji
 	pics CKanako
 	pics Kanako
 	pics AKanako
@@ -255,7 +256,6 @@ TohomonPicPointers::
 	pics ASunny
 	pics CStar
 	pics Star
-	pics AMomiji
 	pics DStar
 	pics CLuna
 	pics Luna
