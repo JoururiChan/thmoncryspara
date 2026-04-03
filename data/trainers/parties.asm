@@ -2389,21 +2389,21 @@ BugCatcherGroup:
 	db "Arnie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 16, CLILYBLACK
+	dbp 16, CLUNA
 	db -1 ; end
 
 	; BUG_CATCHER
 	db "Arnie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CLILYBLACK
+	dbp 20, CLUNA
 	db -1 ; end
 
 	; BUG_CATCHER
 	db "Arnie@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 28, ELLEN
+	dbp 28, LUNA
 		db DISABLE, SUPERSONIC, PSYSHOT, LEECH_LIFE
 	db -1 ; end
 

@@ -232,8 +232,6 @@ FootprintPointers::
 	dw AIchirinFootprint
 	dw CMurasaFootprint
 	dw MurasaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw AMurasaFootprint
 	dw CShouFootprint
 	dw ShouFootprint
@@ -257,6 +255,8 @@ FootprintPointers::
 	dw LunaFootprint
 	dw TLunaFootprint
 	dw CKyoukoFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw KyoukoFootprint
 	dw CYoshikaFootprint
 	dw YoshikaFootprint

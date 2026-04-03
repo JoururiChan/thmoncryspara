@@ -236,8 +236,6 @@ MenuMonIconColors::
 	iconpal BLUE, GREEN ; AICHIRIN
 	iconpal AZURE, PURPLE ; CMURASA
 	iconpal PURPLE, RED ; MURASA
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal PURPLE, BROWN ; AMURASA
 	iconpal BLUE, PURPLE ; CSHOU
 	iconpal GREEN, RED ; SHOU
@@ -261,6 +259,8 @@ MenuMonIconColors::
 	iconpal PINK, AZURE ; LUNA
 	iconpal GRAY, BROWN ; TLUNA
 	iconpal GRAY, PINK ; CKYOUKO
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal WHITE, RED ; KYOUKO
 	iconpal BLUE, GRAY ; CYOSHIKA
 	iconpal GRAY, GREEN ; YOSHIKA

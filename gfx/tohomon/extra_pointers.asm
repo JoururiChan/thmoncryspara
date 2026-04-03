@@ -232,8 +232,6 @@ AnimationExtraPointers:
 	dw AIchirinAnimationExtra
 	dw CMurasaAnimationExtra
 	dw MurasaAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw AMurasaAnimationExtra
 	dw CShouAnimationExtra
 	dw ShouAnimationExtra
@@ -257,6 +255,8 @@ AnimationExtraPointers:
 	dw LunaAnimationExtra
 	dw TLunaAnimationExtra
 	dw CKyoukoAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw KyoukoAnimationExtra
 	dw CYoshikaAnimationExtra
 	dw YoshikaAnimationExtra

@@ -236,8 +236,6 @@ EvosAttacksPointers::
 	dw AIchirinEvosAttacks
 	dw CMurasaEvosAttacks
 	dw MurasaEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw AMurasaEvosAttacks
 	dw CShouEvosAttacks
 	dw ShouEvosAttacks
@@ -261,6 +259,8 @@ EvosAttacksPointers::
 	dw LunaEvosAttacks
 	dw TLunaEvosAttacks
 	dw CKyoukoEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw KyoukoEvosAttacks
 	dw CYoshikaEvosAttacks
 	dw YoshikaEvosAttacks

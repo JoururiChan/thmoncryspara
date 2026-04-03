@@ -261,8 +261,6 @@ TohomonCries::
 	mon_cry CRY_AYA,      $11b,  $120 ; AIchirin
 	mon_cry CRY_AMOKOU,    $27b,  $144 ; CMurasa
 	mon_cry CRY_RIN,    -$051,  $0e8 ; Murasa
-	mon_cry CRY_CRIKA,      0,     0 ; Egg
-	mon_cry CRY_CRIKA,      0,     0 ; $100
 	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; AMurasa
 	mon_cry CRY_AYA,     -$01f,  $180 ; CShou
 	mon_cry CRY_CAYA,   $f40,  $180 ; Shou
@@ -286,6 +284,8 @@ TohomonCries::
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CRIKA,      0,     0 ; Egg
+	mon_cry CRY_CRIKA,      0,     0 ; $100
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu

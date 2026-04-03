@@ -233,8 +233,6 @@ ValidTohomonLevels: ; for Wonder Trade
 	db   1,  19 ; AIchirin
 	db   1,  19 ; CMurasa
 	db  35, 100 ; Murasa
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  40, 100 ; AMurasa
 	db  40, 100 ; CShou
 	db   1,  19 ; Shou
@@ -258,6 +256,8 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  20, 100 ; Luna
 	db  28, 100 ; TLuna
 	db  38, 100 ; CKyouko
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  20, 100 ; Kyouko
 	db  42, 100 ; Mr. Rime
 	db  30, 100 ; Yoshika

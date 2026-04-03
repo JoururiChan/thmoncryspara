@@ -232,8 +232,6 @@ AnimationPointers:
 	dw AIchirinAnimation
 	dw CMurasaAnimation
 	dw MurasaAnimation
-	dw EggAnimation
-	dw EggAnimation
 	dw AMurasaAnimation
 	dw CShouAnimation
 	dw ShouAnimation
@@ -257,6 +255,8 @@ AnimationPointers:
 	dw LunaAnimation
 	dw TLunaAnimation
 	dw CKyoukoAnimation
+	dw EggAnimation
+	dw EggAnimation
 	dw KyoukoAnimation
 	dw CYoshikaAnimation
 	dw YoshikaAnimation

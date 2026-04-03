@@ -239,8 +239,6 @@ TohomonBodyData:
 	body_data   2,   20, HEAD_LEGS,    BLUE   ; AICHIRIN
 	body_data   6,  140, BIPEDAL_TAIL, BLUE   ; CMURASA
 	body_data  12,  203, BIPEDAL_TAIL, PURPLE ; MURASA
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   9,   44, HEAD,         PURPLE ; AMURASA
 	body_data   9,  273, WINGS,        BLACK  ; CSHOU
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; SHOU
@@ -264,6 +262,8 @@ TohomonBodyData:
 	body_data  10,  235, QUADRUPED,    PINK   ; LUNA
 	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; TLUNA
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CKYOUKO
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   8, 1170, WINGS,        WHITE  ; KYOUKO
 	body_data  15,  582, BIPEDAL,      PURPLE ; CYOSHIKA
 	body_data  18,  951, QUADRUPED,    GRAY   ; YOSHIKA

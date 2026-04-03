@@ -256,8 +256,6 @@
 	const AICHIRIN    ; fc
 	const CMURASA     ; fd
 	const MURASA    ; fe
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const AMURASA  ; 101
 	const CSHOU  ; 102
 	const SHOU     ; 103
@@ -281,6 +279,8 @@
 	const LUNA    ; 116
 	const TLUNA ; 117
 	const CKYOUKO    ; 118
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const KYOUKO ; 119
 	const CYOSHIKA   ; 11a
 	const YOSHIKA    ; 11b

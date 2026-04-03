@@ -236,8 +236,6 @@ TohomonPicPointers::
 	pics AIchirin
 	pics CMurasa
 	pics Murasa
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics AMurasa
 	pics CShou
 	pics Shou
@@ -261,6 +259,8 @@ TohomonPicPointers::
 	pics Luna
 	pics TLuna
 	pics CKyouko
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Kyouko
 	pics CYoshika
 	pics Yoshika

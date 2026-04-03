@@ -1161,11 +1161,6 @@ MurasaMini::     INCBIN "gfx/minis/murasa.2bpp.lz"
 MurasaMiniMask:: INCBIN "gfx/minis/murasa_mask.1bpp.lz"
 MurasaIcon::     INCBIN "gfx/icons/murasa.2bpp.lz"
 
-SECTION "Egg Mini Icon", ROMX
-EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
-EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
-EggIcon::     INCBIN "gfx/icons/egg.2bpp.lz"
-
 SECTION "AMurasa Mini Icon", ROMX
 AMurasaMini::     INCBIN "gfx/minis/amurasa.2bpp.lz"
 AMurasaMiniMask:: INCBIN "gfx/minis/amurasa_mask.1bpp.lz"
@@ -1280,6 +1275,11 @@ SECTION "CKyouko Mini Icon", ROMX
 CKyoukoMini::     INCBIN "gfx/minis/ckyouko.2bpp.lz"
 CKyoukoMiniMask:: INCBIN "gfx/minis/ckyouko_mask.1bpp.lz"
 CKyoukoIcon::     INCBIN "gfx/icons/ckyouko.2bpp.lz"
+
+SECTION "Egg Mini Icon", ROMX
+EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
+EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
+EggIcon::     INCBIN "gfx/icons/egg.2bpp.lz"
 
 SECTION "Kyouko Mini Icon", ROMX
 KyoukoMini::     INCBIN "gfx/minis/kyouko.2bpp.lz"

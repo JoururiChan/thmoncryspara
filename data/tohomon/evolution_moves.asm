@@ -232,8 +232,6 @@ EvolutionMoves::
 	db NO_MOVE      ; AICHIRIN
 	db NO_MOVE      ; CMURASA
 	db NO_MOVE      ; MURASA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE ; AMURASA
 	db NO_MOVE      ; CSHOU
 	db NO_MOVE      ; SHOU
@@ -257,6 +255,8 @@ EvolutionMoves::
 	db NO_MOVE ; LUNA
 	db NO_MOVE    ; TLUNA
 	db NO_MOVE      ; CKYOUKO
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db COUNTER      ; KYOUKO
 	db NO_MOVE      ; CYOSHIKA
 	db EXTRASENSORY ; YOSHIKA

@@ -232,8 +232,6 @@ EggMovePointers::
 	dw AIchirinEggMoves        ; AIchirin
 	dw CMurasaEggMoves         ; CMurasa
 	dw NoEggMoves             ; Murasa
-	dw NoEggMoves             ; Egg
-	dw NoEggMoves             ; $100
 	dw NoEggMoves             ; AMurasa
 	dw NoEggMoves             ; CShou
 	dw ShouEggMoves         ; Shou
@@ -257,6 +255,8 @@ EggMovePointers::
 	dw NoEggMoves             ; Luna
 	dw NoEggMoves             ; TLuna
 	dw NoEggMoves             ; CKyouko
+	dw NoEggMoves             ; Egg
+	dw NoEggMoves             ; $100
 	dw NoEggMoves             ; Kyouko
 	dw NoEggMoves             ; Mr.Rime
 	dw NoEggMoves             ; Yoshika

@@ -236,8 +236,6 @@ MiniIconPointers:
 	mini_icon AIchirin
 	mini_icon CMurasa
 	mini_icon Murasa
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon AMurasa
 	mini_icon CShou
 	mini_icon Shou
@@ -261,6 +259,8 @@ MiniIconPointers:
 	mini_icon Luna
 	mini_icon TLuna
 	mini_icon CKyouko
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Kyouko
 	mini_icon CYoshika
 	mini_icon Yoshika

@@ -231,8 +231,6 @@ FramesPointers:
 	dw AIchirinFrames
 	dw CMurasaFrames
 	dw MurasaFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw AMurasaFrames
 	dw CShouFrames
 	dw ShouFrames
@@ -257,6 +255,8 @@ FramesPointers:
 	dw LunaFrames
 	dw TLunaFrames
 	dw CKyoukoFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw KyoukoFrames
 	dw CYoshikaFrames
 	dw YoshikaFrames
