@@ -735,64 +735,57 @@ CKoishiEggMoves:
 	db SPIRIT_VOICE
 	db $ff
 
-HNazrinEggMoves:
+CNazrinEggMoves:
 	db TAILWIND
 	db FOCUS_ENERGY
 	db PURSUIT
-	db STOMP
+	db CHEER
 	db TOXIC_SPIKES
 	db ANCIENTPOWER
-	db IRON_HEAD
+	db SPIKES
 	db $ff
 
-AIchirinEggMoves:
-	db BELLY_DRUM
-	db FORESIGHT
-	db FUTURE_SIGHT
-	db SHADOW_DANCE
-	db SUPERSONIC
-	db LIGHT_SCREEN
-	db AMNESIA
-	db CALM_MIND
-	db $ff
-
-CMurasaEggMoves:
-	db CHARM
+CKogasaEggMoves:
+	db TAILWIND
+	db PURSUIT
+	db CHEER
+	db DISARM_VOICE
+	db MIRROR_COAT
 	db ENCORE
 	db $ff
 
-ShouEggMoves:
-	db DEFENSE_CURL
-	db EXPLOSION
+CIchirinEggMoves:
+	db BELLY_DRUM
+	db FORESIGHT
+	db REFLECT
+	db POWER_TRICK
+	db CALM_MIND
+	db WILD_CHARGE
 	db $ff
 
-AShouEggMoves:
-	db CONFUSE_RAY
-	db FUTURE_SIGHT
-	db HYPNOSIS
-	db NASTY_PLOT
-	db TRICK
+CMurasaEggMoves:
+	db POWER_WHIP
+	db PLAY_ROUGH
+	db AQUA_JET
+	db MAGNITUDE
+	db FEINT_ATTACK
+	db $ff
+
+CShouEggMoves:
+	db BLAZE_STAR
+	db ZAP_CANNON
+	db AEROBLAST
+	db SUBSTITUTE
+	db HEAT_CLAW
+	db HEALINGLIGHT
 	db $ff
 
 CByakurenEggMoves:
-	db HEAL_BELL
-	db $ff
-
-TByakurenEggMoves:
-	db HAZE
-	db MIRROR_COAT
-	db CHEER
-	db HYDRO_PUMP
-	db GUNK_SHOT
-	db $ff
-
-ByakurenEggMoves:
-	db CHARM
-	db COUNTER
-	db CURSE
-	db DOUBLE_EDGE
-	db LICK
-	db GUNK_SHOT
+	db JUMP_KICK
+	db AURA_WAVE
+	db FOCUS_ENERGY
+	db REFLECT
+	db PSYSHOT
 	db $ff
 
 CNueEggMoves:	
@@ -802,6 +795,59 @@ CNueEggMoves:
 	db DOUBLE_EDGE
 	db LICK
 	db GUNK_SHOT
+	db $ff
+
+CHatateEggMoves:
+	db ENCORE
+	db PSYCHO_CUT
+	db ECHO_RAVE
+	db PSYSTRIKE
+	db RECOVER
+	db $ff
+
+CSunnyEggMoves:
+	db RECOVER
+	db FIRE_LAUNCH
+	db TRICK
+	db GROWL
+	db FIRE_SPIN
+	db THIEF
+	db $ff
+
+CStarEggMoves:
+	db RECOVER
+	db AQUA_JET
+	db TRICK
+	db LEER
+	db WATER_GUN
+	db THIEF
+	db $ff
+
+CLunaEggMoves:
+	db RECOVER
+	db AEROBLAST
+	db TRICK
+	db GLARE
+	db SPARK
+	db THIEF
+	db $ff
+
+CKyoukoEggMoves:
+	db METAL_CLAW
+	db QUAKE_ROAR
+	db EXPLOSION
+	db JAMMING
+	db GLUTTONY_BITE
+	db SPIRIT_VOICE
+	db $ff
+
+CYoshikaEggMoves:
+	db RECOVER
+	db GUNK_SHOT
+	db TOXIN_SHOT
+	db VENOM_POOL
+	db POISON_TEARS
+	db POISONPOWDER
 	db $ff
 
 NoEggMoves:

@@ -221,45 +221,45 @@ EggMovePointers::
 	dw CKoishiEggMoves        ; CKoishi
 	dw CKoishiEggMoves             ; Koishi
 	dw CKoishiEggMoves             ; SKoishi
-	dw NoEggMoves             ; CNazrin
-	dw NoEggMoves             ; Nazrin
-	dw HNazrinEggMoves       ; HNazrin
-	dw NoEggMoves             ; CKogasa
-	dw NoEggMoves             ; Kogasa
-	dw NoEggMoves             ; TKogasa
-	dw NoEggMoves             ; CIchirin
-	dw NoEggMoves             ; Ichirin
-	dw AIchirinEggMoves        ; AIchirin
+	dw CNazrinEggMoves             ; CNazrin
+	dw CNazrinEggMoves             ; Nazrin
+	dw CNazrinEggMoves       ; HNazrin
+	dw CKogasaEggMoves             ; CKogasa
+	dw CKogasaEggMoves             ; Kogasa
+	dw CKogasaEggMoves             ; TKogasa
+	dw CIchirinEggMoves             ; CIchirin
+	dw CIchirinEggMoves             ; Ichirin
+	dw CIchirinEggMoves        ; AIchirin
 	dw CMurasaEggMoves         ; CMurasa
-	dw NoEggMoves             ; Murasa
-	dw NoEggMoves             ; AMurasa
-	dw NoEggMoves             ; CShou
-	dw ShouEggMoves         ; Shou
-	dw AShouEggMoves         ; AShou
+	dw CMurasaEggMoves             ; Murasa
+	dw CMurasaEggMoves            ; AMurasa
+	dw CShouEggMoves             ; CShou
+	dw CShouEggMoves         ; Shou
+	dw CShouEggMoves         ; AShou
 	dw CByakurenEggMoves        ; CByakuren
-	dw ByakurenEggMoves       ; Byakuren
-	dw TByakurenEggMoves        ; TByakuren
-	dw NoEggMoves             ; CNue
-	dw NoEggMoves             ; Nue
-	dw NoEggMoves             ; SNue
-	dw NoEggMoves             ; CHatate
-	dw NoEggMoves             ; Hatate
-	dw NoEggMoves             ; THatate
-	dw NoEggMoves             ; CSunny
-	dw NoEggMoves             ; Sunny
-	dw NoEggMoves             ; ASunny
-	dw NoEggMoves             ; CStar
-	dw NoEggMoves             ; Star
-	dw NoEggMoves             ; DStar
-	dw NoEggMoves             ; CLuna
-	dw NoEggMoves             ; Luna
-	dw NoEggMoves             ; TLuna
-	dw NoEggMoves             ; CKyouko
+	dw CByakurenEggMoves       ; Byakuren
+	dw CByakurenEggMoves        ; TByakuren
+	dw CNueEggMoves             ; CNue
+	dw CNueEggMoves             ; Nue
+	dw CNueEggMoves             ; SNue
+	dw CHatateEggMoves             ; CHatate
+	dw CHatateEggMoves             ; Hatate
+	dw CHatateEggMoves             ; THatate
+	dw CSunnyEggMoves             ; CSunny
+	dw CSunnyEggMoves             ; Sunny
+	dw CSunnyEggMoves             ; ASunny
+	dw CStarEggMoves             ; CStar
+	dw CStarEggMoves             ; Star
+	dw CStarEggMoves             ; DStar
+	dw CLunaEggMoves             ; CLuna
+	dw CLunaEggMoves             ; Luna
+	dw CLunaEggMoves             ; TLuna
+	dw CKyoukoEggMoves             ; CKyouko
 	dw NoEggMoves             ; Egg
 	dw NoEggMoves             ; $100
-	dw NoEggMoves             ; Kyouko
-	dw NoEggMoves             ; Mr.Rime
-	dw NoEggMoves             ; Yoshika
+	dw CKyoukoEggMoves             ; Kyouko
+	dw CYoshikaEggMoves            ; CYoshika
+	dw CYoshikaEggMoves             ; Yoshika
 	dw NoEggMoves             ; CSeiga
 	dw NoEggMoves             ; Seiga
 	dw NoEggMoves             ; CTojiko

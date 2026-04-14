@@ -257,9 +257,9 @@ EvolutionMoves::
 	db NO_MOVE      ; CKYOUKO
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
-	db COUNTER      ; KYOUKO
+	db NO_MOVE      ; KYOUKO
 	db NO_MOVE      ; CYOSHIKA
-	db EXTRASENSORY ; YOSHIKA
+	db NO_MOVE ; YOSHIKA
 	db ROCK_BULLET   ; CSEIGA
 	db BULLDOZE     ; SEIGA
 	db NO_MOVE      ; CTOJIKO

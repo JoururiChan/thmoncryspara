@@ -210,56 +210,56 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  1, 35 ; CYuugi
 	db  36, 100 ; Yuugi
 	db   36, 100 ; AYuugi
-	db  25, 100 ; CSatori
-	db  20,  39 ; Satori
-	db   1,  29 ; HSatori
-	db   1, 100 ; CRin
-	db   1,  19 ; Rin
-	db  20, 100 ; HRin
-	db   1,  19 ; CUtsuho
-	db   1,  19 ; Utsuho
-	db   1,  19 ; AUtsuho
-	db  20, 100 ; CKoishi
-	db  20, 100 ; Koishi
-	db 255, 255 ; SKoishi
-	db 255, 255 ; CNazrin
-	db 255, 255 ; Nazrin
-	db   1,  29 ; HNazrin
-	db  30,  54 ; CKogasa
-	db  55, 100 ; Kogasa
-	db 255, 255 ; TKogasa
-	db 255, 255 ; CIchirin
-	db 255, 255 ; Ichirin
-	db   1,  19 ; AIchirin
-	db   1,  19 ; CMurasa
-	db  35, 100 ; Murasa
-	db  40, 100 ; AMurasa
-	db  40, 100 ; CShou
-	db   1,  19 ; Shou
-	db   1,  19 ; AShou
-	db   1,  19 ; CByakuren
-	db   1,  19 ; Byakuren
-	db   1,  19 ; TByakuren
-	db  40, 100 ; CNue
-	db  50, 100 ; Nue
-	db  35, 100 ; SNue
-	db  55, 100 ; CHatate
-	db  39, 100 ; Hatate
-	db  47, 100 ; THatate
-	db  47, 100 ; CSunny
-	db  40, 100 ; Sunny
-	db  40, 100 ; ASunny
-	db  20, 100 ; CStar
-	db  20, 100 ; Star
-	db  45, 100 ; DStar
-	db  40, 100 ; CLuna
-	db  20, 100 ; Luna
-	db  28, 100 ; TLuna
-	db  38, 100 ; CKyouko
+	db  1, 35 ; CSatori
+	db  36, 100 ; Satori
+	db  36, 100 ; HSatori
+	db   1, 35 ; CRin
+	db   36, 100 ; Rin
+	db  36, 100 ; HRin
+	db   1,  39 ; CUtsuho
+	db   40,  100 ; Utsuho
+	db   40,  100 ; AUtsuho
+	db  1, 39 ; CKoishi
+	db  40, 100 ; Koishi
+	db  40, 100 ; SKoishi
+	db  1, 22 ; CNazrin
+	db  23, 100 ; Nazrin
+	db  23, 100 ; HNazrin
+	db  1,  25 ; CKogasa
+	db  26, 100 ; Kogasa
+	db  26, 100 ; TKogasa
+	db  1, 33 ; CIchirin
+	db  34, 100 ; Ichirin
+	db  34, 100 ; AIchirin
+	db  1, 33 ; CMurasa
+	db  34, 100 ; Murasa
+	db  34, 100 ; AMurasa
+	db  1, 35 ; CShou
+	db   36,  100 ; Shou
+	db   36,  100 ; AShou
+	db   1,  37 ; CByakuren
+	db   38,  100 ; Byakuren
+	db   38,  100 ; TByakuren
+	db  1, 39 ; CNue
+	db  40, 100 ; Nue
+	db  40, 100 ; SNue
+	db  1, 34 ; CHatate
+	db  34, 100 ; Hatate
+	db  34, 100 ; THatate
+	db  1, 20 ; CSunny
+	db  21, 100 ; Sunny
+	db  21, 100 ; ASunny
+	db  1, 20 ; CStar
+	db  21, 100 ; Star
+	db  21, 100 ; DStar
+	db  1, 20 ; CLuna
+	db  21, 100 ; Luna
+	db  21, 100 ; TLuna
+	db  1, 24 ; CKyouko
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
-	db  20, 100 ; Kyouko
-	db  42, 100 ; Mr. Rime
+	db  25, 100 ; Kyouko
+	db  1, 29 ; CYoshika
 	db  30, 100 ; Yoshika
 	db  20, 100 ; CSeiga
 	db  50, 100 ; Seiga
