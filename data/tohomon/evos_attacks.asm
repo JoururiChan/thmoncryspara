@@ -2404,7 +2404,7 @@ TYukariEvosAttacks:
 	db 1, CONVERSION
 	db 6, METRONOME
 	db 11, FLASH
-	db 15, HYPNOSISf
+	db 15, HYPNOSIS
 	db 18, FEINT_ATTACK
 	db 22, PSYBEAM
 	db 26, TELEPORT
