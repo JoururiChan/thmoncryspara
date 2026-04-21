@@ -210,6 +210,8 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  1, 35 ; CYuugi
 	db  36, 100 ; Yuugi
 	db   36, 100 ; AYuugi
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  1, 35 ; CSatori
 	db  36, 100 ; Satori
 	db  36, 100 ; HSatori
@@ -256,8 +258,6 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  21, 100 ; Luna
 	db  21, 100 ; TLuna
 	db  1, 24 ; CKyouko
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  25, 100 ; Kyouko
 	db  1, 29 ; CYoshika
 	db  30, 100 ; Yoshika

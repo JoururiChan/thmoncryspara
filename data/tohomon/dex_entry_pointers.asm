@@ -210,6 +210,8 @@ TohodexDataPointerTable:
 	dba CYuugiTohodexEntry
 	dba YuugiTohodexEntry
 	dba AYuugiTohodexEntry
+	dba CReimuTohodexEntry ; EGG
+	dba CReimuTohodexEntry ; $100
 	dba CSatoriTohodexEntry
 	dba SatoriTohodexEntry
 	dba HSatoriTohodexEntry
@@ -256,8 +258,6 @@ TohodexDataPointerTable:
 	dba LunaTohodexEntry
 	dba TLunaTohodexEntry
 	dba CKyoukoTohodexEntry
-	dba CReimuTohodexEntry ; EGG
-	dba CReimuTohodexEntry ; $100
 	dba KyoukoTohodexEntry
 	dba CYoshikaTohodexEntry
 	dba YoshikaTohodexEntry

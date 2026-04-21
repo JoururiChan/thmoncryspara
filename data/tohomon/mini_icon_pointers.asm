@@ -213,6 +213,8 @@ MiniIconPointers:
 	mini_icon CYuugi
 	mini_icon Yuugi
 	mini_icon AYuugi
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon CSatori
 	mini_icon Satori
 	mini_icon HSatori
@@ -259,8 +261,6 @@ MiniIconPointers:
 	mini_icon Luna
 	mini_icon TLuna
 	mini_icon CKyouko
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Kyouko
 	mini_icon CYoshika
 	mini_icon Yoshika

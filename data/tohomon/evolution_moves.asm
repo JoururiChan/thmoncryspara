@@ -209,6 +209,8 @@ EvolutionMoves::
 	db NO_MOVE      ; CYUUGI
 	db NO_MOVE ; YUUGI
 	db NO_MOVE      ; AYUUGI
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE ; CSATORI
 	db NO_MOVE      ; SATORI
 	db NO_MOVE      ; HSATORI
@@ -255,8 +257,6 @@ EvolutionMoves::
 	db NO_MOVE ; LUNA
 	db NO_MOVE    ; TLUNA
 	db NO_MOVE      ; CKYOUKO
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; KYOUKO
 	db NO_MOVE      ; CYOSHIKA
 	db NO_MOVE ; YOSHIKA

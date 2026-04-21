@@ -209,6 +209,8 @@ AnimationExtraPointers:
 	dw CYuugiAnimationExtra
 	dw YuugiAnimationExtra
 	dw AYuugiAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw CSatoriAnimationExtra
 	dw SatoriAnimationExtra
 	dw HSatoriAnimationExtra
@@ -255,8 +257,6 @@ AnimationExtraPointers:
 	dw LunaAnimationExtra
 	dw TLunaAnimationExtra
 	dw CKyoukoAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw KyoukoAnimationExtra
 	dw CYoshikaAnimationExtra
 	dw YoshikaAnimationExtra

@@ -209,6 +209,8 @@ FootprintPointers::
 	dw CYuugiFootprint
 	dw YuugiFootprint
 	dw AYuugiFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw CSatoriFootprint
 	dw SatoriFootprint
 	dw HSatoriFootprint
@@ -255,8 +257,6 @@ FootprintPointers::
 	dw LunaFootprint
 	dw TLunaFootprint
 	dw CKyoukoFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw KyoukoFootprint
 	dw CYoshikaFootprint
 	dw YoshikaFootprint

@@ -209,6 +209,8 @@ BitmasksPointers:
 	dw CYuugiBitmasks
 	dw YuugiBitmasks
 	dw AYuugiBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw CSatoriBitmasks
 	dw SatoriBitmasks
 	dw HSatoriBitmasks
@@ -255,8 +257,6 @@ BitmasksPointers:
 	dw LunaBitmasks
 	dw TLunaBitmasks
 	dw CKyoukoBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw KyoukoBitmasks
 	dw CYoshikaBitmasks
 	dw YoshikaBitmasks

@@ -208,6 +208,8 @@ FramesPointers:
 	dw CYuugiFrames
 	dw YuugiFrames
 	dw AYuugiFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw CSatoriFrames
 	dw SatoriFrames
 	dw HSatoriFrames
@@ -255,8 +257,6 @@ FramesPointers:
 	dw LunaFrames
 	dw TLunaFrames
 	dw CKyoukoFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw KyoukoFrames
 	dw CYoshikaFrames
 	dw YoshikaFrames

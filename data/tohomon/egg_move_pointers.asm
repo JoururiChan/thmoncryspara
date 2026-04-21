@@ -209,6 +209,8 @@ EggMovePointers::
 	dw CYuugiEggMoves             ; CYuugi
 	dw CYuugiEggMoves             ; Yuugi
 	dw CYuugiEggMoves         ; AYuugi
+	dw NoEggMoves             ; Egg
+	dw NoEggMoves             ; $100
 	dw CSatoriEggMoves             ; CSatori
 	dw CSatoriEggMoves             ; Satori
 	dw CSatoriEggMoves       ; HSatori
@@ -255,8 +257,6 @@ EggMovePointers::
 	dw CLunaEggMoves             ; Luna
 	dw CLunaEggMoves             ; TLuna
 	dw CKyoukoEggMoves             ; CKyouko
-	dw NoEggMoves             ; Egg
-	dw NoEggMoves             ; $100
 	dw CKyoukoEggMoves             ; Kyouko
 	dw CYoshikaEggMoves            ; CYoshika
 	dw CYoshikaEggMoves             ; Yoshika
