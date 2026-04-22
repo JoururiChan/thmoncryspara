@@ -238,8 +238,6 @@ TohomonCries::
 	mon_cry CRY_CSANAE,   -$10a,  $100 ; CYuugi
 	mon_cry CRY_CNAZRIN,   $000,  $1a0 ; Yuugi
 	mon_cry CRY_SENTRET,     $048,  $230 ; AYuugi
-	mon_cry CRY_CRIKA,      0,     0 ; Egg
-	mon_cry CRY_CRIKA,      0,     0 ; $100
 	mon_cry CRY_CSATORI,     $000,  $1a0 ; CSatori
 	mon_cry CRY_CNITORI,   $073,  $240 ; Satori
 	mon_cry CRY_RIN,    -$160,  $180 ; HSatori
@@ -263,6 +261,8 @@ TohomonCries::
 	mon_cry CRY_AYA,      $11b,  $120 ; AIchirin
 	mon_cry CRY_AMOKOU,    $27b,  $144 ; CMurasa
 	mon_cry CRY_RIN,    -$051,  $0e8 ; Murasa
+	mon_cry CRY_CRIKA,      0,     0 ; Egg
+	mon_cry CRY_CRIKA,      0,     0 ; $100
 	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; AMurasa
 	mon_cry CRY_AYA,     -$01f,  $180 ; CShou
 	mon_cry CRY_CAYA,   $f40,  $180 ; Shou

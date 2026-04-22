@@ -209,8 +209,6 @@ AnimationPointers:
 	dw CYuugiAnimation
 	dw YuugiAnimation
 	dw AYuugiAnimation
-	dw EggAnimation
-	dw EggAnimation
 	dw CSatoriAnimation
 	dw SatoriAnimation
 	dw HSatoriAnimation
@@ -256,6 +254,8 @@ AnimationPointers:
 	dw CLunaAnimation
 	dw LunaAnimation
 	dw TLunaAnimation
+	dw EggAnimation
+	dw EggAnimation
 	dw CKyoukoAnimation
 	dw KyoukoAnimation
 	dw CYoshikaAnimation

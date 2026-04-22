@@ -216,8 +216,6 @@ TohomonBodyData:
 	body_data  36,  350, BIPEDAL,    RED  ; CYUUGI
 	body_data  36, 1520, BIPEDAL,    RED   ; YUUGI
 	body_data  36,  335, BIPEDAL,    RED   ; AYUUGI
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  36, 1200, SERPENTINE,    PURPLE   ; CSATORI
 	body_data  36,  325, SERPENTINE,    PURPLE   ; SATORI
 	body_data  36,  712, SERPENTINE,    PURPLE  ; HSATORI
@@ -263,6 +261,8 @@ TohomonBodyData:
 	body_data   9,  340, HEAD_ARMS,    RED    ; CLUNA
 	body_data  10,  235, QUADRUPED,    PINK   ; LUNA
 	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; TLUNA
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CKYOUKO
 	body_data   8, 1170, WINGS,        WHITE  ; KYOUKO
 	body_data  15,  582, BIPEDAL,      PURPLE ; CYOSHIKA

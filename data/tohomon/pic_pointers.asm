@@ -213,8 +213,6 @@ TohomonPicPointers::
 	pics CYuugi
 	pics Yuugi
 	pics AYuugi
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics CSatori
 	pics Satori
 	pics HSatori
@@ -260,6 +258,8 @@ TohomonPicPointers::
 	pics CLuna
 	pics Luna
 	pics TLuna
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics CKyouko
 	pics Kyouko
 	pics CYoshika

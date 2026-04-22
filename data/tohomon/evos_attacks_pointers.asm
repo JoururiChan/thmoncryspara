@@ -213,8 +213,6 @@ EvosAttacksPointers::
 	dw CYuugiEvosAttacks
 	dw YuugiEvosAttacks
 	dw AYuugiEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw CSatoriEvosAttacks
 	dw SatoriEvosAttacks
 	dw HSatoriEvosAttacks
@@ -260,6 +258,8 @@ EvosAttacksPointers::
 	dw CLunaEvosAttacks
 	dw LunaEvosAttacks
 	dw TLunaEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw CKyoukoEvosAttacks
 	dw KyoukoEvosAttacks
 	dw CYoshikaEvosAttacks

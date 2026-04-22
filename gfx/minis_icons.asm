@@ -1046,11 +1046,6 @@ AYuugiMini::     INCBIN "gfx/minis/csuika.2bpp.lz"
 AYuugiMiniMask:: INCBIN "gfx/minis/csuika_mask.1bpp.lz"
 AYuugiIcon::     INCBIN "gfx/icons/csuika.2bpp.lz"
 
-SECTION "Egg Mini Icon", ROMX
-EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
-EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
-EggIcon::     INCBIN "gfx/icons/egg.2bpp.lz"
-
 SECTION "CSatori Mini Icon", ROMX
 CSatoriMini::     INCBIN "gfx/minis/csatori.2bpp.lz"
 CSatoriMiniMask:: INCBIN "gfx/minis/csatori_mask.1bpp.lz"
@@ -1275,6 +1270,11 @@ SECTION "TLuna Mini Icon", ROMX
 TLunaMini::     INCBIN "gfx/minis/tluna.2bpp.lz"
 TLunaMiniMask:: INCBIN "gfx/minis/tluna_mask.1bpp.lz"
 TLunaIcon::     INCBIN "gfx/icons/tluna.2bpp.lz"
+
+SECTION "Egg Mini Icon", ROMX
+EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
+EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
+EggIcon::     INCBIN "gfx/icons/egg.2bpp.lz"
 
 SECTION "CKyouko Mini Icon", ROMX
 CKyoukoMini::     INCBIN "gfx/minis/ckyouko.2bpp.lz"

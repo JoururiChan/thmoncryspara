@@ -233,8 +233,6 @@
 	const CYUUGI   ; e5
 	const YUUGI    ; e6
 	const AYUUGI     ; e7
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const CSATORI    ; e8
 	const SATORI   ; e9
 	const HSATORI   ; ea
@@ -280,6 +278,8 @@
 	const CLUNA  ; 115
 	const LUNA    ; 116
 	const TLUNA ; 117
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const CKYOUKO    ; 118
 	const KYOUKO ; 119
 	const CYOSHIKA   ; 11a

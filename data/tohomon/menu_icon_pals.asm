@@ -213,8 +213,6 @@ MenuMonIconColors::
 	iconpal YELLOW, AZURE ; CYUUGI
 	iconpal YELLOW, AZURE ; YUUGI
 	iconpal YELLOW, AZURE ; AYUUGI
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal PINK, AZURE ; CSATORI
 	iconpal PINK, AZURE ; SATORI
 	iconpal PINK, AZURE ; HSATORI
@@ -260,6 +258,8 @@ MenuMonIconColors::
 	iconpal BLUE, PURPLE ; CLUNA
 	iconpal PINK, AZURE ; LUNA
 	iconpal GRAY, BROWN ; TLUNA
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GRAY, PINK ; CKYOUKO
 	iconpal WHITE, RED ; KYOUKO
 	iconpal BLUE, GRAY ; CYOSHIKA
