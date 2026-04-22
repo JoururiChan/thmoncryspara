@@ -254,8 +254,8 @@ EvolutionMoves::
 	db NO_MOVE  ; CLUNA
 	db NO_MOVE ; LUNA
 	db NO_MOVE    ; TLUNA
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
+	db NO_MOVE    ; EGG
+	db NO_MOVE    ; $100
 	db NO_MOVE      ; CKYOUKO
 	db NO_MOVE      ; KYOUKO
 	db NO_MOVE      ; CYOSHIKA
