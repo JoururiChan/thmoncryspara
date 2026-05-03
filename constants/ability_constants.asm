@@ -64,7 +64,7 @@
 	const OVERGROW
 	const BLAZE
 	const TORRENT
-	const PUREHEART
+	const PURE_HEART
 	const HARD_HEAD
 	const DROUGHT
 	const ARENA_TRAP

@@ -1,4 +1,4 @@
-	db  85,  40,  65,  20, 30, 75 ; 315 BST
+	db  130,  60,  85,  30, 40, 105 ; 440 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db MIASMA, MIASMA ; type

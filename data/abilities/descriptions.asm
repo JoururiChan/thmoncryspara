@@ -149,7 +149,7 @@ AbilityDescriptions:
 	dw PoisonGuardDescription
 	dw QuickDrawDescription
 	dw RazorBladeDescription
-	dw PerishBodyDescription
+	dw PerishBodyDescription 
 	dw ScreenRemovalDescription
 	dw LingerPowerDescription
 	dw CleanCutterDescription

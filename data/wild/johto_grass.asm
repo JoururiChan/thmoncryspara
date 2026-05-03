@@ -591,16 +591,16 @@
 	def_grass_wildmons WAKASAGI_WELL_ENTRANCE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 5, CCHIYURI
-	wildmon 6, CCHIYURI
+	wildmon 5, CTOJIKO
+	wildmon 6, CTOJIKO
 	wildmon 7, CNITORI
 	wildmon 6, CNITORI
 	wildmon 8, CKOMACHI
 	wildmon 8, CKOMACHI
 	wildmon 8, CGYOKU
 	; day
-	wildmon 5, CCHIYURI
-	wildmon 6, CCHIYURI
+	wildmon 5, CTOJIKO
+	wildmon 6, CTOJIKO
 	wildmon 7, CNITORI
 	wildmon 6, CNITORI
 	wildmon 8, CKOMACHI
@@ -631,16 +631,16 @@
 	wildmon 6, CNITORI
 	wildmon 7, CKISUME
 	wildmon 6, CKISUME
-	wildmon 8, CSUWAKO
-	wildmon 8, CSUWAKO
+	wildmon 8, CTOJIKO
+	wildmon 8, CTOJIKO
 	wildmon 8, CKANAKO
 	; nite
 	wildmon 5, CCHIYURI
 	wildmon 6, CNITORI
 	wildmon 7, CKISUME
 	wildmon 6, CKISUME
-	wildmon 8, CSUWAKO
-	wildmon 8, CSUWAKO
+	wildmon 8, CTOJIKO
+	wildmon 8, CTOJIKO
 	wildmon 8, CKANAKO
 	end_grass_wildmons
 
@@ -677,22 +677,22 @@
 	; morn
 	wildmon 9, CKOTOHIME
 	wildmon 9, CKOTOHIME
-	wildmon 10, CSARA
-	wildmon 10, CSARA
+	wildmon 10, CSEIGA
+	wildmon 10, CSEIGA
 	wildmon 10, CPATCHOULI
 	wildmon 9, CPATCHOULI
 	wildmon 10, CYUKARI
 	; day
 	wildmon 9, CKOTOHIME
 	wildmon 9, CKOTOHIME
-	wildmon 10, CSARA
-	wildmon 10, CSARA
+	wildmon 10, CSEIGA
+	wildmon 10, CSEIGA
 	wildmon 9, CPATCHOULI
 	wildmon 10, CPATCHOULI
 	wildmon 10, CYUKARI
 	; nite
-	wildmon 9, CKOTOHIME
-	wildmon 9, CKOTOHIME
+	wildmon 9, CSEIGA
+	wildmon 9, CSEIGA
 	wildmon 10, CKOAKUMA
 	wildmon 10, CKOAKUMA
 	wildmon 10, CPATCHOULI

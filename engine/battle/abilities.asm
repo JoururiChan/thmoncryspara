@@ -1632,7 +1632,7 @@ OffensiveDamageAbilities:
 	dbw OVERGROW, OvergrowAbility
 	dbw BLAZE, BlazeAbility
 	dbw TORRENT, TorrentAbility
-	dbw PUREHEART, PureHeartAbility
+	dbw PURE_HEART, PureHeartAbility
 	dbw RIVALRY, RivalryAbility
 	dbw STRATEGIC, StrategicAbility
 	dbw ANALYTIC, AnalyticAbility

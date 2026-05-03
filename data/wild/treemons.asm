@@ -87,14 +87,14 @@ TreeMonSet_Lake:
 TreeMonSet_Forest:
 	tree_mon 50, CWRIGGLE,   10
 	tree_mon 30, CMYSTIA,     10
-	tree_mon 10, CSUIKA,    10
+	tree_mon 10, CSEIGA,    10
 	tree_mon  5, CKAGUYA, 10
 	tree_mon  5, CDAICHAN,   10
 	db -1
 	; rare
 	tree_mon 60, CWRIGGLE,   10
 	tree_mon 15, CYAMAME,    10
-	tree_mon 15, CYUKA,     10
+	tree_mon 15, CSEIGA,     10
 	tree_mon  5, CMOKOU,    10
 	tree_mon  5, CYUKARI,     10
 	db -1

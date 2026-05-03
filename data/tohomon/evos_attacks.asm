@@ -5106,6 +5106,7 @@ YoshikaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CSeigaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 34, SEIGA
 	db -1 ; no more evolutions
 	db 1, PAPER_THROW
 	db 1, LEER
@@ -5144,6 +5145,7 @@ SeigaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CTojikoEvosAttacks:
+	evo_data EVOLVE_LEVEL, 35, TOJIKO
 	db -1 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, GLARE
