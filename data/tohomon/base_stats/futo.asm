@@ -9,7 +9,7 @@
 
 	abilities_for FUTO, WATER_ABSORB, VITAL_SPIRIT, FLASH_FIRE
 	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_HUMANSHAPE, EGG_GROUND ; egg groups
+	dn EGG_HUMANSHAPE, EGG_WATER_2 ; egg groups
 
 	ev_yield 2 SAt, 1 Atk
 

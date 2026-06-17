@@ -5618,7 +5618,7 @@ RaikoEvosAttacks:
 	db 45, BELLY_DRUM
 	db 48, ECHO_RAVE
 	db 51, SHADOW_DANCE
-	db 54, SAFEGUARAD
+	db 54, SAFEGUARD
 	db 57, POWER_BEAM
 	db -1 ; no more level-up moves
 
