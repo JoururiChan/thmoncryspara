@@ -193,10 +193,10 @@ BugsyGroup:
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 64 Atk
 		db PURSUIT, SLEEP_POWDER, LEER, ABSORB
-	dbp 16, CKANAKO, YIN
+	dbp 16, CMAMIZOU, YIN
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 64 Atk
-		db ENERGY_LIGHT, PAPER_THROW, CONVERSION, DEFENSE_CURL
+		db ENERGY_LIGHT, CONVERSION, PROTECT, PURSUIT
 	db -1 ; end
 
 	; BUGSY
@@ -293,10 +293,10 @@ MortyGroup:
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 64 HP, 64 Atk
 		db THUNDER_WAVE, THUNDERSHOCK, CONFUSE_RAY, NIGHT_SHADE
-	dbp 25, CRIN, YANG
+	dbp 25, CKOKORO, YANG
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 64 HP, 64 Spe
-		db SHADOW_HIT, FLAME_CHARGE, SMOKESCREEN, ROAR
+		db SHADOW_HIT, STAR_BLAST, SING, CURSE
 	dbp 26, KOGASA, YANG
 		db WIDE_LENS, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 128 Spe
@@ -517,10 +517,10 @@ ClairGroup:
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 128 HP, 128 SAt
 		db ENERGY_BALL, TAILWIND, DRAIN_PUNCH, SAFEGUARD
-	dbp 44, YUYUKO, YIN
+	dbp 44, FUTO, YIN
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 128 HP, 128 SAt
-		db SPIRIT_VOICE, ENERGY_BALL, HYPNOSIS, POWER_TRICK
+		db EXTRASENSORY, SCALD, ENDURE, SWAGGER
 	dbp 47, SUWAKO, YIN
 		db SHELL_BELL, ABIL_SUWAKO_HYDRATION | NAT_NEUTRAL
 		ev_spread 252 SAt, 4 Spe
@@ -2731,7 +2731,7 @@ PicnickerGroup:
 	db "Gina@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, CDAICHAN
+	dbp 9, CMAMIZOU
 	dbp 9, CEIRIN
 	dbp 12, CMEDICINE
 	db -1 ; end
@@ -2740,7 +2740,7 @@ PicnickerGroup:
 	db "Gina@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 14, CDAICHAN
+	dbp 14, CMAMIZOU
 	dbp 14, CEIRIN
 	dbp 17, CMEDICINE
 	db -1 ; end
@@ -2749,7 +2749,7 @@ PicnickerGroup:
 	db "Gina@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 26, CDAICHAN
+	dbp 26, CMAMIZOU
 	dbp 27, CEIRIN
 	dbp 29, CMEDICINE
 	db -1 ; end
@@ -2784,7 +2784,7 @@ endc
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 18, CREISEN
-	dbp 16, CKAGUYA
+	dbp 16, CMAMIZOU
 	db -1 ; end
 
 	; PICNICKER
@@ -4658,7 +4658,7 @@ TohomaniacGroup:
 	db -1 ; end
 
 	; TOHOMANIAC
-	db "Brent@"
+	db "Brent@" 
 	db TRAINERTYPE_MOVES
 	; party
 	dbp 47, CREMILIA
@@ -6001,7 +6001,7 @@ PsychicGroup:
 	db "Nathan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 26, CSATORI
+	dbp 26, CMIKO
 	db -1 ; end
 
 	; PSYCHIC_T
@@ -6056,7 +6056,7 @@ PsychicGroup:
 	db "Phil@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 36, CKAGUYA
+	dbp 36, CMIKO
 	dbp 35, CBYAKUREN
 	db -1 ; end
 
@@ -6129,7 +6129,7 @@ HexManiacGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 16, CKOMACHI
-	dbp 18, CLYRICA
+	dbp 18, CKOKORO
 	db -1 ; end
 
 	; HEX_MANIAC
@@ -6264,7 +6264,7 @@ SageGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 17, CLUIZE
-	dbp 17, CLYRICA
+	dbp 17, CKOKORO
 	dbp 18, CKOMACHI
 	dbp 18, CRIN
 	db -1 ; end
@@ -6355,7 +6355,7 @@ KimonoGirl3Group:
 	db "Zuki@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 20, CYOUMU
+	dbp 20, CKOKORO
 		db LUM_BERRY
 	db -1 ; end
 
@@ -6467,7 +6467,7 @@ SrAndJrGroup:
 	db "Jo & Cath@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CAYA
+	dbp 18, CMAMIZOU
 	dbp 16, CCHEN
 	db -1 ; end
 
@@ -6476,7 +6476,7 @@ SrAndJrGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 16, CCHEN
-	dbp 18, CAYA
+	dbp 18, CMAMIZOU
 	db -1 ; end
 
 	; SR_AND_JR
@@ -7095,7 +7095,7 @@ SwimmerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 18, CCHIYURI
-	dbp 20, CCHIYURI
+	dbp 20, CFUTO
 	dbp 18, CKISUME
 	db -1 ; end
 
@@ -7115,7 +7115,7 @@ SwimmerMGroup:
 	dbp 16, CCIRNO
 	dbp 17, CMURASA
 	dbp 16, CCHIYURI
-	dbp 19, CMAI
+	dbp 19, CFUTO
 	dbp 17, CKOGASA
 	dbp 19, CKISUME
 	db -1 ; end
@@ -7174,7 +7174,7 @@ SwimmerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 13, CKISUME
-	dbp 18, CCHIYURI
+	dbp 18, CFUTO
 	dbp 16, CSANAE
 	db -1 ; end
 
@@ -7365,14 +7365,14 @@ SwimmerFGroup:
 	; party
 	dbp 18, CCHIYURI
 	dbp 20, CKISUME
-	dbp 20, CSUWAKO
+	dbp 20, CFUTO
 	db -1 ; end
 
 	; SWIMMERF
 	db "Susie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CCHIYURI
+	dbp 20, CFUTO
 	dbp 22, CSUWAKO
 	db -1 ; end
 

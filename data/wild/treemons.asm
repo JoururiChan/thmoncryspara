@@ -35,7 +35,7 @@ TreeMonSet_Canyon:
 	db -1
 	; rare
 	tree_mon 50, CMEILING,    10
-	tree_mon 30, CKAGUYA,  10
+	tree_mon 30, CMAMIZOU,  10
 	tree_mon 20, CMOKOU,      10
 	db -1
 
@@ -47,7 +47,7 @@ TreeMonSet_Town:
 	; rare
 	tree_mon 60, CORANGE,    10
 	tree_mon 30, CMEILING,  10
-	tree_mon 10, CORANGE,     10
+	tree_mon 10, CFUTO,     10
 	db -1
 
 TreeMonSet_Route:
@@ -58,7 +58,7 @@ TreeMonSet_Route:
 	db -1
 	; rare
 	tree_mon 40, CKEINE,    10
-	tree_mon 40, CYUKA,     10
+	tree_mon 40, CMOKOU,     10
 	tree_mon 20, CYUKARI,  10
 	db -1
 
@@ -75,7 +75,7 @@ TreeMonSet_Kanto:
 
 TreeMonSet_Lake:
 	tree_mon 65, CPATCHOULI,   10
-	tree_mon 15, CKAGUYA,    10
+	tree_mon 15, CFUTO,    10
 	tree_mon 20, CKEINE,  10
 	db -1
 	; rare
@@ -86,28 +86,28 @@ TreeMonSet_Lake:
 
 TreeMonSet_Forest:
 	tree_mon 50, CWRIGGLE,   10
-	tree_mon 30, CMYSTIA,     10
+	tree_mon 30, CKOKORO,     10
 	tree_mon 10, CSEIGA,    10
-	tree_mon  5, CKAGUYA, 10
-	tree_mon  5, CDAICHAN,   10
+	tree_mon  5, CFUTO, 10
+	tree_mon  5, CKAGUYA,   10
 	db -1
 	; rare
-	tree_mon 60, CWRIGGLE,   10
-	tree_mon 15, CYAMAME,    10
+	tree_mon 60, CYAMAME,   10
+	tree_mon 15, CKOKORO,    10
 	tree_mon 15, CSEIGA,     10
-	tree_mon  5, CMOKOU,    10
+	tree_mon  5, CFUTO,    10
 	tree_mon  5, CYUKARI,     10
 	db -1
 
 TreeMonSet_Apricorns:
 	tree_mon 50, CDAICHAN,               10
 	tree_mon 20, CWRIGGLE,                 10
-	tree_mon 20, CMEDICINE,                 10
+	tree_mon 20, CMAMIZOU,                 10
 	tree_mon 10, CKEINE, 10
 	db -1
 	; rare
 	tree_mon 40, CYUKA,               10
-	tree_mon 20, CPATCHOULI,          10
+	tree_mon 20, CMAMIZOU,          10
 	tree_mon 20, CKAGUYA,             10
 	tree_mon 20, CMOKOU,                10
 	db -1

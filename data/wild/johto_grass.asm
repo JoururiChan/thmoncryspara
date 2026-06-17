@@ -369,16 +369,16 @@
 	; morn
 	wildmon 12, CTEI
 	wildmon 13, CTEI
-	wildmon 14, CDAICHAN
-	wildmon 14, CDAICHAN
+	wildmon 14, CMAMIZOU
+	wildmon 14, CMAMIZOU
 	wildmon 10, CAYA
 	wildmon 12, CAYA
 	wildmon 12, CYUYUKO
 	; day
 	wildmon 12, CTEI
 	wildmon 13, CTEI
-	wildmon 14, CDAICHAN
-	wildmon 14, CDAICHAN
+	wildmon 14, CMAMIZOU
+	wildmon 14, CMAMIZOU
 	wildmon 10, CAYA
 	wildmon 12, CAYA
 	wildmon 12, CYUYUKO
@@ -485,7 +485,7 @@
 	wildmon 6, CTENSHI
 	wildmon 9, CYOSHIKA
 	wildmon 8, CMAGAN
-	wildmon 8, CKEINE
+	wildmon 8, CSARIEL
 	; day
 	wildmon 8, CPARSEE
 	wildmon 8, CMEIRA
@@ -493,7 +493,7 @@
 	wildmon 6, CTENSHI
 	wildmon 9, CYOSHIKA
 	wildmon 8, CMAGAN
-	wildmon 8, CSARIEL
+	wildmon 8, CKONGARA
 	; nite
 	wildmon 8, CPARSEE
 	wildmon 8, CMEIRA
@@ -501,7 +501,7 @@
 	wildmon 6, CTENSHI
 	wildmon 9, CYOSHIKA
 	wildmon 8, CMAGAN
-	wildmon 8, CKONGARA
+	wildmon 8, CKOKORO
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B1F_NORTH
@@ -695,8 +695,8 @@
 	wildmon 9, CSEIGA
 	wildmon 10, CKOAKUMA
 	wildmon 10, CKOAKUMA
-	wildmon 10, CPATCHOULI
-	wildmon 10, CPATCHOULI
+	wildmon 10, CKOKORO
+	wildmon 10, CKOKORO
 	wildmon 10, CYUKARI
 	end_grass_wildmons
 
@@ -706,7 +706,7 @@
 	wildmon 21, CKOTOHIME
 	wildmon 22, CYUKA
 	wildmon 21, CKYOUKO
-	wildmon 22, CSARA
+	wildmon 22, CFUTO
 	wildmon 20, CMEILING
 	wildmon 25, CELIS
 	wildmon 24, CMIMA
@@ -714,7 +714,7 @@
 	wildmon 21, CKOTOHIME
 	wildmon 22, CYUKA
 	wildmon 21, CKYOUKO
-	wildmon 22, CSARA
+	wildmon 22, CFUTO
 	wildmon 22, CMEILING
 	wildmon 25, CELIS
 	wildmon 24, CMIMA
@@ -722,7 +722,7 @@
 	wildmon 21, CKOTOHIME
 	wildmon 22, CKYOUKO
 	wildmon 21, CKOTOHIME
-	wildmon 22, CSARA
+	wildmon 22, CFUTO
 	wildmon 20, CMEILING
 	wildmon 25, CELIS
 	wildmon 24, CMIMA
@@ -736,7 +736,7 @@
 	wildmon 23, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 20, CMEILING
-	wildmon 25, CMEIRA
+	wildmon 25, CFUTO
 	wildmon 25, CMEIRA
 	; day
 	wildmon 21, CSARA
@@ -744,7 +744,7 @@
 	wildmon 23, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 20, CMEILING
-	wildmon 25, CMEIRA
+	wildmon 25, CFUTO
 	wildmon 25, CMEIRA
 	; nite
 	wildmon 21, CSARA
@@ -752,7 +752,7 @@
 	wildmon 22, CKOTOHIME
 	wildmon 23, CELIS
 	wildmon 20, CMEILING
-	wildmon 25, CMEIRA
+	wildmon 25, CFUTO
 	wildmon 25, CMEIRA
 	end_grass_wildmons
 
@@ -1517,8 +1517,8 @@
 	; morn
 	wildmon 13, CMERLIN
 	wildmon 14, CMERLIN
-	wildmon 14, CRAN
-	wildmon 14, CRAN
+	wildmon 14, CMAMIZOU
+	wildmon 14, CMAMIZOU
 	wildmon 12, CTEI
 	wildmon 10, CTEI
 	wildmon 13, CKAGUYA
@@ -1531,8 +1531,8 @@
 	wildmon 10, CTEI
 	wildmon 13, CMOKOU
 	; nite
-	wildmon 13, CRUMIA
-	wildmon 14, CRUMIA
+	wildmon 13, CLUNASA
+	wildmon 14, CLUNASA
 	wildmon 14, CKURUMI
 	wildmon 14, CKURUMI
 	wildmon 12, CRIKA
@@ -1826,14 +1826,14 @@
 	wildmon LEVEL_FROM_BADGES + 1, CMAI
 	wildmon LEVEL_FROM_BADGES + 0, CLILYBLACK
 	wildmon LEVEL_FROM_BADGES - 2, CNAZRIN
-	wildmon LEVEL_FROM_BADGES - 2, ORANGE
+	wildmon LEVEL_FROM_BADGES - 2, CMAMIZOU
 	wildmon LEVEL_FROM_BADGES - 3, CMAI
 	wildmon LEVEL_FROM_BADGES - 4, CNITORI
 	wildmon LEVEL_FROM_BADGES - 4, CNITORI
 	; day
 	wildmon LEVEL_FROM_BADGES + 1, CMAI
 	wildmon LEVEL_FROM_BADGES + 0, CLILYBLACK
-	wildmon LEVEL_FROM_BADGES - 2, CKANA
+	wildmon LEVEL_FROM_BADGES - 2, CMAMIZOU
 	wildmon LEVEL_FROM_BADGES - 2, CNAZRIN
 	wildmon LEVEL_FROM_BADGES - 3, CMAI
 	wildmon LEVEL_FROM_BADGES - 4, CNITORI
@@ -1841,7 +1841,7 @@
 	; nite
 	wildmon LEVEL_FROM_BADGES + 1, CMAI
 	wildmon LEVEL_FROM_BADGES + 0, CLILYBLACK
-	wildmon LEVEL_FROM_BADGES - 2, CKANA
+	wildmon LEVEL_FROM_BADGES - 2, CMAMIZOU
 	wildmon LEVEL_FROM_BADGES - 2, CYOSHIKA
 	wildmon LEVEL_FROM_BADGES - 3, CMYSTIA
 	wildmon LEVEL_FROM_BADGES - 4, CNITORI

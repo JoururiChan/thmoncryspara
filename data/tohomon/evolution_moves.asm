@@ -260,18 +260,18 @@ EvolutionMoves::
 	db NO_MOVE      ; KYOUKO
 	db NO_MOVE      ; CYOSHIKA
 	db NO_MOVE ; YOSHIKA
-	db ROCK_BULLET   ; CSEIGA
-	db BULLDOZE     ; SEIGA
+	db NO_MOVE   ; CSEIGA
+	db NO_MOVE     ; SEIGA
 	db NO_MOVE      ; CTOJIKO
 	db NO_MOVE      ; TOJIKO
 	db NO_MOVE      ; CFUTO
 	db NO_MOVE      ; MIKO
-	db DRAIN_DRILL     ; FUTO
-	db SHADOW_HIT  ; CMIKO
-	db NO_MOVE      ; X
-	db NO_MOVE      ; X
-	db NO_MOVE      ; X
-	db NO_MOVE      ; X
+	db NO_MOVE     ; FUTO
+	db NO_MOVE  ; CMIKO
+	db NO_MOVE      ; CMAMIZOU
+	db NO_MOVE      ; MAMIZOU
+	db NO_MOVE      ; CKOKORO
+	db NO_MOVE      ; KOKORO
 	db NO_MOVE      ; X
 	db NO_MOVE      ; X
 	db NO_MOVE      ; X
