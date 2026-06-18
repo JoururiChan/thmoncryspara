@@ -297,8 +297,7 @@ KikuriJohtoBitmasks:  INCLUDE "gfx/tohomon/kikuri_johto/bitmask.asm"
 
 LilyBlackBitmasks:     INCLUDE "gfx/tohomon/lilyblack/bitmask.asm"
 
-CFutoTwoSegmentBitmasks:   INCLUDE "gfx/tohomon/cfuto_two_segment/bitmask.asm"
-CFutoThreeSegmentBitmasks: INCLUDE "gfx/tohomon/cfuto_three_segment/bitmask.asm"
+CFutoBitmasks:   INCLUDE "gfx/tohomon/cfuto/bitmask.asm"
 
 SLilyBlackBitmasks: INCLUDE "gfx/tohomon/slilyblack/bitmask.asm"
 SLilyBlackRedBitmasks:   INCLUDE "gfx/tohomon/slilyblack_red/bitmask.asm"

@@ -298,6 +298,4 @@ FootprintPointers::
 
 	dw SuikaFootprint
 
-	dw CFutoFootprint
-
 	assert_table_length NUM_EXT_TOHOMON

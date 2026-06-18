@@ -249,7 +249,7 @@ endr
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	; ext species test
 	givepoke YOSHIKA, 50
-	givepoke CFUTO, CFUTO_THREE_SEGMENT_FORM, 50
+	givepoke CFUTO, 50
 	; evolve during battle
 	givepoke CLILYBLACK, 50
 	loadmem wPartyMon6Exp+2, LOW(207967)

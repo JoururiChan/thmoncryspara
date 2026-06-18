@@ -299,6 +299,4 @@ TohodexDataPointerTable:
 
 	dba SuikaArmoredTohodexEntry
 
-	dba CFutoTohodexEntry
-
 	assert_table_length NUM_EXT_TOHOMON

@@ -1316,10 +1316,10 @@ TojikoMini::     INCBIN "gfx/minis/tojiko.2bpp.lz"
 TojikoMiniMask:: INCBIN "gfx/minis/tojiko_mask.1bpp.lz"
 TojikoIcon::     INCBIN "gfx/icons/tojiko.2bpp.lz"
 
-SECTION "CFutoTwoSegment Mini Icon", ROMX
-CFutoTwoSegmentMini::     INCBIN "gfx/minis/cfuto_two_segment.2bpp.lz"
-CFutoTwoSegmentMiniMask:: INCBIN "gfx/minis/cfuto_two_segment_mask.1bpp.lz"
-CFutoTwoSegmentIcon::     INCBIN "gfx/icons/cfuto_two_segment.2bpp.lz"
+SECTION "CFuto Mini Icon", ROMX
+CFutoMini::     INCBIN "gfx/minis/csanae.2bpp.lz"
+CFutoMiniMask:: INCBIN "gfx/minis/csanae.1bpp.lz"
+CFutoIcon::     INCBIN "gfx/icons/csanae.2bpp.lz"
 
 SECTION "Miko Mini Icon", ROMX
 MikoMini::     INCBIN "gfx/minis/miko.2bpp.lz"
@@ -1590,11 +1590,6 @@ SECTION "CNueQuestion Mini Icon", ROMX
 CNueQuestionMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
 CNueQuestionMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 CNueQuestionIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
-
-SECTION "CFutoThreeSegment Mini Icon", ROMX
-CFutoThreeSegmentMini::     INCBIN "gfx/minis/cfuto_three_segment.2bpp.lz"
-CFutoThreeSegmentMiniMask:: INCBIN "gfx/minis/cfuto_three_segment_mask.1bpp.lz"
-CFutoThreeSegmentIcon::     INCBIN "gfx/icons/cfuto_three_segment.2bpp.lz"
 
 SECTION "SuikaArmored Mini Icon", ROMX
 SuikaArmoredMini::     INCBIN "gfx/minis/suika_armored.2bpp.lz"

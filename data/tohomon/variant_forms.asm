@@ -42,7 +42,6 @@ VariantSpeciesAndFormTable:
 	table_width 2
 	dp SLILYBLACK,   SLILYBLACK_RED_FORM
 	dp SUIKA,     SUIKA_ARMORED_FORM
-	dp CFUTO, CFUTO_THREE_SEGMENT_FORM
 	assert_table_length NUM_VARIANT_FORMS
 
 	db 0 ; end

@@ -603,9 +603,6 @@ INCLUDE "gfx/tohomon/slilyblack_red/shiny.pal"
 INCLUDE "gfx/tohomon/suika_armored/normal.pal"
 INCLUDE "gfx/tohomon/suika_armored/shiny.pal"
 
-INCLUDE "gfx/tohomon/cfuto/normal.pal"
-INCLUDE "gfx/tohomon/cfuto/shiny.pal"
-
 	assert_table_length NUM_EXT_TOHOMON + 1
 
 endc

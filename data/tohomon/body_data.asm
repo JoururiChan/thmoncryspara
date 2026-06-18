@@ -305,6 +305,4 @@ TohomonBodyData:
 
 	body_data  22, 1370, BIPEDAL_TAIL, GRAY   ; SUIKA (SUIKA_ARMORED_FORM)
 
-	body_data  45,  474, SERPENTINE,   YELLOW ; CFUTO (CFUTO_THREE_SEGMENT_FORM)
-
 	assert_table_length NUM_EXT_TOHOMON

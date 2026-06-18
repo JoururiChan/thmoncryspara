@@ -173,8 +173,7 @@ CSuwakoFrames:   INCLUDE "gfx/tohomon/csuwako/frames.asm"
 
 IkuFrames:   INCLUDE "gfx/tohomon/iku/frames.asm"
 
-CFutoTwoSegmentFrames:   INCLUDE "gfx/tohomon/cfuto_two_segment/frames.asm"
-CFutoThreeSegmentFrames: INCLUDE "gfx/tohomon/cfuto_three_segment/frames.asm"
+CFutoFrames:   INCLUDE "gfx/tohomon/cfuto/frames.asm"
 
 CShizuhaFrames:   INCLUDE "gfx/tohomon/cshizuha/frames.asm"
 

@@ -291,8 +291,7 @@ KikuriArianaAnimationExtra: INCLUDE "gfx/tohomon/kikuri_ariana/anim_idle.asm"
 
 LilyBlackAnimationExtra: INCLUDE "gfx/tohomon/lilyblack/anim_idle.asm"
 
-CFutoTwoSegmentAnimationExtra:   INCLUDE "gfx/tohomon/cfuto_two_segment/anim_idle.asm"
-CFutoThreeSegmentAnimationExtra: INCLUDE "gfx/tohomon/cfuto_three_segment/anim_idle.asm"
+CFutoAnimationExtra:   INCLUDE "gfx/tohomon/cfuto/anim_idle.asm"
 
 SLilyBlackAnimationExtra: INCLUDE "gfx/tohomon/slilyblack/anim_idle.asm"
 SLilyBlackRedAnimationExtra:   INCLUDE "gfx/tohomon/slilyblack_red/anim_idle.asm"

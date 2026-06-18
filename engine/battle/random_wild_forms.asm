@@ -48,8 +48,6 @@ RandomWildSpeciesForms:
 	random_wild_form CNUE,       .CNue
 	random_wild_form CKIKURI,       .CKikuriKikuri
 	random_wild_form KIKURI,       .CKikuriKikuri
-	random_wild_form CMOMIJI,   .CFuto
-	random_wild_form CFUTO, .CFuto
 	dbw 0,        .Default
 
 .CNue:
@@ -69,17 +67,6 @@ RandomWildSpeciesForms:
 .RandomForm:
 	call BattleRandomRange
 	inc a
-	ret
-
-.CFuto:
-	; Random CFuto form (if not already specified)
-	ld a, 25
-	call BattleRandomRange
-	and a
-	ld a, CFUTO_THREE_SEGMENT_FORM
-	ret z
-	assert CFUTO_THREE_SEGMENT_FORM - 1 == CFUTO_TWO_SEGMENT_FORM
-	dec a
 	ret
 
 .Default:

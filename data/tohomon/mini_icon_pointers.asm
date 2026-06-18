@@ -268,7 +268,7 @@ MiniIconPointers:
 	mini_icon Seiga
 	mini_icon CTojiko
 	mini_icon Tojiko
-	mini_icon CFutoTwoSegment
+	mini_icon CFuto
 	mini_icon Miko
 	mini_icon Futo
 	mini_icon CMiko
@@ -338,7 +338,5 @@ MiniIconPointers:
 	mini_icon SLilyBlack ; Red
 
 	mini_icon SuikaArmored
-
-	mini_icon CFutoThreeSegment
 
 	assert_table_length NUM_UNIQUE_TOHOMON

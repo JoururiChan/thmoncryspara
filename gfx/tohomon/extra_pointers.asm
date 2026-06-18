@@ -264,7 +264,7 @@ AnimationExtraPointers:
 	dw SeigaAnimationExtra
 	dw CTojikoAnimationExtra
 	dw TojikoAnimationExtra
-	dw CFutoTwoSegmentAnimationExtra
+	dw CFutoAnimationExtra
 	dw MikoAnimationExtra
 	dw FutoAnimationExtra
 	dw CMikoAnimationExtra
@@ -335,7 +335,5 @@ AnimationExtraPointers:
 	dw SLilyBlackRedAnimationExtra
 
 	dw SuikaArmoredAnimationExtra
-
-	dw CFutoThreeSegmentAnimationExtra
 
 	assert_table_length NUM_UNIQUE_TOHOMON

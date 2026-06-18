@@ -268,7 +268,7 @@ TohomonPicPointers::
 	pics Seiga
 	pics CTojiko
 	pics Tojiko
-	pics CFutoTwoSegment
+	pics CFuto
 	pics Miko
 	pics Futo
 	pics CMiko
@@ -338,7 +338,5 @@ TohomonPicPointers::
 	pics SLilyBlackRed
 
 	pics SuikaArmored
-
-	pics CFutoThreeSegment
 
 	assert_table_length NUM_UNIQUE_TOHOMON

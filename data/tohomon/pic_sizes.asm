@@ -282,7 +282,7 @@ INCLUDE "gfx/tohomon/cseiga/front.dimensions"
 INCLUDE "gfx/tohomon/seiga/front.dimensions"
 INCLUDE "gfx/tohomon/ctojiko/front.dimensions"
 INCLUDE "gfx/tohomon/tojiko/front.dimensions"
-INCLUDE "gfx/tohomon/cfuto_two_segment/front.dimensions"
+INCLUDE "gfx/tohomon/cfuto/front.dimensions"
 INCLUDE "gfx/tohomon/miko/front.dimensions"
 INCLUDE "gfx/tohomon/futo/front.dimensions"
 INCLUDE "gfx/tohomon/cmiko/front.dimensions"
@@ -352,8 +352,6 @@ INCLUDE "gfx/tohomon/ttei_spiky/front.dimensions"
 INCLUDE "gfx/tohomon/slilyblack_red/front.dimensions"
 
 INCLUDE "gfx/tohomon/suika_armored/front.dimensions"
-
-INCLUDE "gfx/tohomon/cfuto_three_segment/front.dimensions"
 
 	if list_index % 2
 		db size_value << 4

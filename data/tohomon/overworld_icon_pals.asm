@@ -314,6 +314,4 @@ endr
 
 	iconpal GRAY, BLACK ; SUIKA, SUIKA_ARMORED_FORM
 
-	iconpal AZURE, RED ; CFUTO, CFUTO_THREE_SEGMENT_FORM
-
 	assert_table_length NUM_UNIQUE_TOHOMON

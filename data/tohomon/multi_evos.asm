@@ -27,6 +27,4 @@ MultipleEvolutions:
 	multi_evo ASHOU
 	multi_evo CTENSHI
 	multi_evo HSATORI
-	multi_evo CMOMIJI, CFUTO_TWO_SEGMENT_FORM, EVOLVE_CMOMIJI
-	multi_evo CMOMIJI, CFUTO_THREE_SEGMENT_FORM, EVOLVE_CMOMIJI
 	dw -1

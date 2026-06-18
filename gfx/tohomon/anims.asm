@@ -300,8 +300,7 @@ KikuriJohtoAnimation: INCLUDE "gfx/tohomon/kikuri_johto/anim.asm"
 LilyBlackAnimation:
 LilyBlackRaindropAnimation: INCLUDE "gfx/tohomon/lilyblack/anim.asm"
 
-CFutoTwoSegmentAnimation:   INCLUDE "gfx/tohomon/cfuto_two_segment/anim.asm"
-CFutoThreeSegmentAnimation: INCLUDE "gfx/tohomon/cfuto_three_segment/anim.asm"
+CFutoAnimation:   INCLUDE "gfx/tohomon/cfuto/anim.asm"
 
 SLilyBlackAnimation: INCLUDE "gfx/tohomon/slilyblack/anim.asm"
 SLilyBlackRedAnimation:   INCLUDE "gfx/tohomon/slilyblack_red/anim.asm"

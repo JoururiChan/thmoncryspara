@@ -333,6 +333,5 @@ INCLUDE "data/tohomon/base_stats/slilyblack.asm" ; red
 
 INCLUDE "data/tohomon/base_stats/suika_armored.asm"
 
-INCLUDE "data/tohomon/base_stats/cfuto.asm" ; three segment
 
 	assert_table_length NUM_EXT_TOHOMON

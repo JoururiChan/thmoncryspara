@@ -1170,10 +1170,8 @@ TojikoFrontpic: INCBIN "gfx/tohomon/tojiko/front.animated.2bpp.lz"
 TojikoBackpic:  INCBIN "gfx/tohomon/tojiko/back.2bpp.lz"
 
 SECTION "CFuto Pics", ROMX
-CFutoTwoSegmentFrontpic:   INCBIN "gfx/tohomon/cfuto_two_segment/front.animated.2bpp.lz"
-CFutoThreeSegmentFrontpic: INCBIN "gfx/tohomon/cfuto_three_segment/front.animated.2bpp.lz"
-CFutoTwoSegmentBackpic:
-CFutoThreeSegmentBackpic: INCBIN "gfx/tohomon/cfuto/back.2bpp.lz"
+CFutoFrontpic:   INCBIN "gfx/tohomon/cfuto/front.animated.2bpp.lz"
+CFutoBackpic:    INCBIN "gfx/tohomon/cfuto/back.animated.2bpp.lz"
 
 SECTION "Miko Pics", ROMX
 MikoFrontpic: INCBIN "gfx/tohomon/miko/front.animated.2bpp.lz"

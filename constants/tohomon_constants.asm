@@ -289,8 +289,8 @@
 	const CTOJIKO   ; 11e
 	const TOJIKO   ; 11f
 	const CFUTO ; 120
-	const MIKO  ; 121
 	const FUTO   ; 122
+	const MIKO  ; 121
 	const CMIKO ; 123
 	const CMAMIZOU ; X
 	const MAMIZOU ; X
@@ -405,10 +405,6 @@ DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 ; suika
 	ext_const_def 2
 	ext_const SUIKA_ARMORED_FORM ; 15d (2)
-
-; cfuto
-	ext_const_def 1, CFUTO_TWO_SEGMENT_FORM ;     (1)
-	ext_const CFUTO_THREE_SEGMENT_FORM      ; 15e (2)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2d
 

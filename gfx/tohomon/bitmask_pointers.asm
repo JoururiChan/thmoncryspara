@@ -264,7 +264,7 @@ BitmasksPointers:
 	dw SeigaBitmasks
 	dw CTojikoBitmasks
 	dw TojikoBitmasks
-	dw CFutoTwoSegmentBitmasks
+	dw CFutoBitmasks
 	dw MikoBitmasks
 	dw FutoBitmasks
 	dw CMikoBitmasks
@@ -334,7 +334,5 @@ BitmasksPointers:
 	dw SLilyBlackRedBitmasks
 
 	dw SuikaArmoredBitmasks
-
-	dw CFutoThreeSegmentBitmasks
 
 	assert_table_length NUM_UNIQUE_TOHOMON

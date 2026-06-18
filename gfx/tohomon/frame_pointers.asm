@@ -264,7 +264,7 @@ FramesPointers:
 	dw SeigaFrames
 	dw CTojikoFrames
 	dw TojikoFrames
-	dw CFutoTwoSegmentFrames
+	dw CFutoFrames
 	dw MikoFrames
 	dw FutoFrames
 	dw CMikoFrames
@@ -336,7 +336,5 @@ FramesPointers:
 	dw SLilyBlackRedFrames
 
 	dw SuikaArmoredFrames
-
-	dw CFutoThreeSegmentFrames
 
 	assert_table_length NUM_UNIQUE_TOHOMON

@@ -298,6 +298,4 @@ EvolutionMoves::
 
 	db NO_MOVE      ; SUIKA, SUIKA_ARMORED_FORM
 
-	db NO_MOVE      ; CFUTO, CFUTO_THREE_SEGMENT_FORM
-
 	assert_table_length NUM_EXT_TOHOMON
