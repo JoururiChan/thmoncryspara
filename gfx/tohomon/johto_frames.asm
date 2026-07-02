@@ -125,9 +125,10 @@ YoshikaFrames:    INCLUDE "gfx/tohomon/yoshika/frames.asm"
 CSeigaFrames:    INCLUDE "gfx/tohomon/cseiga/frames.asm"
 CTojikoFrames:   INCLUDE "gfx/tohomon/ctojiko/frames.asm"
 TojikoFrames:   INCLUDE "gfx/tohomon/tojiko/frames.asm"
-MikoFrames:  INCLUDE "gfx/tohomon/miko/frames.asm"
+CFutoFrames:   INCLUDE "gfx/tohomon/cfuto/frames.asm"
 FutoFrames:   INCLUDE "gfx/tohomon/futo/frames.asm"
 CMikoFrames: INCLUDE "gfx/tohomon/cmiko/frames.asm"
+MikoFrames:  INCLUDE "gfx/tohomon/miko/frames.asm"
 
 EggFrames:        INCLUDE "gfx/tohomon/egg/frames.asm"
 
@@ -172,8 +173,6 @@ TReisenFrames:   INCLUDE "gfx/tohomon/treisen/frames.asm"
 CSuwakoFrames:   INCLUDE "gfx/tohomon/csuwako/frames.asm"
 
 IkuFrames:   INCLUDE "gfx/tohomon/iku/frames.asm"
-
-CFutoFrames:   INCLUDE "gfx/tohomon/cfuto/frames.asm"
 
 CShizuhaFrames:   INCLUDE "gfx/tohomon/cshizuha/frames.asm"
 

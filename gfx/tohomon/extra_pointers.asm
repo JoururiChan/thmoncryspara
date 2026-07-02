@@ -265,9 +265,9 @@ AnimationExtraPointers:
 	dw CTojikoAnimationExtra
 	dw TojikoAnimationExtra
 	dw CFutoAnimationExtra
-	dw MikoAnimationExtra
 	dw FutoAnimationExtra
 	dw CMikoAnimationExtra
+	dw MikoAnimationExtra
 	dw CMamizouAnimationExtra
 	dw MamizouAnimationExtra
 	dw CKokoroAnimationExtra

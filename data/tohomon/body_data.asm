@@ -272,9 +272,9 @@ TohomonBodyData:
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; CTOJIKO
 	body_data  25,  605, FINS,         BLACK  ; TOJIKO
 	body_data  36,  392, SERPENTINE,   YELLOW ; CFUTO
-	body_data  32, 1600, QUADRUPED,    YELLOW ; MIKO
 	body_data  18, 2230, QUADRUPED,    BROWN  ; FUTO
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; CMIKO
+	body_data  32, 1600, QUADRUPED,    YELLOW ; MIKO
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; X

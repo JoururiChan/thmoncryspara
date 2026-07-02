@@ -222,9 +222,10 @@ YoshikaAnimation:    INCLUDE "gfx/tohomon/yoshika/anim.asm"
 CSeigaAnimation:    INCLUDE "gfx/tohomon/cseiga/anim.asm"
 CTojikoAnimation:   INCLUDE "gfx/tohomon/ctojiko/anim.asm"
 TojikoAnimation:   INCLUDE "gfx/tohomon/tojiko/anim.asm"
-MikoAnimation:  INCLUDE "gfx/tohomon/miko/anim.asm"
+CFutoAnimation:   INCLUDE "gfx/tohomon/cfuto/anim.asm"
 FutoAnimation:   INCLUDE "gfx/tohomon/futo/anim.asm"
 CMikoAnimation: INCLUDE "gfx/tohomon/cmiko/anim.asm"
+MikoAnimation:  INCLUDE "gfx/tohomon/miko/anim.asm"
 CMamizouAnimation: INCLUDE "gfx/tohomon/cmamizou/anim.asm"
 MamizouAnimation: INCLUDE "gfx/tohomon/mamizou/anim.asm"
 CKokoroAnimation: INCLUDE "gfx/tohomon/ckokoro/anim.asm"
@@ -299,8 +300,6 @@ KikuriJohtoAnimation: INCLUDE "gfx/tohomon/kikuri_johto/anim.asm"
 
 LilyBlackAnimation:
 LilyBlackRaindropAnimation: INCLUDE "gfx/tohomon/lilyblack/anim.asm"
-
-CFutoAnimation:   INCLUDE "gfx/tohomon/cfuto/anim.asm"
 
 SLilyBlackAnimation: INCLUDE "gfx/tohomon/slilyblack/anim.asm"
 SLilyBlackRedAnimation:   INCLUDE "gfx/tohomon/slilyblack_red/anim.asm"

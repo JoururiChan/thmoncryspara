@@ -269,9 +269,9 @@ EvosAttacksPointers::
 	dw CTojikoEvosAttacks
 	dw TojikoEvosAttacks
 	dw CFutoEvosAttacks
-	dw MikoEvosAttacks
 	dw FutoEvosAttacks
 	dw CMikoEvosAttacks
+	dw MikoEvosAttacks
 	dw CMamizouEvosAttacks
 	dw MamizouEvosAttacks
 	dw CKokoroEvosAttacks
@@ -301,5 +301,5 @@ EvosAttacksPointers::
 	dw SLilyBlackEvosAttacks
 
 	dw SuikaEvosAttacks
-	
+
 	assert_table_length NUM_EXT_TOHOMON

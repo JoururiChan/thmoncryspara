@@ -269,9 +269,9 @@ MiniIconPointers:
 	mini_icon CTojiko
 	mini_icon Tojiko
 	mini_icon CFuto
-	mini_icon Miko
 	mini_icon Futo
 	mini_icon CMiko
+	mini_icon Miko
 	mini_icon CMamizou
 	mini_icon Mamizou
 	mini_icon CKokoro

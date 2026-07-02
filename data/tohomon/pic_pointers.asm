@@ -269,9 +269,9 @@ TohomonPicPointers::
 	pics CTojiko
 	pics Tojiko
 	pics CFuto
-	pics Miko
 	pics Futo
 	pics CMiko
+	pics Miko
 	pics CMamizou
 	pics Mamizou
 	pics CKokoro

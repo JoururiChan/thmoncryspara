@@ -2627,16 +2627,6 @@ CFutoTohodexEntry::
 	next "The nest can reach"
 	next "over six miles.@"
 
-SECTION "MikoTohodexEntry", ROMX
-MikoTohodexEntry::
-	db "Long Neck@"
-	db   "Now that the brain"
-	next "waves from its"
-	next "head and tail are"
-	page "synced up, its"
-	next "psychic power is"
-	next "10 times stronger.@"
-
 SECTION "FutoTohodexEntry", ROMX
 FutoTohodexEntry::
 	db "Spiny Fish@"
@@ -2656,6 +2646,16 @@ CMikoTohodexEntry::
 	page "gained power unfe-"
 	next "ttered by its"
 	next "physical body.@"
+
+SECTION "MikoTohodexEntry", ROMX
+MikoTohodexEntry::
+	db "Long Neck@"
+	db   "Now that the brain"
+	next "waves from its"
+	next "head and tail are"
+	page "synced up, its"
+	next "psychic power is"
+	next "10 times stronger.@"
 
 SECTION "SLilyBlackRedTohodexEntry", ROMX
 SLilyBlackRedTohodexEntry::

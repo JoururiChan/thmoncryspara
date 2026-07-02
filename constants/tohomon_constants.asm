@@ -290,8 +290,8 @@
 	const TOJIKO   ; 11f
 	const CFUTO ; 120
 	const FUTO   ; 122
-	const MIKO  ; 121
 	const CMIKO ; 123
+	const MIKO  ; 121
 	const CMAMIZOU ; X
 	const MAMIZOU ; X
 	const CKOKORO ; X

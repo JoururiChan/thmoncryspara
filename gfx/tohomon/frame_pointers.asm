@@ -265,9 +265,9 @@ FramesPointers:
 	dw CTojikoFrames
 	dw TojikoFrames
 	dw CFutoFrames
-	dw MikoFrames
 	dw FutoFrames
 	dw CMikoFrames
+	dw MikoFrames
 	dw CMamizouFrames
 	dw MamizouFrames
 	dw CKokoroFrames

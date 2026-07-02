@@ -266,9 +266,9 @@ TohodexDataPointerTable:
 	dba CTojikoTohodexEntry
 	dba TojikoTohodexEntry
 	dba CFutoTohodexEntry
-	dba MikoTohodexEntry
 	dba FutoTohodexEntry
 	dba CMikoTohodexEntry
+	dba MikoTohodexEntry
 	dba CMamizouTohodexEntry
 	dba MamizouTohodexEntry
 	dba CKokoroTohodexEntry

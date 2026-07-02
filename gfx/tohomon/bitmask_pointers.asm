@@ -265,9 +265,9 @@ BitmasksPointers:
 	dw CTojikoBitmasks
 	dw TojikoBitmasks
 	dw CFutoBitmasks
-	dw MikoBitmasks
 	dw FutoBitmasks
 	dw CMikoBitmasks
+	dw MikoBitmasks
 	dw CMamizouBitmasks
 	dw MamizouBitmasks
 	dw CKokoroBitmasks

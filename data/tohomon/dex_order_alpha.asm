@@ -265,9 +265,9 @@ AlphabeticalTohodexOrder:
 	dp CTOJIKO   ; 11e
 	dp TOJIKO   ; 11f
 	dp CFUTO ; 120
-	dp MIKO  ; 121
 	dp FUTO   ; 122
 	dp CMIKO ; 123
+	dp MIKO  ; 121
 	dp CMAMIZOU ; X
 	dp MAMIZOU ; X
 	dp CKOKORO ; X

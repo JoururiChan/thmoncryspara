@@ -266,9 +266,9 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  40, 100 ; CTojiko
 	db  33, 100 ; Tojiko
 	db  32, 100 ; CFuto
-	db  32, 100 ; Miko
 	db  20, 100 ; Futo
 	db  56, 100 ; CMiko
+	db  32, 100 ; Miko
 	db  1, 100 ; Placeholder
 	db  1, 100 ; Placeholder
 	db  1, 100 ; Placeholder

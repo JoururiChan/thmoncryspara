@@ -265,9 +265,9 @@ FootprintPointers::
 	dw CTojikoFootprint
 	dw TojikoFootprint
 	dw CFutoFootprint
-	dw MikoFootprint
 	dw FutoFootprint
 	dw CMikoFootprint
+	dw MikoFootprint
 	dw CMamizouFootprint
 	dw MamizouFootprint
 	dw CKokoroFootprint

@@ -1317,14 +1317,9 @@ TojikoMiniMask:: INCBIN "gfx/minis/tojiko_mask.1bpp.lz"
 TojikoIcon::     INCBIN "gfx/icons/tojiko.2bpp.lz"
 
 SECTION "CFuto Mini Icon", ROMX
-CFutoMini::     INCBIN "gfx/minis/csanae.2bpp.lz"
-CFutoMiniMask:: INCBIN "gfx/minis/csanae.1bpp.lz"
-CFutoIcon::     INCBIN "gfx/icons/csanae.2bpp.lz"
-
-SECTION "Miko Mini Icon", ROMX
-MikoMini::     INCBIN "gfx/minis/miko.2bpp.lz"
-MikoMiniMask:: INCBIN "gfx/minis/miko_mask.1bpp.lz"
-MikoIcon::     INCBIN "gfx/icons/miko.2bpp.lz"
+CFutoMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CFutoMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CFutoIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "Futo Mini Icon", ROMX
 FutoMini::     INCBIN "gfx/minis/futo.2bpp.lz"
@@ -1335,6 +1330,11 @@ SECTION "CMiko Mini Icon", ROMX
 CMikoMini::     INCBIN "gfx/minis/cmiko.2bpp.lz"
 CMikoMiniMask:: INCBIN "gfx/minis/cmiko_mask.1bpp.lz"
 CMikoIcon::     INCBIN "gfx/icons/cmiko.2bpp.lz"
+
+SECTION "Miko Mini Icon", ROMX
+MikoMini::     INCBIN "gfx/minis/miko.2bpp.lz"
+MikoMiniMask:: INCBIN "gfx/minis/miko_mask.1bpp.lz"
+MikoIcon::     INCBIN "gfx/icons/miko.2bpp.lz"
 
 SECTION "CMamizou Mini Icon", ROMX
 CMamizouMini::     INCBIN "gfx/minis/creimu.2bpp.lz"

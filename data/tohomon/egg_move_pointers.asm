@@ -298,6 +298,4 @@ EggMovePointers::
 
 	dw NoEggMoves                ; Suika (Armored Form)
 
-	dw CMomijiEggMoves         ; Dundunsparse (Three Segment Form)
-
 	assert_table_length NUM_EXT_TOHOMON

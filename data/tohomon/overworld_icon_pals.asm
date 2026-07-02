@@ -269,9 +269,9 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; CTOJIKO
 	iconpal PURPLE, BLUE ; TOJIKO
 	iconpal AZURE, RED ; CFUTO
-	iconpal BROWN, BLUE ; MIKO
 	iconpal BROWN, BLUE ; FUTO
 	iconpal GRAY, PURPLE ; CMIKO
+	iconpal BROWN, BLUE ; MIKO
 	iconpal RED, ORANGE ; X
 	iconpal RED, ORANGE ; X
 	iconpal RED, ORANGE ; X
