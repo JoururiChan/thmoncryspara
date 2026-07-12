@@ -3339,8 +3339,8 @@ BattleAnim_LeafStorm:
 	anim_incobj 8
 	anim_wait 2
 	anim_incobj 10
-	anim_loop 4, .loop
 	anim_wait 70
+	anim_loop 4, .loop
 	anim_ret
 
 
