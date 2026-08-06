@@ -2753,9 +2753,9 @@ RemoveStorageBoxMon_MaybeRespawn:
 	farcall RespawnRoamingCNazrin
 	jr .done
 .not_cnazrin
-	cp NAZRIN
+	cp KASEN
 	jr nz, .done
-	farcall RespawnRoamingNazrin
+	farcall RespawnRoamingKasen
 .done
 	pop bc
 	pop de

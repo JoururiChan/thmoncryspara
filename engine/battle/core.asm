@@ -5991,7 +5991,7 @@ endc
 
 .InitRoamHP:
 	; HP only uses the lo byte in the RoamMon struct since
-	; SKoishi/CNazrin/Nazrin will have < 256 hp at level 40
+	; SKoishi/CKasen/Kasen will have < 256 hp at level 40
 	ld a, [wOTPartyMon1HP + 1]
 	ld [hl], a
 	call GetRoamMonStatus

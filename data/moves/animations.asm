@@ -3304,43 +3304,23 @@ BattleAnim_FireLaunch:
 	anim_ret
 
 BattleAnim_LeafStorm:
-	anim_1gfx ANIM_GFX_PLANT
+	anim_call BattleAnim_TargetObj_2Row
+	anim_bgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING, $0, $1, $20
+	anim_sound 0, 0, SFX_TOXIC_SPIKES
+	anim_wait 72
+	anim_incbgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING
+	anim_1gfx ANIM_GFX_WIND
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $c0, $1, $0
 .loop
-	anim_sound 0, 0, SFX_VINE_WHIP
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $28
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $5c
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $10
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $e8
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $9c
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $d0
-	anim_wait 6
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $1c
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $50
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $dc
-	anim_obj ANIM_OBJ_RAZOR_LEAF,   6, 0,  10, 0, $90
-	anim_wait 16
-	anim_incobj 3
-	anim_wait 2
-	anim_incobj 5
-	anim_wait 2
-	anim_incobj 7
-	anim_wait 2
-	anim_incobj 9
-	anim_wait 2
-	anim_incobj 1
-	anim_wait 2
-	anim_incobj 2
-	anim_wait 2
-	anim_incobj 4
-	anim_wait 2
-	anim_incobj 6
-	anim_wait 2
-	anim_incobj 8
-	anim_wait 2
-	anim_incobj 10
-	anim_wait 70
-	anim_loop 4, .loop
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_obj ANIM_OBJ_GUST, -16, 4,   9, 0, $0
+	anim_wait 4
+	anim_loop 9, .loop
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_wait 38
 	anim_ret
 
 

@@ -419,16 +419,16 @@ RespawnOneOffs:
 	call z, RespawnRoamingCNazrin
 .CaughtCNazrin
 
-	eventflagcheck EVENT_FOUGHT_NAZRIN
-	jr z, .CaughtOrNeverFoughtNazrin
-	ld de, ENGINE_PLAYER_CAUGHT_NAZRIN
+	eventflagcheck EVENT_FOUGHT_KASEN
+	jr z, .CaughtOrNeverFoughtKasen
+	ld de, ENGINE_PLAYER_CAUGHT_KASEN
 	farcall EngineFlagAction
-	jr nz, .CaughtOrNeverFoughtNazrin
+	jr nz, .CaughtOrNeverFoughtKasen
 	ld hl, wRoamMon3Species
 	ld a, [hl]
 	and a
-	call z, RespawnRoamingNazrin
-.CaughtOrNeverFoughtNazrin
+	call z, RespawnRoamingKasen
+.CaughtOrNeverFoughtKasen
 
 	ld de, ENGINE_PLAYER_CAUGHT_TKOGASA
 	farcall EngineFlagAction
@@ -471,8 +471,8 @@ RespawnRoamingCNazrin:
 	ld [wRoamMon2HP], a
 	ret
 
-RespawnRoamingNazrin:
-	ld a, NAZRIN
+RespawnRoamingKasen:
+	ld a, KASEN
 	ld [wRoamMon3Species], a
 	ld a, 50
 	ld [wRoamMon3Level], a

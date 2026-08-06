@@ -37,8 +37,8 @@ SpriteAnimFrameData:
 	dw .Frameset_EggHatch4
 	dw .Frameset_HeadbuttTree
 	dw .Frameset_BlueWalk
-	dw .Frameset_IntroNazrin
-	dw .Frameset_IntroNazrin2
+	dw .Frameset_IntroKasen
+	dw .Frameset_IntroKasen2
 	dw .Frameset_IntroTTei
 	dw .Frameset_IntroCShizuha
 	dw .Frameset_IntroCNue1
@@ -46,7 +46,7 @@ SpriteAnimFrameData:
 	dw .Frameset_IntroCNue3
 	dw .Frameset_IntroCNue4
 	dw .Frameset_IntroCNueF2
-	dw .Frameset_IntroNazrinAway
+	dw .Frameset_IntroKasenAway
 	dw .Frameset_IntroCNueF
 	dw .Frameset_IchirinLeft
 	dw .Frameset_IchirinRight
@@ -277,14 +277,14 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_HEADBUTT_TREE_3,  2
 	oamrestart
 
-.Frameset_IntroNazrin:
+.Frameset_IntroKasen:
 	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_1,  3
 	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_2,  3
 	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_3,  3
 	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_4,  3
 	oamrestart
 
-.Frameset_IntroNazrin2:
+.Frameset_IntroKasen2:
 	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_4,  3
 	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_1,  7
 	oamend
@@ -331,7 +331,7 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_INTRO_CNUE_F_2_5,  7
 	oamend
 
-.Frameset_IntroNazrinAway:
+.Frameset_IntroKasenAway:
 	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_AWAY,  3
 	oamend
 

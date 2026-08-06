@@ -68,15 +68,15 @@ ENDM
 .Lake_Old:
 .River_Old:
 .Well_Old:
-	fishentry  70 percent + 1, CKOMACHI,   10
-	fishentry  85 percent + 1, CKOMACHI,   10
+	fishentry  70 percent + 1, CWAKASAGI,   10
+	fishentry  85 percent + 1, CWAKASAGI,   10
 	fishentry 100 percent,     CMURASA,    10
 .Lake_Good:
 .River_Good:
 .Well_Good:
-	fishentry  35 percent,     CKOMACHI,   20
-	fishentry  70 percent,     CKOMACHI,    20
-	fishentry  90 percent + 1, CNITORI,    20
+	fishentry  35 percent,     CWAKASAGI,   20
+	fishentry  70 percent,     CWAKASAGI,    20
+	fishentry  90 percent + 1, CKOMACHI,    20
 	fishentry 100 percent,     CMURASA,    20
 .Lake_Super:
 .River_Super:

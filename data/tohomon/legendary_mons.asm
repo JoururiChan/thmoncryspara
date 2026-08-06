@@ -1,10 +1,7 @@
 LegendaryMons::
 	dp SUIKA
 	dp YUUGI
-	dp CYUKARI
-	dp SKOISHI
-	dp CNAZRIN
-	dp NAZRIN
+	dp KASEN
 UberMons::
 ; banned from Battle Tower
 	dp RAN

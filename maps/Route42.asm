@@ -17,7 +17,7 @@ Route42_MapScriptHeader:
 	coord_event 12,  8, 1, Route42LyraScript3
 	coord_event 12,  9, 1, Route42LyraScript4
 	coord_event 10,  6, 1, Route42LyraScript5
-	coord_event 24, 14, 2, Route42NazrinScript
+	coord_event 24, 14, 2, Route42KasenScript
 
 	def_bg_events
 	bg_event  4, 10, BGEVENT_JUMPTEXT, Route42Sign1Text
@@ -28,7 +28,7 @@ Route42_MapScriptHeader:
 	bg_event 22,  9, BGEVENT_JUMPSTD, cavegrotto, HIDDENGROTTO_ROUTE_42
 
 	def_object_events
-	tohomon_event 26, 16, NAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_SAW_NAZRIN_ON_ROUTE_42
+	tohomon_event 26, 16, KASEN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_SAW_KASEN_ON_ROUTE_42
 	object_event 10,  5, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LYRA_ROUTE_42
 	object_event 40, 10, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerFisherTully1, -1
 	object_event 51,  9, SPRITE_HIKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerHikerBenjamin, -1
@@ -43,7 +43,7 @@ Route42_MapScriptHeader:
 	itemball_event 33,  8, SUPER_POTION, 1, EVENT_ROUTE_42_SUPER_POTION
 
 	object_const_def
-	const ROUTE42_NAZRIN
+	const ROUTE42_KASEN
 	const ROUTE42_LYRA
 
 Route42LyraScript1:
@@ -132,25 +132,25 @@ Route42LyraScript:
 	closetext
 	applymovement ROUTE42_LYRA, MovementData_Route42LyraLeave
 	disappear ROUTE42_LYRA
-	checkevent EVENT_SAW_NAZRIN_ON_ROUTE_42
-	iftruefwd .NoNazrin
+	checkevent EVENT_SAW_KASEN_ON_ROUTE_42
+	iftruefwd .NoKasen
 	setscene $2
 	sjumpfwd .Finish
-.NoNazrin
+.NoKasen
 	setscene $0
 .Finish
 	playmapmusic
 	end
 
-Route42NazrinScript:
+Route42KasenScript:
 	showemote EMOTE_SHOCK, PLAYER, 15
 	pause 15
 	playsound SFX_WARP_FROM
-	applymovement ROUTE42_NAZRIN, Route42NazrinMovement
-	disappear ROUTE42_NAZRIN
+	applymovement ROUTE42_KASEN, Route42KasenMovement
+	disappear ROUTE42_KASEN
 	pause 10
 	setscene $0
-	clearevent EVENT_SAW_NAZRIN_ON_ROUTE_36
+	clearevent EVENT_SAW_KASEN_ON_ROUTE_36
 	setmapscene ROUTE_36, $1
 	end
 
@@ -319,7 +319,7 @@ MovementData_Route42LyraLeave:
 	step_left
 	step_end
 
-Route42NazrinMovement:
+Route42KasenMovement:
 	fix_facing
 	fast_jump_step_up
 	fast_jump_step_up

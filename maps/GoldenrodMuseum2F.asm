@@ -60,7 +60,7 @@ CIchirinPaintingScript:
 	done
 
 BellTowerPaintingScript:
-	checkevent EVENT_FOUGHT_NAZRIN
+	checkevent EVENT_FOUGHT_KASEN
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
 	paintingpic BELL_TOWER_PAINTING
@@ -136,7 +136,7 @@ TowerRelicText:
 	done
 
 GoldenrodMuseum2FSightseerMScript:
-	checkevent EVENT_FOUGHT_NAZRIN
+	checkevent EVENT_FOUGHT_KASEN
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FSightseerMNoPaintingText
 	checkevent EVENT_FOUGHT_CICHIRIN
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FSightseerMNoPaintingText

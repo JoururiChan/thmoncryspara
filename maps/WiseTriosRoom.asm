@@ -31,7 +31,7 @@ WiseTriosRoom_MapScriptHeader:
 	const WISETRIOSROOM_ELDER6
 
 WiseTriosRoomCallback:
-	checkevent EVENT_FOUGHT_NAZRIN
+	checkevent EVENT_FOUGHT_KASEN
 	iftruefwd .NoWiseTrio
 	checkevent EVENT_KOJI_ALLOWS_YOU_PASSAGE_TO_TIN_TOWER
 	iftruefwd .WiseTrio2
@@ -114,7 +114,7 @@ WiseTriosRoomSageAllowsPassageMovement:
 WiseTriosRoomSage1Text:
 	text "Astounding…"
 
-	para "Nazrin, CNazrin and"
+	para "Kasen, CNazrin and"
 	line "SKoishi have arisen"
 	cont "from their sleep…"
 
@@ -144,7 +144,7 @@ WiseTriosRoomSage3BlocksExitText:
 	line "Gym Badge."
 
 	para "However, now that"
-	line "Nazrin, SKoishi"
+	line "Kasen, SKoishi"
 
 	para "and CNazrin have"
 	line "arisen, I ask you"
@@ -181,7 +181,7 @@ ElderGakuSeenText:
 	line "come true!"
 
 	para "The legendary"
-	line "#mon Nazrin"
+	line "#mon Kasen"
 	cont "has arrived!"
 
 	para "We, the Wise Trio,"
@@ -200,7 +200,7 @@ SageGakuAfterBattleText:
 	text "Ah, so it is you"
 	line "who claim to have"
 
-	para "seen Nazrin,"
+	para "seen Kasen,"
 	line "CNazrin and SKoishi"
 	cont "while they slept?"
 
@@ -322,13 +322,13 @@ SageKojiAfterBattleSpeechText:
 	line "and enter the"
 	cont "Bell Tower ahead."
 
-	para "Nazrin will put"
+	para "Kasen will put"
 	line "you to the test."
 	done
 
 SageKojiAfterBattleFinalText:
 	text "Please, do go on."
 
-	para "Nazrin will put"
+	para "Kasen will put"
 	line "you to the test."
 	done

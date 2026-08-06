@@ -306,7 +306,7 @@ IntroScene7:
 
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroNazrinRunGFX
+	ld hl, IntroKasenRunGFX
 	ld de, vTiles0 tile $00
 	call Intro_DecompressRequest2bpp_255Tiles
 
@@ -315,7 +315,7 @@ IntroScene7:
 	call Intro_ResetLYOverrides
 	call ClearSpriteAnims
 	depixel 13, 27, 4, 0
-	ld a, SPRITE_ANIM_INDEX_INTRO_NAZRIN
+	ld a, SPRITE_ANIM_INDEX_INTRO_KASEN
 	call InitSpriteAnimStruct
 	ld a, $f0
 	ld [wGlobalAnimXOffset], a
@@ -326,19 +326,19 @@ IntroScene7:
 	jmp NextIntroScene
 
 IntroScene8:
-; Scroll the scene, then show Nazrin running across the screen.
+; Scroll the scene, then show Kasen running across the screen.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
 	cp $40
-	jr z, .nazrin_sound
-	jr nc, .animate_nazrin
+	jr z, .kasen_sound
+	jr nc, .animate_kasen
 	jmp Intro_PerspectiveScrollBG
 
-.nazrin_sound
-	ld de, SFX_INTRO_NAZRIN_3
+.kasen_sound
+	ld de, SFX_INTRO_KASEN_3
 	call PlaySFX
-.animate_nazrin
+.animate_kasen
 	ld a, [wGlobalAnimXOffset]
 	and a
 	jr z, .finish
@@ -347,7 +347,7 @@ IntroScene8:
 	ret
 
 .finish
-	ld de, SFX_INTRO_NAZRIN_2
+	ld de, SFX_INTRO_KASEN_2
 	call PlaySFX
 	farcall DeinitializeAllSprites
 	jmp NextIntroScene
@@ -547,13 +547,13 @@ IntroScene13:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroNazrinRunGFX
+	ld hl, IntroKasenRunGFX
 	ld de, vTiles0 tile $00
 	call Intro_DecompressRequest2bpp_255Tiles
 	call Intro_SetupCommonScenery
 	call ClearSpriteAnims
 	depixel 13, 11, 4, 0
-	ld a, SPRITE_ANIM_INDEX_INTRO_NAZRIN
+	ld a, SPRITE_ANIM_INDEX_INTRO_KASEN
 	call InitSpriteAnimStruct
 	ld e, MUSIC_CRYSTAL_OPENING
 	call PlayMusic
@@ -566,7 +566,7 @@ IntroScene13:
 	jmp NextIntroScene
 
 IntroScene14:
-; Nazrin runs then jumps.
+; Kasen runs then jumps.
 	ldh a, [hSCX]
 	sub 10
 	ldh [hSCX], a
@@ -583,7 +583,7 @@ IntroScene14:
 	ret
 
 .jump
-	ld de, SFX_INTRO_NAZRIN_4
+	ld de, SFX_INTRO_KASEN_4
 	call PlaySFX
 
 .run_after_jump
@@ -619,7 +619,7 @@ IntroScene15:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroNazrinJumpGFX
+	ld hl, IntroKasenJumpGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroCNueBackGFX
@@ -661,7 +661,7 @@ IntroScene15:
 	ld a, SPRITE_ANIM_INDEX_INTRO_CNUE_F
 	call InitSpriteAnimStruct
 	depixel 12, 0
-	ld a, SPRITE_ANIM_INDEX_INTRO_NAZRIN_AWAY
+	ld a, SPRITE_ANIM_INDEX_INTRO_KASEN_AWAY
 	call InitSpriteAnimStruct
 	xor a
 	ld [wIntroSceneFrameCounter], a
@@ -669,13 +669,13 @@ IntroScene15:
 	jmp NextIntroScene
 
 IntroScene16:
-; Nazrin shows its face. An CNue appears in front.
+; Kasen shows its face. An CNue appears in front.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
 	cp $80
 	jmp nc, NextIntroScene
-	call Intro_Scene16_AnimateNazrin
+	call Intro_Scene16_AnimateKasen
 	ldh a, [hSCY]
 	and a
 	ret z
@@ -697,7 +697,7 @@ IntroScene17:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroNazrinCloseGFX
+	ld hl, IntroKasenCloseGFX
 	ld de, vTiles1 tile $00
 	call Intro_DecompressRequest2bpp_255Tiles
 	ld hl, IntroTilemap012
@@ -732,7 +732,7 @@ IntroScene17:
 	jmp NextIntroScene
 
 IntroScene18:
-; Nazrin close up.
+; Kasen close up.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -759,7 +759,7 @@ IntroScene19:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroNazrinBackGFX
+	ld hl, IntroKasenBackGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroCNuesGFX
@@ -802,7 +802,7 @@ IntroScene19:
 	ld [hl], $7f
 	call Intro_SetCGBPalUpdate
 	depixel 12, 0
-	ld a, SPRITE_ANIM_INDEX_INTRO_NAZRIN_AWAY
+	ld a, SPRITE_ANIM_INDEX_INTRO_KASEN_AWAY
 	call InitSpriteAnimStruct
 	xor a
 	ld [wIntroSceneFrameCounter], a
@@ -810,7 +810,7 @@ IntroScene19:
 	jmp NextIntroScene
 
 IntroScene20:
-; Nazrin running away. A bunch of CNue appear.
+; Kasen running away. A bunch of CNue appear.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -841,8 +841,8 @@ IntroScene20:
 	jmp Intro_Scene20_AppearCNue
 
 IntroScene21:
-; Nazrin gets more distant and turns black.
-	call Intro_ColoredNazrinFrameSwap
+; Kasen gets more distant and turns black.
+	call Intro_ColoredKasenFrameSwap
 	ld c, 3
 	call DelayFrames
 	xor a
@@ -1371,17 +1371,17 @@ Intro_LoadTilemap:
 	ldh [rSVBK], a
 	ret
 
-Intro_Scene16_AnimateNazrin:
+Intro_Scene16_AnimateKasen:
 	ld a, [wIntroSceneFrameCounter]
 	and $3
-	jr z, Intro_ColoredNazrinFrameSwap
+	jr z, Intro_ColoredKasenFrameSwap
 	cp $3
 	ret nz
 	xor a
 	ldh [hBGMapMode], a
 	ret
 
-Intro_ColoredNazrinFrameSwap:
+Intro_ColoredKasenFrameSwap:
 	hlcoord 0, 0
 	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
 .loop
@@ -1545,8 +1545,8 @@ Intro_PerspectiveScrollBG:
 	ldh [rSVBK], a
 	ret
 
-IntroNazrinRunGFX:
-INCBIN "gfx/intro/nazrin_run.2bpp.lz"
+IntroKasenRunGFX:
+INCBIN "gfx/intro/kasen_run.2bpp.lz"
 
 IntroTTeiCShizuhaGFX:
 INCBIN "gfx/intro/ttei_cshizuha.2bpp.lz"
@@ -1640,8 +1640,8 @@ INCBIN "gfx/intro/015.tilemap.lz"
 Palette_e679d:
 INCLUDE "gfx/intro/crystal_cnues.pal"
 
-IntroNazrinCloseGFX:
-INCBIN "gfx/intro/nazrin_close.2bpp.lz"
+IntroKasenCloseGFX:
+INCBIN "gfx/intro/kasen_close.2bpp.lz"
 
 IntroTilemap012:
 INCBIN "gfx/intro/012.tilemap.lz"
@@ -1650,13 +1650,13 @@ IntroTilemap011:
 INCBIN "gfx/intro/011.tilemap.lz"
 
 Palette_e6d6d:
-INCLUDE "gfx/intro/nazrin_close.pal"
+INCLUDE "gfx/intro/kasen_close.pal"
 
-IntroNazrinJumpGFX:
-INCBIN "gfx/intro/nazrin_jump.2bpp.lz"
+IntroKasenJumpGFX:
+INCBIN "gfx/intro/kasen_jump.2bpp.lz"
 
-IntroNazrinBackGFX:
-INCBIN "gfx/intro/nazrin_back.2bpp.lz"
+IntroKasenBackGFX:
+INCBIN "gfx/intro/kasen_back.2bpp.lz"
 
 IntroTilemap010:
 INCBIN "gfx/intro/010.tilemap.lz"
@@ -1671,7 +1671,7 @@ IntroTilemap013:
 INCBIN "gfx/intro/013.tilemap.lz"
 
 Palette_e77dd:
-INCLUDE "gfx/intro/nazrin.pal"
+INCLUDE "gfx/intro/kasen.pal"
 
 IntroCNueBackGFX:
 INCBIN "gfx/intro/cnue_back.2bpp.lz"

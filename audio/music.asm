@@ -188,8 +188,8 @@ INCLUDE "audio/music/clair.asm"
 SECTION "Song - tintower", ROMX
 INCLUDE "audio/music/tintower.asm"
 
-SECTION "Song - nazrinbattle", ROMX
-INCLUDE "audio/music/nazrinbattle.asm"
+SECTION "Song - kasenbattle", ROMX
+INCLUDE "audio/music/kasenbattle.asm"
 
 SECTION "Song - route26", ROMX
 INCLUDE "audio/music/route26.asm"

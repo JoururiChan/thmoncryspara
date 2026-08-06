@@ -34,7 +34,7 @@ ValeriesHouse_MapScriptHeader:
 	const VALERIESHOUSE_YELLOW_FAIRY_BOOK
 
 SetupValerieAfterMorningWalkScript:
-	checkevent EVENT_FOUGHT_NAZRIN
+	checkevent EVENT_FOUGHT_KASEN
 	iffalsefwd .Disappear
 	checkevent EVENT_BEAT_VALERIE
 	iffalsefwd .Disappear

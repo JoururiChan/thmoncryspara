@@ -14,8 +14,8 @@ Route36_MapScriptHeader:
 	warp_event 30, 12, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
-	coord_event 24,  7, 1, Route36NazrinScript
-	coord_event 26,  7, 1, Route36NazrinScript
+	coord_event 24,  7, 1, Route36KasenScript
+	coord_event 26,  7, 1, Route36KasenScript
 
 	def_bg_events
 	bg_event 33,  1, BGEVENT_JUMPTEXT, Route36TrainerTips2Text
@@ -31,7 +31,7 @@ Route36_MapScriptHeader:
 	object_event 39,  9, SPRITE_WEIRD_TREE, SPRITEMOVEDATA_CMEDICINE, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CMedicineScript, EVENT_ROUTE_36_CMEDICINE
 	object_event 53,  6, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ArthurScript, EVENT_ROUTE_36_ARTHUR_OF_THURSDAY
 	object_event 37, 12, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route36FloriaScript, EVENT_FLORIA_AT_CMEDICINE
-	tohomon_event 25,  6, NAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_SAW_NAZRIN_ON_ROUTE_36
+	tohomon_event 25,  6, KASEN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_SAW_KASEN_ON_ROUTE_36
 	object_event 30,  6, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36CooltrainerfChiaraScript, -1
 	object_event 24, 13, SPRITE_PSYCHIC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPsychicMark, -1
 	object_event 35, 14, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 5, TrainerSchoolboyAlan1, -1
@@ -44,7 +44,7 @@ Route36_MapScriptHeader:
 	const ROUTE36_WEIRD_TREE
 	const ROUTE36_ARTHUR
 	const ROUTE36_FLORIA
-	const ROUTE36_NAZRIN
+	const ROUTE36_KASEN
 	const ROUTE36_COOLTRAINERF
 
 Route36ArthurCallback:
@@ -57,17 +57,17 @@ Route36ArthurCallback:
 	appear ROUTE36_ARTHUR
 	endcallback
 
-Route36NazrinScript:
+Route36KasenScript:
 	showemote EMOTE_SHOCK, PLAYER, 15
 	pause 15
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, UP
-	applymovement ROUTE36_NAZRIN, Route36NazrinMovement
-	disappear ROUTE36_NAZRIN
+	applymovement ROUTE36_KASEN, Route36KasenMovement
+	disappear ROUTE36_KASEN
 	turnobject PLAYER, DOWN
 	pause 10
 	setscene $0
-	clearevent EVENT_SAW_NAZRIN_AT_CIANWOOD_CITY
+	clearevent EVENT_SAW_KASEN_AT_CIANWOOD_CITY
 	setmapscene CIANWOOD_CITY, $1
 	end
 
@@ -454,7 +454,7 @@ FloriaMovement2:
 	step_left
 	step_end
 
-Route36NazrinMovement:
+Route36KasenMovement:
 	fix_facing
 	fast_jump_step_down
 	fast_jump_step_down

@@ -28,11 +28,11 @@ DoAnimFrame:
 	dw AnimSeq_FlyFrom            ; SPRITE_ANIM_SEQ_FLY_FROM
 	dw AnimSeq_FlyLeaf            ; SPRITE_ANIM_SEQ_FLY_LEAF
 	dw AnimSeq_FlyTo              ; SPRITE_ANIM_SEQ_FLY_TO
-	dw AnimSeq_IntroNazrin       ; SPRITE_ANIM_SEQ_INTRO_NAZRIN
+	dw AnimSeq_IntroKasen       ; SPRITE_ANIM_SEQ_INTRO_KASEN
 	dw AnimSeq_IntroTTeiCShizuha   ; SPRITE_ANIM_SEQ_TTEI_CSHIZUHA
 	dw AnimSeq_IntroCNue         ; SPRITE_ANIM_SEQ_CNUE
 	dw AnimSeq_IntroCNueF        ; SPRITE_ANIM_SEQ_CNUE_F
-	dw AnimSeq_IntroNazrinAway   ; SPRITE_ANIM_SEQ_NAZRIN_AWAY
+	dw AnimSeq_IntroKasenAway   ; SPRITE_ANIM_SEQ_KASEN_AWAY
 	dw AnimSeq_Ichirin             ; SPRITE_ANIM_SEQ_ICHIRIN
 	dw AnimSeq_MaxStatSparkle     ; SPRITE_ANIM_SEQ_MAX_STAT_SPARKLE
 	dw AnimSeq_PcCursor           ; SPRITE_ANIM_SEQ_PC_CURSOR
@@ -498,7 +498,7 @@ AnimSeq_FlyTo:
 	ld [hl], a
 	ret
 
-AnimSeq_IntroNazrin:
+AnimSeq_IntroKasen:
 	ld a, [wIntroSceneTimer]
 	and a
 	ret z
@@ -519,7 +519,7 @@ AnimSeq_IntroNazrin:
 	ld hl, SPRITEANIMSTRUCT_YOFFSET
 	add hl, bc
 	ld [hl], a
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_NAZRIN_2
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_KASEN_2
 	jmp _ReinitSpriteAnimFrame
 
 AnimSeq_IntroTTeiCShizuha:
@@ -574,7 +574,7 @@ AnimSeq_IntroCNueF:
 	ld a, SPRITE_ANIM_FRAMESET_INTRO_CNUE_F_2
 	jmp _ReinitSpriteAnimFrame
 
-AnimSeq_IntroNazrinAway:
+AnimSeq_IntroKasenAway:
 	ld hl, SPRITEANIMSTRUCT_YCOORD
 	add hl, bc
 	ld a, [hl]

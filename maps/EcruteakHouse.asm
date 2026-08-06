@@ -28,7 +28,7 @@ EcruteakHouse_MapScriptHeader:
 	const ECRUTEAKHOUSE_SAGE2
 
 EcruteakHouseInitializeSages:
-	checkevent EVENT_FOUGHT_NAZRIN
+	checkevent EVENT_FOUGHT_KASEN
 	iftruefwd .DontBlockTower
 	checkevent EVENT_KOJI_ALLOWS_YOU_PASSAGE_TO_TIN_TOWER
 	iftruefwd .DontBlockTower

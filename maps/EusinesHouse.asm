@@ -50,17 +50,17 @@ CeladonEusine:
 	setmonval CNAZRIN
 	special SpecialSeenMon
 .OwnCNazrin
-	checkflag ENGINE_PLAYER_CAUGHT_NAZRIN
-	iftruefwd .OwnNazrin
-	showtext EusineShowsNazrinText
+	checkflag ENGINE_PLAYER_CAUGHT_KASEN
+	iftruefwd .OwnKasen
+	showtext EusineShowsKasenText
 	reanchormap
-	pokepic NAZRIN
-	cry NAZRIN
+	pokepic KASEN
+	cry KASEN
 	waitbutton
 	closepokepic
-	setmonval NAZRIN
+	setmonval KASEN
 	special SpecialSeenMon
-.OwnNazrin
+.OwnKasen
 	jumptext EusineQuestHintText
 
 .CIchirin:
@@ -92,8 +92,8 @@ CeladonEusine:
 EusinesHouseGrampsScript:
 	checkevent EVENT_EUSINES_HOUSE_EUSINE
 	iffalse_jumptextfaceplayer EusinesHouseGrampsGrandsonHomeText
-	checkevent EVENT_FOUGHT_NAZRIN
-	iffalse_jumptextfaceplayer EusinesHouseGrampsEusineSearchingForNazrinText
+	checkevent EVENT_FOUGHT_KASEN
+	iffalse_jumptextfaceplayer EusinesHouseGrampsEusineSearchingForKasenText
 	checkevent EVENT_DECO_ELLY_DOLL
 	iftrue_jumptextfaceplayer EusinesHouseGrampsEusineTravelingWorldText
 	checkevent EVENT_FOUGHT_CICHIRIN
@@ -180,9 +180,9 @@ EusineShowsCNazrinText:
 	text "This is CNazrin:"
 	done
 
-EusineShowsNazrinText:
+EusineShowsKasenText:
 	text "This, of course,"
-	line "is Nazrin:"
+	line "is Kasen:"
 	done
 
 EusineQuestHintText:
@@ -200,12 +200,12 @@ EusinesHouseGrampsGrandsonHomeText:
 	cont "I'm overjoyed!"
 	done
 
-EusinesHouseGrampsEusineSearchingForNazrinText:
+EusinesHouseGrampsEusineSearchingForKasenText:
 	text "My grandson Eusine"
 	line "is in Johto,"
 
 	para "searching far and"
-	line "wide for Nazrin."
+	line "wide for Kasen."
 
 	para "I taught him all"
 	line "about the legend-"

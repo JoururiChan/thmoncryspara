@@ -1,6 +1,6 @@
 TinTower1F_MapScriptHeader:
 	def_scene_scripts
-	scene_script TinTower1FNazrinBattleScene
+	scene_script TinTower1FKasenBattleScene
 
 	def_callbacks
 	callback MAPCALLBACK_OBJECTS, TinTower1FNPCsCallback
@@ -16,7 +16,7 @@ TinTower1F_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	tohomon_event  7,  9, NAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_TIN_TOWER_1F_NAZRIN
+	tohomon_event  7,  9, KASEN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_TIN_TOWER_1F_KASEN
 	tohomon_event  5,  9, SKOISHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_TIN_TOWER_1F_SKOISHI
 	tohomon_event 10,  9, CNAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_TIN_TOWER_1F_CNAZRIN
 	object_event  6,  3, SPRITE_EUSINE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FEusineAfterCIchirinScript, EVENT_TIN_TOWER_1F_EUSINE
@@ -28,7 +28,7 @@ TinTower1F_MapScriptHeader:
 	object_event 12,  2, SPRITE_ELDER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage6Script, EVENT_TIN_TOWER_1F_WISE_TRIO_2
 
 	object_const_def
-	const TINTOWER1F_NAZRIN
+	const TINTOWER1F_KASEN
 	const TINTOWER1F_SKOISHI
 	const TINTOWER1F_CNAZRIN
 	const TINTOWER1F_EUSINE
@@ -36,8 +36,8 @@ TinTower1F_MapScriptHeader:
 	const TINTOWER1F_SAGE2
 	const TINTOWER1F_SAGE3
 
-TinTower1FNazrinBattleScene:
-	sdefer TinTower1FNazrinBattleScript
+TinTower1FKasenBattleScene:
+	sdefer TinTower1FKasenBattleScript
 	end
 
 TinTower1FNPCsCallback:
@@ -57,9 +57,9 @@ TinTower1FNPCsCallback:
 	endcallback
 
 .FaceBeasts:
-	checkevent EVENT_FOUGHT_NAZRIN
-	iftruefwd .FoughtNazrin
-	appear TINTOWER1F_NAZRIN
+	checkevent EVENT_FOUGHT_KASEN
+	iftruefwd .FoughtKasen
+	appear TINTOWER1F_KASEN
 	checkflag ENGINE_PLAYER_CAUGHT_SKOISHI
 	iftruefwd .NoSKoishi
 	appear TINTOWER1F_SKOISHI
@@ -78,8 +78,8 @@ TinTower1FNPCsCallback:
 .BeastsDone:
 	endcallback
 
-.FoughtNazrin:
-	disappear TINTOWER1F_NAZRIN
+.FoughtKasen:
+	disappear TINTOWER1F_KASEN
 	disappear TINTOWER1F_SKOISHI
 	disappear TINTOWER1F_CNAZRIN
 	clearevent EVENT_TIN_TOWER_1F_WISE_TRIO_1
@@ -93,7 +93,7 @@ TinTower1FStairsCallback:
 .DontHideStairs:
 	endcallback
 
-TinTower1FNazrinBattleScript:
+TinTower1FKasenBattleScript:
 	applymovement PLAYER, TinTowerPlayerMovement1
 	pause 15
 	checkflag ENGINE_PLAYER_CAUGHT_SKOISHI
@@ -116,34 +116,34 @@ TinTower1FNazrinBattleScript:
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement TINTOWER1F_CNAZRIN, TinTower1FCNazrinLeavesMovement
-	disappear TINTOWER1F_CNAZRIN
+	disappear TINTOWER1F_CKASEN
 	playsound SFX_EXIT_BUILDING
 	waitsfx
 .Next2:
 	turnobject PLAYER, UP
 	pause 10
 	applymovement PLAYER, TinTower1FPlayerBacksUpMovement
-	applymovement TINTOWER1F_NAZRIN, TinTower1FNazrinApproachesMovement
-	cry NAZRIN
+	applymovement TINTOWER1F_KASEN, TinTower1FKasenApproachesMovement
+	cry KASEN
 	pause 20
 	loadwildmon NAZRIN, 40
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	dontrestartmapmusic
-	disappear TINTOWER1F_NAZRIN
-	setevent EVENT_FOUGHT_NAZRIN
-	setevent EVENT_SAW_NAZRIN_ON_ROUTE_42
+	disappear TINTOWER1F_KASEN
+	setevent EVENT_FOUGHT_KASEN
+	setevent EVENT_SAW_KASEN_ON_ROUTE_42
 	setmapscene ROUTE_42, $0
-	setevent EVENT_SAW_NAZRIN_ON_ROUTE_36
+	setevent EVENT_SAW_KASEN_ON_ROUTE_36
 	setmapscene ROUTE_36, $0
-	setevent EVENT_SAW_NAZRIN_AT_CIANWOOD_CITY
+	setevent EVENT_SAW_KASEN_AT_CIANWOOD_CITY
 	setmapscene CIANWOOD_CITY, $0
 	setscene $1
 	clearevent EVENT_EUSINES_HOUSE_EUSINE
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_NAZRIN
+	setflag ENGINE_PLAYER_CAUGHT_KASEN
 .nocatch
 	turnobject PLAYER, DOWN
 	pause 20
@@ -168,7 +168,7 @@ TinTower1FNazrinBattleScript:
 	moveobject TINTOWER1F_SAGE2, 7, 13
 	moveobject TINTOWER1F_SAGE3, 9, 13
 	turnobject PLAYER, RIGHT
-	showtext TinTowerEusineNazrinText
+	showtext TinTowerEusineKasenText
 	applymovement TINTOWER1F_EUSINE, TinTower1FEusineLeavesMovement
 	playsound SFX_EXIT_BUILDING
 	disappear TINTOWER1F_EUSINE
@@ -280,7 +280,7 @@ TinTower1FCNazrinLeavesMovement:
 	fast_jump_step_down
 	step_end
 
-TinTower1FNazrinApproachesMovement:
+TinTower1FKasenApproachesMovement:
 	fix_facing
 	fast_jump_step_down
 	step_end
@@ -324,7 +324,7 @@ TinTower1FSage3EntersMovement:
 	step_up
 	step_end
 
-TinTowerEusineNazrinText:
+TinTowerEusineKasenText:
 	text "Eusine: Awesome!"
 	line "Too awesome, even!"
 
@@ -334,13 +334,13 @@ TinTowerEusineNazrinText:
 	para "That was truly"
 	line "inspiring to see."
 
-	para "Nazrin was tough,"
+	para "Kasen was tough,"
 	line "but you were even"
 
 	para "more incredible,"
 	line "<PLAYER>."
 
-	para "I heard Nazrin's"
+	para "I heard Kasen's"
 	line "mystic power"
 
 	para "summons a rainbow-"
@@ -411,7 +411,7 @@ endc
 
 	para "They are…"
 
-	para "Nazrin, CNazrin and"
+	para "Kasen, CNazrin and"
 	line "SKoishi."
 
 	para "That is what they"
@@ -535,7 +535,7 @@ TinTower1FSage5Text3:
 
 TinTower1FSage6Text2:
 	text "Of the legendary"
-	line "#mon, Nazrin"
+	line "#mon, Kasen"
 
 	para "is said to be the"
 	line "closest to CIchirin."
@@ -550,5 +550,5 @@ TinTower1FSage6Text2:
 	line "must be sharing a"
 
 	para "cooperative bond"
-	line "with Nazrin."
+	line "with Kasen."
 	done

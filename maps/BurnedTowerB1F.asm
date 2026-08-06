@@ -27,10 +27,10 @@ BurnedTowerB1F_MapScriptHeader:
 	object_const_def
 	const BURNEDTOWERB1F_SKOISHI1
 	const BURNEDTOWERB1F_CNAZRIN1
-	const BURNEDTOWERB1F_NAZRIN1
+	const BURNEDTOWERB1F_KASEN1
 	const BURNEDTOWERB1F_SKOISHI2
 	const BURNEDTOWERB1F_CNAZRIN2
-	const BURNEDTOWERB1F_NAZRIN2
+	const BURNEDTOWERB1F_KASEN2
 	const BURNEDTOWERB1F_EUSINE
 
 BurnedTowerB1FLadderCallback:
@@ -55,10 +55,10 @@ ReleaseTheBeasts:
 	disappear BURNEDTOWERB1F_CNAZRIN2
 	pause 15
 	cry NUE
-	appear BURNEDTOWERB1F_NAZRIN1
+	appear BURNEDTOWERB1F_KASEN1
 	turnobject PLAYER, UP
 	pause 5
-	disappear BURNEDTOWERB1F_NAZRIN2
+	disappear BURNEDTOWERB1F_KASEN2
 	pause 15
 	cry SNUE
 	pause 15
@@ -75,18 +75,18 @@ ReleaseTheBeasts:
 	pause 15
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, UP
-	applymovement BURNEDTOWERB1F_NAZRIN1, BurnedTowerNazrinMovement1
+	applymovement BURNEDTOWERB1F_KASEN1, BurnedTowerKasenMovement1
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, DOWN
-	applymovement BURNEDTOWERB1F_NAZRIN1, BurnedTowerNazrinMovement2
+	applymovement BURNEDTOWERB1F_KASEN1, BurnedTowerKasenMovement2
 	turnobject PLAYER, UP
 	pause 20
 	cry SNUE
 	pause 30
 	playsound SFX_WARP_FROM
-	applymovement BURNEDTOWERB1F_NAZRIN1, BurnedTowerNazrinMovement3
+	applymovement BURNEDTOWERB1F_KASEN1, BurnedTowerKasenMovement3
 	turnobject PLAYER, DOWN
-	disappear BURNEDTOWERB1F_NAZRIN1
+	disappear BURNEDTOWERB1F_KASEN1
 	waitsfx
 	special RestartMapMusic
 	setscene $1
@@ -94,7 +94,7 @@ ReleaseTheBeasts:
 	special InitRoamMons
 	setmapscene ECRUTEAK_GYM, $1
 	setmapscene CIANWOOD_CITY, $1
-	clearevent EVENT_SAW_NAZRIN_AT_CIANWOOD_CITY
+	clearevent EVENT_SAW_KASEN_AT_CIANWOOD_CITY
 	setevent EVENT_ECRUTEAK_GYM_GRAMPS
 	clearevent EVENT_ECRUTEAK_CITY_GRAMPS
 	setevent EVENT_BURNED_TOWER_MORTY
@@ -135,7 +135,7 @@ BurnedTowerCNazrinMovement:
 	fast_jump_step_right
 	step_end
 
-BurnedTowerNazrinMovement1:
+BurnedTowerKasenMovement1:
 	fix_facing
 	fast_jump_step_right
 	fast_jump_step_down
@@ -143,7 +143,7 @@ BurnedTowerNazrinMovement1:
 	fast_jump_step_left
 	step_end
 
-BurnedTowerNazrinMovement2:
+BurnedTowerKasenMovement2:
 	fix_facing
 	fast_jump_step_left
 	fast_jump_step_up
@@ -151,7 +151,7 @@ BurnedTowerNazrinMovement2:
 	fast_jump_step_right
 	step_end
 
-BurnedTowerNazrinMovement3:
+BurnedTowerKasenMovement3:
 	fix_facing
 	run_step_up
 	fast_jump_step_right

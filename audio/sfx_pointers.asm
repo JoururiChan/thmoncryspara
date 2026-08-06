@@ -198,12 +198,12 @@ SFX:
 	fardw Sfx_IntroCNue3
 	fardw Sfx_LyricaPopUp
 	fardw Sfx_LyricaRecollect
-	fardw Sfx_IntroNazrin1
+	fardw Sfx_IntroKasen1
 	fardw Sfx_IntroTTei
-	fardw Sfx_IntroNazrin2
-	fardw Sfx_IntroNazrin3
+	fardw Sfx_IntroKasen2
+	fardw Sfx_IntroKasen3
 	fardw Sfx_LyricaBounce
-	fardw Sfx_IntroNazrin4
+	fardw Sfx_IntroKasen4
 	fardw Sfx_GameFreakPresents
 	fardw Sfx_Tingle
 	fardw Sfx_TitleScreenIntro

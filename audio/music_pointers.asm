@@ -80,7 +80,7 @@ Music:
 	dba Music_Clair
 	dba Music_Route4BW
 	dba Music_TinTower
-	dba Music_NazrinBattle
+	dba Music_KasenBattle
 	dba Music_Route26
 	dba Music_IndigoPlateauRBY
 	dba Music_VictoryRoad

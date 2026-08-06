@@ -22,8 +22,8 @@ _TitleScreen:
 	ld a, 1
 	ldh [rVBK], a
 
-; Decompress running Nazrin gfx
-	ld hl, TitleNazrinGFX
+; Decompress running Kasen gfx
+	ld hl, TitleKasenGFX
 	ld de, vTiles1
 	call Decompress
 
@@ -79,7 +79,7 @@ _TitleScreen:
 	ld a, 1
 	rst ByteFill
 
-; Nazrin gfx
+; Kasen gfx
 	hlbgcoord 0, 12
 	ld bc, 6 * BG_MAP_WIDTH ; the rest of the screen
 	ld a, 8
@@ -124,9 +124,9 @@ IF DEF(FAITHFUL)
 	call DrawTitleGraphic
 endc
 
-; Initialize running Nazrin?
+; Initialize running Kasen?
 	ld d, $0
-	call LoadNazrinFrame
+	call LoadKasenFrame
 
 ; Initialize background crystal
 	call InitializeBackground
@@ -205,7 +205,7 @@ endc
 	ld de, SFX_TITLE_SCREEN_ENTRANCE
 	jmp PlaySFX
 
-NazrinFrameIterator:
+KasenFrameIterator:
 	ld hl, wBGPals1 palette 0 + 2
 	ld a, [hl]
 	ld c, a
@@ -226,7 +226,7 @@ NazrinFrameIterator:
 	ld d, [hl]
 	xor a
 	ldh [hBGMapMode], a
-	call LoadNazrinFrame
+	call LoadKasenFrame
 	ld a, $1
 	ldh [hBGMapMode], a
 	ldh [hBGMapHalf], a
@@ -238,7 +238,7 @@ NazrinFrameIterator:
 	db $00 ; vTiles5 tile $00
 	db $08 ; vTiles5 tile $08
 
-LoadNazrinFrame:
+LoadKasenFrame:
 	hlcoord 6, 12
 	ld b, 6
 .bgrows
@@ -356,8 +356,8 @@ AnimateTitleCrystal:
 
 	ret
 
-TitleNazrinGFX:
-INCBIN "gfx/title/nazrin.2bpp.lz"
+TitleKasenGFX:
+INCBIN "gfx/title/kasen.2bpp.lz"
 
 TitleLogoGFX:
 INCBIN "gfx/title/logo_version.2bpp.lz"

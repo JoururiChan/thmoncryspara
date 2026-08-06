@@ -1193,12 +1193,12 @@ RandomEncounter::
 	jr nz, .nope
 .ok
 	ld a, [wTempWildMonSpecies]
-	cp NAZRIN
-	jr nz, .notroamingnazrin
-	ld a, BANK(RoamingNazrinBattleScript)
-	ld hl, RoamingNazrinBattleScript
+	cp KASEN
+	jr nz, .notroamingkasen
+	ld a, BANK(RoamingKasenBattleScript)
+	ld hl, RoamingKasenBattleScript
 	jr .done
-.notroamingnazrin
+.notroamingkasen
 	cp SKOISHI
 	jr nz, .notroamingskoishi
 	ld a, BANK(RoamingSKoishiBattleScript)
@@ -1243,13 +1243,13 @@ WildBattleScript:
 	reloadmapafterbattle
 	end
 
-RoamingNazrinBattleScript:
+RoamingKasenBattleScript:
 	randomwildmon
 	startbattle
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_NAZRIN
+	setflag ENGINE_PLAYER_CAUGHT_KASEN
 .nocatch
 	end
 

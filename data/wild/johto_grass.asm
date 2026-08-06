@@ -1571,26 +1571,26 @@
 	def_grass_wildmons ROUTE_37
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 13, CSUIKA
-	wildmon 14, CSUIKA
-	wildmon 13, CYUUGI
-	wildmon 15, CYUUGI
+	wildmon 13, CSEIGA
+	wildmon 14, CSEIGA
+	wildmon 13, CNAZRIN
+	wildmon 15, CNAZRIN
 	wildmon 14, CMOKOU
 	wildmon 15, CMOKOU
 	wildmon 16, CREIMU
 	; day
-	wildmon 14, CSUIKA
-	wildmon 14, CSUIKA
-	wildmon 13, CYUUGI
-	wildmon 15, CYUUGI
+	wildmon 14, CSEIGA
+	wildmon 14, CSEIGA
+	wildmon 13, CKOGASA
+	wildmon 15, CKOGASA
 	wildmon 14, CMOKOU
 	wildmon 15, CMOKOU
 	wildmon 16, CMARISA
 	; nite
-	wildmon 13, CSUIKA
-	wildmon 15, CSUIKA
-	wildmon 14, CYUUGI
-	wildmon 16, CYUUGI
+	wildmon 13, CSEIGA
+	wildmon 15, CSEIGA
+	wildmon 14, CYOSHIKA
+	wildmon 16, CYOSHIKA
 	wildmon 16, CYOUMU
 	wildmon 15, CYOUMU
 	wildmon 16, CSAKUYA
@@ -1655,85 +1655,85 @@
 	def_grass_wildmons ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, CKIKURI, KIKURI_JOHTO_FORM
-	wildmon 22, CORANGE
-	wildmon 22, CMIMA
-	wildmon 23, CELIS
-	wildmon 21, ELIS
-	wildmon 24, KIKURI, KIKURI_JOHTO_FORM
-	wildmon 24, ORANGE
+	wildmon 20, CSUIKA
+	wildmon 22, CSUIKA
+	wildmon 22, CYUUGI
+	wildmon 23, CYUUGI
+	wildmon 21, CKAGEROU
+	wildmon 24, CKAGEROU
+	wildmon 24, CYUKARI
 	; day
-	wildmon 20, CKIKURI, KIKURI_JOHTO_FORM
-	wildmon 22, CORANGE
-	wildmon 22, CMIMA
-	wildmon 23, CELIS
-	wildmon 21, ELIS
-	wildmon 24, KIKURI, KIKURI_JOHTO_FORM
-	wildmon 24, ORANGE
+	wildmon 20, CSUIKA
+	wildmon 22, CSUIKA
+	wildmon 22, CYUUGI
+	wildmon 23, CYUUGI
+	wildmon 21, CKAGEROU
+	wildmon 21, CKAGEROU
+	wildmon 24, CYUKARI
 	; nite
-	wildmon 20, CMIMA
-	wildmon 22, CKOTOHIME
-	wildmon 22, CELIS
-	wildmon 23, KOTOHIME
-	wildmon 21, AYA
-	wildmon 24, MOMIJI
-	wildmon 24, MOMIJI
+	wildmon 20, CSUIKA
+	wildmon 22, CSUIKA
+	wildmon 22, CYUUGI
+	wildmon 23, CYUUGI
+	wildmon 21, CKAGEROU
+	wildmon 24, CKAGEROU
+	wildmon 24, CYUKARI
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 25, CMIMA
+	wildmon 25, CSUIKA
+	wildmon 23, CYUUGI
 	wildmon 23, CNITORI
-	wildmon 23, MOKOU
-	wildmon 24, CMAI
-	wildmon 23, CMOKOU
-	wildmon 23, CMOKOU
-	wildmon 23, CMOKOU
+	wildmon 24, CNITORI
+	wildmon 23, CHINA
+	wildmon 23, CHINA
+	wildmon 23, CSTAR
 	; day
-	wildmon 25, CMIMA
+	wildmon 25, CSUIKA
+	wildmon 23, CYUUGI
 	wildmon 23, CNITORI
-	wildmon 23, MOKOU
-	wildmon 24, CMAI
-	wildmon 23, CMOKOU
-	wildmon 23, CMOKOU
-	wildmon 23, CMOKOU
+	wildmon 24, CNITORI
+	wildmon 23, CHINA
+	wildmon 23, CHINA
+	wildmon 23, CSTAR
 	; nite
-	wildmon 25, RIKAKO
+	wildmon 25, CSUIKA
+	wildmon 23, CYUUGI
 	wildmon 23, CNITORI
-	wildmon 23, MOKOU
-	wildmon 24, CMYSTIA
-	wildmon 23, RIKAKO
-	wildmon 23, CMOKOU
-	wildmon 23, CMOKOU
+	wildmon 24, CNITORI
+	wildmon 23, CHINA
+	wildmon 23, CHINA
+	wildmon 23, CSTAR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_44
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 31, REMILIA
-	wildmon 29, KOAKUMA
-	wildmon 30, CYUKA
-	wildmon 32, MUGETSU
-	wildmon 32, KOAKUMA
-	wildmon 34, KOAKUMA
-	wildmon 34, KOAKUMA
+	wildmon 31, CKASEN
+	wildmon 29, CSUIKA
+	wildmon 30, CYUUGI
+	wildmon 32, CREIMU
+	wildmon 32, CREIMU
+	wildmon 34, CKANAKO
+	wildmon 34, CSUWAKO
 	; day
-	wildmon 31, REMILIA
-	wildmon 29, KOAKUMA
-	wildmon 30, CYUKA
-	wildmon 32, MUGETSU
-	wildmon 32, KOAKUMA
-	wildmon 34, KOAKUMA
-	wildmon 34, KOAKUMA
+	wildmon 31, CKASEN
+	wildmon 29, CSUIKA
+	wildmon 30, CYUUGI
+	wildmon 32, CREIMU
+	wildmon 32, CREIMU
+	wildmon 34, CKANAKO
+	wildmon 34, CSUWAKO
 	; nite
-	wildmon 31, REMILIA
-	wildmon 29, KURUMI
-	wildmon 30, CYUKA
-	wildmon 32, MUGETSU
-	wildmon 32, KURUMI
-	wildmon 34, MOMIJI
-	wildmon 34, MOMIJI
+	wildmon 31, CKASEN
+	wildmon 29, CSUIKA
+	wildmon 30, CYUUGI
+	wildmon 32, CSEKIBAKI
+	wildmon 32, CSEKIBAKI
+	wildmon 34, CREIMU
+	wildmon 34, CMARISA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_45
@@ -1777,16 +1777,16 @@
 	; day
 	wildmon 2, CMEIRA
 	wildmon 2, CMEIRA
-	wildmon 3, CHINA
-	wildmon 2, CHINA
+	wildmon 3, CKAGEROU
+	wildmon 2, CKAGEROU
 	wildmon 2, CMOMIJI
 	wildmon 3, CMOMIJI
 	wildmon 3, CAYA
 	; nite
 	wildmon 2, CMEIRA
 	wildmon 2, CMEIRA
-	wildmon 3, CRIN
-	wildmon 2, CRIN
+	wildmon 3, CKAGEROU
+	wildmon 2, CKAGEROU
 	wildmon 2, CKANA
 	wildmon 3, CREISEN
 	wildmon 3, CMAI
@@ -1814,8 +1814,8 @@
 	wildmon LEVEL_FROM_BADGES + 1, CKYOUKO
 	wildmon LEVEL_FROM_BADGES + 1, CMYSTIA
 	wildmon LEVEL_FROM_BADGES + 0, CKOISHI
-	wildmon LEVEL_FROM_BADGES - 3, CKANA
-	wildmon LEVEL_FROM_BADGES - 3, CELIS
+	wildmon LEVEL_FROM_BADGES - 3, CSEKIBAKI
+	wildmon LEVEL_FROM_BADGES - 3, CSEKIBAKI
 	wildmon LEVEL_FROM_BADGES - 4, CMYSTIA
 	wildmon LEVEL_FROM_BADGES - 1, CKAGUYA
 	end_grass_wildmons
@@ -1843,8 +1843,8 @@
 	wildmon LEVEL_FROM_BADGES + 0, CLILYBLACK
 	wildmon LEVEL_FROM_BADGES - 2, CMAMIZOU
 	wildmon LEVEL_FROM_BADGES - 2, CYOSHIKA
-	wildmon LEVEL_FROM_BADGES - 3, CMYSTIA
-	wildmon LEVEL_FROM_BADGES - 4, CNITORI
+	wildmon LEVEL_FROM_BADGES - 3, CSEKIBAKI
+	wildmon LEVEL_FROM_BADGES - 4, CSEKIBAKI
 	wildmon LEVEL_FROM_BADGES - 4, CKAGUYA
 	end_grass_wildmons
 
