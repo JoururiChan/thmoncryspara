@@ -1,7 +1,7 @@
 	db   125,  125,  34,  105,  100, 34 ; 450 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DARK, BEAST ; type
+	db DARK, FLYING ; type
 	db 70 ; catch rate
 	db 231 ; base exp
 	db OVAL_STONE, LUCKY_EGG ; held items

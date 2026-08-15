@@ -116,7 +116,7 @@ TinTower1FKasenBattleScript:
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement TINTOWER1F_CNAZRIN, TinTower1FCNazrinLeavesMovement
-	disappear TINTOWER1F_CKASEN
+	disappear TINTOWER1F_CNAZRIN
 	playsound SFX_EXIT_BUILDING
 	waitsfx
 .Next2:
@@ -126,7 +126,7 @@ TinTower1FKasenBattleScript:
 	applymovement TINTOWER1F_KASEN, TinTower1FKasenApproachesMovement
 	cry KASEN
 	pause 20
-	loadwildmon NAZRIN, 40
+	loadwildmon KASEN, 40
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	dontrestartmapmusic

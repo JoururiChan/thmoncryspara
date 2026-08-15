@@ -52,10 +52,10 @@ SpriteAnimOAMData:
 	spriteanimoam $08, .OAMData_Tree                   ; SPRITE_ANIM_OAMSET_HEADBUTT_TREE_3
 	spriteanimoam $00, .OAMData_BlueWalk               ; SPRITE_ANIM_OAMSET_BLUE_WALK_1
 	spriteanimoam $04, .OAMData_BlueWalk               ; SPRITE_ANIM_OAMSET_BLUE_WALK_2
-	spriteanimoam $00, .OAMData_IntroKasen1          ; SPRITE_ANIM_OAMSET_INTRO_NAZRIN_1
-	spriteanimoam $08, .OAMData_IntroKasen2          ; SPRITE_ANIM_OAMSET_INTRO_NAZRIN_2
-	spriteanimoam $60, .OAMData_IntroKasen3          ; SPRITE_ANIM_OAMSET_INTRO_NAZRIN_3
-	spriteanimoam $68, .OAMData_IntroKasen4          ; SPRITE_ANIM_OAMSET_INTRO_NAZRIN_4
+	spriteanimoam $00, .OAMData_IntroKasen1          ; SPRITE_ANIM_OAMSET_INTRO_KASEN_1
+	spriteanimoam $08, .OAMData_IntroKasen2          ; SPRITE_ANIM_OAMSET_INTRO_KASEN_2
+	spriteanimoam $60, .OAMData_IntroKasen3          ; SPRITE_ANIM_OAMSET_INTRO_KASEN_3
+	spriteanimoam $68, .OAMData_IntroKasen4          ; SPRITE_ANIM_OAMSET_INTRO_KASEN_4
 	spriteanimoam $00, .OAMData_IntroTTei             ; SPRITE_ANIM_OAMSET_INTRO_TTEI_1
 	spriteanimoam $05, .OAMData_IntroTTei             ; SPRITE_ANIM_OAMSET_INTRO_TTEI_2
 	spriteanimoam $0a, .OAMData_IntroTTei             ; SPRITE_ANIM_OAMSET_INTRO_TTEI_3
@@ -68,7 +68,7 @@ SpriteAnimOAMData:
 	spriteanimoam $03, .OAMData_IntroCNueF2_3         ; SPRITE_ANIM_OAMSET_INTRO_CNUE_F_2_3
 	spriteanimoam $08, .OAMData_IntroCNueF2_4_5       ; SPRITE_ANIM_OAMSET_INTRO_CNUE_F_2_4
 	spriteanimoam $1c, .OAMData_IntroCNueF2_4_5       ; SPRITE_ANIM_OAMSET_INTRO_CNUE_F_2_5
-	spriteanimoam $80, .OAMData_IntroKasenAway       ; SPRITE_ANIM_OAMSET_INTRO_NAZRIN_AWAY
+	spriteanimoam $80, .OAMData_IntroKasenAway       ; SPRITE_ANIM_OAMSET_INTRO_KASEN_AWAY
 	spriteanimoam $00, .OAMData_Ichirin                 ; SPRITE_ANIM_OAMSET_ICHIRIN_1
 	spriteanimoam $04, .OAMData_Ichirin                 ; SPRITE_ANIM_OAMSET_ICHIRIN_2
 	spriteanimoam $d0, .OAMData_GameFreakLogo1_3       ; SPRITE_ANIM_OAMSET_GAMEFREAK_LOGO_1

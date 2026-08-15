@@ -1,7 +1,7 @@
 	db  80, 40, 40, 70, 90, 70 ; 390 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db BEAST, REASON ; type
+	db BEAST, NATURE ; type
 	db 51 ; catch rate
 	db 120 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

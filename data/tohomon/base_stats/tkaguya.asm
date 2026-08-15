@@ -1,7 +1,7 @@
 	db  165,  85,  40,  45, 100, 100 ; 535 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db HEART, REASON ; type
+	db REASON, NATURE ; type
 	db 50 ; catch rate
 	db 225 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

@@ -278,15 +278,15 @@ SpriteAnimFrameData:
 	oamrestart
 
 .Frameset_IntroKasen:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_1,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_2,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_3,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_4,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_KASEN_1,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_KASEN_2,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_KASEN_3,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_KASEN_4,  3
 	oamrestart
 
 .Frameset_IntroKasen2:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_4,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_1,  7
+	oamframe SPRITE_ANIM_OAMSET_INTRO_KASEN_4,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_KASEN_1,  7
 	oamend
 
 .Frameset_IntroTTei:
@@ -332,7 +332,7 @@ SpriteAnimFrameData:
 	oamend
 
 .Frameset_IntroKasenAway:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_AWAY,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_KASEN_AWAY,  3
 	oamend
 
 .Frameset_IntroCNueF:

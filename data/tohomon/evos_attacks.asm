@@ -618,7 +618,7 @@ EllenEvosAttacks:
 	db 35, HYPNOSIS
 	db 38, DOUBLE_TEAM
 	db 41, STAR_CANNON
-	db 44, VENOM_POOL
+	db 44, FIVEELEMENTS
 	db 47, RECOVER
 	db 50, MANA_BURST
 	db 53, LUSTER_HEART
@@ -993,7 +993,7 @@ CMugetsuEvosAttacks:
 	db 28, LIGHT_SCREEN
 	db 32, LUSTER_HEART
 	db 36, BLACK_RIPPLE
-	db 39, VENOM_POOL
+	db 39, AURA_SPHERE
 	db -1 ; no more level-up moves
 
 MugetsuEvosAttacks:
@@ -1009,7 +1009,7 @@ MugetsuEvosAttacks:
 	db 28, LIGHT_SCREEN
 	db 32, LUSTER_HEART
 	db 36, BLACK_RIPPLE
-	db 39, VENOM_POOL
+	db 39, AURA_SPHERE
 	db 42, HAZE
 	db 45, CROSS_EYE
 	db 48, REST
@@ -1116,7 +1116,7 @@ LuizeEvosAttacks:
 	db 25, HEADBUTT
 	db 29, FEINT_ATTACK
 	db 33, CHARM ; Inferno → egg move
-	db 36, VENOM_POOL
+	db 36, DARK_PULSE
 	db 39, BLACK_RIPPLE
 	db 42, SWEET_KISS ; Bounce → new move
 	db 45, PLAY_ROUGH
@@ -1726,6 +1726,7 @@ CRemiliaEvosAttacks:
 	db 17, TRICK
 	db 21, AERIAL_ACE
 	db 25, FEINT_ATTACK
+	db 28, FANG_SHOT
 	db 32, BULK_UP
 	db 35, HAZE
 	db -1 ; no more level-up moves
@@ -1740,6 +1741,7 @@ RemiliaEvosAttacks:
 	db 17, TRICK
 	db 21, AERIAL_ACE
 	db 25, FEINT_ATTACK
+	db 28, FANG_SHOT
 	db 32, BULK_UP
 	db 35, HAZE
 	db 39, LEECH_LIFE
@@ -1762,6 +1764,7 @@ SRemiliaEvosAttacks:
 	db 17, TRICK
 	db 21, AERIAL_ACE
 	db 25, FEINT_ATTACK
+	db 28, FANG_SHOT
 	db 32, BULK_UP
 	db 35, HAZE
 	db 39, LEECH_LIFE
@@ -1786,6 +1789,7 @@ CFlandreEvosAttacks:
 	db 17, TRICK
 	db 21, FLAME_CHARGE
 	db 25, FEINT_ATTACK
+	db 28, FANG_SHOT
 	db 32, BULK_UP
 	db 35, HAZE
 	db 39, LEECH_LIFE
@@ -1801,6 +1805,7 @@ FlandreEvosAttacks:
 	db 17, TRICK
 	db 21, FLAME_CHARGE
 	db 25, FEINT_ATTACK
+	db 28, FANG_SHOT
 	db 32, BULK_UP
 	db 35, HAZE
 	db 39, LEECH_LIFE
@@ -1822,6 +1827,7 @@ AFlandreEvosAttacks:
 	db 17, TRICK
 	db 21, FLAME_CHARGE
 	db 25, FEINT_ATTACK
+	db 28, FANG_SHOT
 	db 32, BULK_UP
 	db 35, HAZE
 	db 39, LEECH_LIFE
@@ -1999,7 +2005,7 @@ DLilyWhiteEvosAttacks:
 	db 35, BULLET_SEED
 	db 38, REFLECT
 	db 41, DIZZY_PUNCH
-	db 44, VENOM_POOL
+	db 44, LEAF_STORM
 	db 47, HEAL_BELL
 	db 50, MOONBLAST
 	db 53, AURA_WAVE
@@ -2891,7 +2897,7 @@ TTeiEvosAttacks:
 	db 18, HEAL_BELL
 	db 21, DOUBLE_TEAM
 	db 25, FURY_STRIKES
-	db 28, VENOM_POOL
+	db 28, PURSUIT
 	db 31, POISON_CLAW
 	db 34, CHARGE_OUT
 	db 37, SWAGGER
@@ -2974,13 +2980,13 @@ CKaguyaEvosAttacks:
 	db 1, SUPERSONIC
 	db 7, DEFENSE_CURL
 	db 11, CURSE
-	db 15, DRAINING_KISS
+	db 15, MEGA_DRAIN
 	db 20, PAPER_THROW
 	db 23, LIGHT_SCREEN
 	db 26, REST
-	db 30, STAR_BLAST
+	db 30, PSYBEAM
 	db 34, SLEEP_TALK
-	db 37, EXTRASENSORY
+	db 37, GIGA_DRAIN
 	db -1 ; no more level-up moves
 
 KaguyaEvosAttacks:
@@ -2989,15 +2995,15 @@ KaguyaEvosAttacks:
 	db 1, SUPERSONIC
 	db 7, DEFENSE_CURL
 	db 11, CURSE
-	db 15, DRAINING_KISS
+	db 15, MEGA_DRAIN
 	db 20, PAPER_THROW
 	db 23, LIGHT_SCREEN
 	db 26, REST
-	db 30, STAR_BLAST
+	db 30, PSYBEAM
 	db 34, SLEEP_TALK
-	db 37, EXTRASENSORY
+	db 37, GIGA_DRAIN
 	db 41, MANA_BURST
-	db 44, AURA_WAVE
+	db 44, ENERGY_LIGHT
 	db 47, TRICK_ROOM
 	db 50, REFLECT
 	db 53, LUSTER_HEART
@@ -3012,18 +3018,18 @@ TKaguyaEvosAttacks:
 	db 1, SUPERSONIC
 	db 7, DEFENSE_CURL
 	db 11, CURSE
-	db 15, DRAINING_KISS
+	db 15, MEGA_DRAIN
 	db 20, PAPER_THROW
 	db 23, LIGHT_SCREEN
 	db 26, REST
-	db 30, STAR_BLAST
+	db 30, PSYBEAM
 	db 34, SLEEP_TALK
-	db 37, EXTRASENSORY
+	db 37, GIGA_DRAIN
 	db 41, MANA_BURST
 	db 44, SACRED_FIRE
 	db 47, HEALINGLIGHT
 	db 50, SUBSTITUTE
-	db 53, STAR_CANNON
+	db 53, LEAF_STORM
 	db 56, FIVEELEMENTS
 	db 59, ENERGY_BALL
 	db 62, DESTINY_BOND
@@ -5339,6 +5345,7 @@ KokoroEvosAttacks:
 	db -1 ; no more level-up moves
 
 CWakasagiEvosAttacks:
+	evo_data EVOLVE_LEVEL, 26, WAKASAGI
 	db -1 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, SING
@@ -5374,6 +5381,7 @@ WakasagiEvosAttacks:
 	db -1 ; no more level-up moves
 
 CSekibakiEvosAttacks:
+	evo_data EVOLVE_LEVEL, 26, SEKIBAKI
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
@@ -5408,6 +5416,7 @@ SekibakiEvosAttacks:
 	db -1 ; no more level-up moves
 
 CKagerouEvosAttacks:
+	evo_data EVOLVE_LEVEL, 30, KAGEROU
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -5612,17 +5621,18 @@ RaikoEvosAttacks:
 	db 24, HEX
 	db 28, JAMMING
 	db 31, HONE_TOOLS
-	db 35, THUNDERBOLT
+	db 35, EARTH_POWER
 	db 39, SPIRIT_VOICE
 	db 42, THUNDER_WAVE
 	db 45, BELLY_DRUM
-	db 48, ECHO_RAVE
+	db 48, ROCK_SLIDE
 	db 51, SHADOW_DANCE
 	db 54, SAFEGUARD
 	db 57, POWER_BEAM
 	db -1 ; no more level-up moves
 
 CKasenEvosAttacks:
+	evo_data EVOLVE_LEVEL, 38, KASEN
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, PROTECT

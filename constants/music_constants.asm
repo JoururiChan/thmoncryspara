@@ -80,7 +80,7 @@
 	const MUSIC_CLAIR                          ; 4c
 	const MUSIC_ROUTE_4_BW                     ; 4d
 	const MUSIC_TIN_TOWER                      ; 4e
-	const MUSIC_NAZRIN_BATTLE                 ; 4f
+	const MUSIC_KASEN_BATTLE                 ; 4f
 	const MUSIC_ROUTE_26                       ; 50
 	const MUSIC_INDIGO_PLATEAU_RBY             ; 51
 	const MUSIC_VICTORY_ROAD                   ; 52

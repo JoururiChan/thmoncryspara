@@ -1,7 +1,7 @@
 	db  110,  95,  70,  75,  80, 90 ; 510 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db REASON, MIASMA ; type
+	db WATER, MIASMA ; type
 	db 130 ; catch rate
 	db 180 ; base exp
 	db NO_ITEM, MOON_STONE ; held items

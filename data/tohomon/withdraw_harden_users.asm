@@ -2,6 +2,42 @@
 
 WithdrawUsers:
 ; Defense Curl += Withdraw
+	dp CYATSUHA
+	dp YATSUHA
+	dp CWAKASAGI
+	dp WAKASAGI
+	dp CSTAR
+	dp STAR
+	dp DSTAR
+	dp CSUNNY
+	dp SUNNY
+	dp ASUNNY
+	dp CBYAKUREN
+	dp BYAKUREN
+	dp TBYAKUREN
+	dp CFUTO
+	dp FUTO
+	dp CHATATE
+	dp HATATE
+	dp THATATE
+	dp CKASEN
+	dp KASEN
+	dp CKOGASA
+	dp KOGASA
+	dp TKOGASA
+	dp CKOKORO
+	dp KOKORO
+	dp CKYOUKO
+	dp KYOUKO
+	dp CLUNA
+	dp LUNA
+	dp TLUNA
+	dp CMAMIZOU
+	dp MAMIZOU
+	dp CBENBEN
+	dp BENBEN
+	dp CSEIGA
+	dp SEIGA
 	dp CRIKA
 	dp RIKA
 	dp ARIKA
@@ -112,10 +148,29 @@ WithdrawUsers:
 	dp CTEI
 	dp TEI
 	dp TTEI
-	db 0
+dp 0
 
 HardenUsers:
 ; Defense Curl += Harden
+	dp CSHOU
+	dp SHOU
+	dp ASHOU
+	dp CSEKIBAKI
+	dp SEKIBAKI
+	dp CNAZRIN
+	dp NAZRIN
+	dp HNAZRIN
+	dp CNUE
+	dp NUE
+	dp SNUE
+	dp CICHIRIN
+	dp ICHIRIN
+	dp AICHIRIN
+	dp CMURASA
+	dp MURASA
+	dp AMURASA
+	dp CMIKO
+	dp MIKO
 	dp CKIKURI
 	dp KIKURI
 	dp CTENSHI
@@ -125,12 +180,12 @@ HardenUsers:
 	dp SAKUYA
 	dp HSAKUYA
 	dp CPATCHOULI
-	db PATCHOULI
-	db TPATCHOULI
+	dp PATCHOULI
+	dp TPATCHOULI
 	dp CORANGE
 	dp ORANGE
 	dp CMEIRA
-	cp MEIRA
+	dp MEIRA
 	dp CELLY
 	dp ELLY
 	dp CGYOKU
@@ -187,4 +242,4 @@ HardenUsers:
 	dp DSUWAKO
 	dp CYUMEMI
 	dp YUMEMI
-	db 0
+dp 0

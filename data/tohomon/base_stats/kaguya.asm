@@ -1,7 +1,7 @@
 	db  135,  55,  50,  25, 140, 130 ; 535 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db HEART, ILLUSION ; type
+	db REASON, NATURE ; type
 	db 50 ; catch rate
 	db 225 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

@@ -278,7 +278,7 @@ EngineFlags:
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_TKOGASA_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_SKOISHI_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_CNAZRIN_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_NAZRIN_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_KASEN_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_RAN_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_TRAN_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_CYUKARI_F

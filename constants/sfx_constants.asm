@@ -197,12 +197,12 @@
 	const SFX_INTRO_CNUE_3               ; c0
 	const SFX_LYRICA_POP_UP                ; c1
 	const SFX_LYRICA_RECOLLECT             ; c2
-	const SFX_INTRO_NAZRIN_1             ; c3
+	const SFX_INTRO_KASEN_1             ; c3
 	const SFX_INTRO_TTEI                 ; c4
-	const SFX_INTRO_NAZRIN_2             ; c5
-	const SFX_INTRO_NAZRIN_3             ; c6
+	const SFX_INTRO_KASEN_2             ; c5
+	const SFX_INTRO_KASEN_3             ; c6
 	const SFX_LYRICA_BOUNCE                ; c7
-	const SFX_INTRO_NAZRIN_4             ; c8
+	const SFX_INTRO_KASEN_4             ; c8
 	const SFX_GAME_FREAK_PRESENTS         ; c9
 	const SFX_TINGLE                      ; ca
 	const SFX_TITLE_SCREEN_INTRO          ; cb
