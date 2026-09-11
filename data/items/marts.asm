@@ -223,12 +223,16 @@ OlivineMart:
 	db -1
 
 CianwoodMart:
-	db 5 ; # items
+	db 9 ; # items
 	db POTION
 	db SUPER_POTION
 	db HYPER_POTION
 	db FULL_HEAL
 	db REVIVE
+	db SUN_STONE
+	db MOON_STONE
+	db DUSK_STONE
+	db SHINY_STONE
 	db -1
 
 YellowForestMart:

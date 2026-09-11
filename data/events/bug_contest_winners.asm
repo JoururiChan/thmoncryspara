@@ -21,45 +21,45 @@ ENDM
 
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, DON
-	contest_winner CMAGAN,     300
-	contest_winner CRIKAKO,    285
-	contest_winner CGYOKU,   226
+	contest_winner DSTAR,     300
+	contest_winner CSUNNY    285
+	contest_winner CLILYBLACK,   226
 
 BugContestant_BugCatcherEd:
 	db BUG_CATCHER, ED
-	contest_winner AEIKI,      286
-	contest_winner CRIKAKO, 251
-	contest_winner CGYOKU,   237
+	contest_winner CDAICHAN,      286
+	contest_winner CLUNA, 251
+	contest_winner CCIRNO,   237
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
-	contest_winner CCHEN,    357
-	contest_winner CCHEN, 349
+	contest_winner TLUNA,    357
+	contest_winner CLUNA, 349
 	contest_winner CLILYWHITE,     368
 
 BugContestant_TohofanMWilliam:
 	db TOHOFANM, WILLIAM
-	contest_winner CMAGAN,   332
-	contest_winner CCHEN, 324
-	contest_winner CRIKAKO,    321
+	contest_winner CCIRNO,   332
+	contest_winner CLILYBLACK, 324
+	contest_winner CLILYWHITE,    321
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BENNY
-	contest_winner CGYOKU, 318
-	contest_winner CGYOKU,     295
-	contest_winner CGYOKU,   285
+	contest_winner CDAICHAN, 318
+	contest_winner CSTAR,     295
+	contest_winner CLILYWHITE,   285
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
-	contest_winner CLILYWHITE,     366
-	contest_winner CRIKAKO,    329
-	contest_winner CMAGAN,     314
+	contest_winner ASUNNY,     366
+	contest_winner CSTAR,    329
+	contest_winner CDAICHAN,     314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
-	contest_winner CKANA, 341
-	contest_winner CKANA,    301
-	contest_winner CGYOKU,   264
+	contest_winner CSUNNY, 341
+	contest_winner CSTAR,    301
+	contest_winner CLUNA,   264
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH

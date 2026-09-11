@@ -850,5 +850,41 @@ CYoshikaEggMoves:
 	db POISONPOWDER
 	db $ff
 
+CSeigaEggMoves:
+	db RECOVER
+	db GUNK_SHOT
+	db TOXIN_SHOT
+	db VENOM_POOL
+	db POISON_TEARS
+	db POISONPOWDER
+	db $ff
+
+CTojikoEggMoves:
+	db RECOVER
+	db GUNK_SHOT
+	db TOXIN_SHOT
+	db VENOM_POOL
+	db POISON_TEARS
+	db POISONPOWDER
+	db $ff
+
+CFutoEggMoves:
+	db RECOVER
+	db GUNK_SHOT
+	db TOXIN_SHOT
+	db VENOM_POOL
+	db POISON_TEARS
+	db POISONPOWDER
+	db $ff
+
+CMikoEggMoves:
+	db RECOVER
+	db GUNK_SHOT
+	db TOXIN_SHOT
+	db VENOM_POOL
+	db POISON_TEARS
+	db POISONPOWDER
+	db $ff
+
 NoEggMoves:
 	db $ff

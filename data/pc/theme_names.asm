@@ -42,7 +42,7 @@ BillsPC_ThemeNames:
 .Bliss:    db "Bliss@"
 .Contrast: db "Contrast@"
 .Nature:   db "Nature@"
-.Heart:    db "Heart@"
+.Heart:    db "Heart-T@"
 .Soul:     db "Soul@"
 .Truth:    db "Truth@"
 .Ideals:   db "Ideals@"

@@ -225,57 +225,57 @@ OverworldMonIconColors::
 	iconpal GREEN, YELLOW ; CKOISHI
 	iconpal GREEN, YELLOW ; KOISHI
 	iconpal GREEN, YELLOW ; SKOISHI
-	iconpal RED, BROWN ; CNAZRIN
-	iconpal BLUE, WHITE ; NAZRIN
-	iconpal GREEN, TEAL ; HNAZRIN
-	iconpal GRAY, PURPLE ; CKOGASA
-	iconpal GREEN, GRAY ; KOGASA
-	iconpal BLUE, RED ; TKOGASA
-	iconpal RED, GREEN ; CICHIRIN
-	iconpal GREEN, RED ; ICHIRIN
-	iconpal BLUE, GREEN ; AICHIRIN
-	iconpal AZURE, PURPLE ; CMURASA
-	iconpal PURPLE, RED ; MURASA
-	iconpal PURPLE, BROWN ; AMURASA
-	iconpal BLUE, PURPLE ; CSHOU
-	iconpal GREEN, RED ; SHOU
-	iconpal BLUE, GREEN ; ASHOU
-	iconpal RED, PINK ; CBYAKUREN
-	iconpal TEAL, BLUE ; BYAKUREN
-	iconpal BLUE, TEAL ; TBYAKUREN
+	iconpal GRAY, YELLOW ; CNAZRIN
+	iconpal GRAY, YELLOW ; NAZRIN
+	iconpal GRAY, YELLOW ; HNAZRIN
+	iconpal BLUE, PURPLE ; CKOGASA
+	iconpal BLUE, PURPLE ; KOGASA
+	iconpal BLUE, PURPLE ; TKOGASA
+	iconpal BLUE, PINK ; CICHIRIN
+	iconpal BLUE, PINK ; ICHIRIN
+	iconpal BLUE, PINK ; AICHIRIN
+	iconpal TEAL, WHITE ; CMURASA
+	iconpal TEAL, WHITE ; MURASA
+	iconpal TEAL, WHITE  ; AMURASA
+	iconpal YELLOW, RED ; CSHOU
+	iconpal YELLOW, RED ; SHOU
+	iconpal YELLOW, RED ; ASHOU
+	iconpal PURPLE, BROWN ; CBYAKUREN
+	iconpal PURPLE, BROWN ; BYAKUREN
+	iconpal PURPLE, BROWN ; TBYAKUREN
 	iconpal BLACK, RED ; CNUE
 	iconpal BLACK, RED ; NUE
 	iconpal BLACK, RED ; SNUE
-	iconpal GRAY, RED ; CHATATE
-	iconpal BLUE, GREEN ; HATATE
-	iconpal BROWN, RED ; THATATE
-	iconpal RED, BROWN ; CSUNNY
-	iconpal WHITE, AZURE ; SUNNY
-	iconpal RED, BLUE ; ASUNNY
-	iconpal GREEN, BROWN ; CSTAR
-	iconpal AZURE, BLUE ; STAR
-	iconpal BROWN, GREEN ; DSTAR
-	iconpal BLUE, PURPLE ; CLUNA
-	iconpal PINK, AZURE ; LUNA
-	iconpal GRAY, BROWN ; TLUNA
+	iconpal BLACK, PURPLE ; CHATATE
+	iconpal BLACK, PURPLE ; HATATE
+	iconpal BLACK, PURPLE ; THATATE
+	iconpal RED, ORANGE ; CSUNNY
+	iconpal RED, ORANGE ; SUNNY
+	iconpal RED, ORANGE ; ASUNNY
+	iconpal BLUE, WHITE ; CSTAR
+	iconpal BLUE, WHITE ; STAR
+	iconpal BLUE, WHITE ; DSTAR
+	iconpal YELLOW, BLACK ; CLUNA
+	iconpal YELLOW, BLACK ; LUNA
+	iconpal YELLOW, BLACK ; TLUNA
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
-	iconpal GRAY, PINK ; CKYOUKO
-	iconpal WHITE, RED ; KYOUKO
-	iconpal BLUE, GRAY ; CYOSHIKA
-	iconpal GRAY, GREEN ; YOSHIKA
-	iconpal BROWN, GREEN ; CSEIGA
-	iconpal BROWN, RED ; SEIGA
-	iconpal RED, BROWN ; CTOJIKO
-	iconpal PURPLE, BLUE ; TOJIKO
-	iconpal AZURE, RED ; CFUTO
-	iconpal BROWN, BLUE ; FUTO
-	iconpal GRAY, PURPLE ; CMIKO
-	iconpal BROWN, BLUE ; MIKO
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
-	iconpal RED, ORANGE ; X
+	iconpal PINK, TEAL ; CKYOUKO
+    iconpal PINK, TEAL; KYOUKO
+    iconpal PURPLE, BLACK ; CYOSHIKA
+	iconpal PURPLE, BLACK ; YOSHIKA
+	iconpal BLUE, AZURE ; CSEIGA
+	iconpal BLUE, AZURE ; SEIGA
+	iconpal GREEN, TEAL ; CTOJIKO
+	iconpal GREEN, TEAL ; TOJIKO
+	iconpal GRAY, BLUE ; CFUTO
+	iconpal GRAY, BLUE ; FUTO
+	iconpal BROWN, PURPLE ; CMIKO
+	iconpal BROWN, PURPLE ; MIKO
+	iconpal BROWN, GREEN ; CMAMIZOU
+	iconpal BROWN, GREEN ; MAMIZOU
+	iconpal PINK, AZURE ; CKOKORO
+	iconpal PINK, AZURE ; KOKORO
 	iconpal RED, ORANGE ; X
 	iconpal RED, ORANGE ; X
 	iconpal RED, ORANGE ; X

@@ -1,18 +1,18 @@
 EggMovePointers::
 	table_width 2
 	dw CReimuEggMoves      ; CReimu
-	dw NoEggMoves             ; Reimu
-	dw NoEggMoves             ; TReimu
+	dw CReimuEggMoves             ; Reimu
+	dw CReimuEggMoves             ; TReimu
 	dw CMarisaEggMoves     ; CMarisa
-	dw NoEggMoves             ; Marisa
-	dw NoEggMoves             ; AMarisa
+	dw CMarisaEggMoves             ; Marisa
+	dw CMarisaEggMoves             ; AMarisa
 	dw CSakuyaEggMoves       ; CSakuya
-	dw NoEggMoves             ; Sakuya
-	dw NoEggMoves             ; HSakuya
+	dw CSakuyaEggMoves             ; Sakuya
+	dw CSakuyaEggMoves             ; HSakuya
 	dw CGyokuEggMoves             ; CGyoku
-	dw NoEggMoves             ; MGyoku
-	dw NoEggMoves             ; FGyoku
-	dw NoEggMoves             ; OGyoku
+	dw CGyokuEggMoves             ; MGyoku
+	dw CGyokuEggMoves             ; FGyoku
+	dw CGyokuEggMoves             ; OGyoku
 	dw CMaganEggMoves             ; CMagan
 	dw NoEggMoves             ; Magan
 	dw CMimaEggMoves             ; CMima
@@ -260,14 +260,14 @@ EggMovePointers::
 	dw CKyoukoEggMoves             ; Kyouko
 	dw CYoshikaEggMoves            ; CYoshika
 	dw CYoshikaEggMoves             ; Yoshika
-	dw NoEggMoves             ; CSeiga
-	dw NoEggMoves             ; Seiga
-	dw NoEggMoves             ; CTojiko
-	dw NoEggMoves             ; Tojiko
-	dw NoEggMoves             ; CFuto
-	dw NoEggMoves             ; Miko
-	dw NoEggMoves             ; Futo
-	dw NoEggMoves             ; CMiko
+	dw CSeigaEggMoves             ; CSeiga
+	dw CSeigaEggMoves             ; Seiga
+	dw CTojikoEggMoves             ; CTojiko
+	dw CTojikoEggMoves             ; Tojiko
+	dw CFutoEggMoves             ; CFuto
+	dw CFutoEggMoves             ; Miko
+	dw CMikoEggMoves             ; Futo
+	dw CMikoEggMoves             ; CMiko
 	dw NoEggMoves             ; Placeholder
 	dw NoEggMoves             ; Placeholder
 	dw NoEggMoves             ; Placeholder

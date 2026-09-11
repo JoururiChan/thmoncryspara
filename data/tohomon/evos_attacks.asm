@@ -449,6 +449,16 @@ SarielEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, PSYSHOT ; Tail Whip → similar move
+	db 6, FORESIGHT
+	db 10, HEALINGLIGHT ; evolution move
+	db 14, SWIFT
+	db 19, WING_ATTACK
+	db 22, HAIL
+	db 25, DISARM_VOICE
+	db 28, DRAINING_KISS
+	db 32, LUSTER_HEART
+	db 36, HYPNOSIS
+	db 41, SING
 	db 44, SPIRIT_VOICE
 	db 47, HEAL_BELL
 	db 50, AIR_SLASH
@@ -477,6 +487,15 @@ KongaraEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PURSUIT
 	db 1, HAZE
+	db 7, KARATE_CHOP
+	db 11, MINIMIZE
+	db 14, SEISMIC_TOSS
+	db 18, FURY_STRIKES
+	db 23, KNOCK_OFF
+	db 26, RECOVER
+	db 29, REFLECT
+	db 34, CROSS_EYE
+	db 38, BULK_UP
 	db 43, SUCKER_PUNCH
 	db 46, HONE_TOOLS
 	db 49, SLASH
@@ -5452,6 +5471,7 @@ KagerouEvosAttacks:
 	db -1 ; no more level-up moves
 
 CBenbenEvosAttacks:
+	evo_data EVOLVE_LEVEL, 30, BENBEN
 	db -1 ; no more evolutions
 	db 1, ASTONISH
 	db 1, SING
@@ -5486,6 +5506,7 @@ BenbenEvosAttacks:
 	db -1 ; no more level-up moves
 
 CYatsuhaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 30, YATSUHA
 	db -1 ; no more evolutions
 	db 1, ASTONISH
 	db 1, SING
@@ -5520,6 +5541,7 @@ YatsuhaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CSeijaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 34, SEIJA
 	db -1 ; no more evolutions
 	db 1, PURSUIT
 	db 1, TRICK
@@ -5556,6 +5578,7 @@ SeijaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CSukunaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 36, SUKUNA
 	db -1 ; no more evolutions
 	db 1, BLADE_FLASH
 	db 1, DEFENSE_CURL
@@ -5594,10 +5617,11 @@ SukunaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CRaikoEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, RAIKO
 	db -1 ; no more evolutions
 	db 1, ASTONISH
 	db 1, SING
-	db 6, THUNDERSHOCK
+	db 6, ROCK_BULLET
 	db 10, DISARM_VOICE
 	db 14, ENCORE
 	db 17, CHEER
@@ -5605,7 +5629,7 @@ CRaikoEvosAttacks:
 	db 24, HEX
 	db 28, JAMMING
 	db 31, HONE_TOOLS
-	db 35, THUNDERBOLT
+	db 35, EARTH_POWER
 	db 39, SPIRIT_VOICE
 	db -1 ; no more level-up moves
 
@@ -5613,7 +5637,7 @@ RaikoEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, ASTONISH
 	db 1, SING
-	db 6, THUNDERSHOCK
+	db 6, ROCK_BULLET
 	db 10, DISARM_VOICE
 	db 14, ENCORE
 	db 17, CHEER

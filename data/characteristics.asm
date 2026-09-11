@@ -39,7 +39,7 @@ Characteristics:
 .Chara_HP1:
 	text  "Takes"
 	next1 "plenty of"
-	next1 "siestas"
+	next1 "hits"
 	done
 .Chara_HP2:
 	text  "Nods off"

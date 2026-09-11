@@ -1112,29 +1112,29 @@ CNazrinMiniMask:: INCBIN "gfx/minis/cnazrin_mask.1bpp.lz"
 CNazrinIcon::     INCBIN "gfx/icons/cnazrin.2bpp.lz"
 
 SECTION "Nazrin Mini Icon", ROMX
-NazrinMini::     INCBIN "gfx/minis/nazrin.2bpp.lz"
-NazrinMiniMask:: INCBIN "gfx/minis/nazrin_mask.1bpp.lz"
-NazrinIcon::     INCBIN "gfx/icons/nazrin.2bpp.lz"
+NazrinMini::     INCBIN "gfx/minis/cnazrin.2bpp.lz"
+NazrinMiniMask:: INCBIN "gfx/minis/cnazrin_mask.1bpp.lz"
+NazrinIcon::     INCBIN "gfx/icons/cnazrin.2bpp.lz"
 
 SECTION "HNazrin Mini Icon", ROMX
-HNazrinMini::     INCBIN "gfx/minis/hnazrin.2bpp.lz"
-HNazrinMiniMask:: INCBIN "gfx/minis/hnazrin_mask.1bpp.lz"
-HNazrinIcon::     INCBIN "gfx/icons/hnazrin.2bpp.lz"
+HNazrinMini::     INCBIN "gfx/minis/cnazrin.2bpp.lz"
+HNazrinMiniMask:: INCBIN "gfx/minis/cnazrin_mask.1bpp.lz"
+HNazrinIcon::     INCBIN "gfx/icons/cnazrin.2bpp.lz"
 
 SECTION "CKogasa Mini Icon", ROMX
-CKogasaMini::     INCBIN "gfx/minis/ckogasa.2bpp.lz"
-CKogasaMiniMask:: INCBIN "gfx/minis/ckogasa_mask.1bpp.lz"
-CKogasaIcon::     INCBIN "gfx/icons/ckogasa.2bpp.lz"
+CKogasaMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+CKogasaMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+CKogasaIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "Kogasa Mini Icon", ROMX
-KogasaMini::     INCBIN "gfx/minis/kogasa.2bpp.lz"
-KogasaMiniMask:: INCBIN "gfx/minis/kogasa_mask.1bpp.lz"
-KogasaIcon::     INCBIN "gfx/icons/kogasa.2bpp.lz"
+KogasaMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+KogasaMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+KogasaIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "TKogasa Mini Icon", ROMX
-TKogasaMini::     INCBIN "gfx/minis/tkogasa.2bpp.lz"
-TKogasaMiniMask:: INCBIN "gfx/minis/tkogasa_mask.1bpp.lz"
-TKogasaIcon::     INCBIN "gfx/icons/tkogasa.2bpp.lz"
+TKogasaMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+TKogasaMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+TKogasaIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "CIchirin Mini Icon", ROMX
 CIchirinMini::     INCBIN "gfx/minis/cichirin.2bpp.lz"
@@ -1377,14 +1377,14 @@ SekibakiMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
 SekibakiIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
 SECTION "CKagerou Mini Icon", ROMX
-CKagerouMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
-CKagerouMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
-CKagerouIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+CKagerouMini::     INCBIN "gfx/minis/cran.2bpp.lz"
+CKagerouMiniMask:: INCBIN "gfx/minis/cran_mask.1bpp.lz"
+CKagerouIcon::     INCBIN "gfx/icons/cran.2bpp.lz"
 
 SECTION "Kagerou Mini Icon", ROMX
-KagerouMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
-KagerouMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
-KagerouIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
+KagerouMini::     INCBIN "gfx/minis/cran.2bpp.lz"
+KagerouMiniMask:: INCBIN "gfx/minis/cran_mask.1bpp.lz"
+KagerouIcon::     INCBIN "gfx/icons/cran.2bpp.lz"
 
 SECTION "CBenben Mini Icon", ROMX
 CBenbenMini::     INCBIN "gfx/minis/creimu.2bpp.lz"

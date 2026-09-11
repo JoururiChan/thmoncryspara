@@ -733,11 +733,10 @@ BattleAnim_ToxinShot:
 	anim_bgeffect ANIM_BG_BATTLEROBJ_1ROW, $0, $1, $0
 	anim_sound 6, 2, SFX_SLUDGE_BOMB
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $08, $2, $0
-	anim_obj ANIM_OBJ_MUD_SHOT, 64, 92, $4
+	anim_obj ANIM_OBJ_MUD_SHOT, 64, 92, ∂$4
 	anim_wait 14
-	anim_call BattleAnimSub_Sludge
-	anim_wait 16
 	anim_call BattleAnim_ShowMon_1
+	anim_jump BattleAnimSub_SludgeShort
 	anim_ret
 
 BattleAnim_FlameShoot:
@@ -2187,7 +2186,7 @@ BattleAnim_BodySlam:
 
 BattleAnim_VenomPool:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_PURPLE
-	anim_1gfx ANIM_GFX_WATER
+	anim_2gfx ANIM_GFX_WATER, ANIM_GFX_POISON
 	anim_call BattleAnim_UserObj_2Row
 	anim_sound 0, 1, SFX_HYDRO_PUMP
 	anim_obj ANIM_OBJ_HYDRO_PUMP,  13, 4,   9, 0, $0
@@ -2210,10 +2209,8 @@ BattleAnim_VenomPool:
 	anim_sound 0, 1, SFX_HYDRO_PUMP
 	anim_obj ANIM_OBJ_HYDRO_PUMP, -13, 4,   9, 0, $0
 	anim_wait 8
-	anim_call BattleAnimSub_Sludge
-	anim_wait 16
 	anim_call BattleAnim_ShowMon_1
-	anim_ret
+	anim_jump BattleAnimSub_SludgeShort
 
 BattleAnim_DoubleEdge:
 	anim_1gfx ANIM_GFX_HIT

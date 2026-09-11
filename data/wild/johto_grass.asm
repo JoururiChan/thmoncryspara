@@ -708,24 +708,24 @@
 	wildmon 21, CKYOUKO
 	wildmon 22, CFUTO
 	wildmon 20, CMEILING
-	wildmon 25, CELIS
-	wildmon 24, CMIMA
+	wildmon 25, CRAIKO
+	wildmon 24, CRAIKO
 	; day
 	wildmon 21, CKOTOHIME
 	wildmon 22, CYUKA
 	wildmon 21, CKYOUKO
 	wildmon 22, CFUTO
 	wildmon 22, CMEILING
-	wildmon 25, CELIS
-	wildmon 24, CMIMA
+	wildmon 25, CRAIKO
+	wildmon 24, CRAIKO
 	; nite
 	wildmon 21, CKOTOHIME
 	wildmon 22, CKYOUKO
 	wildmon 21, CKOTOHIME
 	wildmon 22, CFUTO
 	wildmon 20, CMEILING
-	wildmon 25, CELIS
-	wildmon 24, CMIMA
+	wildmon 25, CRAIKO
+	wildmon 24, CRAIKO
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_INSIDE
@@ -733,27 +733,27 @@
 	; morn
 	wildmon 21, CSARA
 	wildmon 23, CYUKA
-	wildmon 23, CKOTOHIME
+	wildmon 23, CSUKUNA
 	wildmon 22, CELIS
 	wildmon 20, CMEILING
 	wildmon 25, CFUTO
-	wildmon 25, CMEIRA
+	wildmon 25, CSUKUNA
 	; day
 	wildmon 21, CSARA
 	wildmon 23, CYUKA
-	wildmon 23, CKOTOHIME
+	wildmon 23, CSUKUNA
 	wildmon 22, CELIS
 	wildmon 20, CMEILING
 	wildmon 25, CFUTO
-	wildmon 25, CMEIRA
+	wildmon 25, CSUKUNA
 	; nite
 	wildmon 21, CSARA
 	wildmon 23, CKYOUKO
-	wildmon 22, CKOTOHIME
+	wildmon 22, CSUKUNA
 	wildmon 23, CELIS
 	wildmon 20, CMEILING
 	wildmon 25, CFUTO
-	wildmon 25, CMEIRA
+	wildmon 25, CSUKUNA
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_2F_INSIDE
@@ -792,24 +792,24 @@
 	wildmon 17, CKYOUKO
 	wildmon 16, CSARA
 	wildmon 17, CMEILING
-	wildmon 18, CELIS
-	wildmon 18, CELIS
+	wildmon 18, CSEIJA
+	wildmon 18, CSEIJA
 	; day
 	wildmon 15, CKOTOHIME
 	wildmon 16, CYUKA
 	wildmon 17, CKYOUKO
 	wildmon 16, CSARA
 	wildmon 17, CMEILING
-	wildmon 18, CELIS
-	wildmon 18, CELIS
+	wildmon 18, CSEIJA
+	wildmon 18, CSEIJA
 	; nite
 	wildmon 15, CKOTOHIME
 	wildmon 16, CSARA
 	wildmon 17, CKYOUKO
 	wildmon 16, AYA
 	wildmon 17, CMEILING
-	wildmon 18, CELIS
-	wildmon 18, CELIS
+	wildmon 18, CSEIJA
+	wildmon 18, CSEIJA
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_1F
@@ -1536,8 +1536,8 @@
 	wildmon 14, CKURUMI
 	wildmon 14, CKURUMI
 	wildmon 12, CRIKA
-	wildmon 10, CRIKA
-	wildmon 13, CYOUMU
+	wildmon 10, CBENBEN
+	wildmon 13, CBENBEN
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_36
@@ -1561,8 +1561,8 @@
 	; nite
 	wildmon 5, CYAMAME
 	wildmon 5, CYAMAME
-	wildmon 6, CYUYUKO
-	wildmon 7, CYUYUKO
+	wildmon 6, CYATSUHA
+	wildmon 7, CYATSUHA
 	wildmon 6, CMAI
 	wildmon 7, CYUKI
 	wildmon 7, CFLANDRE

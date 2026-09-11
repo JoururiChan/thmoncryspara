@@ -29,8 +29,8 @@ BuenasPasswordTable:
 .Beverages:     password_group BUENA_ITEM,   12, FRESH_WATER, SODA_POP, LEMONADE
 .HealingItems:  password_group BUENA_ITEM,   12, POTION, ANTIDOTE, PARALYZEHEAL
 .Balls:         password_group BUENA_ITEM,   12, TOHO_BALL, GREAT_BALL, ULTRA_BALL
-.Tohomon1:      password_group BUENA_MON,    10, KIKURI, MIMA, CSARA
-.Tohomon2:      password_group BUENA_MON,    10, SWRIGGLE, CKEINE, RUMIA
+.Tohomon1:      password_group BUENA_MON,    10, CGYOKU, CKIKURI, CMIMA
+.Tohomon2:      password_group BUENA_MON,    10, CRUMIA, CLETTY, CWRIGGLE
 .JohtoTowns:    password_group BUENA_STRING, 16, "New Bark Town@", "Cherrygrove City@", "Azalea Town@"
 .Types:         password_group BUENA_STRING,  6, "Flying@", "Bug@", "Nature@"
 .Moves:         password_group BUENA_MOVE,   12, TACKLE, GROWL, POISON_GAS
